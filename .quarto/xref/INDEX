@@ -1,0 +1,167 @@
+{
+  "about/index.qmd": {
+    "index.html": "3a725114"
+  },
+  "perspectives/posts/not/data-spun-not-spontaneous.qmd": {
+    "data-spun-not-spontaneous.html": "cc94cae3"
+  },
+  "perspectives/posts/not/mistakes-feature-not-flaw.qmd": {
+    "mistakes-feature-not-flaw.html": "f92f93f0"
+  },
+  "perspectives/posts/and/perspective-pixels-and-pictures.qmd": {
+    "perspective-pixels-and-pictures.html": "ffa8c507"
+  },
+  "perspectives/posts/and/information-continuous-and-categorical.qmd": {
+    "information-continuous-and-categorical.html": "4518ce0d"
+  },
+  "perspectives/index.qmd": {
+    "index.html": "6cad8fec"
+  },
+  "index.qmd": {
+    "index.html": "d64598e3"
+  },
+  "jump-in/errors-and-experimentation.qmd": {
+    "errors-and-experimentation.html": "e4816a36"
+  },
+  "jump-in/variables-and-functions.qmd": {
+    "variables-and-functions.html": "40defd9d"
+  },
+  "jump-in/index.qmd": {
+    "index.html": "2b2d1ec9"
+  },
+  "jump-in/jl-notebooks/files/variables-and-functions-nb.ipynb": {
+    "variables-and-functions-nb.html": "05bd40c6"
+  },
+  "jump-in/jl-notebooks/files/datatypes-and-operators-nb.ipynb": {
+    "datatypes-and-operators-nb.html": "1a77e827"
+  },
+  "jump-in/jl-notebooks/jl-build/tree/jupyter-lite.ipynb": {
+    "jupyter-lite.html": "4302b953"
+  },
+  "jump-in/jl-notebooks/jl-build/lab/jupyter-lite.ipynb": {
+    "jupyter-lite.html": "f7adb3c9"
+  },
+  "jump-in/jl-notebooks/jl-build/repl/jupyter-lite.ipynb": {
+    "jupyter-lite.html": "7b623722"
+  },
+  "jump-in/jl-notebooks/jl-build/jupyter-lite.ipynb": {
+    "jupyter-lite.html": "b29e047c"
+  },
+  "jump-in/jl-notebooks/jl-build/edit/jupyter-lite.ipynb": {
+    "jupyter-lite.html": "4615f288"
+  },
+  "jump-in/jl-notebooks/jl-build/files/variables-and-functions-nb.ipynb": {
+    "variables-and-functions-nb.html": "0ec76530"
+  },
+  "jump-in/jl-notebooks/jl-build/files/datatypes-and-operators-nb.ipynb": {
+    "datatypes-and-operators-nb.html": "bbf0226a"
+  },
+  "jump-in/jl-notebooks/jl-build/consoles/jupyter-lite.ipynb": {
+    "jupyter-lite.html": "7f0e558b"
+  },
+  "jump-in/jl-notebooks/jl-build/notebooks/jupyter-lite.ipynb": {
+    "jupyter-lite.html": "646a8bde"
+  },
+  "jump-in/datatypes-and-operators.qmd": {
+    "datatypes-and-operators.html": "db44d367"
+  },
+  "foundations/advanced-data/image-basics.ipynb": {
+    "image-basics.html": "4d876d37"
+  },
+  "foundations/datasets/dataset-exploration.qmd": {
+    "dataset-exploration.html": "85f53e85"
+  },
+  "foundations/datasets/dataset-exploration-nb.ipynb": {
+    "dataset-exploration-nb.html": "951c5193"
+  },
+  "foundations/faqs.qmd": {
+    "faqs.html": "3abdcc07"
+  },
+  "foundations/index.qmd": {
+    "index.html": "ebf94792"
+  },
+  "foundations/foundations-faqs.qmd": {
+    "foundations-faqs.html": "7b4e9ae2"
+  },
+  "foundations/data-viz/data-viz-building-blocks-nb.ipynb": {
+    "data-viz-building-blocks-nb.html": "b01abb05"
+  },
+  "foundations/data-viz/data-viz-basics-nb.ipynb": {
+    "data-viz-basics-nb.html": "860cfcb5"
+  },
+  "foundations/data-viz/data-viz-building-blocks.qmd": {
+    "data-viz-building-blocks.html": "28550f0e"
+  },
+  "foundations/data-viz/data-viz-basics.qmd": {
+    "data-viz-basics.html": "aac9b92b"
+  },
+  "getting-started/jupyter-notebooks.qmd": {
+    "jupyter-notebooks.html": "de4989d8"
+  },
+  "getting-started/faqs.qmd": {
+    "faqs.html": "031f5dfb"
+  },
+  "getting-started/r/datasets.ipynb": {
+    "datasets.html": "9c779f17"
+  },
+  "getting-started/r/data-analysis.ipynb": {
+    "data-analysis.html": "081e580c"
+  },
+  "getting-started/r/data-manipulation.ipynb": {
+    "data-manipulation.html": "086a08ac"
+  },
+  "getting-started/r/import-export.ipynb": {
+    "import-export.html": "a1a09bc5"
+  },
+  "getting-started/r/basic-commands.ipynb": {
+    "basic-commands.html": "3e84e451"
+  },
+  "getting-started/r/data-viz.ipynb": {
+    "data-viz.html": "726e4b02"
+  },
+  "getting-started/index.qmd": {
+    "index.html": "c1b86274"
+  },
+  "getting-started/shoulders-of-giants.qmd": {
+    "shoulders-of-giants.html": "cc4c0bfa"
+  },
+  "workflow/cli-intro.qmd": {
+    "cli-intro.html": "a19ce2c2"
+  },
+  "workflow/index.qmd": {
+    "index.html": "56c6706e"
+  },
+  "workflow/package-guide.qmd": {
+    "package-guide.html": "46f8c98f"
+  },
+  "workflow/file-basics.qmd": {
+    "file-basics.html": "94869672"
+  },
+  "workflow/scripts-and-notebooks.qmd": {
+    "scripts-and-notebooks.html": "465d7e30"
+  },
+  "workflow/tools-overview.qmd": {
+    "tools-overview.html": "29588f2c"
+  },
+  "machine-learning/random-forest.ipynb": {
+    "random-forest.html": "feaa1cd2"
+  },
+  "machine-learning/classification-iris.ipynb": {
+    "classification-iris.html": "0c51b948"
+  },
+  "machine-learning/ModelEvaluation.md": {
+    "ModelEvaluation.html": "c5272593"
+  },
+  "machine-learning/data-science-topics.qmd": {
+    "data-science-topics.html": "742d0c27"
+  },
+  "machine-learning/faqs.qmd": {
+    "faqs.html": "5126f779"
+  },
+  "machine-learning/index.qmd": {
+    "index.html": "b8e4ef5a"
+  },
+  "machine-learning/regression-housing.ipynb": {
+    "regression-housing.html": "6249050d"
+  }
+}

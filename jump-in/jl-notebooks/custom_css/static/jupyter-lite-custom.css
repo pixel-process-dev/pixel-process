@@ -1,0 +1,78 @@
+.jp-Notebook {
+  background-color: var(--bg);
+  font-family: var(--fonts-main-family, "Inter", sans-serif);
+  color: var(--fg);
+  font-size: var(--fonts-main-size, 15px);
+  line-height: var(--fonts-main-line-height, 1.6);
+}
+
+.jp-MarkdownCell {
+  font-size: 1rem;
+  padding: 0.75rem 0;
+  color: var(--fg);
+}
+
+.jp-RenderedHTMLCommon h1 {
+  border-bottom: px solid var(--blue-base);
+  color: var(--blue-base);
+}
+
+.jp-RenderedHTMLCommon h2 {
+  color: var(--rose-base);
+}
+
+.jp-RenderedHTMLCommon h3 {
+  color: var(--purple-base);
+}
+
+.jp-Cell.jp-CodeCell {
+  border-left: 4px solid var(--blue-base);
+  background: var(--bg-soft);
+  border-radius: var(--border-radius, 6px);
+  margin-bottom: 0.75rem;
+}
+
+.jp-CodeCell .jp-InputArea-editor {
+  font-family: var(--fonts-code-family, "Fira Code", monospace);
+  font-size: var(--fonts-code-size, 14px);
+  background: var(--grey-bg);
+  padding: var(--base-padding, 0.5rem);
+  border-radius: var(--border-radius, 6px);
+}
+
+.jp-OutputArea {
+  background: var(--bg);
+  border-left: 4px solid var(--green-base);
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: var(--border-radius, 6px);
+}
+
+.jp-OutputArea-error {
+  background: var(--rose-bg);
+  border-left: 4px solid var(--gold-base);
+  color: var(--rose-base);
+  font-weight: bold;
+}
+
+.jp-RenderedHTMLCommon a {
+  color: var(--blue-base);
+  text-decoration: underline;
+}
+
+.jp-RenderedHTMLCommon table {
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.jp-RenderedHTMLCommon th,
+.jp-RenderedHTMLCommon td {
+  border: 1px solid var(--grey-base);
+  padding: 0.5rem 0.75rem;
+}
+
+.jp-RenderedHTMLCommon th {
+  background: var(--grey-bg);
+  color: var(--fg);
+  font-weight: bold;
+}

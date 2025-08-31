@@ -1,0 +1,88 @@
+.custom-callout {
+  border-radius: 10px;
+  margin: 1.5em 0;
+  padding: 10px;
+}
+
+.custom-callout .callout-header {
+  display: flex;
+  opacity: 1 !important;
+  font-size: 1.1rem !important;
+  align-items: center;
+}
+
+.custom-callout .callout-header::before {
+  content: "";
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.custom-callout.d-bugz {
+  border-color: var(--shadow);
+  background-color: var(--nav-bg-050);
+  border: none !important;
+  border-left: 5px solid var(--blue-base) !important;
+  box-shadow: none;
+  outline: none;
+}
+
+.custom-callout.d-bugz .callout-header::before {
+  background-image: url("../images/d-bugz.png");
+}
+
+.custom-callout.pxp-ref {
+  border-color: var(--shadow);
+  background-color: var(--nav-bg-050);
+  border: none !important;
+  border-left: 5px solid var(--rose-base) !important;
+  box-shadow: none;
+  outline: none;
+}
+
+.custom-callout.pxp-ref .callout-header::before {
+  background-image: url("../images/pxp-ref.png");
+}
+
+.custom-callout.experiment {
+  border-color: var(--shadow);
+  background-color: var(--nav-bg-050);
+  border: none !important;
+  border-left: 5px solid var(--green-base) !important;
+  box-shadow: none;
+  outline: none;
+}
+
+.custom-callout.experiment .callout-header::before {
+  background-image: url("../images/experiment.png");
+}
+
+.custom-callout.best-practice {
+  border-color: var(--shadow);
+  background-color: var(--nav-bg-050);
+  border: none !important;
+  border-left: 5px solid var(--purple-base) !important;
+  box-shadow: none;
+  outline: none;
+}
+
+.custom-callout.best-practice .callout-header::before {
+  background-image: url("../images/best-practice.png");
+}
+
+.custom-callout.go-further {
+  border-color: var(--shadow);
+  background-color: var(--nav-bg-050);
+  border: none !important;
+  border-left: 5px solid var(--gold-base) !important;
+  box-shadow: none;
+  outline: none;
+}
+
+.custom-callout.go-further .callout-header::before {
+  background-image: url("../images/go-further.png");
+}

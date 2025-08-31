@@ -1,0 +1,107 @@
+:root {
+  --font-main: var(--fonts-main-family);
+  --font-code: var(--fonts-code-family);
+  --border-radius: var(--radius-default);
+  --base-spacing: var(--spacing-base);
+  --base-padding: var(--spacing-padding);
+}
+
+body:not(.quarto-dark) {
+  --fg: var(--fg-light);
+  --bg: var(--bg-light-100);
+  --bg-soft: var(--grey-light-010);
+  --shadow: var(--shadow-light);
+  --nav-bg: var(--nav-bg-light-100);
+  --cell-out-bg: var(--nav-bg-dark-010);
+  --purple-base: var(--purple-light-100);
+  --purple-hover: var(--purple-light-dark-blend);
+  --purple-active: var(--purple-light-light-blend);
+  --purple-bg: var(--purple-light-010);
+  --green-base: var(--green-light-100);
+  --green-hover: var(--green-light-dark-blend);
+  --green-active: var(--green-light-light-blend);
+  --green-bg: var(--green-light-010);
+  --rose-base: var(--rose-light-100);
+  --rose-hover: var(--rose-light-dark-blend);
+  --rose-active: var(--rose-light-light-blend);
+  --rose-bg: var(--rose-light-010);
+  --blue-base: var(--blue-light-100);
+  --blue-hover: var(--blue-light-dark-blend);
+  --blue-active: var(--blue-light-light-blend);
+  --blue-bg: var(--blue-light-020);
+  --gold-base: var(--gold-light-100);
+  --gold-hover: var(--gold-light-dark-blend);
+  --gold-active: var(--gold-light-light-blend);
+  --gold-bg: var(--gold-light-010);
+  --grey-base: var(--grey-light-100);
+  --grey-hover: var(--grey-light-dark-blend);
+  --grey-active: var(--grey-light-light-blend);
+  --grey-bg: var(--grey-light-010);
+}
+
+body.quarto-dark {
+  --fg: var(--fg-dark);
+  --bg: var(--bg-dark-100);
+  --bg-soft: var(--grey-dark-010);
+  --shadow: var(--shadow-dark);
+  --nav-bg: var(--nav-bg-dark-100);
+  --cell-out-bg: var(--nav-bg-light-010);
+  --purple-base: var(--purple-dark-100);
+  --purple-hover: var(--purple-dark-dark-blend);
+  --purple-active: var(--purple-dark-light-blend);
+  --purple-bg: var(--purple-dark-010);
+  --green-base: var(--green-dark-100);
+  --green-hover: var(--green-dark-dark-blend);
+  --green-active: var(--green-dark-light-blend);
+  --green-bg: var(--green-dark-010);
+  --rose-base: var(--rose-dark-100);
+  --rose-hover: var(--rose-dark-dark-blend);
+  --rose-active: var(--rose-dark-light-blend);
+  --rose-bg: var(--rose-dark-010);
+  --blue-base: var(--blue-dark-100);
+  --blue-hover: var(--blue-dark-dark-blend);
+  --blue-active: var(--blue-dark-light-blend);
+  --blue-bg: var(--blue-dark-010);
+  --gold-base: var(--gold-dark-100);
+  --gold-hover: var(--gold-dark-dark-blend);
+  --gold-active: var(--gold-dark-light-blend);
+  --gold-bg: var(--gold-dark-010);
+  --grey-base: var(--grey-dark-100);
+  --grey-hover: var(--grey-dark-dark-blend);
+  --grey-active: var(--grey-dark-light-blend);
+  --grey-bg: var(--grey-dark-010);
+}
+
+body:not(.quarto-dark) {
+  --brand-color-1: var(--blue-light-100);
+  --brand-color-1-hover: var(--blue-light-dark-blend);
+  --brand-color-1-active: var(--blue-light-light-blend);
+  --brand-color-1-bg: var(--blue-light-020);
+  --brand-color-2: var(--green-light-100);
+  --brand-color-2-hover: var(--green-light-dark-blend);
+  --brand-color-2-active: var(--green-light-light-blend);
+  --brand-color-2-bg: var(--green-light-010);
+  --brand-color-3: var(--rose-light-100);
+  --brand-color-3-hover: var(--rose-light-dark-blend);
+  --brand-color-3-active: var(--rose-light-light-blend);
+  --brand-color-3-bg: var(--rose-light-010);
+  --bg-light: var(--grey-light-000);
+  --bg-dark: var(--grey-light-900);
+}
+
+body.quarto-dark {
+  --brand-color-1: var(--blue-dark-100);
+  --brand-color-1-hover: var(--blue-dark-dark-blend);
+  --brand-color-1-active: var(--blue-dark-light-blend);
+  --brand-color-1-bg: var(--blue-dark-010);
+  --brand-color-2: var(--green-dark-100);
+  --brand-color-2-hover: var(--green-dark-dark-blend);
+  --brand-color-2-active: var(--green-dark-light-blend);
+  --brand-color-2-bg: var(--green-dark-010);
+  --brand-color-3: var(--rose-dark-100);
+  --brand-color-3-hover: var(--rose-dark-dark-blend);
+  --brand-color-3-active: var(--rose-dark-light-blend);
+  --brand-color-3-bg: var(--rose-dark-010);
+  --bg-light: var(--grey-dark-100);
+  --bg-dark: var(--grey-dark-900);
+}

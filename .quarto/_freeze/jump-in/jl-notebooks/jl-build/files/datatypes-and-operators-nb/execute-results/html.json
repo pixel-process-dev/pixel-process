@@ -1,0 +1,12 @@
+{
+  "hash": "49f8623dc758ffa8bb74a2c035d2b120",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Datatypes and Operators - Notebook\"\nnavtitle: \"Datatypes and Operators (INB)\"\nsubtitle: \"Interactive notebook introducing datatypes and operators\"\ndescription: \"Interactive notebook with Python to get started with datatypes and operators.\"\nformat:\n  html:\n    page-layout: full\n    title-block-banner: true\n---\n\n\n::: {#a0a97d99-4707-4caf-9e27-2ce6da6c4d6e .cell execution_count=2}\n``` {.python .cell-code}\n4+5\n```\n\n::: {.cell-output .cell-output-display execution_count=1}\n```\n9\n```\n:::\n:::\n\n\n::: {#c1cd4aac-797d-44e8-8bc8-2dcaf14afeb8 .cell execution_count=3}\n``` {.python .cell-code}\nprint('Hello')\n```\n\n::: {.cell-output .cell-output-stdout}\n```\nHello\n```\n:::\n:::\n\n\n\n\n",
+    "supporting": [
+      "datatypes-and-operators-nb_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

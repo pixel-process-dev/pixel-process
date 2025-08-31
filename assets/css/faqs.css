@@ -1,0 +1,17 @@
+details > summary.faq-summary {
+  font-size: 1.4rem;
+  color: var(--brand-color-1-active);
+  margin-bottom: 0.5em;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

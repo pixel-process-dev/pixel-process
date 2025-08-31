@@ -1,0 +1,21 @@
+{
+  "jupyter-lite-schema": "0.1.0",
+  "lite-plugin-settings": {
+    "@jupyterlab/apputils-extension:settings-plugin": {
+      "theme": "JupyterLab Light"
+    },
+    "@jupyterlab/theme-light-extension:plugin": {
+      "styles": [
+        "static/tokens.css",
+        "static/themes.css",
+        "static/custom.css"
+      ]
+    }
+  },
+  "lite-extensions": [
+    "custom_css"
+  ],
+  "lite-files": [
+    "files"
+  ]
+}

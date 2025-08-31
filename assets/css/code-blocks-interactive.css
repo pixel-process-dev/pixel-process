@@ -1,0 +1,12 @@
+qpyodide-editor textarea,
+qpyodide-editor pre,
+.qpyodide-cell code,
+.qpyodide-cell textarea {
+  font-family: var(--font-code);
+  background-color: var(--brand-color-1-bg);
+  color: var(--brand-color-1);
+  font-size: 0.95em;
+  padding: 0.5em;
+  border-radius: 4px;
+  width: 100%;
+}

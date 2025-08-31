@@ -1,0 +1,12 @@
+{
+  "hash": "5e40e5b3f36233e8f05d547d77f9b91c",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: jupyter-lite.ipynb\n---\n\n\n\nThis notebook is the preferred source of site-specific runtime [configuration](https://jupyterlite.readthedocs.io/en/latest/configuring.html) for a JupyterLite app, and will override any configuration in [`jupyter-lite.json`](./jupyter-lite.json).\n\n\n## Editing Configuration\n\nThe configuration is stored in this Notebook's metadata under the `jupyter-lite` key. To edit the configuration in JupyterLab.\n\n- open the _Property Inspector_ sidebar\n- expand the _Advanced Tools_ section\n- edit the `jupyter-lite` metadata sub-key\n- press the \"check\" icon\n- save the notebook\n\n",
+    "supporting": [
+      "jupyter-lite_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}
