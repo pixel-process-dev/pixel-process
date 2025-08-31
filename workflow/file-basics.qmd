@@ -1,0 +1,32 @@
+---
+title: Working with Files and Directories
+subtitle: Essential CLI commands for navigation and file management
+description: Learn how to navigate the file system, manage files and directories,
+  and understand basic permissions in the command line.
+slug: file-basics
+tags:
+- cli
+- files
+- directories
+- permissions
+---
+
+## Introduction
+
+The command line gives you precise control over your file system. Here you'll learn how to move around directories, manage files, and check basic permissions.
+
+## Navigation Commands
+
+<!-- Unsupported type: category_grid -->
+
+## Managing Files and Directories
+
+<!-- Unsupported type: category_grid -->
+
+## Checking Permissions
+
+<!-- Unsupported type: category_grid -->
+
+## Manual and Help
+
+<!-- Unsupported type: category_grid -->

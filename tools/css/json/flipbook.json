@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "output_path": "assets/css/flipbook.css",
+    "type": "css"
+  },
+  "sections": [
+    {
+      "selector": ".flipbook-container",
+      "variables": [
+        { "name": "display", "value": "flex" },
+        { "name": "margin", "value": "2rem 0" },
+        { "name": "padding", "value": "var(--base-padding)" },
+        { "name": "border-radius", "value": "var(--border-radius)" },
+        { "name": "border", "value": "1px solid var(--shadow)" },
+        { "name": "background-color", "value": "var(--grey-bg)" },
+        { "name": "box-shadow", "value": "0 4px 12px var(--shadow)" },
+        { "name": "justify-content", "value": "center" },
+        { "name": "text-align", "value": "center" }
+      ]
+    },
+    {
+      "selector": "#flipbook",
+      "variables": [
+        { "name": "text-align", "value": "center" },
+        { "name": "max-width", "value": "800px" },
+        { "name": "width", "value": "90%" },
+        { "name": "padding", "value": "var(--base-padding)" },
+        { "name": "border-radius", "value": "var(--border-radius)" },
+        { "name": "border", "value": "1px solid var(--shadow)" },
+        { "name": "background-color", "value": "var(--grey-bg)" }
+      ]
+    },
+    {
+      "selector": "#flip-img",
+      "variables": [
+        { "name": "max-width", "value": "100%" },
+        { "name": "max-height", "value": "500px" },
+        { "name": "width", "value": "auto" },
+        { "name": "height", "value": "auto" },
+        { "name": "display", "value": "block"},
+        { "name": "margin", "value": "0 auto"},
+        { "name": "object-fit", "value": "contain"}
+      ]
+    },
+    {
+      "selector": "#flip-caption",
+      "variables": [
+        { "name": "color", "value": "var(--fg)" },
+        { "name": "font-size", "value": "1rem" },
+        { "name": "margin", "value": "0.5rem 0 1.5rem" },
+        { "name": "min-height", "value": "4.5em" },
+        { "name": "display", "value": "flex" },
+        { "name": "align-items", "value": "center" },
+        { "name": "justify-content", "value": "center" },
+        { "name": "text-align", "value": "center" }
+      ]
+    },
+    {
+      "selector": ".flipbook-container button",
+      "variables": [
+        { "name": "background-color", "value": "var(--nav-bg)" },
+        { "name": "color", "value": "var(--fg)" },
+        { "name": "padding", "value": "0.5rem 1.25rem" },
+        { "name": "border", "value": "none" },
+        { "name": "border-radius", "value": "var(--border-radius)" },
+        { "name": "cursor", "value": "pointer" },
+        { "name": "transition", "value": "background-color 0.2s ease"}
+      ]
+    },
+    {
+      "selector": ".flipbook-container button:hover",
+      "variables": [
+        { "name": "background-color", "value": "var(--brand-color-1-bg)" }
+      ]
+    }
+  ]
+}

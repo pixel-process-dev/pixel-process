@@ -1,0 +1,63 @@
+---
+title: Foundations
+subtitle: Learn Patterns <span class="subtitle-divider">|</span> Develop Habits <span
+  class="subtitle-divider">|</span>  Grow Confident
+description: Strengthen your core skills with practical tools for working with data,
+  structuring code, managing packages, and visualizing results. These are the building
+  blocks you'll use again and again.
+navdesc: Core programming skills for working with data
+format:
+  html:
+    page-layout: full
+    toc: false
+    title-block-banner: true
+slug: foundations
+---
+
+Every good project rests on strong foundations — and in coding, that means understanding the core tools and patterns that show up everywhere. This section focuses on the building blocks of real-world programming: from reading and writing data to structuring reusable code and visualizing results clearly. You’ll work with files, packages, functions, and figures — the essential tools that help you do more with less.
+
+**Build strong. Build smart.**
+
+::: {.callout icon="none" .custom-callout .best-practice title="Don’t Just Write Code — Structure It"}
+
+Reusable code saves time and prevents errors, but it starts with small habits: clear functions, thoughtful imports, and readable structure. The stronger your foundations, the more flexible your projects become.
+:::
+
+
+## Foundations Topics
+
+- **Datasets**: Read, write, and manage data in common tabluar with tools like pandas.
+- **Data Visualization**: Communicate results through charts, plots, and custom visuals.
+- **Advanced Data**: Learn the basics of working with complex data such as images.
+
+Need a place to start? Check out the [FAQs](/foundations/foundations-faqs.qmd)!
+
+<div class="category-grid">
+<div class="category-card">
+<h3>Datasets</h3>
+<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/foundations/datasets/dataset-exploration.qmd">Dataset Exploration</a></strong> → Guide to evaluating tabluar datasets</div><div class="quick-link-item"><i class="fa-regular fa-rectangle-list"></i> <strong><a href="/foundations/datasets/dataset-exploration-nb.ipynb">Dataset Exploration (NB)</a></strong> → Verify data dimensions, datatypes, and quality</div></div></div><div class="category-card">
+<h3>Data Visualization</h3>
+<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/foundations/data-viz/data-viz-basics.qmd">Data Visualization Basics</a></strong> → Learn about turning data into stories</div><div class="quick-link-item"><i class="fa-regular fa-rectangle-list"></i> <strong><a href="/foundations/data-viz/data-viz-basics-nb.ipynb">Data Visualization Basics (NB)</a></strong> → Start turning data into stories</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/foundations/data-viz/data-viz-building-blocks.qmd">Data Viz Building Blocks</a></strong> → Core features behind data viz</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/foundations/data-viz/data-viz-building-blocks-nb.ipynb">Data Viz Building Blocks (NB)</a></strong> → Code example for core features behind data viz</div></div></div><div class="category-card">
+<h3>Advanced Data</h3>
+<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-rectangle-list"></i> <strong><a href="/foundations/advanced-data/image-basics.ipynb">Image Basics (NB)</a></strong> → Notebook on basic image properties</div></div></div></div>
+
+<hr class="page-divider">
+
+::: {.callout icon="none" .custom-callout .d-bugz title="Start Your Journey"}
+
+I used to think I was {{< fa light fire >}} because my code ran and I (usually) understood it...then I got a job. Most real-world projects depend on shared understanding: conventions, documentation, and structure that make your code easy to follow, reuse, and extend — it’s about collaboration.
+
+**Learn patterns** — resolving the same issues wastes time, solve recurring issues in systematic ways
+
+**Build habits** — implementing workflows, tools, and standards that work reduces headaches and elevates returns
+
+**Grow confident** — solid practices and foundations make projects extendible, code resuable, and enthusiasts experts
+:::
+
+
+<div class="page-quote">
+Code is read much more often than it is written
+</div>
+
+
+It's easy to dabble in code — to test the waters, try a few tricks, move on. But learning best practices is how you go from dipping your toes to diving deep. Professionals do not just code for themselves.

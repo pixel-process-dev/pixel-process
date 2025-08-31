@@ -1,0 +1,199 @@
+---
+title: About
+subtitle: Origin <span class="subtitle-divider">|</span> Values <span class="subtitle-divider">|</span>
+  Source
+description: What's with the pixels? And who decided that anyway?
+navdesc: Mission, values, and developer information
+format:
+  html:
+    page-layout: full
+    toc: true
+    title-block-banner: true
+slug: about
+tags:
+- about
+---
+
+## What is the Pixel Process?
+
+The pixel process is a powerful method for learning, and just in data and computer science.
+
+To work effectively with image data, you need to understand what’s in a single pixel: its value range, color representation (grayscale, RGB, RGBA), and image grid. Understanding a pixel is easy, while understanding an image is much more difficult. Even the most advanced computer vision techniques rely on pixel level data.
+
+Pixels may seem small and uninteresting, but they are the foundation for creating stunning visuals and impactful analytics.
+
+### Beyond Images
+
+Complex systems often follow the principle: *understand the fundamentals before combining them into something greater*.
+
+- Pixels → Images → Videos
+
+- Words → Sentences → Books
+
+- Numbers → Geometry → Calculus
+
+- Nucleotides → Genes → DNA → Chromosomes
+
+
+Understanding higher level processes often rely on an indepth understanding of lower ones.
+
+### Set Goals, Focus Effort
+
+The pixel process is about breaking the complex into the manageable. Create a roadmap with achievable goals and notable milestones to master complex systems.
+
+Equally important, is understanding that mastering everything is untenable. Get better resultss by having a focused objective, so you can efficiently build the skills you need.
+
+*Small steps, big impact—that’s the <span class="pxp"><span>Pixel</span><span>Process</span></span>.*
+
+## Values
+
+### Open License, Non-Commercial Use
+
+This project is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0) (CC BY-NC-SA 4.0).
+
+**What does this mean in plain language?**
+
+- ✅ **You may:** Share, copy, and adapt this content for any non-commercial purpose.
+
+- ✅ **You must:** Give appropriate credit, provide a link to the license, and indicate if changes were made.
+
+- 🔄 **If you remix/adapt it:** You must distribute your version under the same license (CC BY-NC-SA).
+
+- 🚫 **You may not:** Use this content for commercial purposes.
+
+In short: **learn from it, remix it, improve it—and share it back, but not for profit**.
+
+---
+
+### Privacy First
+
+Your privacy matters here. Tracking and analytics are **disabled as much as possible**.
+
+This means:
+
+- **No automatic progress tracking** right now.
+
+- No hidden data collection or ad targeting.
+
+If this changes, it will be clearly documented.
+
+---
+
+### Ad-Free and Hassle-Free
+
+This project exists to **provide value, not generate income**.
+
+- No ads.
+
+- No pop-ups.
+
+- No paywalls.
+
+---
+
+### Maintained by One Person
+
+This is a personal project, designed and maintained by **one human**.
+
+What that means:
+
+- Please **be patient** with updates or fixes.
+
+- Minor quirks may exist—thank you for understanding.
+
+- **No direct moderation or code review** is available right now.
+
+If you want to improve or extend the project:
+
+➡️ **Fork the repository** and build your version!
+
+---
+
+*Thank you for being here and supporting the vision of accessible, thoughtful content without unnecessary friction.*
+
+## Meet the Dev
+
+::: {.header-block}
+
+![](/assets/images/d-bugz.png){.img}
+
+## D. Bugz, PhD
+### Developer
+:::
+
+
+Data scientist with years of experience and a PhD in Psychology. He loves to share knowledge and specializes in automation, reproducibility, and troubleshooting. More than a decade of scientific research and programming with Python, R, and SQL, applied across diverse data types including neuroimaging, biological samples, surveys, and financial data. Skilled in methodologies including computer vision, natural language processing, classification/regression, time-series analysis, and both supervised and unsupervised learning. Proficient with cloud services (AWS, Azure), Git, GitHub, and Jupyter, and dedicated to optimizing workflows for research and industry applications.
+
+<div class="category-grid">
+<div class="category-card">
+<h3>🛠 Tech Stack</h3>
+<ul>
+<li>Python</li>
+<li>R</li>
+<li>SQL</li>
+<li>Git</li>
+<li>SPSS</li>
+<li>MATLAB</li>
+<li>Jupyter</li>
+</ul>
+</div>
+<div class="category-card">
+<h3>🧪 Methods</h3>
+<ul>
+<li>Predictive Modeling</li>
+<li>Computer Vision</li>
+<li>Natural Language Processing (NLP)</li>
+<li>Experimental Design</li>
+<li>Exploratory Data Analysis (EDA)</li>
+</ul>
+</div>
+<div class="category-card">
+<h3>⛰ Best Practices</h3>
+<ul>
+<li>Production</li>
+<li>Stardard Operating Procedures (SOPs)</li>
+<li>Packaging</li>
+<li>Documentation</li>
+<li>Version Control</li>
+</ul>
+</div>
+<div class="category-card">
+<h3>🗂 Data Types</h3>
+<ul>
+<li>Tabular</li>
+<li>Time Series</li>
+<li>Images</li>
+<li>Text</li>
+</ul>
+</div>
+<div class="category-card">
+<h3>👯 Extracurricular</h3>
+<ul>
+<li>Reading Fantasy and Sci-Fi</li>
+<li>Walking my Teammates</li>
+<li>Cooking</li>
+<li>Video Games</li>
+</ul>
+</div>
+</div>
+
+<hr class="page-divider">
+
+::: {.callout icon="none" .custom-callout .d-bugz title="My Learning Project, Too"}
+
+This site isn’t just for sharing what I know — it’s also where I figure things out. Every post reflects a step in my own process: experiments, revisions, and occasional wrong turns.
+
+**Build in public** — showing the process helps solidify it
+
+**Learn by doing** — every bug, every fix, every refactor teaches something
+
+**Keep growing** — the goal isn’t mastery, it’s momentum
+:::
+
+
+<div class="page-quote">
+Welcome to <span class="pxp"><span>Pixel</span><span>Process</span></span>  
+</div>
+
+
+Hope you find something useful here — or learn from my mistakes and improve from that!

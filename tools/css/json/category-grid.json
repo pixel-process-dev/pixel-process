@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "output_path": "assets/css/category-grid.css",
+    "type": "css"
+  },
+  "sections": [
+    {
+      "selector": ".category-grid",
+      "variables": [
+        { "name": "display", "value": "grid" },
+        { "name": "grid-template-columns", "value": "repeat(auto-fit, minmax(250px, 1fr))" },
+        { "name": "gap", "value": "1rem" },
+        { "name": "margin", "value": "2rem 0" }
+      ]
+    },
+    {
+      "selector": ".category-card",
+      "variables": [
+        { "name": "background-color", "value": "var(--nav-bg)" },
+        { "name": "border-radius", "value": "var(--border-radius)" },
+        { "name": "border", "value": "1px solid var(--brand-color-2)" },
+        { "name": "padding", "value": "1rem 1.2rem" },
+        { "name": "box-shadow", "value": "0 2px 6px var(--shadow)" },
+        { "name": "max-height", "value": "400px" },
+        { "name": "overflow-y", "value": "auto" },
+        { "name": "display", "value": "flex" },
+        { "name": "flex-direction", "value": "column" },
+        { "name": "justify-content", "value": "flex-start" },
+        { "name": "transition", "value": "transform 0.2s ease, box-shadow 0.2s ease" },
+        { "name": "scrollbar-width", "value": "thin" },
+        { "name": "scrollbar-color", "value": "#ccc transparent" }
+      ]
+    },
+    {
+      "selector": ".category-card:hover",
+      "variables": [
+        { "name": "transform", "value": "translateY(-4px)" },
+        { "name": "box-shadow", "value": "0 4px 10px var(--brand-color-2-hover)" }
+      ]
+    },
+    {
+      "selector": ".category-card h3",
+      "variables": [
+        { "name": "margin-top", "value": 0},
+        { "name": "margin-bottom", "value": "0.8rem" },
+        { "name": "font-size", "value": "1.1rem" },
+        { "name": "color", "value": "var(--brand-color-3)" },
+        { "name": "font-weight", "value": 600 }
+      ]
+    },
+    {
+      "selector": ".category-card ul,\n.category-card p",
+      "variables": [
+        { "name": "margin", "value": 0 },
+        { "name": "padding-left", "value": "1.2rem" },
+        { "name": "font-size", "value": "0.95rem" },
+        { "name": "line-height", "value": 1.4 }
+      ]
+    },
+    {
+      "selector": ".category-card::-webkit-scrollbar",
+      "variables": [
+        { "name": "width", "value": "6px" }
+      ]
+    },
+    {
+      "selector": ".category-card::-webkit-scrollbar-thumb",
+      "variables": [
+        { "name": "background-color", "value": "#aaa" },
+        { "name": "border-radius", "value": "3px" }
+      ]
+    }
+  ]
+}

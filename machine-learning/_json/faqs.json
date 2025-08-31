@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Machine Learning: Frequently Asked Questions",
+    "navtitle": "FAQs",
+    "subtitle": "Types of models, metrics, and best practices",
+    "description": "Understand how to pick the right model and develop with confidence.",
+    "slug": "ml-faqs",
+    "tags": [
+      "python",
+      "machine-learning",
+      "career"
+    ]
+  },
+  "body": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "FAQs"
+    },
+    {
+      "type": "text",
+      "markdown": "Choosing the right model and metrics make all the difference in ML. If you need guidance for this, you're in the right place."
+    },
+    {
+      "type": "toggle-all",
+      "text": "Toggle All FAQs"
+    },    
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Models & Metrics"
+    },
+    {
+      "type": "faqs",
+      "items_path": "machine-learning/_json/faq-groups/ml-faqs.json"
+    }
+  ]
+}

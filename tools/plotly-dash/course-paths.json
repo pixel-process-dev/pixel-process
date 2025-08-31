@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "title": "Learning Pathway",
+    "output_name": "learning-pathway",
+    "output_dir": "site"
+  },
+    "nodes": [
+    {
+      "id": "prog1", 
+      "label": "Programming Basics", 
+      "level": 1,
+      "topics": ["programming"],
+      "description": ["Operations", "Control Flow", "Data Types", "Python Intro", "Interactive Notebooks"], 
+      "url": "/programming"
+    },
+    {
+      "id": "data1", 
+      "label": "Data Basics", 
+      "level": 1, 
+      "topics": ["data"],
+      "description": ["Data Types", "File Types", "Data Types", "Central Tendency", "Messy and Missing Data"], 
+      "url": "/data-basics"
+    },
+    {
+      "id": "tech1", 
+      "label": "Technical Basics", 
+      "level": 1, 
+      "topics": ["data"],
+      "description": ["Operating Systems", "Hardware", "Software", "Developer Tools"], 
+      "url": "/python-playground/index.qmd" 
+    },
+    {
+      "id": "exp1", 
+      "label": "Experiment Basics", 
+      "level": 1, 
+      "topics": ["design"],
+      "description": ["Importance of Inference", "Variables and Controls", "Correlation and Causation", "Capture the Details"], 
+      "url": "/python-playground/index.qmd"
+    },
+    {
+      "id": "trbl1", 
+      "label": "Troubleshooting Basics", 
+      "level": 1, 
+      "topics": ["troubleshooting"],
+      "description": ["Off and On Again", "Isolating Issues", "Check the Docs", "Reproducibility", "Does Root Cause Matter"], 
+      "url": "/programming" 
+    },
+
+    {"id": "git", "label": "Version Control", "level": 2, "url": "/git"},
+    {"id": "ml", "label": "ML Pipeline", "level": 3, "url": ""}
+  ],
+  "edges": [
+    ["prog1", "git"],
+    ["tech1", "git"],
+    ["prog1", "ml"],
+    ["data1", "ml"],
+    ["git", "ml"]
+  ]
+}

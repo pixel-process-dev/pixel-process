@@ -1,0 +1,60 @@
+---
+title: Workflow
+subtitle: Save Time <span class="subtitle-divider">|</span> Avoid Errors <span class="subtitle-divider">|</span>
+  Create Flow
+description: "Streamline your coding process with smart tooling, clear project structure,\
+  \ and small habits that make a big difference \u2014 from the command line to color\
+  \ schemes."
+navdesc: Tools, tips, and ways to make your life easier
+format:
+  html:
+    page-layout: full
+    toc: false
+    title-block-banner: true
+slug: workflow
+---
+
+Great workflows don’t happen by accident — they’re built through intention, iteration, and small choices that add up. This section is about taking control of your coding experience: streamlining your setup, automating what slows you down, and shaping tools to fit the way you work. From the command line to color schemes, you’ll explore ways to reduce friction, stay organized, and build a development environment that’s not just efficient, but genuinely satisfying to use.
+
+**Code happy!**
+
+::: {.callout icon="none" .custom-callout .best-practice title="Standardize to Stabilize"}
+
+The best way to debug is to avoid bugs in the first place. Clear structure, smart defaults, and automated routines don’t just save time — they prevent errors before they happen. Standardize what you can, automate what you repeat, and make fewer decisions under pressure.
+:::
+
+
+## Workflow Topics
+
+- **Easy Automation**: Streamline your environment with aliases, reusable project templates, and shortcuts that save time.
+- **Software & Tools**: Choose tools and setups that support your flow — from editors and terminals to colors and ergonomics.
+- **Versioning & Environments**: Track your work and manage environments to stay organized, reproducible, and collaborative.
+
+<div class="category-grid">
+<div class="category-card">
+<h3>Tools</h3>
+<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/workflow/tools-overview.qmd">Tools Overview</a></strong> → Editors, linters, and formatters, oh my!</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/workflow/scripts-and-notebooks.qmd">Scripts and Notebooks</a></strong> → When and why to use notebooks vs scripts</div></div></div><div class="category-card">
+<h3>Customization</h3>
+<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/workflow/cli-intro.qmd">Command Line Interface</a></strong> → Don't just learn CLI, optimize it</div></div></div></div>
+
+<hr class="page-divider">
+
+::: {.callout icon="none" .custom-callout .d-bugz title="Built by a Lazy Perfectionist"}
+
+I’ll spend four times longer automating a task than doing it manually — not just because I’m lazy, but because I’m interested. Writing a script is fun. Repeating the same task isn’t. If there’s room for human error, or a chance I’ll need it again later, I’d rather build it right the first time — even if that means diving into the rabbit hole. Hopefully, all the time I’ve spent trying to be lazy makes things a little easier for you, too.
+
+**Save Time**
+
+**Avoid Errors**
+
+**Create Flow**
+:::
+
+
+<div class="page-quote">
+Create your own paradise.
+</div>
+
+
+Workflow isn’t about perfection — it’s about making your day-to-day smoother, more consistent, and less frustrating. A few smart decisions now can prevent hours of future pain. Standardize your structure. Automate the annoying stuff. Document enough to help your future self (and your teammates). 
+Whether you’re a team of one or part of a larger group, good workflow habits make everything else easier.

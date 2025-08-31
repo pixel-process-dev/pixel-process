@@ -1,0 +1,65 @@
+---
+title: Getting Started
+subtitle: Learn Syntax <span class="subtitle-divider">|</span> Leverage Packages <span
+  class="subtitle-divider">|</span> Start Programming
+description: Learn programming basics without headaches. Notebooks and pages cover
+  essential skills for building with Python and R.
+navdesc: Discover how programming can work for you
+format:
+  html:
+    page-layout: full
+    toc: false
+    title-block-banner: true
+slug: getting-started
+---
+
+This section focuses on core practices and packages in Python. Basic programming content from `Is learning Python Worth it?` to pro-tips for debugging.
+
+**Learn the basics to see what's possible.**
+
+::: {.callout icon="none" .custom-callout .go-further title="Core Skills → Code Control"}
+
+Mastering all languages and tools is difficult. So don't just try to memorize syntax. Find themes, concepts, best practices, and resources to rapid addresss what you need.
+:::
+
+
+## Getting Started Topics
+
+#### Brand new to programming? [Jump into Python](/jump-in/index.qmd) hassle free.
+
+Brand new to pgBuilt to explore, all notebooks in this section are **interactive**. Run live examples and challenges in Binder and Thebe notebooks — no setup required.
+
+- **Python Basics**: Learn about variables, data types, and how to store and use information.
+- **Operators**: Explore arithmetic, comparison, and logical operators to control how your code behaves.
+- **Flow Control**: Use if-statements, loops, and logical patterns to direct your programs.
+
+
+<div class="category-grid">
+<div class="category-card">
+<h3>Basic Overview</h3>
+<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/getting-started/faqs.qmd">FAQs</a></strong> → FAQs when getting started with programming</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/getting-started/shoulders-of-giants.qmd">Troubleshooting Basics</a></strong> → A guide to problem-solving and debugging</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/getting-started/jupyter-notebooks.qmd">How to: Jupyter Notebooks</a></strong> → Intro to using and navigating notebooks</div></div></div><div class="category-card">
+<h3>Jump In</h3>
+<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/jump-in/index.qmd">Jump In</a></strong> → No downloads, no setup-jump into basic Python</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/jump-in/datatypes-and-operators.qmd">Datatypes and Operators</a></strong> → Jump into Python - Part 1</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/jump-in/variables-and-functions.qmd">Variables and Functions</a></strong> → Jump into Python - Part 2</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/jump-in/errors-and-experimentation.qmd">Errors and Experimentation</a></strong> → Jump into Python - Part 3</div></div></div><div class="category-card">
+<h3>R Introduction</h3>
+<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-file"></i> <strong><a href="/getting-started/r-intro/intro-to-r.pdf">R Intro PDF</a></strong> → PDF companion to the R intro notebook series</div><div class="quick-link-item"><i class="fa-regular fa-rectangle-list"></i> <strong><a href="/getting-started/r-intro/basic-commands.ipynb">R: Basic Commands (NB)</a></strong> → Get started with R</div><div class="quick-link-item"><i class="fa-regular fa-rectangle-list"></i> <strong><a href="/getting-started/r-intro/datasets.ipynb">R: Datasets (NB)</a></strong> → Vectors and datasets in R</div><div class="quick-link-item"><i class="fa-regular fa-rectangle-list"></i> <strong><a href="/getting-started/r-intro/data-manipulation.ipynb">R: Data Basics (NB)</a></strong> → Create, edit, and summarize vectors in R</div><div class="quick-link-item"><i class="fa-regular fa-rectangle-list"></i> <strong><a href="/getting-started/r-intro/import-export.ipynb">R: Import/Export (NB)</a></strong> → Loading and saving data with R</div><div class="quick-link-item"><i class="fa-regular fa-rectangle-list"></i> <strong><a href="/getting-started/r-intro/data-viz.ipynb">R: Data Vizualization Basics (NB)</a></strong> → Basic plotting functions in R</div><div class="quick-link-item"><i class="fa-regular fa-rectangle-list"></i> <strong><a href="/getting-started/r-intro/data-analysis.ipynb">R: Data Analysis (NB)</a></strong> → Begin analyzing with correlations, ttests, and more</div></div></div></div>
+
+<hr class="page-divider">
+
+::: {.callout icon="none" .custom-callout .d-bugz title="Experience from Errors"}
+
+These bugs don't bite! Writing a complex program without errors is as probable as writing a novel without a typo. The key is test for errors, ensure things work properly, and address the issues. Understanding basic errors will allow you tackle much more complex tasks.
+
+**Code Freely** — programming is interactive, so try things, test things, experiment
+
+**Fail Safely** — mistakes don't hurt here, if something goes wrong simply reset the workspace
+
+**Learn Deeply** — examine inputs and outputs, read error messages, learn the basics to programming
+:::
+
+
+<div class="page-quote">
+The best way to learn is to break stuff — and then (try to) fix it
+</div>
+
+
+Start small. Make mistakes. Ask questions. This is a space to experiment freely, play around, break things, and learn by doing. Nobody gets it right the first time. Just get started.

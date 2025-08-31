@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "title": "Getting Started: Frequently Asked Questions",
+    "navtitle": "FAQs",
+    "subtitle": "Common questions to consider before diving in",
+    "description": "Make an informed decision about learning programming and computer science.",
+    "slug": "faqs",
+    "tags": [
+      "python",
+      "beginners",
+      "career"
+    ]
+  },
+  "body": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "FAQs"
+    },
+    {
+      "type": "text",
+      "markdown": "Learning to program is a big decision. Initially, things can seem overwhelming. This section is designed to address the most common questions that come up early on."
+    },
+    {
+      "type": "toggle-all",
+      "text": "Toggle All FAQs"
+    },    
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Career & Usage"
+    },
+    {
+      "type": "faqs",
+      "items_path": "getting-started/_json/faq-groups/faq-career.json"
+    },    
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Essential Knowledge"
+    },
+    {
+      "type": "faqs",
+      "items_path": "getting-started/_json/faq-groups/faq-knowledge.json"
+    },    
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Key Terms"
+    },
+    {
+      "type": "faqs",
+      "items_path": "getting-started/_json/faq-groups/faq-key-terms.json"
+    }
+  ]
+}

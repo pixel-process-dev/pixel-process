@@ -1,0 +1,59 @@
+code {
+  font-family: var(--font-code);
+  border-radius: 4px;
+  font-size: 0.95em;
+}
+
+code:not(.sourceCode),
+body p code:not(.sourceCode),
+body li code:not(.sourceCode),
+body td code:not(.sourceCode) {
+  color: var(--brand-color-1);
+  background-color: var(--brand-color-1-bg);
+}
+
+pre code {
+  display: block;
+  background-color: var(--brand-color-1-bg);
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.sourceCode.cell-code {
+  background-color: var(--brand-color-3-bg);
+}
+
+.cell.code-cell {
+  background-color: var(--brand-color-3-bg);
+}
+
+.cell-output {
+  background-color: var(--bg-light);
+}
+
+.cell-output-display {
+  width: 100%;
+  table-layout: auto;
+  word-wrap: break-word;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  display: block;
+  overflow-x: auto;
+  word-wrap: break-word;
+}
+
+.output pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+}

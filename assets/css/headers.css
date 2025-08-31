@@ -1,0 +1,35 @@
+.header-block  {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.header-block img {
+  width: 100%;
+  max-width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.header-block h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: var(--brand-color-1);
+}
+
+.header-block h3 {
+  margin: 0;
+  font-weight: normal;
+  color: var(--fg);
+}
+
+.page-quote {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.7rem;
+  margin: 2em 0 1em 0;
+  color: var(--brand-color-2);
+}

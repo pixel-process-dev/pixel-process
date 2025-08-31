@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "title": "Jump In",
+    "subtitle": "Code Freely <span class=\"subtitle-divider\">|</span> Fail Safely <span class=\"subtitle-divider\">|</span> Start Quickly",
+    "description": "Learn programming basics without setup or headaches. Interactive tools let you explore data types, operators, flow control, and more — all in your browser.",
+    "navdesc": "Experiment and see if Python works for you",
+    "format":       
+      {"html": {
+        "page-layout": "full",
+        "toc": true,
+        "title-block-banner": true
+      }
+      },
+    "slug": "jump-in"
+  },
+  "body": [
+    {
+      "type": "text",
+      "markdown": "Jump into Python with hands-on practice, right in your browser. No installations, no setups, no signin. These pages use embedded code blocks to edit and run code. For extra experience, check out the notebooks too!\n\n**Try, test, and tinker — it's all part of the process.**"
+    },
+    {
+      "type": "custom-callout",
+      "callout-type": "pxp-ref",
+      "title": "Interactive Caveats",
+      "text": "These code examples run in the browser, work is not saved or tracked by default.\n\nFor pages, turn on interactive coding using a button like this one: {{{ButtonHere}}}\n\nFor notebooks, be sure to use the download option for work you want to save.\n\nExiting or refreshing either will reset the code.\nWhen starting interactive modes, there may be a slight delay as Python loads."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Ready to Jump In?"
+    },
+    {
+      "type": "code",
+      "language": "pyodide-python",
+      "content": "responses = {\n'a': '🚀 Absolutely! Ready to blast off into Python!',\n'b': '🐍 Sure thing, I brought my snake-charming hat.',\n'c': '☕ Not yet, need coffee first… then Python.',\n'd': '🤖 I was born ready. Bring on the code!'\n}\n\nchoice = 'a'\n\nprint(responses.get(choice, 'I take that as a yes!'))"
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Content Guide"
+    },
+    {
+      "type": "text",
+      "markdown": "Built to explore, all notebooks in this section are **interactive** - no setup required. Content overviews are paired with notebooks to improve learning and encourage testing. Several skill test notebooks are also included to cement what you learn."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "text",
+      "markdown": "{{{pxp-webpage-icon}}} [Datatypes and Operators]({{{datatypes-and-operators}}})\n{{{pxp-interactive-notebook-icon}}}  [Datatypes and Operators INB]({{{datatypes-and-operators-nb}}}){target=\"_blank\"}\n\n{{{pxp-webpage-icon}}}  [Variables and Functions]({{{variables-and-functions}}})\n{{{pxp-interactive-notebook-icon}}}  [Variables and Functions INB]({{{variables-and-functions-nb}}}){target=\"_blank\"}"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "custom-callout",
+      "callout-type": "d-bugz",
+      "title": "Experience from Errors",
+      "text": "These bugs don't bite! Writing a complex program without errors is as probable as writing a novel without a typo. The key is test for errors, ensure things work properly, and address the issues. Understanding basic errors will allow you tackle much more complex tasks.\n\n**Code Freely** — programming is interactive, so try things, test things, experiment\n\n**Fail Safely** — mistakes don't hurt here, if something goes wrong simply reset the workspace\n\n**Start Quickly** — examine inputs and outputs, read error messages, iterate and experiment if unsure"
+    },
+    {
+      "type": "page-quote",
+      "text": "Hands on is the only true way to learn programming"
+    },
+    {
+      "type": "text",
+      "markdown": "Start small. Make mistakes. Fix errors. This is a space to experiment freely, play around, and learn by doing. Nothing to break here, no risks, consider this a playground for learning. **Jump in!**"
+    }
+  ]
+}

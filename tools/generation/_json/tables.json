@@ -1,0 +1,84 @@
+{
+  "Variable Naming Rules": [
+    {"Example": "age = 25", "Valid?": "✅ Yes", "Reason": "Starts with a letter, letters only"},
+    {"Example": "user_name = \"A\"", "Valid?": "✅ Yes", "Reason": "Letters + underscore are allowed"},
+    {"Example": "temperature2", "Valid?": "✅ Yes", "Reason": "Digits allowed, but not at start"},
+    {"Example": "_hidden", "Valid?": "✅ Yes", "Reason": "Leading underscore allowed (often used for “private” values)"},
+    {"Example": "MAX_VALUE", "Valid?": "✅ Yes", "Reason": "Uppercase is allowed, often used for constants"},
+    {"Example": "2nd_value", "Valid?": "❌ No", "Reason": "Cannot start with a digit"},
+    {"Example": "user-name", "Valid?": "❌ No", "Reason": "Dash (-) not allowed"},
+    {"Example": "file.path", "Valid?": "❌ No", "Reason": "Dot (.) means “attribute,” not part of a name"},
+    {"Example": "my var", "Valid?": "❌ No", "Reason": "Spaces not allowed"},
+    {"Example": "return = 5", "Valid?": "❌ No", "Reason": "return is a reserved Python keyword"}
+  ],
+
+  "Operators - Arithmetic": [
+    {"Operator": "+", "Example": "3 + 2", "Meaning": "Addition", "Result": "5"},
+    {"Operator": "-", "Example": "7 - 4", "Meaning": "Subtraction", "Result": "3"},
+    {"Operator": "*", "Example": "6 * 2", "Meaning": "Multiplication", "Result": "12"},
+    {"Operator": "/", "Example": "7 / 2", "Meaning": "Division (always float)", "Result": "3.5"},
+    {"Operator": "//", "Example": "7 // 2", "Meaning": "Floor (integer) division", "Result": "3"},
+    {"Operator": "%", "Example": "7 % 2", "Meaning": "Modulus (remainder)", "Result": "1"},
+    {"Operator": "**", "Example": "2 ** 3", "Meaning": "Exponentiation", "Result": "8"}
+  ],
+
+  "Operators - Comparison": [
+    {"Operator": "==", "Example": "3 == 3", "Meaning": "Equal to", "Result": "True"},
+    {"Operator": "!=", "Example": "3 != 4", "Meaning": "Not equal to", "Result": "True"},
+    {"Operator": ">", "Example": "5 > 2", "Meaning": "Greater than", "Result": "True"},
+    {"Operator": "<", "Example": "2 < 5", "Meaning": "Less than", "Result": "True"},
+    {"Operator": ">=", "Example": "5 >= 5", "Meaning": "Greater than or equal to", "Result": "True"},
+    {"Operator": "<=", "Example": "4 <= 5", "Meaning": "Less than or equal to", "Result": "True"}
+  ],
+
+  "Operators - Logical": [
+    {"Operator": "and", "Example": "(3 > 1) and (2 < 5)", "Meaning": "True if both are true", "Result": "True"},
+    {"Operator": "or", "Example": "(3 > 1) or (2 > 5)", "Meaning": "True if at least one is true", "Result": "True"},
+    {"Operator": "not", "Example": "not (3 > 1)", "Meaning": "Negates (True → False)", "Result": "False"}
+  ],
+
+  "Operators - Membership & Identity": [
+    {"Operator": "in", "Example": "'a' in 'cat'", "Meaning": "True if value is inside container", "Result": "True"},
+    {"Operator": "not in", "Example": "'x' not in 'cat'", "Meaning": "True if value is not inside container", "Result": "True"},
+    {"Operator": "is", "Example": "a is b", "Meaning": "True if two variables are the same object", "Result": "Depends"},
+    {"Operator": "is not", "Example": "a is not b", "Meaning": "True if two variables are different", "Result": "Depends"}
+  ],
+
+  "Operators - Assignment": [
+    {"Operator": "=", "Example": "x = 5", "Meaning": "Assign value", "Result": "x becomes 5"},
+    {"Operator": "+=", "Example": "x += 3", "Meaning": "Add and assign", "Result": "x = x + 3"},
+    {"Operator": "-=", "Example": "x -= 2", "Meaning": "Subtract and assign", "Result": "x = x - 2"},
+    {"Operator": "*=", "Example": "x *= 4", "Meaning": "Multiply and assign", "Result": "x = x * 4"},
+    {"Operator": "/=", "Example": "x /= 2", "Meaning": "Divide and assign (float)", "Result": "x = x / 2"},
+    {"Operator": "//=", "Example": "x //= 2", "Meaning": "Floor-divide and assign", "Result": "x = x // 2"},
+    {"Operator": "%=", "Example": "x %= 2", "Meaning": "Modulus and assign", "Result": "x = x % 2"},
+    {"Operator": "**=", "Example": "x **= 3", "Meaning": "Exponentiate and assign", "Result": "x = x ** 3"}
+  ],
+
+  "Datatypes": [
+    {"Category": "Numbers", "Type": "int", "Example": "42"},
+    {"Category": "Numbers", "Type": "float", "Example": "3.14"},
+    {"Category": "Numbers", "Type": "complex", "Example": "2 + 3j"},
+    {"Category": "Text", "Type": "str", "Example": "\"hello\""},
+    {"Category": "Sequences", "Type": "list", "Example": "[1, 2, 3]"},
+    {"Category": "Sequences", "Type": "tuple", "Example": "(1, 2, 3)"},
+    {"Category": "Sequences", "Type": "range", "Example": "range(5)"},
+    {"Category": "Sets", "Type": "set", "Example": "{1, 2, 3}"},
+    {"Category": "Sets", "Type": "frozenset", "Example": "frozenset([1, 2, 3])"},
+    {"Category": "Mappings", "Type": "dict", "Example": "{\"a\": 1, \"b\": 2}"},
+    {"Category": "Boolean", "Type": "bool", "Example": "True, False"},
+    {"Category": "Special", "Type": "NoneType", "Example": "None"}
+  ],
+
+  "Built-in Functions": [
+    {"Function": "help", "Example": "help(len)", "Meaning": "Displays documentation about an object or function", "Result": "Shows usage info in console"},
+    {"Function": "len", "Example": "len([1, 2, 3])", "Meaning": "Returns the number of items in an object", "Result": "3"},
+    {"Function": "print", "Example": "print('Hello')", "Meaning": "Outputs text or variables to the console", "Result": "Hello"},
+    {"Function": "type", "Example": "type(3.14)", "Meaning": "Returns the data type of an object", "Result": "<class 'float'>"},
+    {"Function": "min", "Example": "min(4, 7, 2)", "Meaning": "Returns the smallest of the given values", "Result": "2"},
+    {"Function": "max", "Example": "max(4, 7, 2)", "Meaning": "Returns the largest of the given values", "Result": "7"},
+    {"Function": "str", "Example": "str(123)", "Meaning": "Converts a value to a string", "Result": "'123'"},
+    {"Function": "int", "Example": "int(3.9)", "Meaning": "Converts a value to an integer (truncates decimals)", "Result": "3"},
+    {"Function": "float", "Example": "float('3.14')", "Meaning": "Converts a value to a floating-point number", "Result": "3.14"}
+  ]
+}

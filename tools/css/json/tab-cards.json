@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "output_path": "assets/css/tab-cards.css",
+    "type": "css"
+  },
+  "sections": [
+    {
+      "selector": "details",
+      "variables": [
+        { "name": "padding", "value": "0.4em 0.6em" },
+        { "name": "margin", "value": "4px 0" },
+        { "name": "transition", "value": "background-color 0.3s ease, box-shadow 0.3s ease" }
+      ]
+    },
+    {
+      "selector": "details > summary",
+      "variables": [
+        { "name": "font-weight", "value": 600 },
+        { "name": "font-size", "value": "1.05em" },
+        { "name": "cursor", "value": "pointer" },
+        { "name": "list-style", "value": "none" },
+        { "name": "color", "value": "var(--brand-color-1)" },
+        { "name": "outline", "value": "none" }
+      ]
+    },
+    {
+      "selector": "details > summary::-webkit-details-marker",
+      "variables": [
+        { "name": "display", "value": "none" }
+      ]
+    },
+    {
+      "selector": "details > summary::after",
+      "variables": [
+        { "name": "content", "value": "▼" },
+        { "name": "float", "value": "right" },
+        { "name": "transition", "value": "transform 0.3s ease" },
+        { "name": "opacity", "value": "0.6"}
+      ]
+    },
+    {
+      "selector": "details[open] > summary::after",
+      "variables": [
+        { "name": "transform", "value": "rotate(180deg)" }
+      ]
+    },
+    {
+      "selector": "details > summary:hover",
+      "variables": [
+        { "name": "color", "value": "var(--brand-color-1-hover)" }
+      ]
+    },
+    {
+      "selector": ".nav-tabs .nav-link",
+      "variables": [
+        { "name": "color", "value": "var(--fg)" },
+        { "name": "background-color", "value": "var(--nav-bg)" },
+        { "name": "border", "value": "1px solid var(--brand-color-2-bg)" },
+        { "name": "border-bottom", "value": "none" },
+        { "name": "margin-right", "value": "4px" },
+        { "name": "border-radius", "value": "var(--border-radius)" },
+        { "name": "transition", "value": "background-color 0.3s ease, color 0.3s ease" }
+      ]
+    },
+    {
+      "selector": ".nav-tabs .nav-link:hover",
+      "variables": [
+        { "name": "color", "value": "var(--fg)" },
+        { "name": "background-color", "value": "var(--brand-color-2-bg)" }
+      ]
+    },
+    {
+      "selector": ".nav-tabs .nav-link.active",
+      "variables": [
+        { "name": "color", "value": "var(--fg)" },
+        { "name": "background-color", "value": "var(--brand-color-2-active)" }
+      ]
+    }
+  ]
+}

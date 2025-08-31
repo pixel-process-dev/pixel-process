@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "output_path": "assets/css/code-blocks-interactive.css",
+    "type": "css"
+  },
+  "sections": [
+    {
+      "selector": "qpyodide-editor textarea,\nqpyodide-editor pre,\n.qpyodide-cell code,\n.qpyodide-cell textarea",
+      "variables": [
+        { "name": "font-family", "value": "var(--font-code)" },
+        { "name": "background-color", "value": "var(--brand-color-1-bg)" },
+        { "name": "color", "value": "var(--brand-color-1)" },
+        { "name": "font-size", "value": "0.95em" },
+        { "name": "padding", "value": "0.5em" },
+        { "name": "border-radius", "value": "4px" },
+        { "name": "width", "value": "100%" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "output_path": "assets/css/navbar.css",
+    "type": "css"
+  },
+  "sections": [
+    {
+      "selector": ".navbar",
+      "variables": [
+        { "name": "background-color", "value": "var(--nav-bg)" },
+        { "name": "border-bottom", "value": "1px solid var(--fg)"}
+      ]
+    },
+    {
+      "selector": ".navbar .navbar-title,\n.navbar .nav-link",
+      "variables": [
+        { "name": "color", "value": "var(--fg)" },
+        { "name": "padding", "value": "1px" },
+        { "name": "border-bottom", "value": "1px solid transparent"}
+      ]
+    },
+    {
+      "selector": ".navbar .nav-link:hover",
+      "variables": [
+        { "name": "color", "value": "var(--brand-color-1-hover)" }
+      ]
+    },
+    {
+      "selector": ".navbar .nav-link.active,\n.navbar .nav-link:focus",
+      "variables": [
+        { "name": "color", "value": "var(--brand-color-1-active)" }
+      ]
+    },
+    {
+      "selector": ".navbar .quarto-navbar-tools .quarto-navigation-tool",
+      "variables": [
+        { "name": "color", "value": "var(--brand-color-2)" }
+      ]
+    },
+    {
+      "selector": ".navbar #quarto-search.type-overlay .aa-Autocomplete svg.aa-SubmitIcon",
+      "variables": [
+        { "name": "color", "value": "var(--brand-color-2)" }
+      ]
+    }
+  ]
+}

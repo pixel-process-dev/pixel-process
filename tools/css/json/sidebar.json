@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "output_path": "assets/css/sidebar.css",
+    "type": "css"
+  },
+  "sections": [
+    {
+      "selector": ".sidebar-navigation",
+      "variables": [
+        { "name": "background-color", "value": "var(--nav-bg)" }
+      ]
+    },
+    {
+      "selector": ".sidebar-item.active,\n.sidebar-item.active > a",
+      "variables": [
+        { "name": "color", "value": "var(--brand-color-2)" },
+        { "name": "font-weight", "value": "bold"}
+      ]
+    },
+    {
+      "selector": ".sidebar-item:hover > a ",
+      "variables": [
+        { "name": "color", "value": "var(--brand-color-2-hover)" }
+      ]
+    },
+    {
+      "selector": ".sidebar-item-container .sidebar-link.active",
+      "variables": [
+        { "name": "color", "value": "var(--brand-color-2)" },
+        { "name": "font-weight", "value": "bold"}
+      ]
+    },
+    {
+      "selector": ".sidebar-item-container .sidebar-link:hover",
+      "variables": [
+        { "name": "color", "value": "var(--brand-color-2-hover)" }
+      ]
+    },
+    {
+      "selector": ".sidebar-section-title",
+      "variables": [
+        { "name": "font-weight", "value": "bold"}
+      ]
+    },
+    {
+      "selector": "div.sidebar.sidebar-navigation.rollup.quarto-sidebar-toggle-contents,\nnav.sidebar.sidebar-navigation:not(.rollup) ",
+      "variables": [
+        { "name": "background-color", "value": "var(--nav-bg)" }
+      ]
+    }
+  ]
+}

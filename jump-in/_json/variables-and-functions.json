@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "title": "Variables and Functions",
+    "subtitle": "Part 2: Essential Concepts for New Python Users",
+    "description": "Overview of variables and functions in Python.",
+    "slug": "variables-and-functions",
+    "tags": [
+      "python",
+      "beginners",
+      "jupyter",
+      "syntax"
+    ]
+  },
+  "body": [ 
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Get Started with Python - Part 2"
+    },
+    {
+      "type": "text",
+      "markdown": "This is the second part of the `Jump In` guide introducing core Python concepts in a hands-on way, using **Jupyter notebooks** as the primary environment. This page will cover variables and built-in functions. Be sure to check out the accompanying notebook for more hands-on experience."
+    },
+    {
+      "type": "custom-callout",
+      "callout-type": "best-practice",
+      "title": "Reusability",
+      "text": "Effective programming is built around reusability. Creating automated, reproducible code starts with variables and functions."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Variables"
+    },
+    {
+      "type": "text",
+      "markdown": "Variable assignment stores data in a named container. In Python, use `=` to assign values: `x = 5`. Variables are case-sensitive and can store numbers, strings, lists, and other datatypes. Variables in Python are **mutable** meaning the value can be modified."
+    },
+    {
+      "type": "markdown-table",
+      "table-name": "Variable Naming Rules"
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Functions"
+    },
+    {
+      "type": "text",
+      "markdown": "Functions create reusable code which can simplify tasks, allow iterative runs, and can make your code **much** more powerful. Python comes with some [builtin functions](https://docs.python.org/3/library/functions.html) which will help demonstrate. The table below outlines so of the most commonly used ones and their usage."
+    },
+    {
+      "type": "markdown-table",
+      "table-name": "Built-in Functions"
+    }
+  ]
+}

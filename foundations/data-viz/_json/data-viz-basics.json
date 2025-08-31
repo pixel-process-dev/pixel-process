@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "title": "Data Visualization Basics",
+    "navtitle": "Data Viz Basics",
+    "subtitle": "Overview of visualization tools and common plots",
+    "description": "Core visualization libraries and plot types.",
+    "slug": "data-viz-basics",
+    "tags": [
+      "data-visualization",
+      "matplotlib",
+      "seaborn",
+      "plotly"
+    ]
+  },
+  "body": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Data Visualization in Python"
+    },
+    {
+      "type": "text",
+      "markdown": "Data visualization is essential for exploring data, identifying patterns, and communicating insights. Python offers a rich ecosystem of libraries for creating everything from basic charts to interactive dashboards.\n\nSee the associated [companion notebook]({{{data-viz-basics-nb}}}) for more extensive code examples."
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Why Visualization Matters"
+    },
+    {
+      "type": "text",
+      "markdown": "- **Exploration**: Understand the shape and distribution of your data.\n\n- **Communication**: Present insights effectively to different audiences.\n\n- **Validation**: Check model assumptions and evaluate results."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Core Libraries"
+    },
+    {
+      "type": "text",
+      "markdown": "Three essential libraries for Python visualization are:\n\n- **Matplotlib**: The foundational plotting library.\n\n- **Seaborn**: Simplifies statistical plots with attractive defaults.\n\n- **Plotly**: For interactive and web-ready graphics."
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Matplotlib"
+    },
+    {
+      "type": "text",
+      "markdown": "[Matplotlib](https://matplotlib.org/) is the foundational plotting library in Python, supporting a wide range of static, animated, and interactive visualizations."
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Seaborn"
+    },
+    {
+      "type": "text",
+      "markdown": "[Seaborn](https://seaborn.pydata.org/) is built on Matplotlib and provides a high-level API for creating attractive statistical graphics."
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Plotly"
+    },
+    {
+      "type": "text",
+      "markdown": "[Plotly](https://plotly.com/) creates interactive plots ideal for dashboards and web applications."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Common Plot Types"
+    },
+    {
+      "type": "text",
+      "markdown": "Below are essential plots for data analysis. Each section includes data requirements, ideal use cases, examples for multiple Python libraries, and an example image."
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Histogram"
+    },
+    {
+      "type": "text",
+      "markdown": "Histograms display the distribution of a dataset."
+    },
+    {
+      "type": "panel-tabset",
+      "json-path": "foundations/data-viz/_json/basic-viz/histogram.json"
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Bar Chart"
+    },
+    {
+      "type": "text",
+      "markdown": "Bar charts represent categorical data with rectangular bars."
+    },
+    {
+      "type": "panel-tabset",
+      "json-path": "foundations/data-viz/_json/basic-viz/bar-chart.json"
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Box Plot"
+    },
+    {
+      "type": "text",
+      "markdown": "Box plots summarize data with median, quartiles, and outliers."
+    },
+    {
+      "type": "panel-tabset",
+      "json-path": "foundations/data-viz/_json/basic-viz/box-plot.json"
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Violin Plot"
+    },
+    {
+      "type": "text",
+      "markdown": "Violin plots combine box plots with kernel density estimates."
+    },
+    {
+      "type": "panel-tabset",
+      "json-path": "foundations/data-viz/_json/basic-viz/violin-plot.json"
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Scatter Plot"
+    },
+    {
+      "type": "text",
+      "markdown": "Scatter plots show the relationship between two variables."
+    },
+    {
+      "type": "panel-tabset",
+      "json-path": "foundations/data-viz/_json/basic-viz/scatter-plot.json"
+    }
+  ]
+}

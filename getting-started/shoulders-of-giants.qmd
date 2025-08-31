@@ -1,0 +1,92 @@
+---
+title: On the Shoulders of Giants
+subtitle: Solve Problems <span class="subtitle-divider">|</span> Debug Faster <span
+  class="subtitle-divider">|</span> Avoid Headaches
+description: "Coding is a team sport, even when you\u2019re working solo. In this\
+  \ section, you\u2019ll explore the wealth of resources, communities, and strategies\
+  \ available to you. Learn how to ask better questions, find helpful answers, and\
+  \ grow faster by standing on the shoulders of giants."
+navdesc: Troubleshoot, debug, and solve problems like a pro
+format:
+  html:
+    page-layout: full
+    toc: false
+    title-block-banner: true
+slug: shoulders-of-giants
+---
+
+## Troubleshooting Required
+
+Learning to program (or any new skill) is guaranteed to come with roadblocks. Code won’t run, an error message pops up, or things just don’t make sense. This isn’t a failure—it’s normal! The key difference between frustrated beginners and successful learners isn’t intelligence, it's approach.
+
+In this section, you’ll learn practical tools and mindsets for getting unstuck: reading documentation, focused searches, even reading the actual source code.
+
+
+- It’s about **solving, not knowing**
+- It’s about **solutions, not syntax**
+- It’s about **process, not memorization**
+
+## Troubleshooting Checklist
+
+### Pause & Get Oriented
+
+- **Don’t rush**: Take a moment to read the message, consider what is happening
+- **Focus on what changed**: Did you add something new, update a package, change an environment, or move files?
+
+### Read the Error Message
+
+- **Look for keywords**: `ImportError`, `SyntaxError`, `FileNotFoundError`
+ - **Look for YOUR keywords**: do you see variables you defined or created? Unique things in your code
+- **Check the traceback**: Try to identify where the problem started **the last lines are often the most important**
+
+### Begin Basic
+
+- **Typos and missing punctuation**: anything in the traceback or output look even a little off?
+- **File paths**: Are inputs and outputs showing correct paths? Did anything get moved?
+- **Copy-paste errors**: Did you accidentally copy a character or break a line?
+- **Restart and rerun:** Sometimes, especially in notebooks, things get out of sync-so turn if off and on again
+
+### Isolate
+
+- **Is it reproducible?**Does the error happen every time? On other machines or environments?
+- **“On and off again works**: Try restarting your program, kernel, or computer-working broader
+- **Simplify**: Can you trigger the error with a tiny bit of code, or does it only happen with everything together? Test on another variable or dataframe
+- **Comment out code**:
+Temporarily remove sections or run cell-by-cell to see where the error appears.
+
+### Read the Docs
+
+- **Built-in help tools**: *Python:* `help()`; `?`, or double-tab in notebooks; *R:* `?function_name`, `help(function_name)`; *Shell:* `man`, `--help`
+- **Look up function/class documentation**: Official docs, docstrings, and usage examples
+
+### Search the Web
+
+- **Copy-paste the error message**: Remove file-specific info if needed
+- **Add keywords**: “python”, “R”, or the library you’re using
+- **Search for common forums**:
+Stack Overflow, GitHub Issues, official forums
+
+### Check Your Environment and Versions
+
+- **Are you using the right Python/R version?**: Check notebook kernels and paths
+- **Which environment is active?** (Conda, virtualenv, Renv, etc.)**: Make sure your packages are installed with proper versions
+
+### Scope the Issue
+
+- **Is it a 'just here' problem**: Typos, filepaths, incorrect variable types-only happen in one place
+- **Is it a project or environment problem**: Does other project code now have issues? Is it my system? **Known Issue**: Is it a commonly reported bug or issue on forums?
+
+<hr class="page-divider">
+
+::: {.callout icon="none" .custom-callout .d-bugz title="Experience from Errors"}
+
+Errors are part of the process. Solid troubleshooting and debugging approaches are part of the job. Know your resources and use them.
+:::
+
+
+<div class="page-quote">
+When in doubt, read the docs
+</div>
+
+
+Coding requires testing and debugging. Use these guidelines to avoid getting stuck. Chances are, you are not the only person to encounter issues. Learn on the many established and helpful resources of the coding community.

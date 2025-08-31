@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "title": "Bar Chart",
+    "class": "alias-card"
+  },
+  "tabs": [
+    {
+      "title": "Data Requirements",
+      "sections": [
+        {
+          "type": "static-tab",
+          "content": "- **Type**: Univariate or Bivariate\n- **Variables**:\n  - x: Categorical\n  - y: Continuous\n- Suitable for counts or aggregated values."
+        }
+      ]
+    },
+    {
+      "title": "Package Examples",
+      "sections": [
+        {
+          "type": "collapsible",
+          "summary": "Matplotlib",
+          "content": "",
+          "language": "python",
+          "code": "import matplotlib.pyplot as plt\ncategories = ['A','B','C']\nvalues = [3,7,5]\nplt.bar(categories, values)\nplt.show()"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Seaborn",
+          "content": "",
+          "language": "python",
+          "code": "import seaborn as sns\ndata = sns.load_dataset('tips')\nsns.barplot(x='day', y='total_bill', data=data)"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Plotly",
+          "content": "",
+          "language": "python",
+          "code": "import plotly.express as px\ncategories = ['A','B','C']\nvalues = [3,7,5]\nfig = px.bar(x=categories, y=values)\nfig.show()\n"
+        }
+      ]
+    },
+    {
+      "title": "Ideal Uses",
+      "sections": [
+        {
+          "type": "static-tab",
+          "content": "- Compare categories\n- Show frequency or aggregated values\n- Identify highest and lowest categories"
+        }
+      ]
+    }
+  ]
+}

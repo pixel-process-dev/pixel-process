@@ -1,0 +1,13 @@
+sidebar: jump-in
+
+execute:
+  enabled: true
+
+format:
+  html:
+    filters:
+      - pyodide
+    jupyter:
+      code-cell-processor: pyodide-python
+
+engine: pyodide

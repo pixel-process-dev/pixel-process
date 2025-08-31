@@ -1,0 +1,180 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - images/
+    - assets/html
+    - jump-in/jl-notebooks/
+
+website:
+  reader-mode: false
+  bread-crumbs: false
+  page-navigation: true
+  navbar:
+    pinned: true
+    left:
+      - text: "Pixel Process"
+        href: index.qmd
+      - text: "Jump In"
+        href: jump-in/index.qmd
+      - text: "Getting Started"
+        href: getting-started/index.qmd
+      - text: "Foundations"
+        href: foundations/index.qmd
+      - text: "Machine Learning"
+        href: machine-learning/index.qmd
+      - text: "Workflow"
+        href: workflow/index.qmd
+    right:
+      - text: "Perspectives"
+        href: perspectives/index.qmd
+      - text: "About"
+        href: about/index.qmd
+    tools:
+      - icon: moon-stars
+        toggle: true
+
+  sidebar:
+    - id: jump-in
+      title: "Jump In"
+      style: docked
+      collapse-level: 2
+      pinned: false
+      contents:
+          - jump-in/index.qmd
+          - jump-in/datatypes-and-operators.qmd
+          - jump-in/jl-notebooks/jl-build/files/datatypes-and-operators-nb.ipynb
+          - jump-in/variables-and-functions.qmd
+          - jump-in/jl-notebooks/jl-build/files/variables-and-functions-nb.ipynb
+          - jump-in/errors-and-experimentation.qmd
+
+    - id: getting-started
+      title: "Getting Started"
+      style: docked
+      collapse-level: 2
+      pinned: false
+      contents:
+        - getting-started/index.qmd
+        - text: "FAQs"
+          href: getting-started/faqs.qmd
+        - section: "Basics"
+          contents:
+            - getting-started/shoulders-of-giants.qmd
+            - getting-started/programming-basic-concepts.qmd
+            - getting-started/jupyter-notebooks.qmd
+        - section: "R"
+          contents:
+            - getting-started/r-intro/intro-to-r.pdf
+            - getting-started/r-intro/basic-commands.ipynb
+            - getting-started/r-intro/data-manipulation.ipynb
+            - getting-started/r-intro/datasets.ipynb
+            - getting-started/r-intro/import-export.ipynb
+            - getting-started/r-intro/data-viz.ipynb
+            - getting-started/r-intro/data-analysis.ipynb
+
+    - id: foundations
+      title: "Foundations"
+      style: docked
+      collapse-level: 2
+      pinned: false
+      contents:
+        - foundations/index.qmd
+        - text: "FAQs"
+          href: foundations/foundations-faqs.qmd
+        - section: "Datasets"
+          contents:
+            - foundations/datasets/dataset-exploration.qmd
+            - foundations/datasets/dataset-exploration-nb.ipynb
+        - section: "Data Visualization"
+          contents:
+            - foundations/data-viz/data-viz-basics.qmd
+            - foundations/data-viz/data-viz-basics-nb.ipynb
+        - section: "Advanced Data"
+          contents:
+            - foundations/advanced-data/image-basics.ipynb
+
+    - id: machine-learning
+      title: "Machine Learning"
+      style: docked
+      collapse-level: 2
+      pinned: false
+      contents:
+        - machine-learning/index.qmd
+        - machine-learning/faqs.qmd
+        - section: "Models & Metrics"
+          contents:
+            - machine-learning/data-science-topics.qmd
+            - machine-learning/random-forest.ipynb
+        - section: "Classification"
+          contents:
+            - machine-learning/classification-iris.ipynb
+        - section: "Regression"
+          contents:
+            - machine-learning/regression-housing.ipynb
+
+    - id: workflow
+      title: "Workflow"
+      style: docked
+      collapse-level: 2
+      pinned: false
+      contents:
+        - workflow/index.qmd
+        - section: "Tools"
+          contents:
+            - workflow/tools-overview.qmd
+            - workflow/scripts-and-notebooks.qmd
+        - section: "Customization"
+          contents:
+            - workflow/cli-intro.qmd
+
+    - id: perspectives
+      title: "Perspectives"
+      style: docked
+      collapse-level: 2
+      pinned: false
+      contents:
+        - perspectives/index.qmd
+        - section: "AND"
+          contents:
+            - perspectives/posts/and/perspective-pixels-and-pictures.qmd
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    google-fonts:
+      - Inter
+    css:
+      - assets/css/tokens.css
+      - assets/css/themes.css
+      - assets/css/body-bg.css
+      - assets/css/navbar.css
+      - assets/css/sidebar.css
+      - assets/css/toc.css
+      - assets/css/links.css
+      - assets/css/headers.css
+      - assets/css/footer.css
+      - assets/css/title-block.css
+      - assets/css/code-blocks.css
+      - assets/css/code-blocks-interactive.css
+      - assets/css/custom-callouts.css
+      - assets/css/category-grid.css
+      - assets/css/tab-cards.css
+      - assets/css/flipbook.css
+      - assets/css/tables.css
+      - assets/css/faqs.css
+      - assets/css/buttons.css
+      - assets/css/quick-links.css
+      - assets/css/branding.css
+    include-after-body: 
+      - assets/html/wip-footer.html
+      - assets/html/custom-footer.html
+    link-external-newwindow: true
+    page-layout: full
+    code-copy: true
+    toc: true
+    title-block-banner: true
+    plotly: true
+    execute:
+      enabled: false

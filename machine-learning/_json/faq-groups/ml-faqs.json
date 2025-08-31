@@ -1,0 +1,77 @@
+[
+  {
+    "question": "What is supervised learning?",
+    "answer": "Supervised learning is a type of machine learning where the model is trained on labeled data — meaning each input has a known output. Examples include classification and regression tasks.",
+    "tags": ["machine learning", "supervised", "foundations"]
+  },
+  {
+    "question": "What is unsupervised learning?",
+    "answer": "Unsupervised learning involves training a model on data without labeled outcomes. It is used to find patterns or groupings in the data, such as with clustering or dimensionality reduction.",
+    "tags": ["machine learning", "unsupervised", "foundations"]
+  },
+  {
+    "question": "What is classification?",
+    "answer": "Classification is a supervised learning task where the goal is to assign inputs to one of several predefined categories. Examples include spam detection or emotion recognition.",
+    "tags": ["classification", "supervised", "machine learning"]
+  },
+  {
+    "question": "What is regression?",
+    "answer": "Regression is a supervised learning task where the model predicts a continuous value, such as price, temperature, or probability.",
+    "tags": ["regression", "supervised", "machine learning"]
+  },
+  {
+    "question": "What are common evaluation metrics?",
+    "answer": "Evaluation metrics help assess model performance. For classification: accuracy, precision, recall, and F1 score are common. For regression: MSE (mean squared error) and RMSE (root mean squared error) are often used.",
+    "tags": ["metrics", "evaluation", "machine learning"]
+  },
+  {
+    "question": "What is accuracy?",
+    "answer": "Accuracy is the proportion of correct predictions over total predictions. It's useful when class distribution is balanced.",
+    "tags": ["metrics", "classification", "machine learning"]
+  },
+  {
+    "question": "What is precision?",
+    "answer": "Precision is the proportion of true positives among all predicted positives. It’s useful when false positives are costly.",
+    "tags": ["metrics", "classification", "machine learning"]
+  },
+  {
+    "question": "What is recall?",
+    "answer": "Recall is the proportion of true positives captured out of all actual positives. It’s useful when false negatives are costly.",
+    "tags": ["metrics", "classification", "machine learning"]
+  },
+  {
+    "question": "What is F1 score?",
+    "answer": "The F1 score is the harmonic mean of precision and recall. It balances both concerns when there's a trade-off.",
+    "tags": ["metrics", "classification", "machine learning"]
+  },
+  {
+    "question": "What is MSE?",
+    "answer": "MSE (Mean Squared Error) is the average of the squared differences between predicted and actual values. It penalizes larger errors more.",
+    "tags": ["metrics", "regression", "machine learning"]
+  },
+  {
+    "question": "What is RMSE?",
+    "answer": "RMSE (Root Mean Squared Error) is the square root of MSE, making it more interpretable as it's in the same unit as the target variable.",
+    "tags": ["metrics", "regression", "machine learning"]
+  },
+  {
+    "question": "What is a train-test split?",
+    "answer": "Train-test splitting divides your dataset into a portion used to train the model and another used to test its performance on unseen data.",
+    "tags": ["workflow", "validation", "machine learning"]
+  },
+  {
+    "question": "Why do GPUs help with big data or deep learning?",
+    "answer": "GPUs can perform many calculations in parallel, making them much faster than CPUs for training large models, especially in deep learning.",
+    "tags": ["hardware", "performance", "machine learning"]
+  },
+  {
+    "question": "Why does model deployment matter?",
+    "answer": "Deployment makes your model accessible — turning it into a service that users, apps, or systems can interact with. Without deployment, your model can't provide value in real-world applications.",
+    "tags": ["deployment", "machine learning", "ops"]
+  },
+  {
+    "question": "What is a CI/CD pipeline?",
+    "answer": "CI/CD (Continuous Integration / Continuous Deployment) is a DevOps approach that automates testing, integration, and deployment. It ensures your models and code can be updated and delivered reliably and quickly.",
+    "tags": ["devops", "ci/cd", "deployment", "machine learning"]
+  }
+]

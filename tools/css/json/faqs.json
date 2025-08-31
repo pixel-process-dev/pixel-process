@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "output_path": "assets/css/faqs.css",
+    "type": "css"
+  },
+  "sections": [
+    {
+      "selector": "details > summary.faq-summary",
+      "variables": [
+        { "name": "font-size", "value": "1.4rem" },
+        { "name": "color", "value": "var(--brand-color-1-active)" },
+        { "name": "margin-bottom", "value": "0.5em" }
+      ]
+    },
+    {
+      "selector": ".visually-hidden",
+      "variables": [
+        { "name": "position", "value": "absolute" },
+        { "name": "width", "value": "1px" },
+        { "name": "height", "value": "1px" },
+        { "name": "padding", "value": "0" },
+        { "name": "margin", "value": "-1px" },
+        { "name": "overflow", "value": "hidden" },
+        { "name": "clip", "value": "rect(0, 0, 0, 0)" },
+        { "name": "white-space", "value": "nowrap" },
+        { "name": "border", "value": "0" }
+      ]
+    }
+  ]
+}

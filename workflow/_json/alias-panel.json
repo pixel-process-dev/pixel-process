@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "title": "Alias Examples",
+    "class": "alias-card"
+  },
+  "tabs": [
+    {
+      "title": "Basics",
+      "sections": [
+        {
+          "type": "collapsible",
+          "summary": "What is an alias?",
+          "content": "An alias is a shortcut for commands.",
+          "language": "bash",
+          "code": "alias ll='ls -lah'"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Why use aliases?",
+          "content": "- Save time by shortening commands\n- Reduce errors from mistyping\n- Customize your CLI workflow"
+        }
+      ]
+    },
+    {
+      "title": "Persistent Aliases",
+      "sections": [
+        {
+          "type": "collapsible",
+          "summary": "Make it permanent",
+          "content": "Add to your shell configuration:",
+          "language": "bash",
+          "code": "echo \"alias ll='ls -lah'\" >> ~/.zshrc && source ~/.zshrc"
+        }
+      ]
+    },
+    {
+      "title": "Advanced",
+      "sections": [
+        {
+          "type": "collapsible",
+          "summary": "Multiple Aliases",
+          "content": "",
+          "language": "bash",
+          "code": "alias gs='git status'\nalias gp='git pull'\nalias gpush='git push origin main'"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+---
+title: 'Machine Learning: Frequently Asked Questions'
+navtitle: FAQs
+subtitle: Types of models, metrics, and best practices
+description: Understand how to pick the right model and develop with confidence.
+slug: ml-faqs
+tags:
+- python
+- machine-learning
+- career
+---
+
+## FAQs
+
+Choosing the right model and metrics make all the difference in ML. If you need guidance for this, you're in the right place.
+
+<button class="toggle-all-button" onclick="toggleAll()">Toggle All FAQs</button>
+
+```{=html}
+<script>
+function toggleAll() {
+  const detailsList = document.querySelectorAll("details");
+  const allOpen = Array.from(detailsList).every(d => d.open);
+  detailsList.forEach(d => d.open = !allOpen);
+}
+</script>
+```
+
+
+### Models & Metrics
+<h3 id="What is supervised learning?" class="visually-hidden">What is supervised learning?</h3>
+<details>
+<summary class="faq-summary">What is supervised learning?</summary>
+
+Supervised learning is a type of machine learning where the model is trained on labeled data — meaning each input has a known output. Examples include classification and regression tasks.
+
+</details>
+
+<h3 id="What is unsupervised learning?" class="visually-hidden">What is unsupervised learning?</h3>
+<details>
+<summary class="faq-summary">What is unsupervised learning?</summary>
+
+Unsupervised learning involves training a model on data without labeled outcomes. It is used to find patterns or groupings in the data, such as with clustering or dimensionality reduction.
+
+</details>
+
+<h3 id="What is classification?" class="visually-hidden">What is classification?</h3>
+<details>
+<summary class="faq-summary">What is classification?</summary>
+
+Classification is a supervised learning task where the goal is to assign inputs to one of several predefined categories. Examples include spam detection or emotion recognition.
+
+</details>
+
+<h3 id="What is regression?" class="visually-hidden">What is regression?</h3>
+<details>
+<summary class="faq-summary">What is regression?</summary>
+
+Regression is a supervised learning task where the model predicts a continuous value, such as price, temperature, or probability.
+
+</details>
+
+<h3 id="What are common evaluation metrics?" class="visually-hidden">What are common evaluation metrics?</h3>
+<details>
+<summary class="faq-summary">What are common evaluation metrics?</summary>
+
+Evaluation metrics help assess model performance. For classification: accuracy, precision, recall, and F1 score are common. For regression: MSE (mean squared error) and RMSE (root mean squared error) are often used.
+
+</details>
+
+<h3 id="What is accuracy?" class="visually-hidden">What is accuracy?</h3>
+<details>
+<summary class="faq-summary">What is accuracy?</summary>
+
+Accuracy is the proportion of correct predictions over total predictions. It's useful when class distribution is balanced.
+
+</details>
+
+<h3 id="What is precision?" class="visually-hidden">What is precision?</h3>
+<details>
+<summary class="faq-summary">What is precision?</summary>
+
+Precision is the proportion of true positives among all predicted positives. It’s useful when false positives are costly.
+
+</details>
+
+<h3 id="What is recall?" class="visually-hidden">What is recall?</h3>
+<details>
+<summary class="faq-summary">What is recall?</summary>
+
+Recall is the proportion of true positives captured out of all actual positives. It’s useful when false negatives are costly.
+
+</details>
+
+<h3 id="What is F1 score?" class="visually-hidden">What is F1 score?</h3>
+<details>
+<summary class="faq-summary">What is F1 score?</summary>
+
+The F1 score is the harmonic mean of precision and recall. It balances both concerns when there's a trade-off.
+
+</details>
+
+<h3 id="What is MSE?" class="visually-hidden">What is MSE?</h3>
+<details>
+<summary class="faq-summary">What is MSE?</summary>
+
+MSE (Mean Squared Error) is the average of the squared differences between predicted and actual values. It penalizes larger errors more.
+
+</details>
+
+<h3 id="What is RMSE?" class="visually-hidden">What is RMSE?</h3>
+<details>
+<summary class="faq-summary">What is RMSE?</summary>
+
+RMSE (Root Mean Squared Error) is the square root of MSE, making it more interpretable as it's in the same unit as the target variable.
+
+</details>
+
+<h3 id="What is a train-test split?" class="visually-hidden">What is a train-test split?</h3>
+<details>
+<summary class="faq-summary">What is a train-test split?</summary>
+
+Train-test splitting divides your dataset into a portion used to train the model and another used to test its performance on unseen data.
+
+</details>
+
+<h3 id="Why do GPUs help with big data or deep learning?" class="visually-hidden">Why do GPUs help with big data or deep learning?</h3>
+<details>
+<summary class="faq-summary">Why do GPUs help with big data or deep learning?</summary>
+
+GPUs can perform many calculations in parallel, making them much faster than CPUs for training large models, especially in deep learning.
+
+</details>
+
+<h3 id="Why does model deployment matter?" class="visually-hidden">Why does model deployment matter?</h3>
+<details>
+<summary class="faq-summary">Why does model deployment matter?</summary>
+
+Deployment makes your model accessible — turning it into a service that users, apps, or systems can interact with. Without deployment, your model can't provide value in real-world applications.
+
+</details>
+
+<h3 id="What is a CI/CD pipeline?" class="visually-hidden">What is a CI/CD pipeline?</h3>
+<details>
+<summary class="faq-summary">What is a CI/CD pipeline?</summary>
+
+CI/CD (Continuous Integration / Continuous Deployment) is a DevOps approach that automates testing, integration, and deployment. It ensures your models and code can be updated and delivered reliably and quickly.
+
+</details>
+

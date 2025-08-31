@@ -1,0 +1,67 @@
+{
+  "hot-topics": [
+    "about",
+    "faqs",
+    "jump-in",
+    "machine-learning",
+    "random-forest",
+    "pixels-and-pictures",
+    "tools-overview"
+  ],
+  "basics-overview": [
+    "getting-started-faqs", 
+    "shoulders-of-giants", 
+    "jupyter-notebooks"
+  ],
+  "jump-in": [
+    "jump-in",
+    "datatypes-and-operators", 
+    "variables-and-functions", 
+    "errors-and-experimentation", 
+    "python-data-basics-nb"
+  ],
+  "python-intro": [
+    "intro-python", 
+    "operations", 
+    "control-flow"
+  ],
+  "r-intro": [
+    "intro-to-r", 
+    "r-basic-commands", 
+    "r-datasets", 
+    "r-data-manipulation", 
+    "r-import-export", 
+    "r-data-viz", 
+    "r-data-analysis"
+  ],
+  "datasets": [
+    "dataset-exploration",
+    "dataset-exploration-nb"
+  ],
+  "data-viz": [
+    "data-viz-basics", 
+    "data-viz-basics-nb",
+    "data-viz-building-blocks",
+    "data-viz-building-blocks-nb"
+  ],
+  "advanced-data": [
+    "image-basics"
+  ],
+  "models-and-metrics": [
+    "data-science-topics", 
+    "random-forest"
+  ],
+  "classification": [
+    "classification-iris"
+  ],
+  "regression": [
+    "regression-housing"
+  ],
+  "tools": [
+    "tools-overview", 
+    "scripts-and-notebooks"
+  ],
+  "customization": [
+    "cli-intro"
+  ]
+}

@@ -1,0 +1,228 @@
+---
+title: 'Getting Started: Frequently Asked Questions'
+navtitle: FAQs
+subtitle: Common questions to consider before diving in
+description: Make an informed decision about learning programming and computer science.
+slug: faqs
+tags:
+- python
+- beginners
+- career
+---
+
+## FAQs
+
+Learning to program is a big decision. Initially, things can seem overwhelming. This section is designed to address the most common questions that come up early on.
+
+<button class="toggle-all-button" onclick="toggleAll()">Toggle All FAQs</button>
+
+```{=html}
+<script>
+function toggleAll() {
+  const detailsList = document.querySelectorAll("details");
+  const allOpen = Array.from(detailsList).every(d => d.open);
+  detailsList.forEach(d => d.open = !allOpen);
+}
+</script>
+```
+
+
+### Career & Usage
+<h3 id="What language should I learn?" class="visually-hidden">What language should I learn?</h3>
+<details>
+<summary class="faq-summary">What language should I learn?</summary>
+
+Python is a great starting point due to its readability, versatility, and large ecosystem. But, the right tool depends on the job. Remember, many programming concepts apply in many languages, so getting started in any can help get you started in all.
+
+Check out the [TIOBE Index](https://www.tiobe.com/tiobe-index/) for more information on popular languages and trends.
+
+</details>
+
+<h3 id="Is learning to code worth it if I don't want to be a programmer?" class="visually-hidden">Is learning to code worth it if I don't want to be a programmer?</h3>
+<details>
+<summary class="faq-summary">Is learning to code worth it if I don't want to be a programmer?</summary>
+
+Yes. Basic computer and programming literacy is valuable in today’s tech-driven world, even if you don’t plan to work as a full-time developer.
+
+</details>
+
+<h3 id="Do I need a computer science degree to get into data science?" class="visually-hidden">Do I need a computer science degree to get into data science?</h3>
+<details>
+<summary class="faq-summary">Do I need a computer science degree to get into data science?</summary>
+
+No. Many data scientists come from psychology, economics, or biology. Curiosity and consistent practice matter more.
+
+</details>
+
+<h3 id="Is Python the best language for beginners?" class="visually-hidden">Is Python the best language for beginners?</h3>
+<details>
+<summary class="faq-summary">Is Python the best language for beginners?</summary>
+
+Yes, in many cases. It’s readable, has lots of learning resources, and is used in data science, web, and automation.
+
+</details>
+
+<h3 id="Is it too late to learn programming?" class="visually-hidden">Is it too late to learn programming?</h3>
+<details>
+<summary class="faq-summary">Is it too late to learn programming?</summary>
+
+Never. Many adult learners succeed — you likely bring real-world context and discipline younger learners lack.
+
+</details>
+
+<h3 id="How long does it take to learn programming?" class="visually-hidden">How long does it take to learn programming?</h3>
+<details>
+<summary class="faq-summary">How long does it take to learn programming?</summary>
+
+It depends on your goals, but you can be productive in weeks. Keep learning in layers and build small projects.
+
+</details>
+
+
+### Essential Knowledge
+<h3 id="Do I need to know statistics?" class="visually-hidden">Do I need to know statistics?</h3>
+<details>
+<summary class="faq-summary">Do I need to know statistics?</summary>
+
+A basic understanding of stats helps you consume and create data responsibly. But you don’t need deep expertise to be effective.
+
+</details>
+
+<h3 id="I am not a numbers person, can I still code?" class="visually-hidden">I am not a numbers person, can I still code?</h3>
+<details>
+<summary class="faq-summary">I am not a numbers person, can I still code?</summary>
+
+Yes. Coding is more about logic and patterns than complex math. Python especially is beginner-friendly.
+
+</details>
+
+<h3 id="How much math do I need to know?" class="visually-hidden">How much math do I need to know?</h3>
+<details>
+<summary class="faq-summary">How much math do I need to know?</summary>
+
+Basic algebra, probability, and statistics are often enough. You’ll learn what you need along the way.
+
+</details>
+
+<h3 id="Do I need to memorize syntax?" class="visually-hidden">Do I need to memorize syntax?</h3>
+<details>
+<summary class="faq-summary">Do I need to memorize syntax?</summary>
+
+No. Focus on understanding logic and patterns. You’ll look up syntax often — even professionals do.
+
+</details>
+
+<h3 id="What if I’m bad at math or logic?" class="visually-hidden">What if I’m bad at math or logic?</h3>
+<details>
+<summary class="faq-summary">What if I’m bad at math or logic?</summary>
+
+You can still learn to code. These skills improve with practice. Start small and keep going.
+
+</details>
+
+<h3 id="Why does my code break all the time?" class="visually-hidden">Why does my code break all the time?</h3>
+<details>
+<summary class="faq-summary">Why does my code break all the time?</summary>
+
+That’s normal. Debugging is part of learning. Error messages teach you what went wrong and how to fix it.
+
+</details>
+
+<h3 id="Should I use notebooks or scripts?" class="visually-hidden">Should I use notebooks or scripts?</h3>
+<details>
+<summary class="faq-summary">Should I use notebooks or scripts?</summary>
+
+Notebooks are great for exploration and explanation. Scripts are better for automation and production use.
+
+</details>
+
+
+### Key Terms
+<h3 id="Frontend" class="visually-hidden">Frontend</h3>
+<details>
+<summary class="faq-summary">Frontend</summary>
+
+Frontend development involves building the parts of a website or application that users interact with directly — typically using HTML, CSS, and JavaScript. Frameworks like React, Vue, and Angular are popular tools in this area.
+
+</details>
+
+<h3 id="Backend" class="visually-hidden">Backend</h3>
+<details>
+<summary class="faq-summary">Backend</summary>
+
+Backend development focuses on server-side logic, databases, and APIs — the behind-the-scenes work that powers an application. Common languages include Python, Java, Node.js, and tools like SQL, Docker, and cloud services.
+
+</details>
+
+<h3 id="Full-Stack" class="visually-hidden">Full-Stack</h3>
+<details>
+<summary class="faq-summary">Full-Stack</summary>
+
+Full-stack developers work on both the frontend and backend of an application. They often know a mix of languages and frameworks, and can build entire systems from databases to user interfaces.
+
+</details>
+
+<h3 id="Data Scientist" class="visually-hidden">Data Scientist</h3>
+<details>
+<summary class="faq-summary">Data Scientist</summary>
+
+Data scientists analyze data to extract insights, build models, and make predictions. They work with statistics, machine learning, and tools like Python, pandas, scikit-learn, and cloud platforms.
+
+</details>
+
+<h3 id="Data Engineer" class="visually-hidden">Data Engineer</h3>
+<details>
+<summary class="faq-summary">Data Engineer</summary>
+
+Data engineers build and manage systems that collect, store, and process data. They focus on pipelines, databases, and infrastructure, using tools like SQL, Spark, Airflow, and cloud services.
+
+</details>
+
+<h3 id="Data Analyst" class="visually-hidden">Data Analyst</h3>
+<details>
+<summary class="faq-summary">Data Analyst</summary>
+
+Data analysts explore and interpret data to support business decisions. They use SQL, Excel, and visualization tools like Tableau or Power BI to generate reports and insights.
+
+</details>
+
+<h3 id="DevOps" class="visually-hidden">DevOps</h3>
+<details>
+<summary class="faq-summary">DevOps</summary>
+
+DevOps engineers work at the intersection of development and IT operations. They automate deployment, monitor systems, and ensure reliability using tools like Docker, Kubernetes, CI/CD pipelines, and cloud platforms.
+
+</details>
+
+<h3 id="Machine Learning (ML)" class="visually-hidden">Machine Learning (ML)</h3>
+<details>
+<summary class="faq-summary">Machine Learning (ML)</summary>
+
+Machine learning is a subset of AI that enables systems to learn from data. It involves supervised, unsupervised, and reinforcement learning, often using Python libraries like scikit-learn, TensorFlow, and PyTorch.
+
+</details>
+
+<h3 id="Artificial Intelligence (AI)" class="visually-hidden">Artificial Intelligence (AI)</h3>
+<details>
+<summary class="faq-summary">Artificial Intelligence (AI)</summary>
+
+Artificial Intelligence is a broad field focused on creating systems that simulate human intelligence — including reasoning, learning, and problem-solving. ML, NLP, and computer vision are subfields of AI.
+
+</details>
+
+<h3 id="Computer Vision" class="visually-hidden">Computer Vision</h3>
+<details>
+<summary class="faq-summary">Computer Vision</summary>
+
+Computer vision is a field of AI that enables computers to interpret and process visual information from the world, such as images and videos. Applications include facial recognition, object detection, and OCR.
+
+</details>
+
+<h3 id="Natural Language Processing (NLP)" class="visually-hidden">Natural Language Processing (NLP)</h3>
+<details>
+<summary class="faq-summary">Natural Language Processing (NLP)</summary>
+
+NLP enables computers to understand, interpret, and generate human language. It powers tools like chatbots, sentiment analysis, and language translation using libraries like spaCy, NLTK, and transformers.
+
+</details>
+

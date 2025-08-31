@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "output_path": "assets/css/buttons.css",
+    "type": "css"
+  },
+  "sections": [
+    {
+      "selector": ".toggle-all-button",
+      "variables": [
+        { "name": "color", "value": "var(--brand-color-2)" },
+        { "name": "background-color", "value": "var(--brand-color-2-bg)" }
+      ]
+    },
+    {
+      "selector": ".toggle-thebe-btn",
+      "variables": [
+        { "name": "color", "value": "var(--brand-color-2)" },
+        { "name": "background-color", "value": "var(--brand-color-2-bg)" },
+        { "name": "padding", "value": "0.5em 1em" },
+        { "name": "font-size", "value": "1em" },
+        { "name": "border", "value": "none" },
+        { "name": "border-radius", "value": "5px" },
+        { "name": "cursor", "value": "pointer" }
+      ]
+    }
+  ]
+}

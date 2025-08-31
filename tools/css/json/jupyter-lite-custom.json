@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "output_path": "assets/css/jupyter-lite-custom.css",
+    "type": "css"
+  },
+  "sections": [
+    {
+      "selector": ".jp-Notebook",
+      "variables": [
+        { "name": "background-color", "value": "var(--bg)" },
+        { "name": "font-family", "value": "var(--fonts-main-family, \"Inter\", sans-serif)" },
+        { "name": "color", "value": "var(--fg)" },
+        { "name": "font-size", "value": "var(--fonts-main-size, 15px)" },
+        { "name": "line-height", "value": "var(--fonts-main-line-height, 1.6)" }
+      ]
+    },
+    {
+      "selector": ".jp-MarkdownCell",
+      "variables": [
+        { "name": "font-size", "value": "1rem" },
+        { "name": "padding", "value": "0.75rem 0" },
+        { "name": "color", "value": "var(--fg)" }
+      ]
+    },
+    {
+      "selector": ".jp-RenderedHTMLCommon h1",
+      "variables": [
+        { "name": "border-bottom", "value": "px solid var(--blue-base)" },
+        { "name": "color", "value": "var(--blue-base)" }
+      ]
+    },
+    {
+      "selector": ".jp-RenderedHTMLCommon h2",
+      "variables": [
+        { "name": "color", "value": "var(--rose-base)" }
+      ]
+    },
+    {
+      "selector": ".jp-RenderedHTMLCommon h3",
+      "variables": [
+        { "name": "color", "value": "var(--purple-base)" }
+      ]
+    },
+    {
+      "selector": ".jp-Cell.jp-CodeCell",
+      "variables": [
+        { "name": "border-left", "value": "4px solid var(--blue-base)" },
+        { "name": "background", "value": "var(--bg-soft)" },
+        { "name": "border-radius", "value": "var(--border-radius, 6px)" },
+        { "name": "margin-bottom", "value": "0.75rem" }
+      ]
+    },
+    {
+      "selector": ".jp-CodeCell .jp-InputArea-editor",
+      "variables": [
+        { "name": "font-family", "value": "var(--fonts-code-family, \"Fira Code\", monospace)" },
+        { "name": "font-size", "value": "var(--fonts-code-size, 14px)" },
+        { "name": "background", "value": "var(--grey-bg)" },
+        { "name": "padding", "value": "var(--base-padding, 0.5rem)" },
+        { "name": "border-radius", "value": "var(--border-radius, 6px)" }
+      ]
+    },
+    {
+      "selector": ".jp-OutputArea",
+      "variables": [
+        { "name": "background", "value": "var(--bg)" },
+        { "name": "border-left", "value": "4px solid var(--green-base)" },
+        { "name": "padding", "value": "0.5rem" },
+        { "name": "margin-top", "value": "0.5rem" },
+        { "name": "border-radius", "value": "var(--border-radius, 6px)" }
+      ]
+    },
+    {
+      "selector": ".jp-OutputArea-error",
+      "variables": [
+        { "name": "background", "value": "var(--rose-bg)" },
+        { "name": "border-left", "value": "4px solid var(--gold-base)" },
+        { "name": "color", "value": "var(--rose-base)" },
+        { "name": "font-weight", "value": "bold" }
+      ]
+    },
+    {
+      "selector": ".jp-RenderedHTMLCommon a",
+      "variables": [
+        { "name": "color", "value": "var(--blue-base)" },
+        { "name": "text-decoration", "value": "underline" }
+      ]
+    },
+    {
+      "selector": ".jp-RenderedHTMLCommon table",
+      "variables": [
+        { "name": "border-collapse", "value": "collapse" },
+        { "name": "margin", "value": "1rem 0" }
+      ]
+    },
+    {
+      "selector": ".jp-RenderedHTMLCommon th,\n.jp-RenderedHTMLCommon td",
+      "variables": [
+        { "name": "border", "value": "1px solid var(--grey-base)" },
+        { "name": "padding", "value": "0.5rem 0.75rem" }
+      ]
+    },
+    {
+      "selector": ".jp-RenderedHTMLCommon th",
+      "variables": [
+        { "name": "background", "value": "var(--grey-bg)" },
+        { "name": "color", "value": "var(--fg)" },
+        { "name": "font-weight", "value": "bold" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "home": {
+    "link": "/index.qmd",
+    "label": "Pixel Process",
+    "icon": "window-maximize",
+    "description": "Welcome to PxP",
+    "generate": true
+  },
+  "about": {
+    "link": "/about/index.qmd",
+    "label": "About",
+    "icon": "window-maximize",
+    "description": "PxP mission, values, and team",
+    "generate": true
+  },
+
+  "foundations": {
+    "link": "/foundations/index.qmd",
+    "label": "Foundations",
+    "icon": "window-maximize",
+    "description": "Build solid foundations",
+    "generate": true
+  },
+  "foundations-faqs": {
+    "link": "/foundations/foundations-faqs.qmd",
+    "label": "FAQs",
+    "icon": "window-maximize",
+    "description": "Essential information for bigger projects",
+    "generate": true
+  },
+  "dataset-exploration": {
+    "link": "/foundations/datasets/dataset-exploration.qmd",
+    "label": "Dataset Exploration",
+    "icon": "window-maximize",
+    "description": "Guide to evaluating tabluar datasets",
+    "generate": true
+  },
+  "dataset-exploration-nb": {
+    "link": "/foundations/datasets/dataset-exploration-nb.ipynb",
+    "label": "Dataset Exploration (NB)",
+    "icon": "rectangle-list",
+    "description": "Verify data dimensions, datatypes, and quality"
+  },
+  "image-basics": {
+    "link": "/foundations/advanced-data/image-basics.ipynb",
+    "label": "Image Basics (NB)",
+    "icon": "rectangle-list",
+    "description": "Notebook on basic image properties"
+  },
+  "data-viz-basics": {
+    "link": "/foundations/data-viz/data-viz-basics.qmd",
+    "label": "Data Visualization Basics",
+    "icon": "window-maximize",
+    "description": "Learn about turning data into stories",
+    "generate": true
+  },
+  "data-viz-basics-nb": {
+    "link": "/foundations/data-viz/data-viz-basics-nb.ipynb",
+    "label": "Data Visualization Basics (NB)",
+    "icon": "rectangle-list",
+    "description": "Start turning data into stories"
+  },
+  "data-viz-building-blocks": {
+    "link": "/foundations/data-viz/data-viz-building-blocks.qmd",
+    "label": "Data Viz Building Blocks",
+    "icon": "window-maximize",
+    "description": "Core features behind data viz",
+    "generate": true
+  },
+  "data-viz-building-blocks-nb": {
+    "link": "/foundations/data-viz/data-viz-building-blocks-nb.ipynb",
+    "label": "Data Viz Building Blocks (NB)",
+    "icon": "window-maximize",
+    "description": "Code example for core features behind data viz"
+  },
+
+  "jump-in": {
+    "link": "/jump-in/index.qmd",
+    "label": "Jump In",
+    "icon": "window-maximize",
+    "description": "No downloads, no setup-jump into basic Python",
+    "generate": true
+  },
+  "datatypes-and-operators": {
+    "link": "/jump-in/datatypes-and-operators.qmd",
+    "label": "Datatypes and Operators",
+    "icon": "window-maximize",
+    "description": "Jump into Python - Part 1",
+    "generate": true
+  },
+  "datatypes-and-operators-nb": {
+    "link": "/jump-in/jl-notebooks/jl-build/tree/index.html?path=datatypes-and-operators-nb.ipynb",
+    "label": "Datatypes and Operators (INB)",
+    "icon": "file-code",
+    "description": "Live interactive Python to learn datatypes and operators"
+  },
+  "variables-and-functions": {
+    "link": "/jump-in/variables-and-functions.qmd",
+    "label": "Variables and Functions",
+    "icon": "window-maximize",
+    "description": "Jump into Python - Part 2",
+    "generate": true
+  },
+  "variables-and-functions-nb": {
+    "link": "/jump-in/jl-notebooks/jl-build/tree/index.html?path=variables-and-functions-nb.ipynb",
+    "label": "Variables and Functions (INB)",
+    "icon": "file-code",
+    "description": "Live interactive Python to learn variables and functions",
+    "lab-setup": {
+      "lap-path": "/jump-in/jl-notebooks/jl-build/tree/index.html",
+      "nb-path": "?path=../../datatypes-and-operators-nb.ipynb",
+      "new_page": true
+    }
+  },
+  "errors-and-experimentation": {
+    "link": "/jump-in/errors-and-experimentation.qmd",
+    "label": "Errors and Experimentation",
+    "icon": "window-maximize",
+    "description": "Jump into Python - Part 3",
+    "generate": true
+  },
+
+
+  "getting-started": {
+    "link": "/getting-started/index.qmd",
+    "label": "Getting Started",
+    "icon": "window-maximize",
+    "description": "Discover how programming can work for you",
+    "generate": true
+  },
+  "getting-started-faqs": {
+    "link": "/getting-started/faqs.qmd",
+    "label": "FAQs",
+    "icon": "window-maximize",
+    "description": "FAQs when getting started with programming",
+    "generate": true
+  },
+  "shoulders-of-giants": {
+    "link": "/getting-started/shoulders-of-giants.qmd",
+    "label": "Troubleshooting Basics",
+    "icon": "window-maximize",
+    "description": "A guide to problem-solving and debugging",
+    "generate": true
+  },
+  "jupyter-notebooks": {
+    "link": "/getting-started/jupyter-notebooks.qmd",
+    "label": "How to: Jupyter Notebooks",
+    "icon": "window-maximize",
+    "description": "Intro to using and navigating notebooks",
+    "generate": true
+  },
+
+
+  "intro-to-r": {
+    "link": "/getting-started/r-intro/intro-to-r.pdf",
+    "label": "R Intro PDF",
+    "icon": "file",
+    "description": "PDF companion to the R intro notebook series"
+  },
+  "r-basic-commands": {
+    "link": "/getting-started/r-intro/basic-commands.ipynb",
+    "label": "R: Basic Commands (NB)",
+    "icon": "rectangle-list",
+    "description": "Get started with R"
+  },
+  "r-datasets": {
+    "link": "/getting-started/r-intro/datasets.ipynb",
+    "label": "R: Datasets (NB)",
+    "icon": "rectangle-list",
+    "description": "Vectors and datasets in R"
+  },
+  "r-data-manipulation": {
+    "link": "/getting-started/r-intro/data-manipulation.ipynb",
+    "label": "R: Data Basics (NB)",
+    "icon": "rectangle-list",
+    "description": "Create, edit, and summarize vectors in R"
+  },
+  "r-import-export": {
+    "link": "/getting-started/r-intro/import-export.ipynb",
+    "label": "R: Import/Export (NB)",
+    "icon": "rectangle-list",
+    "description": "Loading and saving data with R"
+  },
+  "r-data-viz": {
+    "link": "/getting-started/r-intro/data-viz.ipynb",
+    "label": "R: Data Vizualization Basics (NB)",
+    "icon": "rectangle-list",
+    "description": "Basic plotting functions in R"
+  },
+  "r-data-analysis": {
+    "link": "/getting-started/r-intro/data-analysis.ipynb",
+    "label": "R: Data Analysis (NB)",
+    "icon": "rectangle-list",
+    "description": "Begin analyzing with correlations, ttests, and more"
+  },
+
+
+
+  "machine-learning": {
+    "link": "/machine-learning/index.qmd",
+    "label": "Machine Learning",
+    "icon": "window-maximize",
+    "description": "A guide to machine learning",
+    "generate": true
+  },
+  "ml-faqs": {
+    "link": "/machine-learning/faqs.qmd",
+    "label": "FAQs",
+    "icon": "window-maximize",
+    "description": "Make informed modeling and evaluation decisions",
+    "generate": true
+  },
+  "data-science-topics": {
+    "link": "/machine-learning/data-science-topics.qmd",
+    "label": "What can ML do?",
+    "icon": "window-maximize",
+    "description": "Overview of data and algorithms for ML",
+    "generate": true
+  },
+  "classification-iris": {
+    "link": "/machine-learning/classification-iris.ipynb",
+    "label": "Iris Classification (NB)",
+    "icon": "window-maximize",
+    "description": "Complete classification pipeline based on Iris dataset"
+  },
+  "regression-housing": {
+    "link": "/machine-learning/regression-housing.ipynb",
+    "label": "Housing Regression (NB)",
+    "icon": "window-maximize",
+    "description": "Complete regression pipeline based on housing dataset"
+  },
+  "random-forest": {
+    "link": "/machine-learning/random-forest.ipynb",
+    "label": "Random Forest (NB)",
+    "icon": "window-maximize",
+    "description": "Deep dive into decision trees and random forest models"
+  },
+
+
+  "perspectives": {
+    "link": "/perspectives/index.qmd",
+    "label": "PxP Perspectives",
+    "icon": "window-maximize",
+    "description": "The PxP blog"
+  },
+  "pixels-and-pictures": {
+    "link": "/perspectives/posts/and/perspective-pixels-and-pictures.qmd",
+    "label": "Perspective: Pixels & Pictures",
+    "icon": "window-maximize",
+    "description": "Context dependent perception"
+  },
+
+
+  "workflow": {
+    "link": "/workflow/index.qmd",
+    "label": "Workflow",
+    "icon": "window-maximize",
+    "description": "Create flow, increase productivity, code happy",
+    "generate": true
+  },
+  "cli-intro": {
+    "link": "/workflow/cli-intro.qmd",
+    "label": "Command Line Interface",
+    "icon": "window-maximize",
+    "description": "Don't just learn CLI, optimize it",
+    "generate": true
+  },
+  "file-basics": {
+    "link": "/workflow/file-basics.qmd",
+    "label": "Files & Permissions",
+    "icon": "window-maximize",
+    "description": "Control access",
+    "generate": true
+  },
+  "package-guide": {
+    "link": "/workflow/package-guide.qmd",
+    "label": "Python Packages",
+    "icon": "window-maximize",
+    "description": "Python packaging",
+    "generate": true
+  },
+  "scripts-and-notebooks": {
+    "link": "/workflow/scripts-and-notebooks.qmd",
+    "label": "Scripts and Notebooks",
+    "icon": "window-maximize",
+    "description": "When and why to use notebooks vs scripts",
+    "generate": true
+  },
+  "tools-overview": {
+    "link": "/workflow/tools-overview.qmd",
+    "label": "Tools Overview",
+    "icon": "window-maximize",
+    "description": "Editors, linters, and formatters, oh my!",
+    "generate": true
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "output_path": "assets/css/footer.css",
+    "type": "css"
+  },
+  "sections": [
+    {
+      "selector": ".custom-footer ",
+      "variables": [
+        { "name": "grid-column", "value": "1 / -1" },
+        { "name": "width", "value": "100%" },
+        { "name": "font-size", "value": "0.8rem" },
+        { "name": "color", "value": "var(--brand-fg)"},
+        { "name": "background-color", "value": "var(--nav-bg)" },
+        { "name": "position", "value": "relative" },
+        { "name": "z-index", "value": "9999"}
+      ]
+    },
+    {
+      "selector": ".footer-inner",
+      "variables": [
+        { "name": "display", "value": "flex"},
+        { "name": "flex-wrap", "value": "wrap"},
+        { "name": "justify-content", "value": "space-between" },
+        { "name": "align-items", "value": "center" }
+      ]
+    },
+    {
+      "selector": ".footer-left,\n.footer-center,\n.footer-right",
+      "variables": [
+        { "name": "flex", "value": "1"},
+        { "name": "min-width", "value": "120px"}
+      ]
+    },
+    {
+      "selector": ".footer-center",
+      "variables": [
+        { "name": "text-align", "value": "center"}
+      ]
+    },
+    {
+      "selector": ".footer-left",
+      "variables": [
+        { "name": "text-align", "value": "left"}
+      ]
+    },
+    {
+      "selector": ".footer-right",
+      "variables": [
+        { "name": "text-align", "value": "right"}
+      ]
+    },
+    {
+      "selector": ".custom-footer a",
+      "variables": [
+        { "name": "color", "value": "inherit"},
+        { "name": "text-decoration", "value": "underline"}
+      ]
+    },
+    {
+      "selector": ".custom-footer a:hover",
+      "variables": [
+        { "name": "color", "value": "var(--purple-base)"}
+      ]
+    },
+    {
+      "selector": ".footer-note",
+      "variables": [
+        { "name": "background-color", "value": "var(--brand-color-3)" },
+        { "name": "color", "value": "var(--fg)" },
+        { "name": "text-align", "value": "center" },
+        { "name": "padding", "value": "0.75rem" },
+        { "name": "font-size", "value": "0.9rem"}
+      ]
+    }
+  ]
+}

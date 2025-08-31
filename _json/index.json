@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "title": "Pixel Process",
+    "subtitle": "Start Small <span class=\"subtitle-divider\">|</span> Iterate Often <span class=\"subtitle-divider\">|</span> Improve Always",
+    "description": "Master the pieces to master the whole. From pixels to data points to lines of code, learn how to break down complexity, practice transferable skills, and build toward seeing the full picture.",
+    "navdesc": "Welcome to Pixel Process!",
+    "format": {
+      "html": {
+        "page-layout": "full",
+        "toc": true,
+        "title-block-banner": true
+      }
+    },
+    "slug": "pixel-process"
+  },
+  "body": [
+    {
+      "type": "text",
+      "markdown": "Welcome to {{{branded-pxp}}}!\n\nCurious about how it all fits together?\n Start anywhere, follow your path, and discover how small pieces become powerful systems."
+    },
+    {
+      "type": "custom-callout",
+      "callout-type": "pxp-ref",
+      "title": "Project Navigation",
+      "text": "Quickly find all relevant content with a search term using the 🔍 in the top right of every page.\nThis will search the contents of the entire project. A quick and easy tool if you are not sure where to look.\\nThese icons indicate the type of content to:\n\n- {{< fa regular window-maximize >}} Web page \n- {{< fa regular rectangle-list >}} Jupyter Notebook \n- {{< fa regular file-code >}} Interactive Notebook (runs directly in your browser, no downloads needed)"
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "<i class=\"fa fa-code-fork\" aria-hidden=\"true\"></i>Paths, Not Courses"
+    },
+    {
+      "type": "text",
+      "markdown": "This isn’t a course — it’s a toolkit.\n\nPixel Process is designed for exploration, not checklists. You won’t find step-by-step lessons or a strict progression. Instead, start by choosing a goal that excites you — maybe you want to:\n\n- Automate a repetitive task with Python\n- Build a portfolio-worthy recommender system\n- Standardize your projects with consistent structure and tools\n\nFrom there, explore freely. Each section of the site offers building blocks: beginner to advanced, theory to implementation. You’ll need to spot your own gaps, follow your curiosity, and piece together what matters most to your workflow.\n\nThis path isn’t about completing a syllabus — it’s about creating momentum."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Jump into Hot Topics"
+    },
+    {
+      "type": "quick-links",
+      "page-groups": ["hot-topics"]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "[Getting Started]({{{getting-started}}})"
+    },
+    {
+      "type": "text",
+      "markdown": "Install tools, launch notebooks, and get productive in minutes."
+    },
+    {
+      "type": "category-grid",
+      "quick-links": [
+        {
+          "title": "Basic Overview",
+          "page-groups": ["basics-overview"]
+        },
+        {
+          "title": "Jump In",
+          "page-groups": ["jump-in"]
+        },
+        {
+          "title": "R Introduction",
+          "page-groups": ["r-intro"]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "[Foundations]({{{foundations}}})"
+    },
+    {
+      "type": "text",
+      "markdown": "Core Python, data loading/cleaning, and visualization basics."
+    },
+    {
+      "type": "category-grid",
+      "quick-links": [
+         {
+          "title": "Datasets",
+          "page-groups": ["datasets"]
+        },
+        {
+          "title": "Data Visualization",
+          "page-groups": ["data-viz"]
+        },
+        {
+          "title": "Image Analysis",
+          "page-groups": ["image-analysis"]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "[Machine Learning]({{{machine-learning}}})"
+    },
+    {
+      "type": "text",
+      "markdown": "Worked notebooks and concepts—from regression and classification to trees and evaluation."
+    },
+    {
+      "type": "category-grid",
+      "quick-links": [
+        {
+          "title": "Models & Metrics",
+          "page-groups": ["models-and-metrics"]
+        },
+        {
+          "title": "Classification",
+          "page-groups": ["classification"]
+        },
+        {
+          "title": "Regression",
+          "page-groups": ["regression"]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "[Workflow]({{{workflow}}})"
+    },
+    {
+      "type": "text",
+      "markdown": "Environments, linters, automation, and project structure for calm, repeatable work."
+    },
+    {
+      "type": "category-grid",
+      "quick-links": [
+        {
+          "title": "Tools",
+          "page-groups": ["tools"]
+        },
+        {
+          "title": "Customization",
+          "page-groups": ["customization"]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "[Perspectives]({{{perspectives}}})"
+    },
+    {
+      "type": "text",
+      "markdown": "Reflections and insights into tech and trends"
+    },
+    {
+      "type": "category-grid",
+      "quick-links": [
+        {
+          "title": "AND",
+          "links-list": ["pixels-and-pictures"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "custom-callout",
+      "callout-type": "d-bugz",
+      "title": "Start Your Journey",
+      "text": "From experience, I can attest learning everything is overwhelming, exhausting, and unnecessary. Focus on what you want to build or understand. Learn what you need as you go. And don’t be afraid to change course — that’s part of the process, too.\n\n**Start small** — expertise doesn’t happen in a day\n\n**Iterate often** — progress comes through refactoring, revisiting, and rethinking\n\n**Improve always** — focus on what matters now, and let your skills grow with your goals"
+    },
+    {
+      "type": "page-quote",
+      "text": "Start where you are. Use what you have. Learn what you need"
+    },
+    {
+      "type": "text",
+      "markdown": "Each section of this project is a stepping stone. Start where it makes sense for you — revisit what you need, skip what you don’t. The best path is the one that *fits* your needs."
+    }
+  ]
+}

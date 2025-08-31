@@ -1,0 +1,90 @@
+---
+title: 'Foundations: Frequently Asked Questions'
+navtitle: FAQs
+subtitle: Common questions when working with data
+description: Learn the basics of datasets, best practices, and tools.
+slug: foundations-faqs
+tags:
+- python
+- foundations
+- career
+---
+
+## FAQs
+
+If you're ready to dive into bigger data and projects, get prepared with these FAQs outlining best tools and practices.
+
+<button class="toggle-all-button" onclick="toggleAll()">Toggle All FAQs</button>
+
+```{=html}
+<script>
+function toggleAll() {
+  const detailsList = document.querySelectorAll("details");
+  const allOpen = Array.from(detailsList).every(d => d.open);
+  detailsList.forEach(d => d.open = !allOpen);
+}
+</script>
+```
+
+
+### Best Practices
+<h3 id="What is DRY and why does it matter?" class="visually-hidden">What is DRY and why does it matter?</h3>
+<details>
+<summary class="faq-summary">What is DRY and why does it matter?</summary>
+
+DRY stands for 'Don't Repeat Yourself'. It's a principle that encourages reusable, modular code to reduce duplication and improve maintainability.
+
+</details>
+
+<h3 id="What is code documentation and why should I use it?" class="visually-hidden">What is code documentation and why should I use it?</h3>
+<details>
+<summary class="faq-summary">What is code documentation and why should I use it?</summary>
+
+Documentation explains what your code does and why. Good documentation makes it easier to debug, share, and revisit code later.
+
+</details>
+
+
+### Tools
+<h3 id="Should I use notebooks or scripts?" class="visually-hidden">Should I use notebooks or scripts?</h3>
+<details>
+<summary class="faq-summary">Should I use notebooks or scripts?</summary>
+
+Use notebooks for exploration and explanation. Use scripts for automation, scalability, and production workflows.
+
+</details>
+
+<h3 id="Why is version control important?" class="visually-hidden">Why is version control important?</h3>
+<details>
+<summary class="faq-summary">Why is version control important?</summary>
+
+Version control helps you track changes, collaborate with others, and revert to earlier versions if something goes wrong. Git is the most common system.
+
+</details>
+
+
+### Datasets
+<h3 id="What are the most common data issues?" class="visually-hidden">What are the most common data issues?</h3>
+<details>
+<summary class="faq-summary">What are the most common data issues?</summary>
+
+Common data issues include missing values, outliers, and incorrectly formatted or malformed data. These can impact analysis and must be handled carefully before modeling.
+
+</details>
+
+<h3 id="What are summary statistics?" class="visually-hidden">What are summary statistics?</h3>
+<details>
+<summary class="faq-summary">What are summary statistics?</summary>
+
+Summary statistics describe and summarize data. Common examples include mean, median, standard deviation, minimum, and maximum.
+
+</details>
+
+<h3 id="What is basic analysis?" class="visually-hidden">What is basic analysis?</h3>
+<details>
+<summary class="faq-summary">What is basic analysis?</summary>
+
+Basic analysis often includes computing correlations, visualizing distributions, identifying trends, and checking assumptions before building models.
+
+</details>
+

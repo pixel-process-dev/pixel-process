@@ -1,0 +1,114 @@
+---
+title: Datatypes and Operators
+subtitle: 'Part 1: Essential Concepts for New Python Users'
+description: Overview of datatypes and operators in Python.
+slug: datatypes-and-operators
+tags:
+- python
+- beginners
+- jupyter
+- syntax
+---
+
+## Get Started with Python - Part 1
+
+This is the first part of the `Jump In` guide introducing core Python concepts in a hands-on way, using **Jupyter notebooks** as the primary environment. This page will cover datatypes and operators. Be sure to check out the accompanying notebook for more hands-on experience.
+
+::: {.callout icon="none" .custom-callout .pxp-ref title="Jupyter Notebooks"}
+
+Notebooks are a great way to learn and collaborate with code. Be sure to check out [Jupyter Notebooks]({{{jupyter-noteobooks}}}) if you are unfamiliar with them, as they are heavily used in this project.
+:::
+
+
+## Datatypes
+
+Python uses datatypes to organize and process information. The datatype can determine how much data is stored, used, and displayed. Picking the right datatype for a use-case makes coding much smoother. Key categories include numeric, strings, and sequences.
+
+<div class="table-cheatsheet">
+| Category | Type | Example |
+| --- | --- | --- |
+| Numbers | int | 42 |
+| Numbers | float | 3.14 |
+| Numbers | complex | 2 + 3j |
+| Text | str | "hello" |
+| Sequences | list | [1, 2, 3] |
+| Sequences | tuple | (1, 2, 3) |
+| Sequences | range | range(5) |
+| Sets | set | {1, 2, 3} |
+| Sets | frozenset | frozenset([1, 2, 3]) |
+| Mappings | dict | {"a": 1, "b": 2} |
+| Boolean | bool | True, False |
+| Special | NoneType | None |
+
+</div>
+
+
+## Operators
+
+Operations in programming are used to manipulate and evaluate values. These allow programs to perform calculations, make decisions, and control the flow of execution. 
+Types include:
+
+- **Mathematical**
+- **Logical**
+- **Comparison**
+- **Assignment**
+
+
+### Mathematical
+
+Mathematical operators perform arithmetic calculations. In Python, these include `+` (addition), `-` (subtraction), `*` (multiplication), `/` (division), `**` or `^` (exponentiation), and `%` or `%%` (modulus). Python uses `//` for integer division.
+
+<div class="table-cheatsheet">
+| Operator | Example | Meaning | Result |
+| --- | --- | --- | --- |
+| + | 3 + 2 | Addition | 5 |
+| - | 7 - 4 | Subtraction | 3 |
+| * | 6 * 2 | Multiplication | 12 |
+| / | 7 / 2 | Division (always float) | 3.5 |
+| // | 7 // 2 | Floor (integer) division | 3 |
+| % | 7 % 2 | Modulus (remainder) | 1 |
+| ** | 2 ** 3 | Exponentiation | 8 |
+
+</div>
+
+
+### Comparison
+
+Comparison operators evaluate relationships between values. Common operators in Python include `==` (equal), `!=` (not equal), `<` (less than), `<=` (less than or equal to), `>` (greater than), and `>=` (greater than or equal to).
+
+These return boolean values of `True`/`False`.
+
+<div class="table-cheatsheet">
+| Operator | Example | Meaning | Result |
+| --- | --- | --- | --- |
+| == | 3 == 3 | Equal to | True |
+| != | 3 != 4 | Not equal to | True |
+| > | 5 > 2 | Greater than | True |
+| < | 2 < 5 | Less than | True |
+| >= | 5 >= 5 | Greater than or equal to | True |
+| <= | 4 <= 5 | Less than or equal to | True |
+
+</div>
+
+
+### Logical
+
+Logical operators allow for boolean logic. In Python: `and`, `or`, `not`. These are used in conditionals and loops to combine multiple logical expressions.
+
+<div class="table-cheatsheet">
+| Operator | Example | Meaning | Result |
+| --- | --- | --- | --- |
+| and | (3 > 1) and (2 < 5) | True if both are true | True |
+| or | (3 > 1) or (2 > 5) | True if at least one is true | True |
+| not | not (3 > 1) | Negates (True → False) | False |
+
+</div>
+
+
+::: {.callout icon="none" .custom-callout .best-practice title="Assignment and Equality"}
+
+Assignment uses `=` to assign a value to a variable. `x = 10` creates or updates the variable x to be 10.
+
+Equality checking uses `==` and returns a Boolean (True, or False) depending on if the values are equal. `x == 10` will return True if x is set as above. 
+:::
+

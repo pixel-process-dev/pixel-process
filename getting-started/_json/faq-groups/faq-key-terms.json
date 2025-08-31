@@ -1,0 +1,57 @@
+[
+  {
+    "question": "Frontend",
+    "answer": "Frontend development involves building the parts of a website or application that users interact with directly — typically using HTML, CSS, and JavaScript. Frameworks like React, Vue, and Angular are popular tools in this area.",
+    "tags": ["frontend", "development", "web"]
+  },
+  {
+    "question": "Backend",
+    "answer": "Backend development focuses on server-side logic, databases, and APIs — the behind-the-scenes work that powers an application. Common languages include Python, Java, Node.js, and tools like SQL, Docker, and cloud services.",
+    "tags": ["backend", "development", "infrastructure"]
+  },
+  {
+    "question": "Full-Stack",
+    "answer": "Full-stack developers work on both the frontend and backend of an application. They often know a mix of languages and frameworks, and can build entire systems from databases to user interfaces.",
+    "tags": ["fullstack", "development"]
+  },
+  {
+    "question": "Data Scientist",
+    "answer": "Data scientists analyze data to extract insights, build models, and make predictions. They work with statistics, machine learning, and tools like Python, pandas, scikit-learn, and cloud platforms.",
+    "tags": ["data", "career", "science"]
+  },
+  {
+    "question": "Data Engineer",
+    "answer": "Data engineers build and manage systems that collect, store, and process data. They focus on pipelines, databases, and infrastructure, using tools like SQL, Spark, Airflow, and cloud services.",
+    "tags": ["data", "engineering", "career"]
+  },
+  {
+    "question": "Data Analyst",
+    "answer": "Data analysts explore and interpret data to support business decisions. They use SQL, Excel, and visualization tools like Tableau or Power BI to generate reports and insights.",
+    "tags": ["data", "analysis", "career"]
+  },
+  {
+    "question": "DevOps",
+    "answer": "DevOps engineers work at the intersection of development and IT operations. They automate deployment, monitor systems, and ensure reliability using tools like Docker, Kubernetes, CI/CD pipelines, and cloud platforms.",
+    "tags": ["devops", "career", "infrastructure"]
+  },
+  {
+    "question": "Machine Learning (ML)",
+    "answer": "Machine learning is a subset of AI that enables systems to learn from data. It involves supervised, unsupervised, and reinforcement learning, often using Python libraries like scikit-learn, TensorFlow, and PyTorch.",
+    "tags": ["ml", "tools", "ai"]
+  },
+  {
+    "question": "Artificial Intelligence (AI)",
+    "answer": "Artificial Intelligence is a broad field focused on creating systems that simulate human intelligence — including reasoning, learning, and problem-solving. ML, NLP, and computer vision are subfields of AI.",
+    "tags": ["ai", "concepts"]
+  },
+  {
+    "question": "Computer Vision",
+    "answer": "Computer vision is a field of AI that enables computers to interpret and process visual information from the world, such as images and videos. Applications include facial recognition, object detection, and OCR.",
+    "tags": ["ai", "computer vision", "tools"]
+  },
+  {
+    "question": "Natural Language Processing (NLP)",
+    "answer": "NLP enables computers to understand, interpret, and generate human language. It powers tools like chatbots, sentiment analysis, and language translation using libraries like spaCy, NLTK, and transformers.",
+    "tags": ["nlp", "ai", "language"]
+  }
+]

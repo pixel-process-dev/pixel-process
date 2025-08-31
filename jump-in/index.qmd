@@ -1,0 +1,79 @@
+---
+title: Jump In
+subtitle: Code Freely <span class="subtitle-divider">|</span> Fail Safely <span class="subtitle-divider">|</span>
+  Start Quickly
+description: "Learn programming basics without setup or headaches. Interactive tools\
+  \ let you explore data types, operators, flow control, and more \u2014 all in your\
+  \ browser."
+navdesc: Experiment and see if Python works for you
+format:
+  html:
+    page-layout: full
+    toc: true
+    title-block-banner: true
+slug: jump-in
+---
+
+Jump into Python with hands-on practice, right in your browser. No installations, no setups, no signin. These pages use embedded code blocks to edit and run code. For extra experience, check out the notebooks too!
+
+**Try, test, and tinker — it's all part of the process.**
+
+::: {.callout icon="none" .custom-callout .pxp-ref title="Interactive Caveats"}
+
+These code examples run in the browser, work is not saved or tracked by default.
+
+For pages, turn on interactive coding using a button like this one: {{{ButtonHere}}}
+
+For notebooks, be sure to use the download option for work you want to save.
+
+Exiting or refreshing either will reset the code.
+When starting interactive modes, there may be a slight delay as Python loads.
+:::
+
+
+## Ready to Jump In?
+```{pyodide-python}
+responses = {
+'a': '🚀 Absolutely! Ready to blast off into Python!',
+'b': '🐍 Sure thing, I brought my snake-charming hat.',
+'c': '☕ Not yet, need coffee first… then Python.',
+'d': '🤖 I was born ready. Bring on the code!'
+}
+
+choice = 'a'
+
+print(responses.get(choice, 'I take that as a yes!'))
+```
+
+## Content Guide
+
+Built to explore, all notebooks in this section are **interactive** - no setup required. Content overviews are paired with notebooks to improve learning and encourage testing. Several skill test notebooks are also included to cement what you learn.
+
+<hr class="page-divider">
+
+{{< fa regular window-maximize >}} [Datatypes and Operators](/jump-in/datatypes-and-operators.qmd)
+{{< fa regular file-code >}}  [Datatypes and Operators INB](/jump-in/jl-notebooks/jl-build/tree/index.html?path=datatypes-and-operators-nb.ipynb){target="_blank"}
+
+{{< fa regular window-maximize >}}  [Variables and Functions](/jump-in/variables-and-functions.qmd)
+{{< fa regular file-code >}}  [Variables and Functions INB](/jump-in/jl-notebooks/jl-build/tree/index.html?path=variables-and-functions-nb.ipynb){target="_blank"}
+
+<hr class="page-divider">
+
+::: {.callout icon="none" .custom-callout .d-bugz title="Experience from Errors"}
+
+These bugs don't bite! Writing a complex program without errors is as probable as writing a novel without a typo. The key is test for errors, ensure things work properly, and address the issues. Understanding basic errors will allow you tackle much more complex tasks.
+
+**Code Freely** — programming is interactive, so try things, test things, experiment
+
+**Fail Safely** — mistakes don't hurt here, if something goes wrong simply reset the workspace
+
+**Start Quickly** — examine inputs and outputs, read error messages, iterate and experiment if unsure
+:::
+
+
+<div class="page-quote">
+Hands on is the only true way to learn programming
+</div>
+
+
+Start small. Make mistakes. Fix errors. This is a space to experiment freely, play around, and learn by doing. Nothing to break here, no risks, consider this a playground for learning. **Jump in!**

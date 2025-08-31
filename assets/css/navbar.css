@@ -1,0 +1,28 @@
+.navbar {
+  background-color: var(--nav-bg);
+  border-bottom: 1px solid var(--fg);
+}
+
+.navbar .navbar-title,
+.navbar .nav-link {
+  color: var(--fg);
+  padding: 1px;
+  border-bottom: 1px solid transparent;
+}
+
+.navbar .nav-link:hover {
+  color: var(--brand-color-1-hover);
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:focus {
+  color: var(--brand-color-1-active);
+}
+
+.navbar .quarto-navbar-tools .quarto-navigation-tool {
+  color: var(--brand-color-2);
+}
+
+.navbar #quarto-search.type-overlay .aa-Autocomplete svg.aa-SubmitIcon {
+  color: var(--brand-color-2);
+}

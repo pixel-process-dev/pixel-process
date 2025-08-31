@@ -1,0 +1,15 @@
+.pxp {
+  font-family: var(--fonts-code-family);
+  font-weight: bold;
+  font-size: inherit;
+  white-space: nowrap;
+  letter-spacing: -0.02em;
+  color: var(--brand-color-1);
+  display: inline-block;
+  transform: scale(1.05);
+  transform-origin: left center;
+}
+
+.pxp span:nth-child(2) {
+  color: var(--brand-color-2);
+}

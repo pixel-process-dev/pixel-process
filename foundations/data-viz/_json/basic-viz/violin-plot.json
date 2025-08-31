@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "title": "Violin Plot",
+    "class": "alias-card"
+  },
+  "tabs": [
+    {
+      "title": "Data Requirements",
+      "sections": [
+        {
+          "type": "static-tab",
+          "content": "- **Type**: Bivariate\n- **Variables**:\n  - x: Categorical\n  - y: Continuous"
+        }
+      ]
+    },
+    {
+      "title": "Package Examples",
+      "sections": [
+        {
+          "type": "collapsible",
+          "summary": "Matplotlib",
+          "content": "Matplotlib does not have built-in violin plot",
+          "code": ""
+        },
+        {
+          "type": "collapsible",
+          "summary": "Seaborn",
+          "content": "",
+          "language": "python",
+          "code": "import seaborn as sns\ndata = sns.load_dataset('tips')\nsns.violinplot(x='day', y='total_bill', data=data)"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Plotly",
+          "content": "",
+          "language": "python",
+          "code": "import plotly.express as px\ndf = px.data.tips()\nfig = px.violin(df, x='day', y='total_bill', box=True)\nfig.show()"
+        }
+      ]
+    },
+    {
+      "title": "Ideal Uses",
+      "sections": [
+        {
+          "type": "static-tab",
+          "content": "- Visualize distribution and density\n- Compare across categories"
+        }
+      ]
+    }
+  ]
+}

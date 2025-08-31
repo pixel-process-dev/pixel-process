@@ -1,0 +1,47 @@
+---
+title: Tools Overview
+subtitle: Software and tools for programming
+description: Text editors, linters, debugging tools, and more.
+slug: tools-overview
+tags:
+- workflow
+---
+
+## Code Editors and Integrated Development Environments (IDEs)
+
+- **[Visual Studio Code (VS Code)](https://code.visualstudio.com)** - A lightweight, highly customizable code editor with powerful extensions for Python development.
+- [**PyCharm**](https://www.jetbrains.com/pycharm/) - An advanced IDE with comprehensive features for professional Python development, available in both free and paid versions.
+- **[Jupyter](https://jupyter.org/)** - Variety of tools including interactive web-based environments ideal for data science, prototyping, and collaboration.
+- **[Sublime Text](https://www.sublimetext.com/)** - A fast and versatile text editor with a wide range of plugins for Python programming.
+
+## Linters and Code Formatters
+
+- **[Pylint](https://pypi.org/project/pylint/)** - Analyzes Python code to identify errors, enforce coding standards, and suggest improvements.
+- **[Flake8](https://flake8.pycqa.org/en/latest/)** - A tool that combines several Python tools to check the style and quality of your code.
+- **[Black](https://github.com/psf/black)** - An uncompromising code formatter that automatically formats your code to adhere to PEP 8 standards.
+
+## Debugging Tools
+
+- **[pdb](https://docs.python.org/3/library/pdb.html)** - The built-in Python debugger for stepping through code, inspecting variables, and finding bugs.
+- **[ipdb](https://pypi.org/project/ipdb/)** - An enhanced version of pdb with additional features provided by IPython.
+- **Editor & IDE Extensions** - Most modern programming platforms have debugging options adn extensions available.
+
+## Version Control
+
+- **[Git](https://git-scm.com/doc)** - A distributed version control system that tracks changes in your code and allows you to manage versions, branches, and collaboration locally and remotely.
+- **[GitHub](https://github.com/github)** - A cloud-based platform for hosting Git repositories, enabling collaboration, code review, and project management features.
+- **[GitHub Desktop](https://github.com/apps/desktop)** -A user-friendly GUI for Git and GitHub that simplifies committing, branching, and syncing changes without using the command line.
+
+ Note: Alternative options exist for this, but this is standard. Stick with it unless you have reason not to.
+
+## Environment and Dependency Management
+
+- **[venv](https://docs.python.org/3/library/venv.html)** - A built-in Python module for creating isolated virtual environments to manage dependencies.
+- **[Anaconda](https://docs.conda.io/projects/conda/en/latest/index.html)** - Environment and package manager that supports multiple languages, ideal for data science projects.
+- **[Pip](https://pypi.org/project/pip/)** - The recommended tool for installing Python packages.
+
+## Documentation
+
+- **[Sphinx](https://www.sphinx-doc.org/en/master/)** - A documentation generator that converts reStructuredText files into HTML, LaTeX, and other formats.
+- **[MkDocs](https://www.mkdocs.org/)** - A static site generator for project documentation using Markdown.
+-**[PEP Style Guides](https://peps.python.org/pep-0008/)** - Conventions for best practices in Python.

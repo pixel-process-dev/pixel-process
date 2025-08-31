@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "output_path": "assets/css/tables.css",
+    "type": "css"
+  },
+  "sections": [
+    {
+      "selector": ".table-cheatsheet table",
+      "variables": [
+        { "name": "border-collapse", "value": "collapse" },
+        { "name": "width", "value": "100%" },
+        { "name": "font-size", "value": "0.95rem" },
+        { "name": "margin", "value": "1em 0" }
+      ]
+    },
+    {
+      "selector": ".table-cheatsheet table th,\n.table-cheatsheet table td",
+      "variables": [
+        { "name": "text-align", "value": "left" },
+        { "name": "padding", "value": "8px 12px" },
+        { "name": "border", "value": "1px solid var(--fg)" }
+      ]
+    },
+    {
+      "selector": ".table-cheatsheet table th",
+      "variables": [
+        { "name": "font-weight", "value": "600" },
+        { "name": "color", "value": "var(--brand-color-3)" },
+        { "name": "text-align", "value": "center" },
+        { "name": "font-size", "value": "1.03rem" }
+      ]
+    },
+    {
+      "selector": ".table-cheatsheet table tr:nth-child(even)",
+      "variables": [
+        { "name": "background-color", "value": "var(--nav-bg)" }
+      ]
+    },
+    {
+      "selector": ".table-cheatsheet table tr:hover",
+      "variables": [
+        { "name": "background-color", "value": "var(--brand-color-1-bg)" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "question": "Should I use notebooks or scripts?",
+    "answer": "Use notebooks for exploration and explanation. Use scripts for automation, scalability, and production workflows.",
+    "tags": ["workflow", "tools", "foundations"]
+  },
+  {
+    "question": "Why is version control important?",
+    "answer": "Version control helps you track changes, collaborate with others, and revert to earlier versions if something goes wrong. Git is the most common system.",
+    "tags": ["tools", "git", "collaboration", "foundations"]
+  }
+]

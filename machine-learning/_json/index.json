@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "title": "Machine Learning",
+    "subtitle": "Understand Data <span class=\"subtitle-divider\">|</span> Fit Models <span class=\"subtitle-divider\">|</span> Test Performance",
+    "description": "Learn the full modeling process — from data understanding and feature prep to model fitting and performance evaluation. This section emphasizes clarity, reproducibility, and metrics over magic.",
+    "navdesc": "Learn the modeling process from data prep to model fitting and performance evaluation",
+    "format": {
+      "html": {
+        "page-layout": "full",
+        "toc": false,
+        "title-block-banner": true
+      }
+    },
+    "slug": "machine-learning"
+  },
+  "body": [
+    {
+      "type": "text",
+      "markdown": "Machine learning isn’t magic — it’s a process. This section walks through the core workflow: exploring and shaping data, building and training models, and testing how well they perform. Expect practical tools, clear examples, and real evaluation — not black boxes or buzzwords.\n\n**It’s not the model — it’s what you do with it.**"
+    },
+    {
+      "type": "custom-callout",
+      "callout-type": "go-further",
+      "title": "Projects > Parameters",
+      "text": "Don’t get stuck in a loop of adjusting sliders and chasing score decimals. Build projects. Focus on data (more data, cleaner data, feature engineering) for insight. Make something that solves a problem or tells a story."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Machine Learning Topics"
+    },
+    {
+      "type": "text",
+      "markdown": "- **Explorator Data Analysis (EDA)**: Understand data properties, data types, missing data, outliers, and more key factors to effective ML.\n- **Classification**: Models that work on categorized predictions (spam/not-spam).\n- **Regression**: Models that prediction continuous values (stock prices).\n- **Evaluation Metrics**: Determine how to evaluate a model and assess performance.\n\nNeed a place to start? Check out the [FAQs]({{{ml-faqs}}})!"
+    },
+    {
+      "type": "category-grid",
+      "quick-links": [
+        {
+          "title": "Models & Metrics",
+          "page-groups": ["models-and-metrics"]
+        },
+        {
+          "title": "Classification",
+          "page-groups": ["classification"]
+        },
+        {
+          "title": "Regression",
+          "page-groups": ["regression"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "custom-callout",
+      "callout-type": "d-bugz",
+      "title": "Chasing Scores, Missing Stories",
+      "text": "I used to run dozens of models, hyperparameter tuning, and comparitive metrics. While it taught me a lot, the biggest lesson was:\n\n Modeling is a tool, *meaning* is the goal.\n\n**Understand data** — no good models are built on bad data\n\n**Fit Models** — no good inference comes from inappropriate models\n\n**Test Performance** — all models are poor until proven otherwise"
+    },
+    {
+      "type": "page-quote",
+      "text": "\"I fear not the man who has practiced 10,000 kicks once, but I fear the man who has practiced one kick 10,000 times\"— Bruce Lee"
+    },
+    {
+      "type": "text",
+      "markdown": "Machine learning isn't magic, and it’s not about finding the model — it’s about applying the right tools to meaningful questions. The most advanced models require on proper input and programming."
+    }
+  ]
+}

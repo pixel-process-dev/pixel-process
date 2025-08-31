@@ -1,0 +1,47 @@
+---
+title: Data Science Topics
+subtitle: Overview of data science use cases
+description: High level review of the most popular and influentiual ways data science
+  shapes our lives.
+slug: data-science-topics
+tags:
+- data-science
+- getting-started
+- reference
+---
+
+## Data Science Applications
+
+### Supervised Learning
+
+Supervised learning involves training a model on a labeled dataset, which means that each training example is paired with an output label. The goal is for the model to learn a mapping from inputs to outputs so it can predict the output for new, unseen inputs.
+
+<!-- Unsupported type: category_grid -->
+
+### Unsupervised Learning
+
+Unsupervised learning involves training a model on data without labeled responses. The goal is to find hidden patterns or intrinsic structures in the input data.
+
+<!-- Unsupported type: category_grid -->
+
+### Classification
+
+Classification is a type of supervised learning where the goal is to predict a discrete class label for a given input.
+
+<!-- Unsupported type: category_grid -->
+
+### Regression
+
+Regression is a type of supervised learning where the goal is to predict a continuous value for a given input.
+
+### Computer Vision
+
+Computer vision is a field of artificial intelligence that enables computers to interpret and make decisions based on visual data from the world.
+
+<!-- Unsupported type: category_grid -->
+
+### Natural Language Processing (NLP)
+
+NLP involves the interaction between computers and humans through natural language. The goal is to enable computers to understand, interpret, and generate human language.
+
+<!-- Unsupported type: category_grid -->

@@ -1,0 +1,17 @@
+{
+  "branded-pxp": {
+    "link": "<span class=\"pxp\"><span>P</span><span>x</span><span>P</span></span>"
+  },
+  "branded-pixel-process": {
+    "link": "<span class=\"pxp\"><span>Pixel</span><span>Process</span></span>"
+  },
+  "pxp-webpage-icon": {
+    "link": "{{< fa regular window-maximize >}}"
+  },
+  "pxp-notebook-icon": {
+    "link": "{{< fa regular rectangle-list >}}"
+  },
+  "pxp-interactive-notebook-icon": {
+    "link": "{{< fa regular file-code >}}"
+  }
+}

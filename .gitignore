@@ -4,6 +4,7 @@ Thumbs.db
 
 # Quarto build output
 _site/
+.quarto/
 
 # Jupyter notebook checkpoints
 .ipynb_checkpoints/
@@ -17,6 +18,12 @@ __pycache__/
 .venv/
 venv/
 env/
+
+# JupyterLite build caches
+jl-build/
+**/jl-build/
+.jupyterlite.doit.db
+.jupyterlite_status/
 
 # Editor settings (optional, if you don’t want to share)
 .vscode/

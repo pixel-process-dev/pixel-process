@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "title": "Alias Examples",
+    "class": "alias-card"
+  },
+  "tabs": [
+    {
+      "title": "Navigation Commands",
+      "sections": [
+        {
+          "type": "static-tab",
+          "summary": "Navigation Commands",
+          "content": "An alias is a shortcut for commands.",
+          "language": "bash",
+          "code": "alias ll='ls -lah'"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Why use aliases?",
+          "content": "- Save time by shortening commands\n- Reduce errors from mistyping\n- Customize your CLI workflow"
+        }
+      ]
+    },
+
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Introduction"
+    },
+    {
+      "type": "text",
+      "markdown": "The command line gives you precise control over your file system. Here you'll learn how to move around directories, manage files, and check basic permissions."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Navigation Commands"
+    },
+    {
+      "type": "category_grid",
+      "commands": [
+        {
+          "name": "pwd",
+          "description": "Print working directory (shows your current location).",
+          "flags": []
+        },
+        {
+          "name": "ls",
+          "description": "List files and directories in the current location.",
+          "flags": [
+            {"flag": "-l", "description": "Long listing format"},
+            {"flag": "-a", "description": "Show hidden files"},
+            {"flag": "-h", "description": "Human-readable sizes"}
+          ]
+        },
+        {
+          "name": "cd",
+          "description": "Change directory.",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Managing Files and Directories"
+    },
+    {
+      "type": "category_grid",
+      "commands": [
+        {
+          "name": "touch",
+          "description": "Create an empty file.",
+          "flags": []
+        },
+        {
+          "name": "mkdir",
+          "description": "Create a new directory.",
+          "flags": []
+        },
+        {
+          "name": "cp",
+          "description": "Copy files or directories.",
+          "flags": [
+            {"flag": "-r", "description": "Copy recursively (for directories)"}
+          ]
+        },
+        {
+          "name": "mv",
+          "description": "Move or rename files and directories.",
+          "flags": []
+        },
+        {
+          "name": "rm",
+          "description": "Remove files or directories.",
+          "flags": [
+            {"flag": "-r", "description": "Remove directories recursively"},
+            {"flag": "-f", "description": "Force removal without prompt"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Checking Permissions"
+    },
+    {
+      "type": "category_grid",
+      "commands": [
+        {
+          "name": "ls -l",
+          "description": "View file permissions, owner, and group.",
+          "flags": []
+        },
+        {
+          "name": "chmod",
+          "description": "Change file permissions (numeric or symbolic).",
+          "flags": []
+        },
+        {
+          "name": "chown",
+          "description": "Change file owner and group.",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Manual and Help"
+    },
+    {
+      "type": "category_grid",
+      "commands": [
+        {
+          "name": "man",
+          "description": "Display manual page for a command.",
+          "flags": []
+        },
+        {
+          "name": "--help",
+          "description": "Show quick usage information (e.g., `ls --help`).",
+          "flags": []
+        }
+      ]
+    }
+  ]
+}

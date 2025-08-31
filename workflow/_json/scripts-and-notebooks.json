@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "title": "Scripts and Notebooks",
+    "subtitle": "When and why to use scripts and notebooks",
+    "description": "A compare and contrast of two programming tools and why both have a place.",
+    "slug": "scripts-and-notebooks",
+    "tags": ["workflow", "scripts", "notebooks"]
+  },
+  "body": [
+    {
+      "type": "text",
+      "markdown": "Code can be developed and executed in many different ways. Two primary data science options are scripts and notebooks.\n The right choicde depends on the task at hand and the stage of your workflow. Here are some guidelines on making the most of both."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Scripts"
+    },
+    {
+      "type": "text",
+      "markdown": "- **Production Code**: more streamlined coding approach for when dependency, versioning, and integration are crucuial\n- **Automation and Reproducibility**: great for automated processing when no manual intervention is needed\n- **Performance**: reduced overhead as they avoid the interactive GUI of notebooks"
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Notebooks"
+    },
+    {
+      "type": "text",
+      "markdown": "- **Prototyping Code**: ideal for rapid iteration and development work with immediate feedback on a cell-by-cell basis\n- **Visualization**: easily test and tweak data viz to fine-tune processes\n- **Teaching & Tutorials**: mixing code, visualizations, and markdown creates detailed explanations to help others (or future you) understand the thought process and logic behind the code"
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Best of Both"
+    },
+    {
+      "type": "text",
+      "markdown": "By leveraging the strengths of both scripts and notebooks, you can create a workflow that is both efficient and easy to maintain, while also being adaptable to different stages of your projects."
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Machine Learning Workflow"
+    },
+    {
+      "type": "text",
+      "markdown": "- **Notebook**: Initial data exploration, feature engineering, model prototyping, and visualizations\n- **Script**: Data preprocessing pipeline, model training, evaluation, and deployment"
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Data Analysis Project"
+    },
+    {
+      "type": "text",
+      "markdown": "- **Notebook**: EDA, hypothesis testing, and generating visualizations for reports\n- **Script**: Data extraction, transformation, and loading (ETL) processes, as well as scheduled reports generation"
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Tutorial Development"
+    },
+    {
+      "type": "text",
+      "markdown": "- **Notebook**: Creating interactive tutorials with step-by-step explanations and code snippets\n- **Script**: Including complex functions or utility scripts to keep the notebook concise and focused on the teaching content"
+    }
+  ]
+}

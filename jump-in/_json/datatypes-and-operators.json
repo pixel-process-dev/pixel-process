@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "title": "Datatypes and Operators",
+    "subtitle": "Part 1: Essential Concepts for New Python Users",
+    "description": "Overview of datatypes and operators in Python.",
+    "slug": "datatypes-and-operators",
+    "tags": [
+      "python",
+      "beginners",
+      "jupyter",
+      "syntax"
+    ]
+  },
+  "body": [    
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Get Started with Python - Part 1"
+    },
+    {
+      "type": "text",
+      "markdown": "This is the first part of the `Jump In` guide introducing core Python concepts in a hands-on way, using **Jupyter notebooks** as the primary environment. This page will cover datatypes and operators. Be sure to check out the accompanying notebook for more hands-on experience."
+    },
+    {
+      "type": "custom-callout",
+      "callout-type": "pxp-ref",
+      "title": "Jupyter Notebooks",
+      "text": "Notebooks are a great way to learn and collaborate with code. Be sure to check out [Jupyter Notebooks]({{{jupyter-noteobooks}}}) if you are unfamiliar with them, as they are heavily used in this project."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Datatypes"
+    },
+    {
+      "type": "text",
+      "markdown": "Python uses datatypes to organize and process information. The datatype can determine how much data is stored, used, and displayed. Picking the right datatype for a use-case makes coding much smoother. Key categories include numeric, strings, and sequences."
+    },
+    {
+      "type": "markdown-table",
+      "table-name": "Datatypes"
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Operators"
+    },
+    {
+      "type": "text",
+      "markdown": "Operations in programming are used to manipulate and evaluate values. These allow programs to perform calculations, make decisions, and control the flow of execution. \nTypes include:\n\n- **Mathematical**\n- **Logical**\n- **Comparison**\n- **Assignment**\n"
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Mathematical"
+    },
+    {
+      "type": "text",
+      "markdown": "Mathematical operators perform arithmetic calculations. In Python, these include `+` (addition), `-` (subtraction), `*` (multiplication), `/` (division), `**` or `^` (exponentiation), and `%` or `%%` (modulus). Python uses `//` for integer division."
+    },
+    {
+      "type": "markdown-table",
+      "table-name": "Operators - Arithmetic"
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Comparison"
+    },
+    {
+      "type": "text",
+      "markdown": "Comparison operators evaluate relationships between values. Common operators in Python include `==` (equal), `!=` (not equal), `<` (less than), `<=` (less than or equal to), `>` (greater than), and `>=` (greater than or equal to).\n\nThese return boolean values of `True`/`False`."
+    },
+    {
+      "type": "markdown-table",
+      "table-name": "Operators - Comparison"
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Logical"
+    },
+    {
+      "type": "text",
+      "markdown": "Logical operators allow for boolean logic. In Python: `and`, `or`, `not`. These are used in conditionals and loops to combine multiple logical expressions."
+    },
+    {
+      "type": "markdown-table",
+      "table-name": "Operators - Logical"
+    },
+    {
+      "type": "custom-callout",
+      "callout-type": "best-practice",
+      "title": "Assignment and Equality",
+      "text": "Assignment uses `=` to assign a value to a variable. `x = 10` creates or updates the variable x to be 10.\n\nEquality checking uses `==` and returns a Boolean (True, or False) depending on if the values are equal. `x == 10` will return True if x is set as above. "
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What language should I learn?",
+    "answer": "Python is a great starting point due to its readability, versatility, and large ecosystem. But, the right tool depends on the job. Remember, many programming concepts apply in many languages, so getting started in any can help get you started in all.\n\nCheck out the [TIOBE Index](https://www.tiobe.com/tiobe-index/) for more information on popular languages and trends.",
+    "tags": [
+      "beginner",
+      "language",
+      "career"
+    ]
+  },
+  {
+    "question": "Is learning to code worth it if I don't want to be a programmer?",
+    "answer": "Yes. Basic computer and programming literacy is valuable in today\u2019s tech-driven world, even if you don\u2019t plan to work as a full-time developer.",
+    "tags": [
+      "beginner",
+      "mindset",
+      "career"
+    ]
+  },
+  {
+    "question": "Do I need a computer science degree to get into data science?",
+    "answer": "No. Many data scientists come from psychology, economics, or biology. Curiosity and consistent practice matter more.",
+    "tags": [
+      "career",
+      "data science"
+    ]
+  },
+  {
+    "question": "Is Python the best language for beginners?",
+    "answer": "Yes, in many cases. It\u2019s readable, has lots of learning resources, and is used in data science, web, and automation.",
+    "tags": [
+      "language",
+      "beginner"
+    ]
+  },
+  {
+    "question": "Is it too late to learn programming?",
+    "answer": "Never. Many adult learners succeed \u2014 you likely bring real-world context and discipline younger learners lack.",
+    "tags": [
+      "mindset",
+      "beginner"
+    ]
+  },
+  {
+    "question": "How long does it take to learn programming?",
+    "answer": "It depends on your goals, but you can be productive in weeks. Keep learning in layers and build small projects.",
+    "tags": [
+      "learning",
+      "beginner"
+    ]
+  }
+]

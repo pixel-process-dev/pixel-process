@@ -1,0 +1,146 @@
+---
+title: "Perspective: Pixels & Pictures"
+subtitle: "Defining what you see"
+categories: [And, Learning, Technical Proficiency]
+draft: false               # Set to false or remove when ready to publish
+description: "Accelerate growth by focusing your perspective."
+format:
+  html:
+    page-layout: article
+---
+
+::: {.header-block}
+
+![](/assets/images/pixpix.png){.img}
+
+## Pixpix
+### Pixie for Perspective
+:::
+
+
+Pixpix is a standard png image with 1024x1024 pixels defined by a RGBA channel layout (Red, Green, Blue, and Alpha which handles transparency).
+
+Pixpix is made up of over **4 million values**.
+
+```
+1024 × 1024 × 4 = 4,194,304
+```
+ 
+By extension, a dataset with **10,000 images** contains over **40 billion values**.
+
+The amount of data encountered and processed on daily basis is staggering.
+
+With so much information, how do we decide what to focus on? 
+
+---
+
+## Pixie, PNG, or Pixels?
+
+Perspective determines if you see a pixie, an image, or a set of pixels. 
+
+#### A Pixie
+
+By default, most people would see the above as an entity. This is a very functional perspective, as more details are extraneous most of the time. 
+
+#### A PNG
+
+Alternatively, some may think of it as an image or png. This is more likely, if say, you adding the file to a website or using it as an example image for a tutorial.
+
+These perspective is helpful when determing the size for image display or figuring out why the image isn't showing on the page. It is a more-detailed approach.
+
+#### Pixels
+
+Undestanding individual pixel attributes and values is really only helpful in very specific contexts. For instance, it helps if you are trying to analyze the image with others, or edit the picture. Then this very detailed approach makes sense. 
+
+### Which is it? All 3, Of Course! 
+
+Perception depends on goals and available infomation. Whether you see a pixie, an image, or 4+ million values depends on how you look at it.
+
+By understanding the basics of data arrays, pixel properties, and image color channels, those 4+ million values can be easily organized and managed. Those skills also easily translate to other images, videos, and more. 
+
+Additionally, if you understand pixel properties for one image, it extends to many others!
+
+---
+
+## Increasing Complexity
+
+Our simple image, has at least 3 distinct perceptions. All of which are functional depending on goals and usage. 
+
+This sort of appreciate for depth and level of analysis applies to most any field of study or skill. 
+
+::: {.category-grid}
+
+::: {.category-card}
+### Art
+- Appreciate art
+- Make art
+- Curate exhibits 
+- Verify authenticity of newly discovered Renaissance pieces
+:::
+
+::: {.category-card}
+### Culinary 
+- Eat
+- Cook
+- Chief
+- Government contamination expert 
+:::
+
+::: {.category-card}
+### Data Science
+- See charts/plots/stats/figures everywhere
+- Understand data origin/sources
+- Evaluated information critically
+- Create your own models and figures 
+:::
+
+:::
+
+Perspecive is based on information and goals. Gaining perspective requires understanding your current perspective and focusing on skills to move to a more detailed approach.
+
+## Pick a Perspective 
+
+Design your learning based on current skills, opportunities available, and the level of detail at which you want to be engaged.
+
+Some level of data skill and technical proficiency helps with all of those paths. The detail and level of the perspective varies considerably though.
+
+**Basic Considerations**  
+- Do I want to work with code all day?  
+- Do I want to design the questions?  
+- Do I like to automate or prototype?  
+- What does impact mean for me? 
+
+## Understand the Basics, Focus your Efforts
+
+Foundational knowledge is your anchor. When you understand the basics of how data works—you gain confidence. Taking the time assess your interests, skills, knowledge-gaps, goals, and learning style pays off in the long run.
+
+You won’t be an expert in every model, every tool, every new technology—and that’s okay. If you chase everything, you will catch nothing.
+
+---
+
+## Specialize to Succeed
+
+Specialization is an edge. Teams thrive on a mix of **deep specialists** and **broad generalists**.
+
+Think of it like building a house:  
+- The **architect** plans the structure.  
+- The **electrician** ensures the lights turn on.  
+- The **plumber** keeps the water flowing.  
+
+In data science:  
+- An ML engineer focuses on model deployment.  
+- A data analyst handles visualization and business context.  
+- A data engineer controls access and automation.  
+
+Having an area of focus makes you valuable. Knowing how your efforts fit into the broader picture, even more so.
+
+
+---
+
+## Perspecive Matters
+
+Pixpix is a character, an image, a file, and millions of numbers.
+
+But if you understand pixels, you can apply processes to the whole image and many others!
+
+Understanding stems from perspective and effort is optimized when focused.

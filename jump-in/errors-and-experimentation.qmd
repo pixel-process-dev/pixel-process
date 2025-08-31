@@ -1,0 +1,252 @@
+---
+title: Errors and Experimentation
+subtitle: Essential Concepts for New Python Users
+description: Jump into notebooks, syntax, error handling, and core concepts.
+slug: errors-and-experimentation
+tags:
+- python
+- beginners
+- jupyter
+- syntax
+---
+
+## Getting Started with Python
+
+This guide introduces core Python concepts in a hands-on way, using **Jupyter notebooks** as the primary environment. You'll learn about variables, data types, basic syntax, error messages, and more. All in base Python, package use will come later.
+
+::: {.callout icon="none" .custom-callout .pxp-ref title="Jupyter Notebooks"}
+
+Notebooks are a great way to learn and collaborate with code. Be sure to check out [Jupyter Notebooks]({{{jupyter-noteobooks}}}) if you are unfamiliar with them, as they are heavily used in this project.
+:::
+
+
+## Python Parts
+
+Before jumping into the code, we'll cover the core pieces, pixels if you will, that Python is built upon. Many of these concepts are similar in other languages as well.
+
+- **Datatypes**
+- **Operators**
+- **Reserved Words**
+- **Builtin Functions**
+- **Variables**
+- **Flow Controls**
+
+### Datatypes
+
+Python uses datatypes to organize and process information. The datatype can determine how much data is stored, used, and displayed. Picking the right datatype for a use-case makes coding much smoother. Key catergories include numeric, strings, and sequences.
+
+<div class="table-cheatsheet">
+| Category | Type | Example |
+| --- | --- | --- |
+| Numbers | int | 42 |
+| Numbers | float | 3.14 |
+| Numbers | complex | 2 + 3j |
+| Text | str | "hello" |
+| Sequences | list | [1, 2, 3] |
+| Sequences | tuple | (1, 2, 3) |
+| Sequences | range | range(5) |
+| Sets | set | {1, 2, 3} |
+| Sets | frozenset | frozenset([1, 2, 3]) |
+| Mappings | dict | {"a": 1, "b": 2} |
+| Boolean | bool | True, False |
+| Special | NoneType | None |
+
+</div>
+
+
+### Operators
+
+Operations in programming are used to manipulate and evaluate values. These allow programs to perform calculations, make decisions, and control the flow of execution. 
+Types include:
+
+- **Mathematical**
+- **Logical**
+- **Comparison**
+- **Assignment**
+
+
+#### Mathematical
+
+Mathematical operators perform arithmetic calculations. In Python, these include `+` (addition), `-` (subtraction), `*` (multiplication), `/` (division), `**` or `^` (exponentiation), and `%` or `%%` (modulus). Python uses `//` for integer division.
+
+<div class="table-cheatsheet">
+| Operator | Example | Meaning | Result |
+| --- | --- | --- | --- |
+| + | 3 + 2 | Addition | 5 |
+| - | 7 - 4 | Subtraction | 3 |
+| * | 6 * 2 | Multiplication | 12 |
+| / | 7 / 2 | Division (always float) | 3.5 |
+| // | 7 // 2 | Floor (integer) division | 3 |
+| % | 7 % 2 | Modulus (remainder) | 1 |
+| ** | 2 ** 3 | Exponentiation | 8 |
+
+</div>
+
+
+#### Comparison
+
+Comparison operators evaluate relationships between values. Common operators in Python include `==` (equal), `!=` (not equal), `<` (less than), `<=` (less than or equal to), `>` (greater than), and `>=` (greater than or equal to).
+
+These return boolean values of `True`/`False`.
+
+<div class="table-cheatsheet">
+| Operator | Example | Meaning | Result |
+| --- | --- | --- | --- |
+| == | 3 == 3 | Equal to | True |
+| != | 3 != 4 | Not equal to | True |
+| > | 5 > 2 | Greater than | True |
+| < | 2 < 5 | Less than | True |
+| >= | 5 >= 5 | Greater than or equal to | True |
+| <= | 4 <= 5 | Less than or equal to | True |
+
+</div>
+
+
+#### Logical
+
+Logical operators allow for boolean logic. In Python: `and`, `or`, `not`. These are used in conditionals and loops to combine multiple logical expressions.
+
+<div class="table-cheatsheet">
+| Operator | Example | Meaning | Result |
+| --- | --- | --- | --- |
+| and | (3 > 1) and (2 < 5) | True if both are true | True |
+| or | (3 > 1) or (2 > 5) | True if at least one is true | True |
+| not | not (3 > 1) | Negates (True → False) | False |
+
+</div>
+
+
+::: {.callout icon="none" .custom-callout .best-practice title="Assignment and Equality"}
+
+Assignment uses `=` to assign a value to a variable. `x = 10` creates or updates the variable x to be 10.
+
+Equality checking uses `==` and returns a Boolean (True, or False) depending on if the values are equal. `x == 10` will return True if x is set as above. 
+:::
+
+
+### Variables and Functions
+
+Effective programming is built around reusable variables and code snippets like functions, classes, and methods. We'll explore this more in-depth throughout the project.
+
+#### Variables
+
+Variable assignment stores data in a named container. In Python, use `=` to assign values: `x = 5`. Variables are case-sensitive and can store numbers, strings, lists, and other datatypes. Variables in Python are **mutable** meaning the value can be modified.
+
+<div class="table-cheatsheet">
+| Example | Valid? | Reason |
+| --- | --- | --- |
+| age = 25 | ✅ Yes | Starts with a letter, letters only |
+| user_name = "A" | ✅ Yes | Letters + underscore are allowed |
+| temperature2 | ✅ Yes | Digits allowed, but not at start |
+| _hidden | ✅ Yes | Leading underscore allowed (often used for “private” values) |
+| MAX_VALUE | ✅ Yes | Uppercase is allowed, often used for constants |
+| 2nd_value | ❌ No | Cannot start with a digit |
+| user-name | ❌ No | Dash (-) not allowed |
+| file.path | ❌ No | Dot (.) means “attribute,” not part of a name |
+| my var | ❌ No | Spaces not allowed |
+| return = 5 | ❌ No | return is a reserved Python keyword |
+
+</div>
+
+
+#### Functions
+
+Functions create reusable code which can simplify tasks, allow iterative runs, and can make your code **much** more powerful. Python comes with some [builtin functions](https://docs.python.org/3/library/functions.html) which will help demonstrate. To begin, let's focus on:
+- **`print`**: display the passed argument 
+- **type**: returns the type of the passed argument
+- **help**: returns documentation and help files of passed argument
+- **Assignment**
+
+
+<hr class="page-divider">
+
+## Control Flow
+
+Use `if`, `elif`, and `else` for conditional logic:
+
+```python
+x = 10
+if x > 5:
+    print("Large")
+elif x == 5:
+    print("Exactly 5")
+else:
+    print("Small")
+```
+
+You’ll also see `for` and `while` loops, as well as function definitions like `def greet(name): ...`.
+
+## Common Error Messages
+
+You’ll encounter errors. That’s normal! Learn to read **tracebacks**.
+
+- `SyntaxError`: Something’s wrong with your code structure.
+- `NameError`: You used a variable that doesn’t exist.
+- `TypeError`: You tried an operation on incompatible types.
+- `IndentationError`: Your code blocks are not properly aligned.
+
+## Combining Concepts
+
+Try this small example to use variables, control flow, and output:
+
+```python
+score = 87
+if score >= 90:
+    grade = 'A'
+elif score >= 80:
+    grade = 'B'
+else:
+    grade = 'C or below'
+
+print(f"Your grade: {grade}")
+```
+
+### VARIABLE NAMING
+
+<div class="table-cheatsheet">
+| Example | Valid? | Reason |
+| --- | --- | --- |
+| age = 25 | ✅ Yes | Starts with a letter, letters only |
+| user_name = "A" | ✅ Yes | Letters + underscore are allowed |
+| temperature2 | ✅ Yes | Digits allowed, but not at start |
+| _hidden | ✅ Yes | Leading underscore allowed (often used for “private” values) |
+| MAX_VALUE | ✅ Yes | Uppercase is allowed, often used for constants |
+| 2nd_value | ❌ No | Cannot start with a digit |
+| user-name | ❌ No | Dash (-) not allowed |
+| file.path | ❌ No | Dot (.) means “attribute,” not part of a name |
+| my var | ❌ No | Spaces not allowed |
+| return = 5 | ❌ No | return is a reserved Python keyword |
+
+</div>
+
+
+### OPERATIONS
+
+Check if tables work.
+
+::: {.panel-tabset}
+
+#### Operators - Arithmetic
+::: {.table-cheatsheet}
+| Operator | Example | Meaning | Result |
+| --- | --- | --- | --- |
+| + | 3 + 2 | Addition | 5 |
+| - | 7 - 4 | Subtraction | 3 |
+| * | 6 * 2 | Multiplication | 12 |
+| / | 7 / 2 | Division (always float) | 3.5 |
+| // | 7 // 2 | Floor (integer) division | 3 |
+| % | 7 % 2 | Modulus (remainder) | 1 |
+| ** | 2 ** 3 | Exponentiation | 8 |
+:::
+#### Operators - Comparison
+::: {.table-cheatsheet}
+| Operator | Example | Meaning | Result |
+| --- | --- | --- | --- |
+| == | 3 == 3 | Equal to | True |
+| != | 3 != 4 | Not equal to | True |
+| > | 5 > 2 | Greater than | True |
+| < | 2 < 5 | Less than | True |
+| >= | 5 >= 5 | Greater than or equal to | True |
+| <= | 4 <= 5 | Less than or equal to | True |
+:::
+:::

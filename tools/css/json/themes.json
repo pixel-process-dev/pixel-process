@@ -1,0 +1,395 @@
+{
+  "meta": {
+    "output_path": "assets/css/themes.css",
+    "type": "css"
+  },
+  "sections": [
+    {
+      "selector": ":root",
+      "type": "css",
+      "variables": [
+        { "name": "--font-main", "value": "var(--fonts-main-family)" },
+        { "name": "--font-code", "value": "var(--fonts-code-family)" },
+        { "name": "--border-radius", "value": "var(--radius-default)" },
+        { "name": "--base-spacing", "value": "var(--spacing-base)" },
+        { "name": "--base-padding", "value": "var(--spacing-padding)" }
+      ]
+    },
+    {
+      "selector": "body:not(.quarto-dark)",
+      "type": "css",
+      "variables": [
+        {
+          "name": "--fg",
+          "value": "var(--fg-light)"
+        },
+        {
+          "name": "--bg",
+          "value": "var(--bg-light-100)"
+        },
+        {
+          "name": "--bg-soft",
+          "value": "var(--grey-light-010)"
+        },
+        {
+          "name": "--shadow",
+          "value": "var(--shadow-light)"
+        },
+        {
+          "name": "--nav-bg",
+          "value": "var(--nav-bg-light-100)"
+        },      
+        {
+          "name": "--cell-out-bg",
+          "value": "var(--nav-bg-dark-010)"
+        },
+        {
+          "name": "--purple-base",
+          "value": "var(--purple-light-100)"
+        },
+        {
+          "name": "--purple-hover",
+          "value": "var(--purple-light-dark-blend)"
+        },
+        {
+          "name": "--purple-active",
+          "value": "var(--purple-light-light-blend)"
+        },
+        {
+          "name": "--purple-bg",
+          "value": "var(--purple-light-010)"
+        },
+        {
+          "name": "--green-base",
+          "value": "var(--green-light-100)"
+        },
+        {
+          "name": "--green-hover",
+          "value": "var(--green-light-dark-blend)"
+        },
+        {
+          "name": "--green-active",
+          "value": "var(--green-light-light-blend)"
+        },
+        {
+          "name": "--green-bg",
+          "value": "var(--green-light-010)"
+        },
+        {
+          "name": "--rose-base",
+          "value": "var(--rose-light-100)"
+        },
+        {
+          "name": "--rose-hover",
+          "value": "var(--rose-light-dark-blend)"
+        },
+        {
+          "name": "--rose-active",
+          "value": "var(--rose-light-light-blend)"
+        },
+        {
+          "name": "--rose-bg",
+          "value": "var(--rose-light-010)"
+        },
+        {
+          "name": "--blue-base",
+          "value": "var(--blue-light-100)"
+        },
+        {
+          "name": "--blue-hover",
+          "value": "var(--blue-light-dark-blend)"
+        },
+        {
+          "name": "--blue-active",
+          "value": "var(--blue-light-light-blend)"
+        },
+        {
+          "name": "--blue-bg",
+          "value": "var(--blue-light-020)"
+        },
+        {
+          "name": "--gold-base",
+          "value": "var(--gold-light-100)"
+        },
+        {
+          "name": "--gold-hover",
+          "value": "var(--gold-light-dark-blend)"
+        },
+        {
+          "name": "--gold-active",
+          "value": "var(--gold-light-light-blend)"
+        },
+        {
+          "name": "--gold-bg",
+          "value": "var(--gold-light-010)"
+        },
+        {
+          "name": "--grey-base",
+          "value": "var(--grey-light-100)"
+        },
+        {
+          "name": "--grey-hover",
+          "value": "var(--grey-light-dark-blend)"
+        },
+        {
+          "name": "--grey-active",
+          "value": "var(--grey-light-light-blend)"
+        },
+        {
+          "name": "--grey-bg",
+          "value": "var(--grey-light-010)"
+        }
+      ]
+    },
+    {
+      "selector": "body.quarto-dark",
+      "type": "css",
+      "variables": [
+        {
+          "name": "--fg",
+          "value": "var(--fg-dark)"
+        },
+        {
+          "name": "--bg",
+          "value": "var(--bg-dark-100)"
+        },
+        {
+          "name": "--bg-soft",
+          "value": "var(--grey-dark-010)"
+        },
+        {
+          "name": "--shadow",
+          "value": "var(--shadow-dark)"
+        },
+        {
+          "name": "--nav-bg",
+          "value": "var(--nav-bg-dark-100)"
+        },      
+        {
+          "name": "--cell-out-bg",
+          "value": "var(--nav-bg-light-010)"
+        },
+        {
+          "name": "--purple-base",
+          "value": "var(--purple-dark-100)"
+        },
+        {
+          "name": "--purple-hover",
+          "value": "var(--purple-dark-dark-blend)"
+        },
+        {
+          "name": "--purple-active",
+          "value": "var(--purple-dark-light-blend)"
+        },
+        {
+          "name": "--purple-bg",
+          "value": "var(--purple-dark-010)"
+        },
+        {
+          "name": "--green-base",
+          "value": "var(--green-dark-100)"
+        },
+        {
+          "name": "--green-hover",
+          "value": "var(--green-dark-dark-blend)"
+        },
+        {
+          "name": "--green-active",
+          "value": "var(--green-dark-light-blend)"
+        },
+        {
+          "name": "--green-bg",
+          "value": "var(--green-dark-010)"
+        },
+        {
+          "name": "--rose-base",
+          "value": "var(--rose-dark-100)"
+        },
+        {
+          "name": "--rose-hover",
+          "value": "var(--rose-dark-dark-blend)"
+        },
+        {
+          "name": "--rose-active",
+          "value": "var(--rose-dark-light-blend)"
+        },
+        {
+          "name": "--rose-bg",
+          "value": "var(--rose-dark-010)"
+        },
+        {
+          "name": "--blue-base",
+          "value": "var(--blue-dark-100)"
+        },
+        {
+          "name": "--blue-hover",
+          "value": "var(--blue-dark-dark-blend)"
+        },
+        {
+          "name": "--blue-active",
+          "value": "var(--blue-dark-light-blend)"
+        },
+        {
+          "name": "--blue-bg",
+          "value": "var(--blue-dark-010)"
+        },
+        {
+          "name": "--gold-base",
+          "value": "var(--gold-dark-100)"
+        },
+        {
+          "name": "--gold-hover",
+          "value": "var(--gold-dark-dark-blend)"
+        },
+        {
+          "name": "--gold-active",
+          "value": "var(--gold-dark-light-blend)"
+        },
+        {
+          "name": "--gold-bg",
+          "value": "var(--gold-dark-010)"
+        },
+        {
+          "name": "--grey-base",
+          "value": "var(--grey-dark-100)"
+        },
+        {
+          "name": "--grey-hover",
+          "value": "var(--grey-dark-dark-blend)"
+        },
+        {
+          "name": "--grey-active",
+          "value": "var(--grey-dark-light-blend)"
+        },
+        {
+          "name": "--grey-bg",
+          "value": "var(--grey-dark-010)"
+        }
+      ]
+    },
+    {
+      "selector": "body:not(.quarto-dark)",
+      "type": "css",
+      "variables": [
+        {
+          "name": "--brand-color-1",
+          "value": "var(--blue-light-100)"
+        },
+        {
+          "name": "--brand-color-1-hover",
+          "value": "var(--blue-light-dark-blend)"
+        },
+        {
+          "name": "--brand-color-1-active",
+          "value": "var(--blue-light-light-blend)"
+        },
+        {
+          "name": "--brand-color-1-bg",
+          "value": "var(--blue-light-020)"
+        },
+        {
+          "name": "--brand-color-2",
+          "value": "var(--green-light-100)"
+        },      
+        {
+          "name": "--brand-color-2-hover",
+          "value": "var(--green-light-dark-blend)"
+        },
+        {
+          "name": "--brand-color-2-active",
+          "value": "var(--green-light-light-blend)"
+        },
+        {
+          "name": "--brand-color-2-bg",
+          "value": "var(--green-light-010)"
+        },
+        {
+          "name": "--brand-color-3",
+          "value": "var(--rose-light-100)"
+        },      
+        {
+          "name": "--brand-color-3-hover",
+          "value": "var(--rose-light-dark-blend)"
+        },
+        {
+          "name": "--brand-color-3-active",
+          "value": "var(--rose-light-light-blend)"
+        },
+        {
+          "name": "--brand-color-3-bg",
+          "value": "var(--rose-light-010)"
+        },
+        {
+          "name": "--bg-light",
+          "value": "var(--grey-light-000)"
+        },
+        {
+          "name": "--bg-dark",
+          "value": "var(--grey-light-900)"
+        }
+      ]
+    },
+    {
+      "selector": "body.quarto-dark",
+      "type": "css",
+      "variables": [
+        {
+          "name": "--brand-color-1",
+          "value": "var(--blue-dark-100)"
+        },
+        {
+          "name": "--brand-color-1-hover",
+          "value": "var(--blue-dark-dark-blend)"
+        },
+        {
+          "name": "--brand-color-1-active",
+          "value": "var(--blue-dark-light-blend)"
+        },
+        {
+          "name": "--brand-color-1-bg",
+          "value": "var(--blue-dark-010)"
+        },
+        {
+          "name": "--brand-color-2",
+          "value": "var(--green-dark-100)"
+        },      
+        {
+          "name": "--brand-color-2-hover",
+          "value": "var(--green-dark-dark-blend)"
+        },
+        {
+          "name": "--brand-color-2-active",
+          "value": "var(--green-dark-light-blend)"
+        },
+        {
+          "name": "--brand-color-2-bg",
+          "value": "var(--green-dark-010)"
+        },
+        {
+          "name": "--brand-color-3",
+          "value": "var(--rose-dark-100)"
+        },      
+        {
+          "name": "--brand-color-3-hover",
+          "value": "var(--rose-dark-dark-blend)"
+        },
+        {
+          "name": "--brand-color-3-active",
+          "value": "var(--rose-dark-light-blend)"
+        },
+        {
+          "name": "--brand-color-3-bg",
+          "value": "var(--rose-dark-010)"
+        },
+        {
+          "name": "--bg-light",
+          "value": "var(--grey-dark-100)"
+        },
+        {
+          "name": "--bg-dark",
+          "value": "var(--grey-dark-900)"
+        }
+      ]
+    }
+  ]
+}

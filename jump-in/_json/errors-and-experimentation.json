@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "title": "Errors and Experimentation",
+    "subtitle": "Essential Concepts for New Python Users",
+    "description": "Jump into notebooks, syntax, error handling, and core concepts.",
+    "slug": "errors-and-experimentation",
+    "tags": [
+      "python",
+      "beginners",
+      "jupyter",
+      "syntax"
+    ]
+  },
+  "body": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Getting Started with Python"
+    },
+    {
+      "type": "text",
+      "markdown": "This guide introduces core Python concepts in a hands-on way, using **Jupyter notebooks** as the primary environment. You'll learn about variables, data types, basic syntax, error messages, and more. All in base Python, package use will come later."
+    },
+    {
+      "type": "custom-callout",
+      "callout-type": "pxp-ref",
+      "title": "Jupyter Notebooks",
+      "text": "Notebooks are a great way to learn and collaborate with code. Be sure to check out [Jupyter Notebooks]({{{jupyter-noteobooks}}}) if you are unfamiliar with them, as they are heavily used in this project."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Python Parts"
+    },
+    {
+      "type": "text",
+      "markdown": "Before jumping into the code, we'll cover the core pieces, pixels if you will, that Python is built upon. Many of these concepts are similar in other languages as well.\n\n- **Datatypes**\n- **Operators**\n- **Reserved Words**\n- **Builtin Functions**\n- **Variables**\n- **Flow Controls**"
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Datatypes"
+    },
+    {
+      "type": "text",
+      "markdown": "Python uses datatypes to organize and process information. The datatype can determine how much data is stored, used, and displayed. Picking the right datatype for a use-case makes coding much smoother. Key catergories include numeric, strings, and sequences."
+    },
+    {
+      "type": "markdown-table",
+      "table-name": "Datatypes"
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Operators"
+    },
+    {
+      "type": "text",
+      "markdown": "Operations in programming are used to manipulate and evaluate values. These allow programs to perform calculations, make decisions, and control the flow of execution. \nTypes include:\n\n- **Mathematical**\n- **Logical**\n- **Comparison**\n- **Assignment**\n"
+    },
+    {
+      "type": "header",
+      "level": 4,
+      "text": "Mathematical"
+    },
+    {
+      "type": "text",
+      "markdown": "Mathematical operators perform arithmetic calculations. In Python, these include `+` (addition), `-` (subtraction), `*` (multiplication), `/` (division), `**` or `^` (exponentiation), and `%` or `%%` (modulus). Python uses `//` for integer division."
+    },
+    {
+      "type": "markdown-table",
+      "table-name": "Operators - Arithmetic"
+    },
+    {
+      "type": "header",
+      "level": 4,
+      "text": "Comparison"
+    },
+    {
+      "type": "text",
+      "markdown": "Comparison operators evaluate relationships between values. Common operators in Python include `==` (equal), `!=` (not equal), `<` (less than), `<=` (less than or equal to), `>` (greater than), and `>=` (greater than or equal to).\n\nThese return boolean values of `True`/`False`."
+    },
+    {
+      "type": "markdown-table",
+      "table-name": "Operators - Comparison"
+    },
+    {
+      "type": "header",
+      "level": 4,
+      "text": "Logical"
+    },
+    {
+      "type": "text",
+      "markdown": "Logical operators allow for boolean logic. In Python: `and`, `or`, `not`. These are used in conditionals and loops to combine multiple logical expressions."
+    },
+    {
+      "type": "markdown-table",
+      "table-name": "Operators - Logical"
+    },
+    {
+      "type": "custom-callout",
+      "callout-type": "best-practice",
+      "title": "Assignment and Equality",
+      "text": "Assignment uses `=` to assign a value to a variable. `x = 10` creates or updates the variable x to be 10.\n\nEquality checking uses `==` and returns a Boolean (True, or False) depending on if the values are equal. `x == 10` will return True if x is set as above. "
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Variables and Functions"
+    },
+    {
+      "type": "text",
+      "markdown": "Effective programming is built around reusable variables and code snippets like functions, classes, and methods. We'll explore this more in-depth throughout the project."
+    },
+    {
+      "type": "header",
+      "level": 4,
+      "text": "Variables"
+    },
+    {
+      "type": "text",
+      "markdown": "Variable assignment stores data in a named container. In Python, use `=` to assign values: `x = 5`. Variables are case-sensitive and can store numbers, strings, lists, and other datatypes. Variables in Python are **mutable** meaning the value can be modified."
+    },
+    {
+      "type": "markdown-table",
+      "table-name": "Variable Naming Rules"
+    },
+    {
+      "type": "header",
+      "level": 4,
+      "text": "Functions"
+    },
+    {
+      "type": "text",
+      "markdown": "Functions create reusable code which can simplify tasks, allow iterative runs, and can make your code **much** more powerful. Python comes with some [builtin functions](https://docs.python.org/3/library/functions.html) which will help demonstrate. To begin, let's focus on:\n- **`print`**: display the passed argument \n- **type**: returns the type of the passed argument\n- **help**: returns documentation and help files of passed argument\n- **Assignment**\n"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Control Flow"
+    },
+    {
+      "type": "text",
+      "markdown": "Use `if`, `elif`, and `else` for conditional logic:\n\n```python\nx = 10\nif x > 5:\n    print(\"Large\")\nelif x == 5:\n    print(\"Exactly 5\")\nelse:\n    print(\"Small\")\n```\n\nYou’ll also see `for` and `while` loops, as well as function definitions like `def greet(name): ...`."
+    },
+
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Common Error Messages"
+    },
+    {
+      "type": "text",
+      "markdown": "You’ll encounter errors. That’s normal! Learn to read **tracebacks**.\n\n- `SyntaxError`: Something’s wrong with your code structure.\n- `NameError`: You used a variable that doesn’t exist.\n- `TypeError`: You tried an operation on incompatible types.\n- `IndentationError`: Your code blocks are not properly aligned."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Combining Concepts"
+    },
+    {
+      "type": "text",
+      "markdown": "Try this small example to use variables, control flow, and output:\n\n```python\nscore = 87\nif score >= 90:\n    grade = 'A'\nelif score >= 80:\n    grade = 'B'\nelse:\n    grade = 'C or below'\n\nprint(f\"Your grade: {grade}\")\n```"
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "VARIABLE NAMING"
+    },
+    {
+      "type": "markdown-table",
+      "table-name": "Variable Naming Rules"
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "OPERATIONS"
+    },
+    {
+      "type": "text",
+      "markdown": "Check if tables work."
+    },
+    {
+      "type": "panel-tabset-tables",
+      "table-names": ["Operators - Arithmetic", "Operators - Comparison"]
+    }
+  ]
+}

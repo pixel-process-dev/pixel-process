@@ -1,0 +1,44 @@
+---
+title: Scripts and Notebooks
+subtitle: When and why to use scripts and notebooks
+description: A compare and contrast of two programming tools and why both have a place.
+slug: scripts-and-notebooks
+tags:
+- workflow
+- scripts
+- notebooks
+---
+
+Code can be developed and executed in many different ways. Two primary data science options are scripts and notebooks.
+ The right choicde depends on the task at hand and the stage of your workflow. Here are some guidelines on making the most of both.
+
+## Scripts
+
+- **Production Code**: more streamlined coding approach for when dependency, versioning, and integration are crucuial
+- **Automation and Reproducibility**: great for automated processing when no manual intervention is needed
+- **Performance**: reduced overhead as they avoid the interactive GUI of notebooks
+
+## Notebooks
+
+- **Prototyping Code**: ideal for rapid iteration and development work with immediate feedback on a cell-by-cell basis
+- **Visualization**: easily test and tweak data viz to fine-tune processes
+- **Teaching & Tutorials**: mixing code, visualizations, and markdown creates detailed explanations to help others (or future you) understand the thought process and logic behind the code
+
+## Best of Both
+
+By leveraging the strengths of both scripts and notebooks, you can create a workflow that is both efficient and easy to maintain, while also being adaptable to different stages of your projects.
+
+### Machine Learning Workflow
+
+- **Notebook**: Initial data exploration, feature engineering, model prototyping, and visualizations
+- **Script**: Data preprocessing pipeline, model training, evaluation, and deployment
+
+### Data Analysis Project
+
+- **Notebook**: EDA, hypothesis testing, and generating visualizations for reports
+- **Script**: Data extraction, transformation, and loading (ETL) processes, as well as scheduled reports generation
+
+### Tutorial Development
+
+- **Notebook**: Creating interactive tutorials with step-by-step explanations and code snippets
+- **Script**: Including complex functions or utility scripts to keep the notebook concise and focused on the teaching content

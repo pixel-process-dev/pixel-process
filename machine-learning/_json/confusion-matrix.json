@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "title": "Confusion Matrix",
+    "class": "alias-card"
+  },
+  "tabs": [
+    {
+      "title": "Data Requirements",
+      "sections": [
+        {
+          "type": "static-tab",
+          "content": "- **Type**: Classification result summary\n- Requires actual and predicted labels"
+        }
+      ]
+    },
+    {
+      "title": "Package Examples",
+      "sections": [
+        {
+          "type": "collapsible",
+          "summary": "sklearn",
+          "content": "",
+          "language": "python",
+          "code": "from sklearn.metrics import ConfusionMatrixDisplay\nfrom sklearn.metrics import confusion_matrix\nimport matplotlib.pyplot as plt\ny_true = [0,1,0,1]\ny_pred = [0,0,0,1]\ncm = confusion_matrix(y_true, y_pred)\ndisp = ConfusionMatrixDisplay(confusion_matrix=cm)\ndisp.plot()\nplt.show()"
+        }
+      ]
+    },
+    {
+      "title": "Ideal Uses",
+      "sections": [
+        {
+          "type": "static-tab",
+          "content": "- Evaluate classification models\n- Detect misclassifications by class"
+        }
+      ]
+    }
+  ]
+}
