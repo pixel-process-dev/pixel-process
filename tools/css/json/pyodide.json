@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "output_path": "assets/css/pyodide.css",
+    "type": "css"
+  },
+  "sections": [
+    {
+      "selector": ".qpyodide-editor-toolbar",
+      "variables": [
+        { "name": "font-size", "value": "0.9rem" },
+        { "name": "background", "value": "var(--grey-base)" },
+        { "name": "padding", "value": "0.3rem 0.6rem" },
+        { "name": "border", "value": "1px solid var(--nav-bg)" }
+      ]
+    },
+    {
+      "selector": ".qpyodide-editor",
+      "variables": [
+        { "name": "border", "value": "1px solid var(--nav-bg)" },
+        { "name": "border-top", "value": "none" },
+        { "name": "font-size", "value": "0.9rem" },
+        { "name": "background-color", "value": "var(--pyodide-editor-bg)" }
+      ]
+    },
+    {
+      "selector": ".qpyodide-output-code-area",
+      "variables": [
+        { "name": "margin-top", "value": "0.4rem" },
+        { "name": "padding", "value": "0.6rem 0.8rem" },
+        { "name": "border", "value": "1px solid var(--nav-bg)" },
+        { "name": "background-color", "value": "var(--cell-out-bg)" },
+        { "name": "font-size", "value": "1rem" },
+        { "name": "line-height", "value": "1.4" },
+        { "name": "color", "value": "var(--brand-color-2)" }
+      ]
+    },
+    {
+      "selector": ".qpyodide-output-code-area pre",
+      "variables": [
+        { "name": "margin", "value": "0" },
+        { "name": "font-family", "value": "var(--font-code)" },
+        { "name": "white-space", "value": "pre-wrap" },
+        { "name": "background-color", "value": "var(--bg-dark)" }
+      ]
+    },
+    {
+      "selector": ".qpyodide-output-code-area ",
+      "variables": [
+        { "name": "border-left", "value": "4px solid var(--brand-color-2)" }
+      ]
+    },
+    {
+      "selector": ".qpyodide-output-code-area class",
+      "variables": [
+        { "name": "display", "value": "inline" },
+        { "name": "font-family", "value": "var(--font-code)" },
+        { "name": "color", "value": "var(--brand-color-2)" }
+      ]
+    }
+  ]
+}

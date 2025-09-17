@@ -1,0 +1,27 @@
+{
+  "layout": {
+    "template": "plotly_white",
+    "margin": {"l": 50, "r": 50, "t": 50, "b": 120},
+
+    "title": {
+      "x": 0.5,
+      "xanchor": "center",
+      "font": {"size": 22, "color": "#2C3E50", "family": "Arial Black"}
+    },
+
+    "legend": {
+      "orientation": "h",
+      "x": 0.5,
+      "xanchor": "center",
+      "y": -0.4,
+      "yanchor": "top",
+      "font": {"size": 10},
+      "bgcolor": "rgba(255,255,255,0.8)",
+      "bordercolor": "#333333",
+      "borderwidth": 1
+    },
+
+    "font": {"family": "Arial", "size": 14},
+    "colorway": ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd"]
+  }
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "question": "What are the most common data issues?",
+    "answer": "Common data issues include missing values, outliers, and incorrectly formatted or malformed data. These can impact analysis and must be handled carefully before modeling.",
+    "tags": ["data quality", "foundations", "cleaning"]
+  },
+    {
+    "question": "What are summary statistics?",
+    "answer": "Summary statistics describe and summarize data. Common examples include mean, median, standard deviation, minimum, and maximum.",
+    "tags": ["statistics", "exploratory analysis", "foundations"]
+  },
+  {
+    "question": "What is basic analysis?",
+    "answer": "Basic analysis often includes computing correlations, visualizing distributions, identifying trends, and checking assumptions before building models.",
+    "tags": ["analysis", "eda", "foundations"]
+  }
+]

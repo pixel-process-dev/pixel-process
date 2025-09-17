@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "title": "Visualization Building Blocks",
+    "navtitle": "Data Viz Building Blocks",
+    "subtitle": "Building Images: Figures, Axes, and More",
+    "description": "Core concepts in matplotlib, seaborn, and plotly for figures, axes, colors, and templates/themes. Includes key differences and common pitfalls when switching libraries.",
+    "slug": "data-viz-building-blocks",
+    "tags": [
+      "data-visualization",
+      "matplotlib",
+      "seaborn",
+      "plotly"
+    ]
+  },
+  "body": [
+    {
+      "type": "text",
+      "markdown": "Establish terminology for building figures with comparisons of matplotlib, seaborn, and plotly. \n\n**Bonus**: Aviod common pitfalls"
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Figure"
+    },
+    {
+      "type": "text",
+      "markdown": "**Figure**: The overall container that holds everything in a visualization, including one or more plots/axes. "
+    },
+     {
+      "type": "category-grid",
+      "text_categories": [
+        {
+          "title": "matplotlib",
+          "text": "Created with `plt.figure()` or implicitly with `plt.subplots()`. Acts as the top-level container for all axes and elements."
+        },
+        {
+          "title": "seaborn",
+          "text": "Wraps matplotlib; figure objects are matplotlib figures. Many seaborn functions automatically create a figure."
+        },
+        {
+          "title": "plotly",
+          "text": "Created with `go.Figure()` or `make_subplots()`. Serves as the top-level object to which traces and layout are added."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 4,
+      "text": "Pitfalls"
+    },
+    {
+      "type": "text",
+      "markdown": "In matplotlib/seaborn, you usually need `plt.show()` in scripts to render; in notebooks it auto-displays. In plotly, you must call `fig.show()`. Seaborn may create its own figure silently if you don’t pass `ax=...`. Plotly figures are interactive by default, while matplotlib’s are static unless combined with widgets."
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Axes"
+    },
+    {
+      "type": "text",
+      "markdown": "**Axes**: A single plotting area within a figure (what most people think of as 'the plot')."
+    },
+     {
+      "type": "category-grid",
+      "text_categories": [
+        {
+          "title": "matplotlib",
+          "text": "Created with `fig.add_subplot()` or `plt.subplots()`. Each Axes has its own coordinate system, ticks, and labels."
+        },
+        {
+          "title": "seaborn",
+          "text": "Always returns a matplotlib `Axes` (or FacetGrid/PairGrid, which manages multiple Axes). Seaborn’s high-level API plots directly onto Axes objects."
+        },
+        {
+          "title": "plotly",
+          "text": "Doesn’t use an explicit 'Axes' object. Instead, axes are defined by layout (`fig.update_xaxes`, `fig.update_yaxes`). Multiple subplots are managed through layout specs."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 4,
+      "text": "Pitfalls"
+    },
+    {
+      "type": "text",
+      "markdown": "Terminology confusion: 'Axes' (plural of 'Axis') vs 'Axis' (x/y scale). In seaborn, calling multiple functions on the same Axes requires passing `ax=...`; otherwise each call may create a new figure. In plotly, axis limits and labels are adjusted via layout updates, not per-object methods."
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Color Palettes"
+    },
+    {
+      "type": "text",
+      "markdown": "**Color Palette**: Collection of colors used to distinguish categories or continuous values."
+    },
+     {
+      "type": "category-grid",
+      "text_categories": [
+        {
+          "title": "matplotlib",
+          "text": "Uses 'colormaps' (`cmap`) for continuous data (e.g., `viridis`, `plasma`) and 'color cycles' for categorical data."
+        },
+        {
+          "title": "seaborn",
+          "text": "Built-in support for categorical palettes (`color_palette('deep')`), sequential/diverging palettes (`cubehelix_palette`, `light_palette`), and wrappers for matplotlib colormaps."
+        },
+        {
+          "title": "plotly",
+          "text": "Supports `color_discrete_sequence` for categorical colors and `colorscale` for continuous values. Many named scales available (`Viridis`, `Cividis`, `Plasma`)."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 4,
+      "text": "Pitfalls"
+    },
+    {
+      "type": "text",
+      "markdown": "In matplotlib, `cmap` is only for continuous values; using it for categories requires manual mapping. Seaborn will override matplotlib’s default color cycle when you call `sns.set_theme()`. Plotly distinguishes between discrete (`color_discrete_sequence`) and continuous (`colorscale`); passing the wrong one has no effect."
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Templates / Styles"
+    },
+    {
+      "type": "text",
+      "markdown": "**Templates / Styles**: Preset styling that controls background, grids, font, and overall look of plots."
+    },
+     {
+      "type": "category-grid",
+      "text_categories": [
+        {
+          "title": "matplotlib",
+          "text": "Uses 'colormaps' (`cmap`) for continuous data (e.g., `viridis`, `plasma`) and 'color cycles' for categorical data."
+        },
+        {
+          "title": "seaborn",
+          "text": "Themes via `sns.set_theme(style='whitegrid')`. Controls background, ticks, grid, font scale, etc."
+        },
+        {
+          "title": "plotly",
+          "text": "Templates applied with `fig.update_layout(template='plotly_dark')`. Includes built-in templates (`plotly`, `ggplot2`, `seaborn`) or user-defined ones."
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 4,
+      "text": "Pitfalls"
+    },
+    {
+      "type": "text",
+      "markdown": "Matplotlib stylesheets affect all following plots unless reset — beginners often forget to reset. Seaborn’s `set_theme` changes matplotlib defaults globally (grids, ticks, etc.), which may surprise users mixing raw matplotlib code. Plotly templates override both colors and layout; you may need to re-apply custom settings after applying a template."
+    }
+  ]
+}

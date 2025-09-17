@@ -1,0 +1,13 @@
+---
+title: "Information: Continuous & Categorical"
+subtitle: "How we percieve and decide"
+author: Your Name
+date: 2025-07-08
+categories: [And, Perception, Decision Making]
+draft: false               # Set to false or remove when ready to publish
+description: "How continuos perception increases information and categorical distinctions speed decision."
+image: images/useful-not-exhaustive-card.png  # Optional for social previews
+format:
+  html:
+    page-layout: article
+---

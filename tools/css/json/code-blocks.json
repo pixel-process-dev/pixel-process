@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "output_path": "assets/css/code-blocks.css",
+    "type": "css"
+  },
+  "sections": [
+    {
+      "selector": "code",
+      "variables": [
+        { "name": "font-family", "value": "var(--font-code)" },
+        { "name": "border-radius", "value": "4px" },
+        { "name": "font-size", "value": "0.95em" }
+      ]
+    },
+    {
+      "selector": "code:not(.sourceCode),\nbody p code:not(.sourceCode),\nbody li code:not(.sourceCode),\nbody td code:not(.sourceCode)",
+      "variables": [
+        { "name": "color", "value": "var(--brand-color-1)" },
+        { "name": "background-color", "value": "var(--brand-color-1-bg)" }
+      ]
+    },
+    {
+      "selector": "pre code",
+      "variables": [
+        { "name": "display", "value": "block" },
+        { "name": "background-color", "value": "var(--brand-color-1-bg)" },
+        { "name": "overflow-x", "value": "auto" },
+        { "name": "white-space", "value": "pre-wrap" },
+        { "name": "word-wrap", "value": "break-word" }
+      ]
+    },
+    {
+      "selector": ".sourceCode.cell-code",
+      "variables": [
+        { "name": "background-color", "value": "var(--brand-color-3-bg)" }
+      ]
+    },
+    {
+      "selector": ".cell.code-cell",
+      "variables": [
+        { "name": "background-color", "value": "var(--brand-color-3-bg)" }
+      ]
+    },
+    {
+      "selector": ".cell-output",
+      "variables": [
+        { "name": "background-color", "value": "var(--bg-light)" }
+      ]
+    },
+    {
+      "selector": ".cell-output-display",
+      "variables": [
+        { "name": "width", "value": "100%" },
+        { "name": "table-layout", "value": "auto" },
+        { "name": "word-wrap", "value": "break-word" }
+      ]
+    },
+    {
+      "selector": "img",
+      "variables": [
+        { "name": "max-width", "value": "100%" },
+        { "name": "height", "value": "auto" },
+        { "name": "display", "value": "block" },
+        { "name": "margin", "value": "1em auto" }
+
+      ]
+    },
+    {
+      "selector": "table",
+      "variables": [
+        { "name": "width", "value": "100%" },
+        { "name": "border-collapse", "value": "collapse" },
+        { "name": "display", "value": "block" },
+        { "name": "overflow-x", "value": "auto" },
+        { "name": "word-wrap", "value": "break-word" }
+      ]
+    },
+    {
+      "selector": ".output pre",
+      "variables": [
+        { "name": "white-space", "value": "pre-wrap" },
+        { "name": "word-break", "value": "break-word" }
+     ]
+    }
+  ]
+}

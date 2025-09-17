@@ -1,0 +1,19 @@
+.quarto-title-block .quarto-title-banner {
+  background-color: var(--nav-bg);
+  color: var(--fg);
+}
+
+.quarto-title-banner .title {
+  color: var(--brand-color-1);
+  text-transform: none;
+  transition: color 0.3s ease;
+}
+
+.quarto-title-banner .subtitle {
+  color: var(--brand-color-2);
+}
+
+.subtitle-divider {
+  color: var(--fg);
+  padding: 0 0.4em;
+}

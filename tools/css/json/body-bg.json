@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "output_path": "assets/css/body-bg.css",
+    "type": "css"
+  },
+  "sections": [
+    {
+      "selector": "body,\n.page-layout-full,\n.page-layout-article,\n.quarto-grid,\n.page-columns,\n.content",
+      "variables": [
+        { "name": "background-color", "value": "var(--bg)" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "output_path": "assets/css/quick-links.css",
+    "type": "css"
+  },
+  "sections": [
+    {
+      "selector": ".quick-links",
+      "variables": [
+        { "name": "margin-top", "value": "1rem" },
+        { "name": "margin-bottom", "value": "1rem" },
+        { "name": "padding-left", "value": "1rem" },
+        { "name": "border-left", "value": "2px solid var(--fg)" }
+      ]
+    },
+    {
+      "selector": ".quick-link-item",
+      "variables": [
+        { "name": "margin-bottom", "value": "0.75rem" },
+        { "name": "line-height", "value": "1.4" }
+      ]
+    },
+    {
+      "selector": ".quick-link-item a",
+      "variables": [
+        { "name": "text-decoration", "value": "none" },
+        { "name": "font-weight", "value": "1.4" }
+      ]
+    },
+    {
+      "selector": ".quick-link-item a:hover",
+      "variables": [
+        { "name": "text-decoration", "value": "underline" }
+      ]
+    }
+  ]
+}

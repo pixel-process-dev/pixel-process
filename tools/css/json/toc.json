@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "output_path": "assets/css/toc.css",
+    "type": "css"
+  },
+  "sections": [
+    {
+      "selector": "#TOC #toc-title",
+      "variables": [
+        { "name": "font-size", "value": "1.2rem" },
+        { "name": "border-bottom", "value": "1px solid transparent" }
+      ]
+    },
+    {
+      "selector": ".sidebar nav[role=\"doc-toc\"] ul > li > a.active,\n.sidebar nav[role=\"doc-toc\"] ul > li > ul > li > a.active",
+      "variables": [
+        { "name": "color", "value": "var(--brand-color-1) !important" },
+        { "name": "border-left", "value": "2px solid var(--brand-color-1) !important" }
+      ]
+    },
+    {
+      "selector": ".sidebar nav[role=\"doc-toc\"] ul > li > a:hover,\n.sidebar nav[role=\"doc-toc\"] ul > li > ul > li > a:hover",
+      "variables": [
+        { "name": "color", "value": "var(--brand-color-1-active) !important" }
+      ]
+    },
+    {
+      "selector": ".sidebar nav[role=\"doc-toc\"] a:hover",
+      "variables": [
+        { "name": "color", "value": "var(--brand-color-1) !important" }
+      ]
+    },
+    {
+      "selector": ".sidebar nav[role=\"doc-toc\"] a.nav-link.active",
+      "variables": [
+        { "name": "color", "value": "var(--brand-color-1) !important" }
+      ]
+    }
+  ]
+}

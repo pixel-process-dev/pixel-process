@@ -1,0 +1,48 @@
+---
+title: "Perspectives"
+subtitle: "Big Data <span class=\"subtitle-divider\">|</span> Deep Thoughts <span class=\"subtitle-divider\">|</span> Meaningful Patterns" 
+description: "A more reflective, less technial side to PxP."
+date: last-modified
+format:
+  html:
+    toc: false
+    page-layout: full
+    title-block-banner: true
+---
+
+## Rethinking What We Know
+
+Learning doesn’t happen all at once—it evolves. Concepts we once held as certain may shift with new context, experience, or tools. The point of learning isn’t to lock in static knowledge, but to stay open to rethinking and reworking. Like refactoring code, insight grows from iteration.
+
+This space is for exactly that: ideas revisited, connections redrawn, and assumptions gently shaken. Sometimes playful, sometimes practical, always curious.
+
+---
+
+## And, Or, Not
+
+Posts are organized by the **bitwise operators** you might recognize from programming—but here they represent how ideas relate to one another:
+
+- `&` **(AND)** — Complementary or intersecting concepts  
+  _Examples: Information: Continuous & Categorical_  
+- `|` **(OR)** — Contrasting or competing ideas  
+  _Examples: Design: Structure | Spontaneity_  
+- `~` **(NOT)** — Reframed, nuanced, or subverted concepts  
+  _Examples: Mistakes: Feature ~ Flaw_
+
+---
+
+
+### 🔍 Recent Posts
+- [Perspective: Pixels & Pictures](/perspectives/posts/and/perspective-pixels-and-pictures.qmd)
+
+
+- [Mistakes: Feature ~ Flaw](/concept-cache/posts/not/mistakes-feature-not-flaw.qmd) 
+- [Data: Spun ~ Spontaneous](/concept-cache/posts/not/data-spun-not-spontaneous.qmd)
+- [Information: Continuous & Categorical](/concept-cache/posts/and/information-continuous-and-categorical.qmd)
+
+
+
+
+
+
+

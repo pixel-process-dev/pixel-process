@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "title": "On the Shoulders of Giants",
+    "subtitle": "Solve Problems <span class=\"subtitle-divider\">|</span> Debug Faster <span class=\"subtitle-divider\">|</span> Avoid Headaches",
+    "description": "Coding is a team sport, even when you’re working solo. In this section, you’ll explore the wealth of resources, communities, and strategies available to you. Learn how to ask better questions, find helpful answers, and grow faster by standing on the shoulders of giants.",
+    "navdesc": "Troubleshoot, debug, and solve problems like a pro",
+    "format": {
+      "html": {
+        "page-layout": "full",
+        "toc": false,
+        "title-block-banner": true
+      }
+    },
+    "slug": "shoulders-of-giants"
+  },
+  "body": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Troubleshooting Required"
+    },
+    {
+      "type": "text",
+      "markdown": "Learning to program (or any new skill) is guaranteed to come with roadblocks. Code won’t run, an error message pops up, or things just don’t make sense. This isn’t a failure—it’s normal! The key difference between frustrated beginners and successful learners isn’t intelligence, it's approach.\n\nIn this section, you’ll learn practical tools and mindsets for getting unstuck: reading documentation, focused searches, even reading the actual source code.\n\n\n- It’s about **solving, not knowing**\n- It’s about **solutions, not syntax**\n- It’s about **process, not memorization**"
+    },
+
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Troubleshooting Checklist"
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Pause & Get Oriented"
+    },
+    {
+      "type": "text",
+      "markdown": "- **Don’t rush**: Take a moment to read the message, consider what is happening\n- **Focus on what changed**: Did you add something new, update a package, change an environment, or move files?"
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Read the Error Message"
+    },
+    {
+      "type": "text",
+      "markdown": "- **Look for keywords**: `ImportError`, `SyntaxError`, `FileNotFoundError`\n - **Look for YOUR keywords**: do you see variables you defined or created? Unique things in your code\n- **Check the traceback**: Try to identify where the problem started **the last lines are often the most important**"
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Begin Basic"
+    },
+    {
+      "type": "text",
+      "markdown": "- **Typos and missing punctuation**: anything in the traceback or output look even a little off?\n- **File paths**: Are inputs and outputs showing correct paths? Did anything get moved?\n- **Copy-paste errors**: Did you accidentally copy a character or break a line?\n- **Restart and rerun:** Sometimes, especially in notebooks, things get out of sync-so turn if off and on again"
+    },
+
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Isolate"
+    },
+    {
+      "type": "text",
+      "markdown": "- **Is it reproducible?**Does the error happen every time? On other machines or environments?\n- **“On and off again works**: Try restarting your program, kernel, or computer-working broader\n- **Simplify**: Can you trigger the error with a tiny bit of code, or does it only happen with everything together? Test on another variable or dataframe\n- **Comment out code**:\nTemporarily remove sections or run cell-by-cell to see where the error appears."
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Read the Docs"
+    },
+    {
+      "type": "text",
+      "markdown": "- **Built-in help tools**: *Python:* `help()`; `?`, or double-tab in notebooks; *R:* `?function_name`, `help(function_name)`; *Shell:* `man`, `--help`\n- **Look up function/class documentation**: Official docs, docstrings, and usage examples"
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Search the Web"
+    },
+    {
+      "type": "text",
+      "markdown": "- **Copy-paste the error message**: Remove file-specific info if needed\n- **Add keywords**: “python”, “R”, or the library you’re using\n- **Search for common forums**:\nStack Overflow, GitHub Issues, official forums"
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Check Your Environment and Versions"
+    },
+    {
+      "type": "text",
+      "markdown": "- **Are you using the right Python/R version?**: Check notebook kernels and paths\n- **Which environment is active?** (Conda, virtualenv, Renv, etc.)**: Make sure your packages are installed with proper versions"
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Scope the Issue"
+    },
+    {
+      "type": "text",
+      "markdown": "- **Is it a 'just here' problem**: Typos, filepaths, incorrect variable types-only happen in one place\n- **Is it a project or environment problem**: Does other project code now have issues? Is it my system? **Known Issue**: Is it a commonly reported bug or issue on forums?"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "custom-callout",
+      "callout-type": "d-bugz",
+      "title": "Experience from Errors",
+      "text": "Errors are part of the process. Solid troubleshooting and debugging approaches are part of the job. Know your resources and use them."
+    },
+    {
+      "type": "page-quote",
+      "text": "When in doubt, read the docs"
+    },
+    {
+      "type": "text",
+      "markdown": "Coding requires testing and debugging. Use these guidelines to avoid getting stuck. Chances are, you are not the only person to encounter issues. Learn on the many established and helpful resources of the coding community."
+    }
+  ]
+}

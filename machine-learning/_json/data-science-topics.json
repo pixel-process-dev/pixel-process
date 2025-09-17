@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "title": "Data Science Topics",
+    "subtitle": "Overview of data science use cases",
+    "description": "High level review of the most popular and influentiual ways data science shapes our lives.",
+    "slug": "data-science-topics",
+    "tags": ["data-science", "getting-started", "reference"]
+  },
+  "body": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Data Science Applications"
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Supervised Learning"
+    },
+    {
+      "type": "text",
+      "markdown": "Supervised learning involves training a model on a labeled dataset, which means that each training example is paired with an output label. The goal is for the model to learn a mapping from inputs to outputs so it can predict the output for new, unseen inputs."
+    },
+    {
+      "type": "category_grid",
+      "categories": [
+        {
+          "title": "Data",
+          "items": ["Structured", "Labeled", "Tabular"]
+        },
+        {
+          "title": "Common Models/Algorithms",
+          "items": ["Linear/Logistic Regression", "Decision Trees", "Boosted Forrests"]
+        },
+        {
+          "title": "Key Examples",
+          "items": ["Spam Detection", "Pricing Forecast", "Image Classification"]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Unsupervised Learning"
+    },
+    {
+      "type": "text",
+      "markdown": "Unsupervised learning involves training a model on data without labeled responses. The goal is to find hidden patterns or intrinsic structures in the input data."
+    },
+    {
+      "type": "category_grid",
+      "categories": [
+        {
+          "title": "Data",
+          "items": ["Unlabeled", "Text", "Images"]
+        },
+        {
+          "title": "Common Models/Algorithms",
+          "items": ["Clustering", "Dimensionality Reduction", "Principal Component Analysis (PCA)", "Similarity Analysis"]
+        },
+        {
+          "title": "Key Examples",
+          "items": ["Customer Segmentation", "Document Comparison", "Data Compression"]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Classification"
+    },
+    {
+      "type": "text",
+      "markdown": "Classification is a type of supervised learning where the goal is to predict a discrete class label for a given input."
+    },
+    {
+      "type": "category_grid",
+      "categories": [
+        {
+          "title": "Variations",
+          "items": ["Binary (2 classes)", "Mutliclass (3+)"]
+        },
+        {
+          "title": "Key Examples",
+          "items": ["Predicting Churn", "Sentiment Analysis"]
+        }
+
+    ]
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Regression"
+    },
+    {
+      "type": "text",
+      "markdown": "Regression is a type of supervised learning where the goal is to predict a continuous value for a given input."
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Computer Vision"
+    },
+    {
+      "type": "text",
+      "markdown": "Computer vision is a field of artificial intelligence that enables computers to interpret and make decisions based on visual data from the world."
+    },
+    {
+      "type": "category_grid",
+      "categories": [
+        {
+          "title": "Data",
+          "items": ["Video", "Images"]
+        },
+        {
+          "title": "Common Models/Algorithms",
+          "items": ["Object Detection", "Image Classification", "Image Segmentation"]
+        },
+        {
+          "title": "Key Examples",
+          "items": ["Autonomous Driving", "Face Recognition"]
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Natural Language Processing (NLP)"
+    },
+    {
+      "type": "text",
+      "markdown": "NLP involves the interaction between computers and humans through natural language. The goal is to enable computers to understand, interpret, and generate human language."
+    },
+    {
+      "type": "category_grid",
+      "categories": [
+        {
+          "title": "Data",
+          "items": ["Text", "Emails", "Reviews", "Books"]
+        },
+        {
+          "title": "Common Models/Algorithms",
+          "items": ["Similarity Analysis", "Sentiment Analysis", "Named Entity Recognition (NER)"]
+        },
+        {
+          "title": "Key Examples",
+          "items": ["Large Language Models (LLMs)", "Chatbots", "Search Engines"]
+        }
+      ]
+    }
+  ]
+}

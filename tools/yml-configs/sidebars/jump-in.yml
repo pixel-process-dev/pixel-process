@@ -1,0 +1,27 @@
+id: jump-in
+title: "Jump In"
+style: docked
+collapse-level: 2
+pinned: false
+contents:
+- jump-in/index.qmd
+- section: "Pages"
+  contents:
+  - jump-in/datatypes-and-operators.qmd
+  - jump-in/notebooks/datatypes-and-operators-nb.ipynb
+  - jump-in/variables-and-functions.qmd
+  - jump-in/notebooks/variables-and-functions-nb.ipynb
+  - jump-in/iteration-and-flow-control.qmd
+  - jump-in/notebooks/iteration-and-flow-control-nb.ipynb
+  - jump-in/errors-and-experimentation.qmd
+  - jump-in/notebooks/errors-and-experimentation-nb.ipynb
+  - jump-in/notebooks/hello-world-challenge-nb.ipynb
+  - jump-in/notebooks/expert-debugger-challenge-nb.ipynb
+- section: "Interactive Notebooks"
+  contents:
+  - text: "<a href='/jump-in/jl-notebooks/jl-build/tree/index.html?path=datatypes-and-operators-nb-jp.ipynb' target='_blank'>Datatypes and Operators (Interactive)</a>"
+  - text: "<a href='/jump-in/jl-notebooks/jl-build/tree/index.html?path=variables-and-functions-nb-jp.ipynb' target='_blank'>Variables and Functions (Interactive)</a>"
+  - text: "<a href='/jump-in/jl-notebooks/jl-build/tree/index.html?path=iteration-and-flow-control-nb-jp.ipynb' target='_blank'>Iteration and Flow Control (Interactive)</a>"
+  - text: "<a href='/jump-in/jl-notebooks/jl-build/tree/index.html?path=errors-and-experimentation-nb-jp.ipynb' target='_blank'>Errors and Experimentation (Interactive)</a>"
+  - text: "<a href='/jump-in/jl-notebooks/jl-build/tree/index.html?path=hello-world-challenge-nb-jp.ipynb' target='_blank'>Hello World (Interactive)</a>"
+  - text: "<a href='/jump-in/jl-notebooks/jl-build/tree/index.html?path=expert-debugger-challenge-nb-jp.ipynb' target='_blank'>Expert Debugger (Interactive)</a>"

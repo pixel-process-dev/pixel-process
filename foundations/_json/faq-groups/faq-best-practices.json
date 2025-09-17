@@ -1,0 +1,12 @@
+[
+  {
+    "question": "What is DRY and why does it matter?",
+    "answer": "DRY stands for 'Don't Repeat Yourself'. It's a principle that encourages reusable, modular code to reduce duplication and improve maintainability.",
+    "tags": ["coding", "principles", "foundations"]
+  },
+    {
+    "question": "What is code documentation and why should I use it?",
+    "answer": "Documentation explains what your code does and why. Good documentation makes it easier to debug, share, and revisit code later.",
+    "tags": ["documentation", "best practices", "foundations"]
+  }
+]

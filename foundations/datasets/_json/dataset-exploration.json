@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "title": "Dataset Exploration",
+    "navtitle": "Dataset Exploration",
+    "subtitle": "Rapid Summary of 2D Datasets",
+    "description": "Quickly summarize rows, columns, and datatype information with pandas and more.",
+    "slug": "data-exploration",
+    "tags": [
+      "datasets",
+      "pandas",
+      "skim"
+    ]
+  },
+  "body": [
+    {
+      "type": "text",
+      "markdown": "Tabular data, with information organized by rows and columns, provides that basis for many data analysis techniques and models. Usage includes financials, experimental data, and customer records often in the form of Excel sheets, csv files, and more.\n\nPython has many utilities for working with tabular data including pandas and polars. Examples here will focus on pandas but similar considerations and tools exist in other packages for tabular data."
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Dataset Flow"
+    },
+    {
+      "type": "code",
+      "language": "mermaid",
+      "content": "flowchart LR\n    A([How much data?]) --> B([What's missing?])\n    B --> C([How is it stored?])\n    C --> D([What does it look like?])\n    D --> E([How variable is?])"
+    }
+  ]
+}

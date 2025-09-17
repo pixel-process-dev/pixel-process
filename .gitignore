@@ -1,0 +1,32 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Quarto build output
+_site/
+.quarto/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+.virtual_documents/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# JupyterLite build caches
+assets/jupyter/
+jl-build/
+**/jl-build/
+.jupyterlite.doit.db
+.jupyterlite_status/
+
+# Editor settings (optional, if you don’t want to share)
+.vscode/
+.idea/
+/.quarto/

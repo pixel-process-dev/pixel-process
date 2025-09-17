@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "output_path": "assets/css/custom-callouts.css",
+    "type": "css"
+  },
+  "sections": [
+    {
+      "selector": ".custom-callout",
+      "variables": [
+        { "name": "border-radius", "value": "10px" },
+        { "name": "margin", "value": "1.5em 0" },
+        { "name": "padding", "value": "10px" }
+      ]
+    },
+    {
+      "selector": ".custom-callout .callout-header",
+      "variables": [
+        { "name": "display", "value": "flex" },
+        { "name": "opacity", "value": "1 !important" },
+        { "name": "font-size", "value": "1.1rem !important" },
+        { "name": "align-items", "value": "center" }
+      ]
+    },
+    {
+      "selector": ".custom-callout .callout-header::before",
+      "variables": [
+        { "name": "content", "value": "\"\"" },
+        { "name": "display", "value": "inline-block" },
+        { "name": "width", "value": "48px" },
+        { "name": "height", "value": "48px" },
+        { "name": "background-size", "value": "cover" },
+        { "name": "background-repeat", "value": "no-repeat" },
+        { "name": "background-position", "value": "center" },
+        { "name": "border-radius", "value": "50%" }
+      ]
+    },
+    {
+      "selector": ".custom-callout.d-bugz",
+      "variables": [
+        { "name": "border-color", "value": "var(--shadow)" },
+        { "name": "background-color", "value": "var(--nav-bg-050)" },
+        { "name": "border", "value": "none !important" },
+        { "name": "border-left", "value": "5px solid var(--blue-base) !important" },
+        { "name": "box-shadow", "value": "none" },
+        { "name": "outline", "value": "none" }
+      ]
+    },
+    {
+      "selector": ".custom-callout.d-bugz .callout-header::before",
+      "variables": [
+        { "name": "background-image", "value": "url(\"../images/d-bugz.png\")"
+        }
+      ]
+    },
+    {
+      "selector": ".custom-callout.pxp-ref",
+      "variables": [
+        { "name": "border-color", "value": "var(--shadow)" },
+        { "name": "background-color", "value": "var(--nav-bg-050)" },
+        { "name": "border", "value": "none !important" },
+        { "name": "border-left", "value": "5px solid var(--rose-base) !important" },
+        { "name": "box-shadow", "value": "none" },
+        { "name": "outline", "value": "none" }
+      ]
+    },
+    {
+      "selector": ".custom-callout.pxp-ref .callout-header::before",
+      "variables": [
+        { "name": "background-image", "value": "url(\"../images/pxp-ref.png\")"}
+      ]
+    },
+    {
+      "selector": ".custom-callout.experiment",
+      "variables": [
+        { "name": "border-color", "value": "var(--shadow)" },
+        { "name": "background-color", "value": "var(--nav-bg-050)" },
+        { "name": "border", "value": "none !important" },
+        { "name": "border-left", "value": "5px solid var(--green-base) !important" },
+        { "name": "box-shadow", "value": "none" },
+        { "name": "outline", "value": "none" }
+      ]
+    },
+    {
+      "selector": ".custom-callout.experiment .callout-header::before",
+      "variables": [
+        { "name": "background-image", "value": "url(\"../images/experiment.png\")"
+        }
+      ]
+    },
+    {
+      "selector": ".custom-callout.best-practice",
+      "variables": [
+        { "name": "border-color", "value": "var(--shadow)" },
+        { "name": "background-color", "value": "var(--nav-bg-050)" },
+        { "name": "border", "value": "none !important" },
+        { "name": "border-left", "value": "5px solid var(--purple-base) !important" },
+        { "name": "box-shadow", "value": "none" },
+        { "name": "outline", "value": "none" }
+      ]
+    },
+    {
+      "selector": ".custom-callout.best-practice .callout-header::before",
+      "variables": [
+        { "name": "background-image", "value": "url(\"../images/best-practice.png\")"}
+      ]
+    },
+    {
+      "selector": ".custom-callout.go-further",
+      "variables": [
+        { "name": "border-color", "value": "var(--shadow)" },
+        { "name": "background-color", "value": "var(--nav-bg-050)" },
+        { "name": "border", "value": "none !important" },
+        { "name": "border-left", "value": "5px solid var(--gold-base) !important" },
+        { "name": "box-shadow", "value": "none" },
+        { "name": "outline", "value": "none" }
+      ]
+    },
+    {
+      "selector": ".custom-callout.go-further .callout-header::before",
+      "variables": [
+        { "name": "background-image", "value": "url(\"../images/go-further.png\")"}
+      ]
+    }
+  ]
+}

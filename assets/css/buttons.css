@@ -1,0 +1,14 @@
+.toggle-all-button {
+  color: var(--brand-color-2);
+  background-color: var(--brand-color-2-bg);
+}
+
+.toggle-thebe-btn {
+  color: var(--brand-color-2);
+  background-color: var(--brand-color-2-bg);
+  padding: 0.5em 1em;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

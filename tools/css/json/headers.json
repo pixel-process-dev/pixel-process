@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "output_path": "assets/css/headers.css",
+    "type": "css"
+  },
+  "sections": [
+    {
+      "selector": ".header-block ",
+      "variables": [
+        { "name": "display", "value": "grid" },
+        { "name": "grid-template-columns", "value": "120px 1fr" },
+        { "name": "gap", "value": "16px" },
+        { "name": "align-items", "value": "center" },
+        { "name": "margin-bottom", "value": "1.5rem" }
+      ]
+    },
+    {
+      "selector": ".header-block img",
+      "variables": [
+        { "name": "width", "value": "100%" },
+        { "name": "max-width", "value": "120px" },
+        { "name": "height", "value": "120px" },
+        { "name": "border-radius", "value": "50%" },
+        { "name": "object-fit", "value": "cover" }
+      ]
+    },
+    {
+      "selector": ".header-block h2",
+      "variables": [
+        { "name": "margin", "value": "0" },
+        { "name": "font-size", "value": "1.5rem" },
+        {"name": "color", "value": "var(--brand-color-1)"}
+      ]
+    },
+    {
+      "selector": ".header-block h3",
+      "variables": [
+        {"name": "margin", "value": "0" },
+        {"name": "font-weight", "value": "normal"},
+        {"name": "color", "value": "var(--fg)"}
+      ]
+    },
+    {
+      "selector": ".page-quote",
+      "variables": [
+        {"name": "text-align", "value": "center" },
+        {"name": "font-style", "value": "italic"},
+        {"name": "font-size", "value": "1.7rem"},
+        {"name": "margin", "value": "2em 0 1em 0"},
+        {"name": "color", "value": "var(--brand-color-2)"}
+      ]
+    }
+  ]
+}

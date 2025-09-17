@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "title": "Histogram",
+    "class": "alias-card"
+  },
+  "tabs": [
+    {
+      "title": "Data Requirements",
+      "sections": [
+        {
+          "type": "static-tab",
+          "content": "- **Type**: Univariate\n- **Variables**:\n  - Single continuous variable"
+        }
+      ]
+    },
+    {
+      "title": "Package Examples",
+      "sections": [
+        {
+          "type": "collapsible",
+          "summary": "Matplotlib",
+          "content": "",
+          "language": "python",
+          "code": "import matplotlib.pyplot as plt\nimport numpy as np\ndata = np.random.randn(1000)\nplt.hist(data, bins=30)\nplt.show()"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Seaborn",
+          "content": "",
+          "language": "python",
+          "code": "import seaborn as sns\ndata = sns.load_dataset('tips')\nsns.histplot(data['total_bill'], bins=30)"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Plotly",
+          "content": "",
+          "language": "python",
+          "code": "import plotly.express as px\ndf = px.data.tips()\nfig = px.histogram(df, x='total_bill')\nfig.show()"
+        }
+      ]
+    },
+    {
+      "title": "Ideal Uses",
+      "sections": [
+        {
+          "type": "static-tab",
+          "content": "- Visualize data distribution\n- Identify skewness and outliers"
+        }
+      ]
+    }
+  ]
+}

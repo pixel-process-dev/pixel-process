@@ -1,0 +1,15 @@
+id: workflow
+title: "Workflow"
+style: docked
+collapse-level: 2
+pinned: false
+contents:
+- workflow/index.qmd
+- section: "Tools"
+  contents:
+  - workflow/tools-overview.qmd
+  - workflow/scripts-and-notebooks.qmd
+- section: "Customization"
+  contents:
+  - workflow/cli-intro.qmd
+

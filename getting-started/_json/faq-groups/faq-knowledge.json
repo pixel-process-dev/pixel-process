@@ -1,0 +1,61 @@
+[
+  {
+    "question": "Do I need to know statistics?",
+    "answer": "A basic understanding of stats helps you consume and create data responsibly. But you don\u2019t need deep expertise to be effective.",
+    "tags": [
+      "data science",
+      "skills",
+      "beginner"
+    ]
+  },
+  {
+    "question": "I am not a numbers person, can I still code?",
+    "answer": "Yes. Coding is more about logic and patterns than complex math. Python especially is beginner-friendly.",
+    "tags": [
+      "beginner",
+      "mindset"
+    ]
+  },
+  {
+    "question": "How much math do I need to know?",
+    "answer": "Basic algebra, probability, and statistics are often enough. You\u2019ll learn what you need along the way.",
+    "tags": [
+      "skills",
+      "math",
+      "data science"
+    ]
+  },
+  {
+    "question": "Do I need to memorize syntax?",
+    "answer": "No. Focus on understanding logic and patterns. You\u2019ll look up syntax often \u2014 even professionals do.",
+    "tags": [
+      "learning",
+      "mindset"
+    ]
+  },
+  {
+    "question": "What if I\u2019m bad at math or logic?",
+    "answer": "You can still learn to code. These skills improve with practice. Start small and keep going.",
+    "tags": [
+      "mindset",
+      "beginner"
+    ]
+  },
+  {
+    "question": "Why does my code break all the time?",
+    "answer": "That\u2019s normal. Debugging is part of learning. Error messages teach you what went wrong and how to fix it.",
+    "tags": [
+      "learning",
+      "beginner"
+    ]
+  },
+  {
+    "question": "Should I use notebooks or scripts?",
+    "answer": "Notebooks are great for exploration and explanation. Scripts are better for automation and production use.",
+    "tags": [
+      "tools",
+      "workflow",
+      "beginner"
+    ]
+  }
+]

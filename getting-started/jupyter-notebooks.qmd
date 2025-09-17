@@ -1,0 +1,114 @@
+---
+title: Jupyter Notebooks
+subtitle: Introduction to scientific computing notebooks
+description: Jupyter notebooks for interactive programming.
+slug: jupyter-notebooks
+tags:
+- notebooks
+- getting-started
+- reference
+---
+
+## Jupyter Notebooks
+
+[Jupyter Notebooks](https://docs.jupyter.org/en/latest/) have become a staple in the data science community due to their flexibility and powerful features. Notebooks are ideal for EDA, tutorials, and teaching. By seperating code into cells and combining code, documentation, and visualizations notebooks allow for rapid iteration and interactive learning.
+
+[Jupyter Notebook Documentation](https://jupyter-notebook.readthedocs.io/en/stable/)
+
+### Key Features
+
+- **Interactive Environment**: Jupyter Notebooks provide an interactive environment where you can write and execute code in a step-by-step manner. This is particularly useful for data analysis and exploration.
+
+- **Documentation and Code Together**: You can include markdown cells for documentation alongside your code cells, making it easier to explain your thought process and findings.
+
+- **Visualization Integration**: Jupyter Notebooks support rich outputs such as charts and graphs, which can be rendered directly within the notebook.
+
+- **Reproducibility**: Notebooks can be shared easily, and others can rerun the code to reproduce the results, ensuring transparency and reproducibility in research.
+
+## Visual Overview
+
+```{=html}
+<script>
+const flipData = [
+  { src: "/assets/images/notebook_images/Slide1.png", caption: "Key tools for effectively using notebooks. Sections grouped for later breakdown." },
+  { src: "/assets/images/notebook_images/Slide2.png", caption: "Default names will be 'Untitled', be sure name them so you don't lose any work." },
+  { src: "/assets/images/notebook_images/Slide3.png", caption: "Many features in these will be common to other apps. Note the cell operations in Edit-some keyboard shortcuts, like undo, may only impact the cell you're in!" },
+  { src: "/assets/images/notebook_images/Slide4.png", caption: "Menu features useful options for some or all cells, clearing outputs, and interuptting the kernel (for when recursion goes wrong)." },
+  { src: "/assets/images/notebook_images/Slide5.png", caption: "Find docs, tips, & tricks. Be sure to customize your experience with themes as well." },
+  { src: "/assets/images/notebook_images/Slide6.png", caption: "Notebook shortcuts give quick access to common functions. Use the cell-type dropdown to quickly produce the right content. Kernel menu provides crucial information on your environment." },
+  { src: "/assets/images/notebook_images/Slide7.png", caption: "Example code cell showing the syntax and resulting output once executed." },
+  { src: "/assets/images/notebook_images/Slide8.png", caption: "The second cell has the same input text, but is a Markdown type cell. Therefore, the return is formmatted text, not code results." }
+];
+</script>
+```
+
+
+```{=html}
+{{< include /assets/html/flipbook.html >}}
+```
+
+```{=html}
+<script>
+let current = 0;
+
+function updateFlipbook() {
+  document.getElementById("flip-img").src = flipData[current].src;
+  document.getElementById("flip-caption").textContent = flipData[current].caption;
+}
+
+function nextImage() {
+  current = (current + 1) % flipData.length;
+  updateFlipbook();
+}
+
+function prevImage() {
+  current = (current - 1 + flipData.length) % flipData.length;
+  updateFlipbook();
+}
+
+document.addEventListener("DOMContentLoaded", updateFlipbook);
+</script>
+```
+
+
+## Cell Types
+
+Jupyter Notebooks consist of cells, which are the building blocks of the notebook. There are three main types of cells:
+
+- **Code Cells**: Used to write and execute Python code. The output of the code, such as results or visualizations, appears directly below the cell.
+
+- **Markdown Cells**: Used to write formatted text using Markdown syntax. These cells are perfect for adding explanations, headers, lists, links, and other documentation.
+
+- **Raw Cells**: Used to write plain text that is not processed by the notebook. These cells are rarely used and are generally for specific formats or custom content.
+
+## Executing Code
+
+To execute a code cell, you can use one of the following methods:
+
+- **Keyboard Shortcuts**: Press `Shift + Enter` to run the current cell and move to the next cell. Press `Ctrl + Enter` to run the current cell and stay in the same cell.
+
+- **Toolbar Buttons**: Click the `Run` button in the toolbar to execute the selected cell.
+
+The output of the code, whether it's text, tables, or visualizations, will be displayed directly below the cell.
+
+## Kernels
+
+A kernel is a computational engine that executes the code contained in the notebook. Here’s how to work with kernels in Jupyter Notebooks:
+
+- **Starting a Kernel**: When you open a Jupyter Notebook, a kernel is automatically started. You can see the kernel status in the top-right corner of the notebook interface.
+
+- **Changing Kernels**: If you want to change the kernel (e.g., switch from Python 3 to another kernel), you can do so from the `Kernel` menu. Select `Change kernel` and choose the desired kernel from the list.
+
+- **Restarting a Kernel**: Sometimes you may need to restart the kernel, especially if it becomes unresponsive or if you want to clear all outputs and start fresh. You can restart the kernel from the `Kernel` menu by selecting `Restart`.
+
+## Additional Features
+
+Jupyter Notebooks offer several other features that enhance the data science workflow:
+
+- **Extensions and Widgets**: There are many extensions and widgets available to extend the functionality of Jupyter Notebooks, such as interactive widgets (ipywidgets), and extensions for improved usability (JupyterLab extensions).
+
+- **Version Control**: You can use version control systems like Git to track changes in your notebooks, making it easier to collaborate and maintain a history of your work.
+
+- **Export Options**: Notebooks can be exported to various formats, including HTML, PDF, and slideshows, making it easy to share your work with others.
+
+Jupyter Notebooks provide an excellent environment for data scientists to perform exploratory data analysis, visualize data, and document their findings. By combining code, documentation, and visualizations in a single document, Jupyter Notebooks enhance the efficiency and reproducibility of data science projects.

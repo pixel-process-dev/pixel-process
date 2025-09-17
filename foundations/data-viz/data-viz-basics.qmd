@@ -1,0 +1,342 @@
+---
+title: Data Visualization Basics
+navtitle: Data Viz Basics
+subtitle: Overview of visualization tools and common plots
+description: Core visualization libraries and plot types.
+slug: data-viz-basics
+tags:
+- data-visualization
+- matplotlib
+- seaborn
+- plotly
+---
+
+## Data Visualization in Python
+
+Data visualization is essential for exploring data, identifying patterns, and communicating insights. Python offers a rich ecosystem of libraries for creating everything from basic charts to interactive dashboards.
+
+See the associated [companion notebook](/foundations/data-viz/data-viz-basics-nb.ipynb) for more extensive code examples.
+
+### Why Visualization Matters
+
+- **Exploration**: Understand the shape and distribution of your data.
+
+- **Communication**: Present insights effectively to different audiences.
+
+- **Validation**: Check model assumptions and evaluate results.
+
+## Core Libraries
+
+Three essential libraries for Python visualization are:
+
+- **Matplotlib**: The foundational plotting library.
+
+- **Seaborn**: Simplifies statistical plots with attractive defaults.
+
+- **Plotly**: For interactive and web-ready graphics.
+
+### Matplotlib
+
+[Matplotlib](https://matplotlib.org/) is the foundational plotting library in Python, supporting a wide range of static, animated, and interactive visualizations.
+
+### Seaborn
+
+[Seaborn](https://seaborn.pydata.org/) is built on Matplotlib and provides a high-level API for creating attractive statistical graphics.
+
+### Plotly
+
+[Plotly](https://plotly.com/) creates interactive plots ideal for dashboards and web applications.
+
+## Common Plot Types
+
+Below are essential plots for data analysis. Each section includes data requirements, ideal use cases, examples for multiple Python libraries, and an example image.
+
+### Histogram
+
+Histograms display the distribution of a dataset.
+
+::: {.panel-tabset}
+
+## Data Requirements
+<div class="tab-card static-tab">
+- **Type**: Univariate
+- **Variables**:
+  - Single continuous variable
+
+</div>
+
+## Package Examples
+<details class="">
+<summary>Matplotlib</summary>
+
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+data = np.random.randn(1000)
+plt.hist(data, bins=30)
+plt.show()
+```
+</details>
+
+<details class="">
+<summary>Seaborn</summary>
+
+```python
+import seaborn as sns
+data = sns.load_dataset('tips')
+sns.histplot(data['total_bill'], bins=30)
+```
+</details>
+
+<details class="">
+<summary>Plotly</summary>
+
+```python
+import plotly.express as px
+df = px.data.tips()
+fig = px.histogram(df, x='total_bill')
+fig.show()
+```
+</details>
+
+## Ideal Uses
+<div class="tab-card static-tab">
+- Visualize data distribution
+- Identify skewness and outliers
+
+</div>
+
+:::
+
+### Bar Chart
+
+Bar charts represent categorical data with rectangular bars.
+
+::: {.panel-tabset}
+
+## Data Requirements
+<div class="tab-card static-tab">
+- **Type**: Univariate or Bivariate
+- **Variables**:
+  - x: Categorical
+  - y: Continuous
+- Suitable for counts or aggregated values.
+
+</div>
+
+## Package Examples
+<details class="">
+<summary>Matplotlib</summary>
+
+```python
+import matplotlib.pyplot as plt
+categories = ['A','B','C']
+values = [3,7,5]
+plt.bar(categories, values)
+plt.show()
+```
+</details>
+
+<details class="">
+<summary>Seaborn</summary>
+
+```python
+import seaborn as sns
+data = sns.load_dataset('tips')
+sns.barplot(x='day', y='total_bill', data=data)
+```
+</details>
+
+<details class="">
+<summary>Plotly</summary>
+
+```python
+import plotly.express as px
+categories = ['A','B','C']
+values = [3,7,5]
+fig = px.bar(x=categories, y=values)
+fig.show()
+
+```
+</details>
+
+## Ideal Uses
+<div class="tab-card static-tab">
+- Compare categories
+- Show frequency or aggregated values
+- Identify highest and lowest categories
+
+</div>
+
+:::
+
+### Box Plot
+
+Box plots summarize data with median, quartiles, and outliers.
+
+::: {.panel-tabset}
+
+## Data Requirements
+<div class="tab-card static-tab">
+- **Type**: Univariate or Bivariate
+- **Variables**:
+  - x: Categorical (optional)
+  - y: Continuous
+
+</div>
+
+## Package Examples
+<details class="">
+<summary>Matplotlib</summary>
+
+```python
+import matplotlib.pyplot as plt
+data = [7,8,5,6,4,9]
+plt.boxplot(data)
+plt.show()
+```
+</details>
+
+<details class="">
+<summary>Seaborn</summary>
+
+```python
+import seaborn as sns
+data = sns.load_dataset('tips')
+sns.boxplot(x='day', y='total_bill', data=data)
+```
+</details>
+
+<details class="">
+<summary>Plotly</summary>
+
+```python
+import plotly.express as px
+df = px.data.tips()
+fig = px.box(df, x='day', y='total_bill')
+fig.show()
+```
+</details>
+
+## Ideal Uses
+<div class="tab-card static-tab">
+- Identify outliers
+- Compare distributions across groups
+
+</div>
+
+:::
+
+### Violin Plot
+
+Violin plots combine box plots with kernel density estimates.
+
+::: {.panel-tabset}
+
+## Data Requirements
+<div class="tab-card static-tab">
+- **Type**: Bivariate
+- **Variables**:
+  - x: Categorical
+  - y: Continuous
+
+</div>
+
+## Package Examples
+<details class="">
+<summary>Matplotlib</summary>
+Matplotlib does not have built-in violin plot
+
+</details>
+
+<details class="">
+<summary>Seaborn</summary>
+
+```python
+import seaborn as sns
+data = sns.load_dataset('tips')
+sns.violinplot(x='day', y='total_bill', data=data)
+```
+</details>
+
+<details class="">
+<summary>Plotly</summary>
+
+```python
+import plotly.express as px
+df = px.data.tips()
+fig = px.violin(df, x='day', y='total_bill', box=True)
+fig.show()
+```
+</details>
+
+## Ideal Uses
+<div class="tab-card static-tab">
+- Visualize distribution and density
+- Compare across categories
+
+</div>
+
+:::
+
+### Scatter Plot
+
+Scatter plots show the relationship between two variables.
+
+::: {.panel-tabset}
+
+## Data Requirements
+<div class="tab-card static-tab">
+- **Type**: Bivariate
+- **Variables**:
+  - x: Continuous
+  - y: Continuous
+
+</div>
+
+## Package Examples
+<details class="">
+<summary>Matplotlib</summary>
+
+```python
+python
+import matplotlib.pyplot as plt
+x = [1,2,3,4,5]
+y = [5,4,6,5,7]
+plt.scatter(x,y)
+plt.show()
+
+```
+</details>
+
+<details class="">
+<summary>Seaborn</summary>
+
+```python
+import seaborn as sns
+data = sns.load_dataset('iris')
+sns.scatterplot(x='sepal_length', y='petal_length', data=data)
+```
+</details>
+
+<details class="">
+<summary>Plotly</summary>
+
+```python
+import plotly.express as px
+categories = ['A','B','C']
+values = [3,7,5]
+fig = px.scatter(tips, x='total_bill', y='tip')
+fig.show()
+
+```
+</details>
+
+## Ideal Uses
+<div class="tab-card static-tab">
+- Identify correlations
+- Detect clusters or outliers
+
+</div>
+
+:::

@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "output_path": "assets/css/links.css",
+    "type": "css"
+  },
+  "sections": [
+    {
+      "selector": "a",
+      "variables": [
+        { "name": "color", "value": "var(--brand-color-1)" },
+        { "name": "border-bottom", "value": "1px solid transparent" }
+      ]
+    },
+    {
+      "selector": "a:hover",
+      "variables": [
+        { "name": "color", "value": "var(--brand-color-1-hover)" },
+        { "name": "border-bottom", "value": "1px solid var(--brand-color-1-hover)" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "output_path": "assets/css/title-block.css",
+    "type": "css"
+  },
+  "sections": [
+    {
+      "selector": ".quarto-title-block .quarto-title-banner",
+      "variables": [
+        { "name": "background-color", "value": "var(--nav-bg)" },
+        { "name": "color", "value": "var(--fg)" }
+      ]
+    },
+    {
+      "selector": ".quarto-title-banner .title",
+      "variables": [
+        { "name": "color", "value": "var(--brand-color-1)" },
+        { "name": "text-transform", "value": "none" },
+        { "name": "transition", "value": "color 0.3s ease"}
+      ]
+    },
+    {
+      "selector": ".quarto-title-banner .subtitle",
+      "variables": [
+        { "name": "color", "value": "var(--brand-color-2)" }
+      ]
+    },
+    {
+      "selector": ".subtitle-divider",
+      "variables": [
+        { "name": "color", "value": "var(--fg)" },
+        { "name": "padding", "value": "0 0.4em" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "title": "Python Packages",
+    "class": "alias-card"
+  },
+  "tabs": [
+    {
+      "title": "Reusability",
+      "sections": [
+        {
+          "type": "static-tab",
+          "content": "- Packages allow developers to encapsulate functionality in reusable modules.\n- Once packaged, code can be imported and used across multiple projects without rewriting.\n- Example: A utility package for data manipulation can be reused in various data science projects."
+        }
+      ]
+    },
+    {
+      "title": "Maintainability",
+      "sections": [
+        {
+          "type": "static-tab",
+          "content": "- By organizing code into packages, it's easier to manage, update, and fix bugs.\n- Modifications in a well-structured package can be reflected in all projects that depend on it.\n- Separate components of a large system can be independently maintained within packages."
+        }
+      ]
+    },
+
+
+
+    {
+      "title": "Collaboration",
+      "sections": [
+        {
+          "type": "static-tab",
+          "content": "- Packages make it easier for teams to work together, as code is modular and shareable.\n- Versioning ensures collaborators use consistent versions, minimizing conflicts.\n- A package hosted on platforms like GitHub or PyPI enables wider access and contribution from others."
+        }
+      ]
+    },
+    {
+      "title": "Distribution",
+      "sections": [
+        {
+          "type": "static-tab",
+          "content": "- Packaging allows easy distribution of software to users.\n- Public repositories like PyPI enable anyone to install the package with a simple command (`pip install`).\n- This accelerates adoption and makes libraries and tools available to the entire Python community."
+        }
+      ]
+    },
+    {
+      "title": "Encapsulation",
+      "sections": [
+        {
+          "type": "static-tab",
+          "content": "- Packages encapsulate specific functionalities and keep project codebases clean and modular.\n- Encapsulation helps with code separation and prevents functions from different areas from conflicting with each other."
+        }
+      ]
+    }
+
+
+  ]
+}

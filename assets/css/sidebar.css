@@ -1,0 +1,31 @@
+.sidebar-navigation {
+  background-color: var(--nav-bg);
+}
+
+.sidebar-item.active,
+.sidebar-item.active > a {
+  color: var(--brand-color-2);
+  font-weight: bold;
+}
+
+.sidebar-item:hover > a  {
+  color: var(--brand-color-2-hover);
+}
+
+.sidebar-item-container .sidebar-link.active {
+  color: var(--brand-color-2);
+  font-weight: bold;
+}
+
+.sidebar-item-container .sidebar-link:hover {
+  color: var(--brand-color-2-hover);
+}
+
+.sidebar-section-title {
+  font-weight: bold;
+}
+
+div.sidebar.sidebar-navigation.rollup.quarto-sidebar-toggle-contents,
+nav.sidebar.sidebar-navigation:not(.rollup)  {
+  background-color: var(--nav-bg);
+}

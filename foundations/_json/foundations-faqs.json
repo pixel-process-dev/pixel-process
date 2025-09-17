@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "title": "Foundations: Frequently Asked Questions",
+    "navtitle": "FAQs",
+    "subtitle": "Common questions when working with data",
+    "description": "Learn the basics of datasets, best practices, and tools.",
+    "slug": "foundations-faqs",
+    "tags": [
+      "python",
+      "foundations",
+      "career"
+    ]
+  },
+  "body": [
+    {
+      "type": "header",
+      "level": 2,
+      "text": "FAQs"
+    },
+    {
+      "type": "text",
+      "markdown": "If you're ready to dive into bigger data and projects, get prepared with these FAQs outlining best tools and practices."
+    },
+    {
+      "type": "toggle-all",
+      "text": "Toggle All FAQs"
+    },    
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Best Practices"
+    },
+    {
+      "type": "faqs",
+      "items_path": "foundations/_json/faq-groups/faq-best-practices.json"
+    },    
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Tools"
+    },
+    {
+      "type": "faqs",
+      "items_path": "foundations/_json/faq-groups/faq-tools.json"
+    },    
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Datasets"
+    },
+    {
+      "type": "faqs",
+      "items_path": "foundations/_json/faq-groups/faq-datasets.json"
+    }
+  ]
+}

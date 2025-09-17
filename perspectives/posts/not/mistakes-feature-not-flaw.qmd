@@ -1,0 +1,50 @@
+---
+title: "Mistakes: Feature ~ Flaw"
+subtitle: "Getting It Wrong Is Part of Getting It Right"
+author: Your Name
+date: 2025-07-10
+categories: [Not, Mindset, Learning, Growth]
+draft: false
+description: "Mistakes facilitate learning. Small mistakes often prevent larger ones. A reflection on reframing failure as feedback."
+image: images/mistakes-feature-not-flaw.png
+format:
+  html:
+    page-layout: article
+---
+
+## Introduction
+- Open with a story or example of a mistake that turned into a breakthrough.  
+- Contrast the instinct to hide mistakes with the idea that they can be intentional signals.  
+- Frame the post around the theme: mistakes are not flaws, but features of the process.  
+
+## Mistakes in Coding
+- **Errors as feedback:** how error messages in Python (or any language) aren’t failures but guides.  
+- **Debugging as discovery:** often reveals hidden assumptions.  
+- **Notebooks vs. production:** space where mistakes are safe and exploratory.  
+
+## Mistakes in Data Science
+- **Messy data:** outliers, missing values, and misformatted entries push us to think critically.  
+- **Model overfitting/underfitting:** mistakes that illuminate model limitations.  
+- **Exploratory analysis:** the “wrong turns” often suggest better hypotheses.  
+
+## Mistakes in Learning
+- **Not knowing is part of learning:** growth mindset.  
+- **Iteration and revision:** how “failed” attempts are necessary steps toward mastery.  
+- **Patterns in mistakes:** noticing recurring errors shows where deeper understanding is needed.  
+
+## Mistakes in Creativity
+- **Happy accidents:** parallels with art, design, or photography.  
+- **Unexpected outcomes:** sometimes better than the original plan.  
+- **Reframing flaws as style:** imperfections that make work unique.  
+
+## From Flaw to Feature
+- How to document and share mistakes productively (e.g., code comments, blog posts, talks).  
+- Building workflows that expect and embrace iteration.  
+- Encouraging collaboration by normalizing error-sharing.  
+
+## Closing Reflection
+- Circle back to the post title — mistakes are not flaws.  
+- Mistakes mark progress, reveal features, and are signs of growth.  
+- Invite readers to reflect: *What’s the last mistake you learned from that improved your process?*  
+
+---

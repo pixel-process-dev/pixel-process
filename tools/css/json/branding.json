@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "output_path": "assets/css/branding.css",
+    "type": "css"
+  },
+  "sections": [
+    {
+      "selector": ".pxp",
+      "variables": [
+        { "name": "font-family", "value": "var(--fonts-code-family)" },
+        { "name": "font-weight", "value": "bold" },
+        { "name": "font-size", "value": "inherit" },
+        { "name": "white-space", "value": "nowrap" },
+        { "name": "letter-spacing", "value": "-0.02em" },
+        { "name": "color", "value": "var(--brand-color-1)" },
+        { "name": "display", "value": "inline-block" },
+        { "name": "transform", "value": "scale(1.05)" },
+        { "name": "transform-origin", "value": "left center" }
+      ]
+    },
+    {
+      "selector": ".pxp span:nth-child(2)",
+      "variables": [
+        { "name": "color", "value": "var(--brand-color-2)" }
+      ]
+    }
+  ]
+}

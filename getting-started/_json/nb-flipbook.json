@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "title": "Jupyter Notebook Flipbook",
+    "class": "flipbook"
+  },
+  "images": [
+    {
+      "title": "Notebook Orientation",
+      "src": "/assets/images/notebook_images/Slide1.png",
+      "caption": "Key tools for effectively using notebooks. Sections grouped for later breakdown."
+    },
+    {
+      "title": "Notebook Naming",
+      "src": "/assets/images/notebook_images/Slide2.png",
+      "caption": "Default names will be 'Untitled', be sure name them so you don't lose any work."
+    },
+    {
+      "title": "File, Edit, & View Menus",
+      "src": "/assets/images/notebook_images/Slide3.png",
+      "caption": "Many features in these will be common to other apps. Note the cell operations in Edit-some keyboard shortcuts, like undo, may only impact the cell you're in!"
+    },
+    {
+      "title": "Run & Kernel Menus",
+      "src": "/assets/images/notebook_images/Slide4.png",
+      "caption": "Menu features useful options for some or all cells, clearing outputs, and interuptting the kernel (for when recursion goes wrong)."
+    },
+    {
+      "title": "Settings & Help Menus",
+      "src": "/assets/images/notebook_images/Slide5.png",
+      "caption": "Find docs, tips, & tricks. Be sure to customize your experience with themes as well."
+    },
+    {
+      "title": "Notebook and Kernel Shortcuts",
+      "src": "/assets/images/notebook_images/Slide6.png",
+      "caption": "Notebook shortcuts give quick access to common functions. Use the cell-type dropdown to quickly produce the right content. Kernel menu provides crucial information on your environment."
+    },
+    {
+      "title": "Cell 1: Python",
+      "src": "/assets/images/notebook_images/Slide7.png",
+      "caption": "Example code cell showing the syntax and resulting output once executed."
+    },
+    {
+      "title": "Cell 2: Markdown",
+      "src": "/assets/images/notebook_images/Slide8.png",
+      "caption": "The second cell has the same input text, but is a Markdown type cell. Therefore, the return is formmatted text, not code results."
+    }
+  ]
+}

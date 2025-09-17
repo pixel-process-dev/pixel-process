@@ -1,0 +1,97 @@
+---
+title: The Command Line
+subtitle: Basic introduction to command-line interfaces
+description: Introduction to basic usage, common examples, and aliases for improved
+  workflow.
+slug: cli-intro
+tags:
+- cli
+- getting-started
+- reference
+---
+
+## Command-Line Interfaces (CLI)
+
+A Command-Line Interface (CLI) is a text-based way to interact with your computer. Instead of clicking through menus, you type commands into a terminal to navigate directories, manage files, run programs, and more. While it may seem intimidating at first, the CLI is powerful for automation, customization, and efficiency.
+
+### Why use CLI
+
+- **Efficiency**: Perform tasks faster than through graphical interfaces.
+
+- **Automation**: Combine commands into scripts for repeatable workflows.
+
+- **Control**: Access deeper system functionality and options.
+
+- **Remote Work**: SSH into servers and manage systems without a GUI.
+
+Common CLIs include bash, zsh, and PowerShell. On macOS and Linux, bash or zsh are standard; on Windows, PowerShell is the default.
+
+## The Shell
+
+The shell is the program that interprets commands you type and executes them.
+
+**Popular shells**:
+
+- Bash: Common on Linux
+
+- Zsh: Default on macOS
+
+- PowerShell: Default on Windows
+
+The shell supports built-in commands and lets you run programs, pipe outputs, and customize your environment.
+
+## Aliases
+
+An alias is a shortcut for commands.
+
+Optimize your workflow by:
+
+- Shortening commands
+
+- Reduce errors from mistyping
+- Customize common CLI commands
+
+::: {.panel-tabset}
+
+## Basics
+<details class="">
+<summary>What is an alias?</summary>
+An alias is a shortcut for commands.
+
+
+```bash
+alias ll='ls -lah'
+```
+</details>
+
+<details class="">
+<summary>Why use aliases?</summary>
+- Save time by shortening commands
+- Reduce errors from mistyping
+- Customize your CLI workflow
+
+</details>
+
+## Persistent Aliases
+<details class="">
+<summary>Make it permanent</summary>
+Add to your shell configuration:
+
+
+```bash
+echo "alias ll='ls -lah'" >> ~/.zshrc && source ~/.zshrc
+```
+</details>
+
+## Advanced
+<details class="">
+<summary>Multiple Aliases</summary>
+
+```bash
+alias gs='git status'
+alias gp='git pull'
+alias gpush='git push origin main'
+```
+</details>
+
+:::

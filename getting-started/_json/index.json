@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "title": "Getting Started",
+    "subtitle": "Learn Syntax <span class=\"subtitle-divider\">|</span> Leverage Packages <span class=\"subtitle-divider\">|</span> Start Programming",
+    "description": "Learn programming basics without headaches. Notebooks and pages cover essential skills for building with Python and R.",
+    "navdesc": "Discover how programming can work for you",
+    "format": {
+      "html": {
+        "page-layout": "full",
+        "toc": false,
+        "title-block-banner": true
+      }
+    },
+    "slug": "getting-started"
+  },
+  "body": [
+    {
+      "type": "text",
+      "markdown": "This section focuses on core practices and packages in Python. Basic programming content from `Is learning Python Worth it?` to pro-tips for debugging.\n\n**Learn the basics to see what's possible.**"
+    },
+    {
+      "type": "custom-callout",
+      "callout-type": "go-further",
+      "title": "Core Skills → Code Control",
+      "text": "Mastering all languages and tools is difficult. So don't just try to memorize syntax. Find themes, concepts, best practices, and resources to rapid addresss what you need."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Getting Started Topics"
+    },
+    {
+      "type": "header",
+      "level": 4,
+      "text": "Brand new to programming? [Jump into Python]({{{jump-in}}}) hassle free."
+    },
+    {
+      "type": "text",
+      "markdown": "Brand new to pgBuilt to explore, all notebooks in this section are **interactive**. Run live examples and challenges in Binder and Thebe notebooks — no setup required.\n\n- **Python Basics**: Learn about variables, data types, and how to store and use information.\n- **Operators**: Explore arithmetic, comparison, and logical operators to control how your code behaves.\n- **Flow Control**: Use if-statements, loops, and logical patterns to direct your programs.\n"
+    },
+    {
+      "type": "category-grid",
+      "quick-links": [
+        {
+          "title": "Basic Overview",
+          "page-groups": ["basics-overview"]
+        },
+        {
+          "title": "Jump In",
+          "page-groups": ["jump-in"]
+        },
+        {
+          "title": "R Introduction",
+          "page-groups": ["r-intro"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "custom-callout",
+      "callout-type": "d-bugz",
+      "title": "Experience from Errors",
+      "text": "These bugs don't bite! Writing a complex program without errors is as probable as writing a novel without a typo. The key is test for errors, ensure things work properly, and address the issues. Understanding basic errors will allow you tackle much more complex tasks.\n\n**Code Freely** — programming is interactive, so try things, test things, experiment\n\n**Fail Safely** — mistakes don't hurt here, if something goes wrong simply reset the workspace\n\n**Learn Deeply** — examine inputs and outputs, read error messages, learn the basics to programming"
+    },
+    {
+      "type": "page-quote",
+      "text": "The best way to learn is to break stuff — and then (try to) fix it"
+    },
+    {
+      "type": "text",
+      "markdown": "Start small. Make mistakes. Ask questions. This is a space to experiment freely, play around, break things, and learn by doing. Nobody gets it right the first time. Just get started."
+    }
+  ]
+}

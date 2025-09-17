@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "title": "Scatter Plot",
+    "class": "alias-card"
+  },
+  "tabs": [
+    {
+      "title": "Data Requirements",
+      "sections": [
+        {
+          "type": "static-tab",
+          "content": "- **Type**: Bivariate\n- **Variables**:\n  - x: Continuous\n  - y: Continuous"
+        }
+      ]
+    },
+    {
+      "title": "Package Examples",
+      "sections": [
+        {
+          "type": "collapsible",
+          "summary": "Matplotlib",
+          "content": "",
+          "language": "python",
+          "code": "python\nimport matplotlib.pyplot as plt\nx = [1,2,3,4,5]\ny = [5,4,6,5,7]\nplt.scatter(x,y)\nplt.show()\n"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Seaborn",
+          "content": "",
+          "language": "python",
+          "code": "import seaborn as sns\ndata = sns.load_dataset('iris')\nsns.scatterplot(x='sepal_length', y='petal_length', data=data)"
+        },
+        {
+          "type": "collapsible",
+          "summary": "Plotly",
+          "content": "",
+          "language": "python",
+          "code": "import plotly.express as px\ncategories = ['A','B','C']\nvalues = [3,7,5]\nfig = px.scatter(tips, x='total_bill', y='tip')\nfig.show()\n"
+        }
+      ]
+    },
+    {
+      "title": "Ideal Uses",
+      "sections": [
+        {
+          "type": "static-tab",
+          "content": "- Identify correlations\n- Detect clusters or outliers"
+        }
+      ]
+    }
+  ]
+}

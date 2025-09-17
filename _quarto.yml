@@ -1,0 +1,195 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - images/
+    - assets/html
+    - jump-in/jl-notebooks/
+
+website:
+  reader-mode: false
+  bread-crumbs: false
+  page-navigation: true
+  navbar:
+    pinned: true
+    left:
+      - text: "Pixel Process"
+        href: index.qmd
+      - text: "Jump In"
+        href: jump-in/index.qmd
+      - text: "Getting Started"
+        href: getting-started/index.qmd
+      - text: "Foundations"
+        href: foundations/index.qmd
+      - text: "Machine Learning"
+        href: machine-learning/index.qmd
+      - text: "Workflow"
+        href: workflow/index.qmd
+    right:
+      - text: "Perspectives"
+        href: perspectives/index.qmd
+      - text: "About"
+        href: about/index.qmd
+    tools:
+      - icon: moon-stars
+        toggle: true
+
+
+  sidebar:
+    - id: foundations
+      title: "Foundations"
+      style: docked
+      collapse-level: 2
+      pinned: false
+      contents:
+        - foundations/index.qmd
+        - text: "FAQs"
+          href: foundations/foundations-faqs.qmd
+        - section: "Datasets"
+          contents:
+            - foundations/datasets/dataset-exploration.qmd
+            - foundations/datasets/dataset-exploration-nb.ipynb
+        - section: "Data Visualization"
+          contents:
+            - foundations/data-viz/data-viz-basics.qmd
+            - foundations/data-viz/data-viz-basics-nb.ipynb
+        - section: "Advanced Data"
+          contents:
+            - foundations/advanced-data/image-basics.ipynb
+
+    - id: getting-started
+      title: "Getting Started"
+      style: docked
+      collapse-level: 2
+      pinned: false
+      contents:
+        - getting-started/index.qmd
+        - text: "FAQs"
+          href: getting-started/getting-started-faqs.qmd
+        - section: "Basics"
+          contents:
+            - getting-started/shoulders-of-giants.qmd
+            - getting-started/jupyter-notebooks.qmd
+        - section: "R"
+          contents:
+            - text: "R Introduction Overview (PDF)"
+              href: getting-started/r/intro-to-r.pdf
+            - getting-started/r/r-basic-commands-nb.ipynb
+            - getting-started/r/r-data-manipulation-nb.ipynb
+            - getting-started/r/r-datasets-nb.ipynb
+            - getting-started/r/r-import-export-nb.ipynb
+            - getting-started/r/r-data-viz-nb.ipynb
+            - getting-started/r/r-data-analysis-nb.ipynb
+
+    - id: workflow
+      title: "Workflow"
+      style: docked
+      collapse-level: 2
+      pinned: false
+      contents:
+        - workflow/index.qmd
+        - section: "Tools"
+          contents:
+            - workflow/tools-overview.qmd
+            - workflow/scripts-and-notebooks.qmd
+        - section: "Customization"
+          contents:
+            - workflow/cli-intro.qmd
+
+    - id: jump-in
+      title: "Jump In"
+      style: docked
+      collapse-level: 2
+      pinned: false
+      contents:
+        - jump-in/index.qmd
+        - section: "Pages"
+          contents:
+            - jump-in/datatypes-and-operators.qmd
+            - jump-in/notebooks/datatypes-and-operators-nb.ipynb
+            - jump-in/variables-and-functions.qmd
+            - jump-in/notebooks/variables-and-functions-nb.ipynb
+            - jump-in/iteration-and-flow-control.qmd
+            - jump-in/notebooks/iteration-and-flow-control-nb.ipynb
+            - jump-in/errors-and-experimentation.qmd
+            - jump-in/notebooks/errors-and-experimentation-nb.ipynb
+            - jump-in/notebooks/hello-world-challenge-nb.ipynb
+            - jump-in/notebooks/expert-debugger-challenge-nb.ipynb
+        - section: "Interactive Notebooks"
+          contents:
+            - text: "<a href='/jump-in/jl-notebooks/jl-build/tree/index.html?path=datatypes-and-operators-nb-jp.ipynb' target='_blank'>Datatypes and Operators (Interactive)</a>"
+            - text: "<a href='/jump-in/jl-notebooks/jl-build/tree/index.html?path=variables-and-functions-nb-jp.ipynb' target='_blank'>Variables and Functions (Interactive)</a>"
+            - text: "<a href='/jump-in/jl-notebooks/jl-build/tree/index.html?path=iteration-and-flow-control-nb-jp.ipynb' target='_blank'>Iteration and Flow Control (Interactive)</a>"
+            - text: "<a href='/jump-in/jl-notebooks/jl-build/tree/index.html?path=errors-and-experimentation-nb-jp.ipynb' target='_blank'>Errors and Experimentation (Interactive)</a>"
+            - text: "<a href='/jump-in/jl-notebooks/jl-build/tree/index.html?path=hello-world-challenge-nb-jp.ipynb' target='_blank'>Hello World (Interactive)</a>"
+            - text: "<a href='/jump-in/jl-notebooks/jl-build/tree/index.html?path=expert-debugger-challenge-nb-jp.ipynb' target='_blank'>Expert Debugger (Interactive)</a>"
+    - id: perspectives
+      title: "Perspectives"
+      style: docked
+      collapse-level: 2
+      pinned: false
+      contents:
+        - perspectives/index.qmd
+        - section: "AND"
+          contents:
+            - perspectives/posts/and/perspective-pixels-and-pictures.qmd
+
+    - id: machine-learning
+      title: "Machine Learning"
+      style: docked
+      collapse-level: 2
+      pinned: false
+      contents:
+        - machine-learning/index.qmd
+        - machine-learning/machine-learning-faqs.qmd
+        - section: "Models & Metrics"
+          contents:
+            - machine-learning/data-science-topics.qmd
+            - machine-learning/random-forest.ipynb
+        - section: "Classification"
+          contents:
+            - machine-learning/classification-iris.ipynb
+        - section: "Regression"
+          contents:
+            - machine-learning/regression-housing.ipynb
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    google-fonts:
+      - Inter
+    css:
+      - assets/css/tokens.css
+      - assets/css/themes.css
+      - assets/css/body-bg.css
+      - assets/css/navbar.css
+      - assets/css/sidebar.css
+      - assets/css/toc.css
+      - assets/css/links.css
+      - assets/css/headers.css
+      - assets/css/footer.css
+      - assets/css/title-block.css
+      - assets/css/code-blocks.css
+      - assets/css/pyodide.css
+      - assets/css/custom-callouts.css
+      - assets/css/category-grid.css
+      - assets/css/tab-cards.css
+      - assets/css/flipbook.css
+      - assets/css/tables.css
+      - assets/css/faqs.css
+      - assets/css/buttons.css
+      - assets/css/quick-links.css
+      - assets/css/branding.css
+    include-after-body:
+      - assets/html/wip-footer.html
+      - assets/html/custom-footer.html
+    link-external-newwindow: true
+    page-layout: full
+    code-copy: true
+    toc: true
+    title-block-banner: true
+    plotly: true
+    execute:
+      enabled: false

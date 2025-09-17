@@ -1,0 +1,28 @@
+.table-cheatsheet table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.95rem;
+  margin: 1em 0;
+}
+
+.table-cheatsheet table th,
+.table-cheatsheet table td {
+  text-align: left;
+  padding: 8px 12px;
+  border: 1px solid var(--fg);
+}
+
+.table-cheatsheet table th {
+  font-weight: 600;
+  color: var(--brand-color-3);
+  text-align: center;
+  font-size: 1.03rem;
+}
+
+.table-cheatsheet table tr:nth-child(even) {
+  background-color: var(--nav-bg);
+}
+
+.table-cheatsheet table tr:hover {
+  background-color: var(--brand-color-1-bg);
+}

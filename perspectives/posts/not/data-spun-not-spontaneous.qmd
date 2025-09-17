@@ -1,0 +1,14 @@
+---
+title: "Data: Spun ~ Spontaneous"
+subtitle: "What We Talk About When We Talk About Data"
+author: Your Name
+date: 2025-07-12
+categories: [Not, Data, Critical Thinking, Communication]
+draft: false
+description: "Data isn’t raw truth—it’s shaped, framed, and sometimes spun. A look at how to read between the lines of data-driven claims."
+image: images/data-spun-not-spontaneous.png
+format:
+  html:
+    page-layout: article
+---
+
