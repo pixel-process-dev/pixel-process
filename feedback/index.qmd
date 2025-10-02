@@ -1,0 +1,71 @@
+---
+title: PxP Feedback
+subtitle: Like it? Hate it? Want to see more?
+format:
+  html:
+    page-layout: full
+    toc: false
+    title-block-banner: true
+slug: feedback
+---
+
+# Share Your Feedback
+
+We’d love to hear your thoughts. Fields marked with * are required.
+
+<form id="feedbackForm">
+  <label for="feedback">Feedback *</label><br>
+  <textarea id="feedback" name="feedback" rows="5" required style="width:100%; max-width:800px;"></textarea><br><br>
+
+  <label for="section">Page/Section (optional)</label><br>
+  <input type="text" id="section" name="section"><br><br>
+
+  <label for="email">Email (optional, if you’d like a reply)</label><br>
+  <input type="email" id="email" name="email"><br><br>
+
+  <button type="submit" class="toggle-all-button">Submit</button>
+</form>
+
+
+<div id="responseMessage" style="margin-top:1em; color: gray;">
+  ⏳ No feedback submitted yet.
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const responseBox = document.getElementById("responseMessage");
+
+  document.getElementById("feedbackForm").addEventListener("submit", async function(event) {
+    event.preventDefault();
+
+    // Show a "submitting..." state immediately
+    responseBox.style.color = "gray";
+    responseBox.innerText = "📤 Submitting your feedback...";
+
+    const data = {
+      feedback: document.getElementById("feedback").value,
+      section: document.getElementById("section").value,
+      email: document.getElementById("email").value
+    };
+
+    try {
+      const response = await fetch("https://feedback.pixelprocess.org:8443/feedback", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data)
+      });
+
+      if (response.ok) {
+        responseBox.style.color = "green";
+        responseBox.innerText = "✅ Thank you! Your feedback was submitted.";
+      } else {
+        responseBox.style.color = "orange";
+        responseBox.innerText = "⚠️ Something went wrong. Please try again later.";
+      }
+    } catch (err) {
+      responseBox.style.color = "red";
+      responseBox.innerText = "⚠️ Error connecting to feedback server.";
+    }
+  });
+});
+</script>

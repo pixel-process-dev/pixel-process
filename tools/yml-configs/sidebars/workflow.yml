@@ -8,7 +8,9 @@ contents:
 - section: "Tools"
   contents:
   - workflow/tools-overview.qmd
+  - workflow/shoulders-of-giants.qmd
   - workflow/scripts-and-notebooks.qmd
+  - workflow/jupyter-notebooks.qmd
 - section: "Customization"
   contents:
   - workflow/cli-intro.qmd

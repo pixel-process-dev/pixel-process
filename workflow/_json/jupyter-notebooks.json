@@ -34,7 +34,7 @@
     },
     {
       "type": "flipbook",
-      "img-json-path": "getting-started/_json/nb-flipbook.json"
+      "img-json-path": "workflow/_json/nb-flipbook.json"
     },
     {
       "type": "header",

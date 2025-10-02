@@ -1,0 +1,143 @@
+---
+title: Errors and Experimentation
+subtitle: 'Part 4: Learning Through Mistakes and Exploration'
+description: Introduction to common errors in Python and basic experimentation strategies.
+slug: errors-and-experimentation
+tags:
+- python
+- beginners
+- jupyter
+- errors
+- debugging
+---
+
+## Get Started with Python - Part 4
+
+This is the fourth part of the `Jump In` guide. Here, we focus on **errors** and **experimentation**. Errors are a normal part of learning and programming. Consider them hints that something needs adjusting, not failures. Experimentation is about testing your ideas safely with small, simple steps.
+
+## Common Errors
+
+Python errors usually come with a message that describes what went wrong. Below are the most common types beginners see:
+
+### SyntaxError
+```{pyodide-python}
+print('Hello'
+```
+
+A `SyntaxError` happens when Python doesn't understand the code structure (missing a parenthesis, colon, etc.).
+
+### NameError
+```{pyodide-python}
+print(my_variable)
+```
+
+A `NameError` occurs when you try to use something that hasn't been defined yet.
+
+### TypeError and ValueError
+```{pyodide-python}
+"3" + 3
+```
+```{pyodide-python}
+int("three")
+```
+
+`TypeError` means the wrong type of object was used. `ValueError` means the type was right but the value didn't make sense.
+
+### IndexError
+```{pyodide-python}
+numbers = [10, 20, 30]
+numbers[5]
+```
+
+`IndexError` means you asked for a position that doesn't exist.
+
+### File Errors
+```{pyodide-python}
+open('missing_file.txt')
+```
+
+`FileNotFoundError` and `PermissionError` happen when files or paths don't exist or can't be accessed. Relative vs. absolute paths, and read/write permissions, can all matter here.
+
+::: {.callout icon="none" .custom-callout .experiment title="Big Picture Errors"}
+
+Sometimes errors come from bigger issues: the Python version you're using, missing packages, or environment setup. Don't worry'you'll see these more in advanced sections. Links to more in-depth content are available when you want to explore.
+:::
+
+
+## Experimentation
+
+Experimentation means testing your ideas step by step.
+Debugging works a lot like science. Instead of guessing randomly, you can treat each step as a test:
+
+- **Form a hypothesis**: “Maybe the list is empty.”
+
+- **Test it**: `print(len(my_list))`
+
+- **Observe**: Check if the result matches your idea.
+
+- **Revise**: If not, try a new explanation.
+
+Debugging is about improvement and making things work.
+
+<div class="table-cheatsheet">
+| Issue | Wild Guess | Testable Hypothesis | Test Syntax/Process |
+| --- | --- | --- | --- |
+| Can't load a file | I deleted it | The file still exists, just in the wrong place | Check Finder/Explorer, confirm relative vs. absolute path |
+| I can't remember all this syntax | I cannot code | Other learners look things up too | Search docs, Stack Overflow, or examples — even experts do this |
+| I keep getting errors | This will never run, I should give up | Repeated errors show where my understanding is growing | Review progress, look for recurring issues, adjust and retry |
+| Loop runs forever | Python is broken | My loop condition never becomes false | Print the variable in the loop, check where/if it changes |
+| Unexpected output | Computer is wrong | The variable has a different type or value than I expect | Use type(x), print(x), or len(x) to inspect |
+| Function gives error | Functions are too advanced for me | I passed the wrong number/type of arguments | Check the function definition and call, print the inputs |
+
+</div>
+
+
+### Check Types and Values
+```{pyodide-python}
+x = "123"
+print(type(x))
+```
+
+### Print Often
+```{pyodide-python}
+total = 5 + 7
+print("Total is:", total)
+total = 57
+print("Total is:", total)
+```
+
+### Use len() to Check Size
+```{pyodide-python}
+items = [1, 2, 3]
+print(len(items))
+```
+
+### Comment and Change Slowly
+
+Use `#` to comment out lines temporarily. Make one change at a time and re-run to see the effect.
+```{pyodide-python}
+# Swap the commented section
+message = "Hello"
+print(message)
+
+# numbers = [10, 20, 30]
+# print(numbers[2])
+```
+
+::: {.callout icon="none" .custom-callout .best-practice title="Use f-Strings for Context Printing"}
+
+Instead of guessing what a printed value means, f-strings let you add context directly in the output. They are one of the easiest ways to add clarity to print statements and much more.
+:::
+
+```{pyodide-python}
+x = 42
+print(f"The value of x is {x}")
+
+name = "Alice"
+age = 30
+print(f"Name: {name}, Age: {age}")
+```
+
+- Errors are hints, not failures.
+- Experiment with simple tools (`type()`, `print()`, `len()`).
+- More advanced error topics like environments, packages, and permissions are covered elsewhere.

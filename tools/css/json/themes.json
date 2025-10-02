@@ -146,6 +146,22 @@
         {
           "name": "--grey-bg",
           "value": "var(--grey-light-010)"
+        },
+        {
+          "name": "--red-base",
+          "value": "var(--red-light-100)"
+        },
+        {
+          "name": "--red-hover",
+          "value": "var(--red-light-dark-blend)"
+        },
+        {
+          "name": "--red-active",
+          "value": "var(--red-light-light-blend)"
+        },
+        {
+          "name": "--red-bg",
+          "value": "var(--red-light-010)"
         }
       ]
     },
@@ -280,6 +296,22 @@
         {
           "name": "--grey-bg",
           "value": "var(--grey-dark-010)"
+        },
+        {
+          "name": "--red-base",
+          "value": "var(--red-dark-100)"
+        },
+        {
+          "name": "--red-hover",
+          "value": "var(--red-dark-dark-blend)"
+        },
+        {
+          "name": "--red-active",
+          "value": "var(--red-dark-light-blend)"
+        },
+        {
+          "name": "--red-bg",
+          "value": "var(--red-dark-010)"
         }
       ]
     },

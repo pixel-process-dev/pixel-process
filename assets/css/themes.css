@@ -39,6 +39,10 @@ body:not(.quarto-dark) {
   --grey-hover: var(--grey-light-dark-blend);
   --grey-active: var(--grey-light-light-blend);
   --grey-bg: var(--grey-light-010);
+  --red-base: var(--red-light-100);
+  --red-hover: var(--red-light-dark-blend);
+  --red-active: var(--red-light-light-blend);
+  --red-bg: var(--red-light-010);
 }
 
 body.quarto-dark {
@@ -74,6 +78,10 @@ body.quarto-dark {
   --grey-hover: var(--grey-dark-dark-blend);
   --grey-active: var(--grey-dark-light-blend);
   --grey-bg: var(--grey-dark-010);
+  --red-base: var(--red-dark-100);
+  --red-hover: var(--red-dark-dark-blend);
+  --red-active: var(--red-dark-light-blend);
+  --red-bg: var(--red-dark-010);
 }
 
 body:not(.quarto-dark) {

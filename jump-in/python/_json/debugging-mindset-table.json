@@ -1,0 +1,40 @@
+{
+  "Debugging Mindset Examples": [
+    {
+      "Issue": "Can't load a file",
+      "Wild Guess": "I deleted it",
+      "Testable Hypothesis": "The file still exists, just in the wrong place",
+      "Test Syntax/Process": "Check Finder/Explorer, confirm relative vs. absolute path"
+    },
+    {
+      "Issue": "I can't remember all this syntax",
+      "Wild Guess": "I cannot code",
+      "Testable Hypothesis": "Other learners look things up too",
+      "Test Syntax/Process": "Search docs, Stack Overflow, or examples — even experts do this"
+    },
+    {
+      "Issue": "I keep getting errors",
+      "Wild Guess": "This will never run, I should give up",
+      "Testable Hypothesis": "Repeated errors show where my understanding is growing",
+      "Test Syntax/Process": "Review progress, look for recurring issues, adjust and retry"
+    },
+    {
+      "Issue": "Loop runs forever",
+      "Wild Guess": "Python is broken",
+      "Testable Hypothesis": "My loop condition never becomes false",
+      "Test Syntax/Process": "Print the variable in the loop, check where/if it changes"
+    },
+    {
+      "Issue": "Unexpected output",
+      "Wild Guess": "Computer is wrong",
+      "Testable Hypothesis": "The variable has a different type or value than I expect",
+      "Test Syntax/Process": "Use type(x), print(x), or len(x) to inspect"
+    },
+    {
+      "Issue": "Function gives error",
+      "Wild Guess": "Functions are too advanced for me",
+      "Testable Hypothesis": "I passed the wrong number/type of arguments",
+      "Test Syntax/Process": "Check the function definition and call, print the inputs"
+    }
+  ]
+}

@@ -16,12 +16,12 @@
   "body": [
     {
       "type": "text",
-      "markdown": "Every good project rests on strong foundations — and in coding, that means understanding the core tools and patterns that show up everywhere. This section focuses on the building blocks of real-world programming: from reading and writing data to structuring reusable code and visualizing results clearly. You’ll work with files, packages, functions, and figures — the essential tools that help you do more with less.\n\n**Build strong. Build smart.**"
+      "markdown": "Every good project rests on strong foundations — and in coding, that means understanding the core tools and patterns that show up everywhere. This section focuses on the building blocks of real-world programming: from reading and writing data to structuring reusable code and visualizing results clearly. You'll work with files, packages, functions, and figures — the essential tools that help you do more with less.\n\n**Build strong. Build smart.**"
     },
     {
       "type": "custom-callout",
       "callout-type": "best-practice",
-      "title": "Don’t Just Write Code — Structure It",
+      "title": "Don't Just Write Code — Structure It",
       "text": "Reusable code saves time and prevents errors, but it starts with small habits: clear functions, thoughtful imports, and readable structure. The stronger your foundations, the more flexible your projects become."
     },
     {
@@ -57,7 +57,7 @@
       "type": "custom-callout",
       "callout-type": "d-bugz",
       "title": "Start Your Journey",
-      "text": "I used to think I was {{< fa light fire >}} because my code ran and I (usually) understood it...then I got a job. Most real-world projects depend on shared understanding: conventions, documentation, and structure that make your code easy to follow, reuse, and extend — it’s about collaboration.\n\n**Learn patterns** — resolving the same issues wastes time, solve recurring issues in systematic ways\n\n**Build habits** — implementing workflows, tools, and standards that work reduces headaches and elevates returns\n\n**Grow confident** — solid practices and foundations make projects extendible, code resuable, and enthusiasts experts"
+      "text": "I used to think I was {{< fa light fire >}} because my code ran and I (usually) understood it...then I got a job. Most real-world projects depend on shared understanding: conventions, documentation, and structure that make your code easy to follow, reuse, and extend — it's about collaboration.\n\n**Learn patterns** — resolving the same issues wastes time, solve recurring issues in systematic ways\n\n**Build habits** — implementing workflows, tools, and standards that work reduces headaches and elevates returns\n\n**Grow confident** — solid practices and foundations make projects extendible, code resuable, and enthusiasts experts"
     },
     {
       "type": "page-quote",

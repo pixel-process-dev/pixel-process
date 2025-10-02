@@ -8,22 +8,12 @@
     "pixels-and-pictures",
     "tools-overview"
   ],
-  "basics-overview": [
-    "getting-started-faqs", 
-    "shoulders-of-giants", 
-    "jupyter-notebooks"
-  ],
   "jump-in": [
     "jump-in",
     "datatypes-and-operators", 
     "variables-and-functions", 
     "iteration-and-flow-control",
     "errors-and-experimentation" 
-  ],
-  "python-intro": [
-    "intro-python", 
-    "operations", 
-    "control-flow"
   ],
   "r-intro": [
     "intro-to-r", 
@@ -59,7 +49,9 @@
   ],
   "tools": [
     "tools-overview", 
-    "scripts-and-notebooks"
+    "shoulders-of-giants", 
+    "scripts-and-notebooks",
+    "jupyter-notebooks"
   ],
   "customization": [
     "cli-intro"

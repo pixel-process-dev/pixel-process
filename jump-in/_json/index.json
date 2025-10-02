@@ -3,7 +3,7 @@
     "title": "Jump In",
     "subtitle": "Code Freely <span class=\"subtitle-divider\">|</span> Fail Safely <span class=\"subtitle-divider\">|</span> Start Quickly",
     "description": "Learn programming basics without setup or headaches. Interactive tools let you explore data types, operators, flow control, and more — all in your browser.",
-    "navdesc": "Experiment and see if Python works for you",
+    "navdesc": "Interative learning environments to get started with Python and R",
     "format":       
       {"html": {
         "page-layout": "full",
@@ -16,34 +16,22 @@
   "body": [
     {
       "type": "text",
-      "markdown": "Jump into Python with hands-on practice, right in your browser. No installations, no setups, no signin. These pages use embedded code blocks to edit and run code. For extra experience, check out the notebooks too!\n\n**Try, test, and tinker — it's all part of the process.**"
+      "markdown": "Jump into programming with hands-on practice, right in your browser. No installations, no setups, no sign-in. These pages use embedded code blocks to edit and run code with notebooks to anchor learning and dig deeper. Notebooks are in both a **static** and **interactive** from. Use static versions for quick finds and reference. Use interative versions to run and test your own code.\n\n**Try, test, and tinker — it's all part of the process.**"
     },
     {
       "type": "custom-callout",
       "callout-type": "pxp-ref",
       "title": "Interactive Pages and Notebooks",
-      "text": "Jump In includes both interative pages and notebooks.\n\n**Pages** take a moment to load-an indicator at the top of page monitors the status. Interactive cells can be edited and feature a `Run Code` button that will generate the output below. Use these cells to test your understanding and explore coding concepts. Refreshing or leaving the page will remove all edits.\n\n**Notebooks** open in a new tab and run using JupyterLite. See the [Jupyter Notebook]({{{jupyter-notebooks}}}) page, if you're unfamiliar. Exiting the page will remove all edits, so be sure to download work you want to save.\n\nStart with the pages and then test yourself with notebooks. This is a great place to learn by doing!"
+      "text": "Because Jump In content is interactive, **a very short delay** may happen as resources are spun up.\n\n**Pages** show an **indicator at the top of page monitors the status**. Interactive cells can be edited and feature a `Run Code` button that will generate the output below. Use these cells to test your understanding and explore coding concepts. Refreshing or leaving the page will remove all edits.\n\n**Notebooks** open in a new tab and run using [JupyterLite](https://jupyterlite.readthedocs.io/en/stable/howto/index.html). See the [Jupyter Notebook]({{{jupyter-notebooks}}}) page, for details on using this environment. **Exiting the page will remove all edits**, so be sure to download work you want to save.\n\nStart with the pages and then test yourself with notebooks. This is a great place to learn by doing!"
     },
+
     {
-      "type": "header",
-      "level": 2,
-      "text": "Content Guide"
+      "type": "text",
+      "markdown": "Learning to code, can be frustrating and seem complex. These guides highlight basic programming concepts in Python and R-two very popular datascience languages. Both are **free and open-source**.\n\n**Python:** is a general purpose language with many uses outside of data science including web development, automation, DevOps, and game development. **R:** is a more targeted language that is build around data analysis, statistics, and visualization. Both are useful and learning any language will increase your understanding of others.\n\nNeed a place to start? Check out the [FAQs]({{{jump-in-faqs}}})!\n\n[Jump into Python]({{{jump-in-python}}})\n\n[Jump into R]({{{jump-in-r}}})"
     },
     {
       "type": "text",
-      "markdown": "Built to explore, all notebooks in this section are **interactive** - no setup required. Content overviews are paired with notebooks to improve learning and encourage testing. Several skill test notebooks are also included to cement what you learn."
-    },
-    {
-      "type": "text",
-      "markdown": "Ready to push your skills? Use the **notebook challenges** to reinforce these concepts with more hands-on practice. Be sure to save a copy of any work you want to keep!"
-    },
-    {
-      "type": "divider"
-    },
-    {
-      "type": "markdown-table",
-      "table-name": "Jump In Content Guide",
-      "table-path": "jump-in/_json/content-table.json"
+      "markdown": "Jump In focuses on base language libraries. This means all examples use only the standard library for that languge-no additional pacakges. Packages greatly enhance programming capabilities and used in other sections, but learning the basics comes first.\n\nThese guides also mirror each other where possible to facilitate comparison of the languages and concepts. Comparison between the two encourages a deeper understand of programming concepts-not just syntax."
     },
     {
       "type": "divider"

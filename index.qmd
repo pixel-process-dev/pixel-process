@@ -50,26 +50,24 @@ This path isn’t about completing a syllabus — it’s about creating momentum
 
 <ul>
 <li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/about/index.qmd">About</a></strong> → PxP mission, values, and team</li>
-<li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/getting-started/getting-started-faqs.qmd">FAQs</a></strong> → FAQs when getting started with programming</li>
 <li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/jump-in/index.qmd">Jump In</a></strong> → No downloads, no setup-jump into basic Python</li>
 <li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/machine-learning/index.qmd">Machine Learning</a></strong> → A guide to machine learning</li>
 <li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/machine-learning/random-forest.ipynb">Random Forest (NB)</a></strong> → Deep dive into decision trees and random forest models</li>
-<li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/perspectives/posts/and/perspective-pixels-and-pictures.qmd">Perspective: Pixels & Pictures</a></strong> → Context dependent perception</li>
 <li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/workflow/tools-overview.qmd">Tools Overview</a></strong> → Editors, linters, and formatters, oh my!</li>
 </ul>
 
 :::
 
-## [Getting Started](/getting-started/index.qmd)
+## [Getting Started]({{{getting-started}}})
 
 Install tools, launch notebooks, and get productive in minutes.
 
 <div class="category-grid">
 <div class="category-card">
 <h3>Basic Overview</h3>
-<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/getting-started/getting-started-faqs.qmd">FAQs</a></strong> → FAQs when getting started with programming</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/getting-started/shoulders-of-giants.qmd">Troubleshooting Basics</a></strong> → A guide to problem-solving and debugging</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/getting-started/jupyter-notebooks.qmd">How to: Jupyter Notebooks</a></strong> → Intro to using and navigating notebooks</div></div></div><div class="category-card">
+<div class="quick-links"></div></div><div class="category-card">
 <h3>Jump In</h3>
-<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/jump-in/index.qmd">Jump In</a></strong> → No downloads, no setup-jump into basic Python</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/jump-in/datatypes-and-operators.qmd">Datatypes and Operators</a></strong> → Jump into Python - Part 1</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/jump-in/variables-and-functions.qmd">Variables and Functions</a></strong> → Jump into Python - Part 2</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/jump-in/iteration-and-flow-control.qmd">Iteration and Flow Control</a></strong> → Jump into Python - Part 3</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/jump-in/errors-and-experimentation.qmd">Errors and Experimentation</a></strong> → Jump into Python - Part 4</div></div></div><div class="category-card">
+<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/jump-in/index.qmd">Jump In</a></strong> → No downloads, no setup-jump into basic Python</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/jump-in/python/datatypes-and-operators.qmd">Datatypes and Operators</a></strong> → Jump into Python - Part 1</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/jump-in/python/variables-and-functions.qmd">Variables and Functions</a></strong> → Jump into Python - Part 2</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/jump-in/python/iteration-and-flow-control.qmd">Iteration and Flow Control</a></strong> → Jump into Python - Part 3</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/jump-in/python/errors-and-experimentation.qmd">Errors and Experimentation</a></strong> → Jump into Python - Part 4</div></div></div><div class="category-card">
 <h3>R Introduction</h3>
 <div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-file"></i> <strong><a href="/getting-started/r/intro-to-r.pdf">R Intro PDF</a></strong> → PDF companion to the R intro notebook series</div><div class="quick-link-item"><i class="fa-regular fa-rectangle-list"></i> <strong><a href="/getting-started/r/r-basic-commands-nb.ipynb">R: Basic Commands (NB)</a></strong> → Get started with R</div><div class="quick-link-item"><i class="fa-regular fa-rectangle-list"></i> <strong><a href="/getting-started/r/r-datasets-nb.ipynb">R: Datasets (NB)</a></strong> → Vectors and datasets in R</div><div class="quick-link-item"><i class="fa-regular fa-rectangle-list"></i> <strong><a href="/getting-started/r/r-data-manipulation-nb.ipynb">R: Data Basics (NB)</a></strong> → Create, edit, and summarize vectors in R</div><div class="quick-link-item"><i class="fa-regular fa-rectangle-list"></i> <strong><a href="/getting-started/r/r-import-export-nb.ipynb">R: Import/Export (NB)</a></strong> → Loading and saving data with R</div><div class="quick-link-item"><i class="fa-regular fa-rectangle-list"></i> <strong><a href="/getting-started/r/r-data-viz-nb.ipynb">R: Data Vizualization Basics (NB)</a></strong> → Basic plotting functions in R</div><div class="quick-link-item"><i class="fa-regular fa-rectangle-list"></i> <strong><a href="/getting-started/r/r-data-analysis-nb.ipynb">R: Data Analysis (NB)</a></strong> → Begin analyzing with correlations, ttests, and more</div></div></div></div>
 
@@ -106,18 +104,18 @@ Environments, linters, automation, and project structure for calm, repeatable wo
 <div class="category-grid">
 <div class="category-card">
 <h3>Tools</h3>
-<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/workflow/tools-overview.qmd">Tools Overview</a></strong> → Editors, linters, and formatters, oh my!</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/workflow/scripts-and-notebooks.qmd">Scripts and Notebooks</a></strong> → When and why to use notebooks vs scripts</div></div></div><div class="category-card">
+<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/workflow/tools-overview.qmd">Tools Overview</a></strong> → Editors, linters, and formatters, oh my!</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/workflow/shoulders-of-giants.qmd">Troubleshooting Basics</a></strong> → A guide to problem-solving and debugging</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/workflow/scripts-and-notebooks.qmd">Scripts and Notebooks</a></strong> → When and why to use notebooks vs scripts</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/workflow/jupyter-notebooks.qmd">How to: Jupyter Notebooks</a></strong> → Intro to using and navigating notebooks</div></div></div><div class="category-card">
 <h3>Customization</h3>
 <div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/workflow/cli-intro.qmd">Command Line Interface</a></strong> → Don't just learn CLI, optimize it</div></div></div></div>
 
-## [Perspectives](/perspectives/index.qmd)
+## [Perspectives]({{{perspectives}}})
 
 Reflections and insights into tech and trends
 
 <div class="category-grid">
 <div class="category-card">
 <h3>AND</h3>
-<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/perspectives/posts/and/perspective-pixels-and-pictures.qmd">Perspective: Pixels & Pictures</a></strong> → Context dependent perception</div></div></div></div>
+<div class="quick-links"></div></div></div>
 
 <hr class="page-divider">
 

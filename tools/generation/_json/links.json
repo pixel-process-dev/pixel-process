@@ -81,149 +81,140 @@
     "description": "No downloads, no setup-jump into basic Python",
     "generate": true
   },
+  "jump-in-faqs": {
+    "link": "/jump-in/jump-in-faqs.qmd",
+    "label": "Jump In FAQs",
+    "icon": "window-maximize",
+    "description": "Common Questions and Considerations for Learning Programming",
+    "generate": true
+  },
+  "jump-in-python": {
+    "link": "/jump-in/python/index.qmd",
+    "label": "Jump In: Python",
+    "icon": "window-maximize",
+    "description": "No downloads, no setup-jump into basic Python",
+    "generate": true
+  },
   "datatypes-and-operators": {
-    "link": "/jump-in/datatypes-and-operators.qmd",
+    "link": "/jump-in/python/datatypes-and-operators.qmd",
     "label": "Datatypes and Operators",
     "icon": "window-maximize",
     "description": "Jump into Python - Part 1",
     "generate": true
   },
   "datatypes-and-operators-nb": {
-    "link": "/jump-in/notebooks/datatypes-and-operators-nb.ipynb",
+    "link": "/jump-in/python/notebooks/datatypes-and-operators-nb.ipynb",
     "label": "Datatypes and Operators (NB)",
     "icon": "rectangle-list",
     "description": "Notebook overview of datatypes and operators in Python"
   },
   "datatypes-and-operators-nb-jp": {
-    "link": "/jump-in/jl-notebooks/jl-build/tree/index.html?path=datatypes-and-operators-nb-jp.ipynb",
+    "link": "/jump-in/python/jl-notebooks/jl-build/tree/index.html?path=datatypes-and-operators-nb-jp.ipynb",
     "label": "Datatypes and Operators (INB)",
     "icon": "file-code",
     "description": "Live interactive Python to learn about datatypes and operators",
-    "base_ntbk": "jump-in/notebooks/datatypes-and-operators-nb.ipynb",
-    "save_path": "/jump-in/jl-notebooks/files/datatypes-and-operators-nb-jp.ipynb"
+    "base_ntbk": "jump-in/python/notebooks/datatypes-and-operators-nb.ipynb",
+    "save_path": "/jump-in/python/jl-notebooks/files/datatypes-and-operators-nb-jp.ipynb"
   },
   "variables-and-functions": {
-    "link": "/jump-in/variables-and-functions.qmd",
+    "link": "/jump-in/python/variables-and-functions.qmd",
     "label": "Variables and Functions",
     "icon": "window-maximize",
     "description": "Jump into Python - Part 2",
     "generate": true
   },
   "variables-and-functions-nb": {
-    "link": "/jump-in/notebooks/variables-and-functions-nb.ipynb",
+    "link": "/jump-in/python/notebooks/variables-and-functions-nb.ipynb",
     "label": "Variables and Functions (NB)",
     "icon": "rectangle-list",
     "description": "Python notebook to learn about variables and functions"
   },
   "variables-and-functions-nb-jp": {
-    "link": "/jump-in/jl-notebooks/jl-build/tree/index.html?path=variables-and-functions-nb-jp.ipynb",
+    "link": "/jump-in/python/jl-notebooks/jl-build/tree/index.html?path=variables-and-functions-nb-jp.ipynb",
     "label": "Variables and Functions (INB)",
     "icon": "file-code",
     "description": "Live interactive Python to experiment with variables and functions",
-    "base_ntbk": "jump-in/notebooks/variables-and-functions-nb.ipynb",
-    "save_path": "/jump-in/jl-notebooks/files/variables-and-functions-nb-jp.ipynb"
+    "base_ntbk": "jump-in/python/notebooks/variables-and-functions-nb.ipynb",
+    "save_path": "/jump-in/python/jl-notebooks/files/variables-and-functions-nb-jp.ipynb"
   },
   "iteration-and-flow-control": {
-    "link": "/jump-in/iteration-and-flow-control.qmd",
+    "link": "/jump-in/python/iteration-and-flow-control.qmd",
     "label": "Iteration and Flow Control",
     "icon": "window-maximize",
     "description": "Jump into Python - Part 3",
     "generate": true
   },
   "iteration-and-flow-control-nb": {
-    "link": "/jump-in/notebooks/iteration-and-flow-control-nb.ipynb",
+    "link": "/jump-in/python/notebooks/iteration-and-flow-control-nb.ipynb",
     "label": "Iteration and Flow Control (NB)",
     "icon": "rectangle-list",
     "description": "Python notebook to learn about iteration and flow control"
   },
   "iteration-and-flow-control-nb-jp": {
-    "link": "/jump-in/jl-notebooks/jl-build/tree/index.html?path=iteration-and-flow-control-nb-jp.ipynb",
+    "link": "/jump-in/python/jl-notebooks/jl-build/tree/index.html?path=iteration-and-flow-control-nb-jp.ipynb",
     "label": "Iteration and Flow Control (INB)",
     "icon": "file-code",
     "description": "Live interactive Python to experiment with iteration and flow control",
-    "base_ntbk": "jump-in/notebooks/iteration-and-flow-control-nb.ipynb",
-    "save_path": "/jump-in/jl-notebooks/files/iteration-and-flow-control-nb-jp.ipynb"
+    "base_ntbk": "jump-in/python/notebooks/iteration-and-flow-control-nb.ipynb",
+    "save_path": "/jump-in/python/jl-notebooks/files/iteration-and-flow-control-nb-jp.ipynb"
   },
   "errors-and-experimentation": {
-    "link": "/jump-in/errors-and-experimentation.qmd",
+    "link": "/jump-in/python/errors-and-experimentation.qmd",
     "label": "Errors and Experimentation",
     "icon": "window-maximize",
     "description": "Jump into Python - Part 4",
     "generate": true
   },
   "errors-and-experimentation-nb": {
-    "link": "/jump-in/notebooks/errors-and-experimentation-nb.ipynb",
+    "link": "/jump-in/python/notebooks/errors-and-experimentation-nb.ipynb",
     "label": "Errors and Experimentation (NB)",
     "icon": "rectangle-list",
     "description": "Python notebook to learn about iteration and flow control"
   },
   "errors-and-experimentation-nb-jp": {
-    "link": "/jump-in/jl-notebooks/jl-build/tree/index.html?path=errors-and-experimentation-nb-jp.ipynb",
+    "link": "/jump-in/python/jl-notebooks/jl-build/tree/index.html?path=errors-and-experimentation-nb-jp.ipynb",
     "label": "Errors and Experimentation (INB)",
     "icon": "file-code",
     "description": "Live interactive Python to solve common errors and learn basic debugging",    
-    "base_ntbk": "jump-in/notebooks/errors-and-experimentation-nb.ipynb",
-    "save_path": "/jump-in/jl-notebooks/files/errors-and-experimentation-nb-jp.ipynb"
+    "base_ntbk": "jump-in/python/notebooks/errors-and-experimentation-nb.ipynb",
+    "save_path": "/jump-in/python/jl-notebooks/files/errors-and-experimentation-nb-jp.ipynb"
   },
   "hello-world-challenge-nb": {
-    "link": "/jump-in/notebooks/hello-world-challenge-nb.ipynb",
+    "link": "/jump-in/python/notebooks/hello-world-challenge-nb.ipynb",
     "label": "Hello World Challenge (NB)",
     "icon": "rectangle-list",
     "description": "Challenge Notebook for string formatting and variable usage"
   },
   "hello-world-challenge-nb-jp": {
-    "link": "/jump-in/jl-notebooks/jl-build/tree/index.html?path=hello-world-challenge-nb-jp.ipynb",
+    "link": "/jump-in/python/jl-notebooks/jl-build/tree/index.html?path=hello-world-challenge-nb-jp.ipynb",
     "label": "Hello World Challenge (INB)",
     "icon": "file-code",
     "description": "Live interactive Python notebook deep dive into working with strings and variables",
-    "base_ntbk": "jump-in/notebooks/hello-world-challenge-nb.ipynb",
-    "save_path": "/jump-in/jl-notebooks/files/hello-world-challenge-nb-jp.ipynb"
+    "base_ntbk": "jump-in/python/notebooks/hello-world-challenge-nb.ipynb",
+    "save_path": "/jump-in/python/jl-notebooks/files/hello-world-challenge-nb-jp.ipynb"
   },
   "expert-debugger-challenge-nb": {
-    "link": "/jump-in/notebooks/hello-world-challenge-nb.ipynb",
+    "link": "/jump-in/python/notebooks/hello-world-challenge-nb.ipynb",
     "label": "Expert Debugger Challenge (NB)",
     "icon": "rectangle-list",
     "description": "Challenge Notebook for string formatting and variable usage"
   },
   "expert-debugger-challenge-nb-jp": {
-    "link": "/jump-in/jl-notebooks/jl-build/tree/index.html?path=expert-debugger-challenge-nb-jp.ipynb",
+    "link": "/jump-in/python/jl-notebooks/jl-build/tree/index.html?path=expert-debugger-challenge-nb-jp.ipynb",
     "label": "Expert Debugger Challenge (INB)",
     "icon": "file-code",
     "description": "Live interactive Python notebook challenge-can you fix all these bugs?",
-    "base_ntbk": "jump-in/notebooks/expert-debugger-challenge-nb.ipynb",
-    "save_path": "/jump-in/jl-notebooks/files/expert-debugger-challenge-nb-jp.ipynb"
+    "base_ntbk": "jump-in/python/notebooks/expert-debugger-challenge-nb.ipynb",
+    "save_path": "/jump-in/python/jl-notebooks/files/expert-debugger-challenge-nb-jp.ipynb"
   },
 
-  "getting-started": {
-    "link": "/getting-started/index.qmd",
-    "label": "Getting Started",
+  "jump-in-r": {
+    "link": "/jump-in/r/index.qmd",
+    "label": "Jump In: R",
     "icon": "window-maximize",
-    "description": "Discover how programming can work for you",
+    "description": "No downloads, no setup-jump into basic R",
     "generate": true
   },
-  "getting-started-faqs": {
-    "link": "/getting-started/getting-started-faqs.qmd",
-    "label": "FAQs",
-    "icon": "window-maximize",
-    "description": "FAQs when getting started with programming",
-    "generate": true
-  },
-  "shoulders-of-giants": {
-    "link": "/getting-started/shoulders-of-giants.qmd",
-    "label": "Troubleshooting Basics",
-    "icon": "window-maximize",
-    "description": "A guide to problem-solving and debugging",
-    "generate": true
-  },
-  "jupyter-notebooks": {
-    "link": "/getting-started/jupyter-notebooks.qmd",
-    "label": "How to: Jupyter Notebooks",
-    "icon": "window-maximize",
-    "description": "Intro to using and navigating notebooks",
-    "generate": true
-  },
-
-
   "intro-to-r": {
     "link": "/getting-started/r/intro-to-r.pdf",
     "label": "R Intro PDF",
@@ -309,21 +300,6 @@
     "description": "Deep dive into decision trees and random forest models"
   },
 
-
-  "perspectives": {
-    "link": "/perspectives/index.qmd",
-    "label": "PxP Perspectives",
-    "icon": "window-maximize",
-    "description": "The PxP blog"
-  },
-  "pixels-and-pictures": {
-    "link": "/perspectives/posts/and/perspective-pixels-and-pictures.qmd",
-    "label": "Perspective: Pixels & Pictures",
-    "icon": "window-maximize",
-    "description": "Context dependent perception"
-  },
-
-
   "workflow": {
     "link": "/workflow/index.qmd",
     "label": "Workflow",
@@ -365,5 +341,25 @@
     "icon": "window-maximize",
     "description": "Editors, linters, and formatters, oh my!",
     "generate": true
+  },
+  "shoulders-of-giants": {
+    "link": "/workflow/shoulders-of-giants.qmd",
+    "label": "Troubleshooting Basics",
+    "icon": "window-maximize",
+    "description": "A guide to problem-solving and debugging",
+    "generate": true
+  },
+  "jupyter-notebooks": {
+    "link": "/workflow/jupyter-notebooks.qmd",
+    "label": "How to: Jupyter Notebooks",
+    "icon": "window-maximize",
+    "description": "Intro to using and navigating notebooks",
+    "generate": true
+  },
+  "feedback": {
+    "link": "/feedback/index.qmd",
+    "label": "Submit Feedback",
+    "icon": "window-maximize",
+    "generate": false
   }
 }

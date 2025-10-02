@@ -1,11 +1,13 @@
 ---
-title: 'Getting Started: Frequently Asked Questions'
+title: 'Jump In: Frequently Asked Questions'
 navtitle: FAQs
 subtitle: Common questions to consider before diving in
 description: Make an informed decision about learning programming and computer science.
-slug: getting-started-faqs
+slug: jump-in-faqs
 tags:
 - python
+- r
+- jump-in
 - beginners
 - career
 ---

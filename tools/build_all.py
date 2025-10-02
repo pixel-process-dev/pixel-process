@@ -101,7 +101,7 @@ def main():
         clean_directories(base_dir=project_root, target_name=c_dir)
 
     jupyterlite_paths = [
-        "jump-in/jl-notebooks"
+        "jump-in/python/jl-notebooks"
     ]
 
     for jl_dir in jupyterlite_paths:

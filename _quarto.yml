@@ -17,8 +17,6 @@ website:
         href: index.qmd
       - text: "Jump In"
         href: jump-in/index.qmd
-      - text: "Getting Started"
-        href: getting-started/index.qmd
       - text: "Foundations"
         href: foundations/index.qmd
       - text: "Machine Learning"
@@ -26,10 +24,10 @@ website:
       - text: "Workflow"
         href: workflow/index.qmd
     right:
-      - text: "Perspectives"
-        href: perspectives/index.qmd
       - text: "About"
         href: about/index.qmd
+      - text: "Feedback"
+        href: feedback/index.qmd
     tools:
       - icon: moon-stars
         toggle: true
@@ -57,30 +55,6 @@ website:
           contents:
             - foundations/advanced-data/image-basics.ipynb
 
-    - id: getting-started
-      title: "Getting Started"
-      style: docked
-      collapse-level: 2
-      pinned: false
-      contents:
-        - getting-started/index.qmd
-        - text: "FAQs"
-          href: getting-started/getting-started-faqs.qmd
-        - section: "Basics"
-          contents:
-            - getting-started/shoulders-of-giants.qmd
-            - getting-started/jupyter-notebooks.qmd
-        - section: "R"
-          contents:
-            - text: "R Introduction Overview (PDF)"
-              href: getting-started/r/intro-to-r.pdf
-            - getting-started/r/r-basic-commands-nb.ipynb
-            - getting-started/r/r-data-manipulation-nb.ipynb
-            - getting-started/r/r-datasets-nb.ipynb
-            - getting-started/r/r-import-export-nb.ipynb
-            - getting-started/r/r-data-viz-nb.ipynb
-            - getting-started/r/r-data-analysis-nb.ipynb
-
     - id: workflow
       title: "Workflow"
       style: docked
@@ -91,7 +65,9 @@ website:
         - section: "Tools"
           contents:
             - workflow/tools-overview.qmd
+            - workflow/shoulders-of-giants.qmd
             - workflow/scripts-and-notebooks.qmd
+            - workflow/jupyter-notebooks.qmd
         - section: "Customization"
           contents:
             - workflow/cli-intro.qmd
@@ -103,37 +79,36 @@ website:
       pinned: false
       contents:
         - jump-in/index.qmd
-        - section: "Pages"
-          contents:
-            - jump-in/datatypes-and-operators.qmd
-            - jump-in/notebooks/datatypes-and-operators-nb.ipynb
-            - jump-in/variables-and-functions.qmd
-            - jump-in/notebooks/variables-and-functions-nb.ipynb
-            - jump-in/iteration-and-flow-control.qmd
-            - jump-in/notebooks/iteration-and-flow-control-nb.ipynb
-            - jump-in/errors-and-experimentation.qmd
-            - jump-in/notebooks/errors-and-experimentation-nb.ipynb
-            - jump-in/notebooks/hello-world-challenge-nb.ipynb
-            - jump-in/notebooks/expert-debugger-challenge-nb.ipynb
-        - section: "Interactive Notebooks"
-          contents:
-            - text: "<a href='/jump-in/jl-notebooks/jl-build/tree/index.html?path=datatypes-and-operators-nb-jp.ipynb' target='_blank'>Datatypes and Operators (Interactive)</a>"
-            - text: "<a href='/jump-in/jl-notebooks/jl-build/tree/index.html?path=variables-and-functions-nb-jp.ipynb' target='_blank'>Variables and Functions (Interactive)</a>"
-            - text: "<a href='/jump-in/jl-notebooks/jl-build/tree/index.html?path=iteration-and-flow-control-nb-jp.ipynb' target='_blank'>Iteration and Flow Control (Interactive)</a>"
-            - text: "<a href='/jump-in/jl-notebooks/jl-build/tree/index.html?path=errors-and-experimentation-nb-jp.ipynb' target='_blank'>Errors and Experimentation (Interactive)</a>"
-            - text: "<a href='/jump-in/jl-notebooks/jl-build/tree/index.html?path=hello-world-challenge-nb-jp.ipynb' target='_blank'>Hello World (Interactive)</a>"
-            - text: "<a href='/jump-in/jl-notebooks/jl-build/tree/index.html?path=expert-debugger-challenge-nb-jp.ipynb' target='_blank'>Expert Debugger (Interactive)</a>"
-    - id: perspectives
-      title: "Perspectives"
+        - jump-in/jump-in-faqs.qmd
+        - jump-in/python/index.qmd
+        - jump-in/r/index.qmd
+    - id: jump-in-python
+      title: "Jump In: Python"
       style: docked
       collapse-level: 2
       pinned: false
       contents:
-        - perspectives/index.qmd
-        - section: "AND"
+        - jump-in/python/index.qmd
+        - section: "Pages"
           contents:
-            - perspectives/posts/and/perspective-pixels-and-pictures.qmd
-
+            - jump-in/python/datatypes-and-operators.qmd
+            - jump-in/python/notebooks/datatypes-and-operators-nb.ipynb
+            - jump-in/python/variables-and-functions.qmd
+            - jump-in/python/notebooks/variables-and-functions-nb.ipynb
+            - jump-in/python/iteration-and-flow-control.qmd
+            - jump-in/python/notebooks/iteration-and-flow-control-nb.ipynb
+            - jump-in/python/errors-and-experimentation.qmd
+            - jump-in/python/notebooks/errors-and-experimentation-nb.ipynb
+            - jump-in/python/notebooks/hello-world-challenge-nb.ipynb
+            - jump-in/python/notebooks/expert-debugger-challenge-nb.ipynb
+        - section: "Interactive Notebooks"
+          contents:
+            - text: "<a href='/jump-in/python/jl-notebooks/jl-build/tree/index.html?path=datatypes-and-operators-nb-jp.ipynb' target='_blank'>Datatypes and Operators (Interactive)</a>"
+            - text: "<a href='/jump-in/python/jl-notebooks/jl-build/tree/index.html?path=variables-and-functions-nb-jp.ipynb' target='_blank'>Variables and Functions (Interactive)</a>"
+            - text: "<a href='/jump-in/python/jl-notebooks/jl-build/tree/index.html?path=iteration-and-flow-control-nb-jp.ipynb' target='_blank'>Iteration and Flow Control (Interactive)</a>"
+            - text: "<a href='/jump-in/python/jl-notebooks/jl-build/tree/index.html?path=errors-and-experimentation-nb-jp.ipynb' target='_blank'>Errors and Experimentation (Interactive)</a>"
+            - text: "<a href='/jump-in/python/jl-notebooks/jl-build/tree/index.html?path=hello-world-challenge-nb-jp.ipynb' target='_blank'>Hello World (Interactive)</a>"
+            - text: "<a href='/jump-in/python/jl-notebooks/jl-build/tree/index.html?path=expert-debugger-challenge-nb-jp.ipynb' target='_blank'>Expert Debugger (Interactive)</a>"
     - id: machine-learning
       title: "Machine Learning"
       style: docked

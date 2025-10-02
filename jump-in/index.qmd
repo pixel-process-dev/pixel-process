@@ -5,7 +5,7 @@ subtitle: Code Freely <span class="subtitle-divider">|</span> Fail Safely <span 
 description: "Learn programming basics without setup or headaches. Interactive tools\
   \ let you explore data types, operators, flow control, and more \u2014 all in your\
   \ browser."
-navdesc: Experiment and see if Python works for you
+navdesc: Interative learning environments to get started with Python and R
 format:
   html:
     page-layout: full
@@ -14,42 +14,35 @@ format:
 slug: jump-in
 ---
 
-Jump into Python with hands-on practice, right in your browser. No installations, no setups, no signin. These pages use embedded code blocks to edit and run code. For extra experience, check out the notebooks too!
+Jump into programming with hands-on practice, right in your browser. No installations, no setups, no sign-in. These pages use embedded code blocks to edit and run code with notebooks to anchor learning and dig deeper. Notebooks are in both a **static** and **interactive** from. Use static versions for quick finds and reference. Use interative versions to run and test your own code.
 
 **Try, test, and tinker — it's all part of the process.**
 
 ::: {.callout icon="none" .custom-callout .pxp-ref title="Interactive Pages and Notebooks"}
 
-Jump In includes both interative pages and notebooks.
+Because Jump In content is interactive, **a very short delay** may happen as resources are spun up.
 
-**Pages** take a moment to load-an indicator at the top of page monitors the status. Interactive cells can be edited and feature a `Run Code` button that will generate the output below. Use these cells to test your understanding and explore coding concepts. Refreshing or leaving the page will remove all edits.
+**Pages** show an **indicator at the top of page monitors the status**. Interactive cells can be edited and feature a `Run Code` button that will generate the output below. Use these cells to test your understanding and explore coding concepts. Refreshing or leaving the page will remove all edits.
 
-**Notebooks** open in a new tab and run using JupyterLite. See the [Jupyter Notebook](/getting-started/jupyter-notebooks.qmd) page, if you're unfamiliar. Exiting the page will remove all edits, so be sure to download work you want to save.
+**Notebooks** open in a new tab and run using [JupyterLite](https://jupyterlite.readthedocs.io/en/stable/howto/index.html). See the [Jupyter Notebook](/workflow/jupyter-notebooks.qmd) page, for details on using this environment. **Exiting the page will remove all edits**, so be sure to download work you want to save.
 
 Start with the pages and then test yourself with notebooks. This is a great place to learn by doing!
 :::
 
 
-## Content Guide
+Learning to code, can be frustrating and seem complex. These guides highlight basic programming concepts in Python and R-two very popular datascience languages. Both are **free and open-source**.
 
-Built to explore, all notebooks in this section are **interactive** - no setup required. Content overviews are paired with notebooks to improve learning and encourage testing. Several skill test notebooks are also included to cement what you learn.
+**Python:** is a general purpose language with many uses outside of data science including web development, automation, DevOps, and game development. **R:** is a more targeted language that is build around data analysis, statistics, and visualization. Both are useful and learning any language will increase your understanding of others.
 
-Ready to push your skills? Use the **notebook challenges** to reinforce these concepts with more hands-on practice. Be sure to save a copy of any work you want to keep!
+Need a place to start? Check out the [FAQs](/jump-in/jump-in-faqs.qmd)!
 
-<hr class="page-divider">
+[Jump into Python](/jump-in/python/index.qmd)
 
-<div class="table-cheatsheet">
-| Topic | Page | Notebook | Interactive Notebook | Download |
-| --- | --- | --- | --- | --- |
-| Datatypes and Operators | {{< fa regular window-maximize >}} [Interactive Page](/jump-in/datatypes-and-operators.qmd) | {{< fa regular rectangle-list >}} [Notebook](/jump-in/notebooks/datatypes-and-operators-nb.ipynb) | {{< fa regular file-code >}} [Interactive Notebook](/jump-in/jl-notebooks/jl-build/tree/index.html?path=datatypes-and-operators-nb-jp.ipynb){target="_blank"} | <a href="/jump-in/jl-notebooks/files/datatypes-and-operators-nb-jp.ipynb" download>📥 Download </a> |
-| Variables and Functions | {{< fa regular window-maximize >}} [Interactive Page](/jump-in/variables-and-functions.qmd) | {{< fa regular rectangle-list >}} [Notebook](/jump-in/notebooks/variables-and-functions-nb.ipynb) | {{< fa regular file-code >}} [Interactive Notebook](/jump-in/jl-notebooks/jl-build/tree/index.html?path=variables-and-functions-nb-jp.ipynb){target="_blank"} | <a href="/jump-in/jl-notebooks/files/variables-and-functions-nb-jp.ipynb" download>📥 Download </a> |
-| Iteration and Flow Control | {{< fa regular window-maximize >}} [Interactive Page](/jump-in/iteration-and-flow-control.qmd) | {{< fa regular rectangle-list >}} [Notebook](/jump-in/notebooks/iteration-and-flow-control-nb.ipynb) | {{< fa regular file-code >}} [Interactive Notebook](/jump-in/jl-notebooks/jl-build/tree/index.html?path=iteration-and-flow-control-nb-jp.ipynb){target="_blank"} | <a href="/jump-in/jl-notebooks/files/iteration-and-flow-control-nb-jp.ipynb" download>📥 Download </a> |
-| Errors and Experimentation | {{< fa regular window-maximize >}} [Interactive Page](/jump-in/errors-and-experimentation.qmd) | {{< fa regular rectangle-list >}} [Notebook](/jump-in/notebooks/errors-and-experimentation-nb.ipynb) | {{< fa regular file-code >}} [Interactive Notebook](/jump-in/jl-notebooks/jl-build/tree/index.html?path=errors-and-experimentation-nb-jp.ipynb){target="_blank"} | <a href="/jump-in/jl-notebooks/files/errors-and-experimentation-nb-jp.ipynb" download>📥 Download </a> |
-| Hello World | Notebook only challenge! | {{< fa regular rectangle-list >}} [Notebook](/jump-in/notebooks/hello-world-challenge-nb.ipynb) | {{< fa regular file-code >}} [Interactive Notebook](/jump-in/jl-notebooks/jl-build/tree/index.html?path=hello-world-challenge-nb-jp.ipynb){target="_blank"} | <a href="/jump-in/jl-notebooks/files/hello-world-challenge-nb-jp.ipynb" download>📥 Download </a> |
-| Expert Debugger | Notebook only challenge! | {{< fa regular rectangle-list >}} [Notebook](/jump-in/notebooks/hello-world-challenge-nb.ipynb) | {{< fa regular file-code >}} [Interactive Notebook](/jump-in/jl-notebooks/jl-build/tree/index.html?path=expert-debugger-challenge-nb-jp.ipynb){target="_blank"} | <a href="/jump-in/jl-notebooks/files/expert-debugger-challenge-nb-jp.ipynb" download>📥 Download </a> |
+[Jump into R](/jump-in/r/index.qmd)
 
-</div>
+Jump In focuses on base language libraries. This means all examples use only the standard library for that languge-no additional pacakges. Packages greatly enhance programming capabilities and used in other sections, but learning the basics comes first.
 
+These guides also mirror each other where possible to facilitate comparison of the languages and concepts. Comparison between the two encourages a deeper understand of programming concepts-not just syntax.
 
 <hr class="page-divider">
 

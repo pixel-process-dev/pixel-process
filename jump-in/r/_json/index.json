@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "title": "Jump In: R",
+    "subtitle": "Stats Focused <span class=\"subtitle-divider\">|</span> Brackets Required <span class=\"subtitle-divider\">|</span> Data Obsessed",
+    "description": "Guide to R core concepts like datatypes, string manipulation, and debugging common errors.",
+    "navdesc": "Experiment and see if R works for you",
+    "format":       
+      {"html": {
+        "page-layout": "full",
+        "toc": false,
+        "title-block-banner": true
+      }
+      },
+    "slug": "jump-in-r"
+  },
+  "body": [
+    {
+      "type": "text",
+      "markdown": "Jump into R with hands-on practice, right in your browser. No installations, no setups, no signin. These pages use embedded code blocks to edit and run code. For extra experience, check out the notebooks too!\n\n**Try, test, and tinker — it's all part of the process.**"
+    },
+    {
+      "type": "text",
+      "markdown": "**R** is a stats and and analysis centric programming language ideal for complex analysis, reproducible research, and data visualization. R has a more robust and mature set of packages for niche statistical analyses like bioinformatics, variance analysis (ANOVA), and experimental design heavy models. **Curly Brackets `{}`** are used to structure syntax. R stands out for data intensive, reproducible analysis workflows."
+    },
+    {
+      "type": "custom-callout",
+      "callout-type": "pxp-ref",
+      "title": "Interactive Pages and Notebooks",
+      "text": "Jump In includes both interative pages and notebooks.\n\n**Pages** take a moment to load-an indicator at the top of page monitors the status. Interactive cells can be edited and feature a `Run Code` button that will generate the output below. Use these cells to test your understanding and explore coding concepts. Refreshing or leaving the page will remove all edits.\n\n**Notebooks** open in a new tab and run using JupyterLite. See the [Jupyter Notebook]({{{jupyter-notebooks}}}) page, if you're unfamiliar. Exiting the page will remove all edits, so be sure to download work you want to save.\n\nStart with the pages and then test yourself with notebooks. This is a great place to learn by doing!"
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Content Guide"
+    },
+    {
+      "type": "text",
+      "markdown": "Built to explore, notebooks can be used in an interactive, browser environment - no setup required. Content overviews are paired with notebooks to improve learning and encourage testing. Several skill test notebooks are also included to cement what you learn."
+    },
+    {
+      "type": "text",
+      "markdown": "Ready to push your skills? Use the **notebook challenges** to reinforce these concepts with more hands-on practice. Be sure to save a copy of any work you want to keep!"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "custom-callout",
+      "callout-type": "coming-soon",
+      "title": "Content Coming Soon",
+      "text": "R guides and notebooks are a work-in-progress. Ensuring a smooth, in-browser experience that parallels the Python tutorials will take a little time.\n\nCheck back soon for updates!"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "custom-callout",
+      "callout-type": "d-bugz",
+      "title": "Experience from Errors",
+      "text": "These bugs don't bite! Writing a complex program without errors is as probable as writing a novel without a typo. The key is test for errors, ensure things work properly, and address the issues. Understanding basic errors will allow you tackle much more complex tasks.\n\n**Code Freely** — programming is interactive, so try things, test things, experiment\n\n**Fail Safely** — mistakes don't hurt here, if something goes wrong simply reset the workspace\n\n**Start Quickly** — examine inputs and outputs, read error messages, iterate and experiment if unsure"
+    },
+    {
+      "type": "page-quote",
+      "text": "Hands on is the only true way to learn programming"
+    },
+    {
+      "type": "text",
+      "markdown": "Start small. Make mistakes. Fix errors. This is a space to experiment freely, play around, and learn by doing. Nothing to break here, no risks, consider this a playground for learning. **Jump in!**"
+    }
+  ]
+}

@@ -17,8 +17,6 @@ website:
         href: index.qmd
       - text: "Jump In"
         href: jump-in/index.qmd
-      - text: "Getting Started"
-        href: getting-started/index.qmd
       - text: "Foundations"
         href: foundations/index.qmd
       - text: "Machine Learning"
@@ -26,8 +24,6 @@ website:
       - text: "Workflow"
         href: workflow/index.qmd
     right:
-      - text: "Perspectives"
-        href: perspectives/index.qmd
       - text: "About"
         href: about/index.qmd
     tools:
