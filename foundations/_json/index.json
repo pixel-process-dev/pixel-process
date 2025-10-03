@@ -57,7 +57,7 @@
       "type": "custom-callout",
       "callout-type": "d-bugz",
       "title": "Start Your Journey",
-      "text": "I used to think I was {{< fa light fire >}} because my code ran and I (usually) understood it...then I got a job. Most real-world projects depend on shared understanding: conventions, documentation, and structure that make your code easy to follow, reuse, and extend — it's about collaboration.\n\n**Learn patterns** — resolving the same issues wastes time, solve recurring issues in systematic ways\n\n**Build habits** — implementing workflows, tools, and standards that work reduces headaches and elevates returns\n\n**Grow confident** — solid practices and foundations make projects extendible, code resuable, and enthusiasts experts"
+      "text": "I used to think I was a good programmer because my code ran and I (usually) understood it...then I got a job. Most real-world projects depend on shared understanding: conventions, documentation, and structure that make your code easy to follow, reuse, and extend — it's about collaboration.\n\n**Learn patterns** — resolving the same issues wastes time, solve recurring issues in systematic ways\n\n**Build habits** — implementing workflows, tools, and standards that work reduces headaches and elevates returns\n\n**Grow confident** — solid practices and foundations make projects extendible, code resuable, and enthusiasts experts"
     },
     {
       "type": "page-quote",

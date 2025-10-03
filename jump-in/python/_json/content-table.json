@@ -2,45 +2,39 @@
   "Jump In Content Guide": [
     {
       "Topic": "Datatypes and Operators",
-      "Page": "{{{pxp-webpage-icon}}} [Interactive Page]({{{datatypes-and-operators}}})", 
-      "Notebook":"{{{pxp-notebook-icon}}} [Notebook]({{{datatypes-and-operators-nb}}})",
-      "Interactive Notebook": "{{{pxp-interactive-notebook-icon}}} [Interactive Notebook]({{{datatypes-and-operators-nb-jp}}}){target=\"_blank\"}",
-      "Download": "<a href=\"https://raw.githubusercontent.com/pixel-process-dev/pixel-process/main/jump-in/python/jl-notebooks/files/datatypes-and-operators-nb-jp.ipynb\" download>📥 Download </a>"
+      "Page": "{{{pxp-webpage-icon}}} [Open]({{{datatypes-and-operators}}})", 
+      "Notebook":"{{{pxp-notebook-icon}}} [Show]({{{datatypes-and-operators-nb}}})",
+      "Interactive Notebook": "{{{pxp-interactive-notebook-icon}}} [Launch]({{{datatypes-and-operators-nb-jp}}}){target=\"_blank\"}"
     },
     {
       "Topic": "Variables and Functions",
-      "Page": "{{{pxp-webpage-icon}}} [Interactive Page]({{{variables-and-functions}}})", 
-      "Notebook":"{{{pxp-notebook-icon}}} [Notebook]({{{variables-and-functions-nb}}})",
-      "Interactive Notebook": "{{{pxp-interactive-notebook-icon}}} [Interactive Notebook]({{{variables-and-functions-nb-jp}}}){target=\"_blank\"}",
-      "Download": "<a href=\"https://raw.githubusercontent.com/pixel-process-dev/pixel-process/main/jump-in/python/jl-notebooks/files/variables-and-functions-nb-jp.ipynb\" download>📥 Download </a>"
+      "Page": "{{{pxp-webpage-icon}}} [Open]({{{variables-and-functions}}})", 
+      "Notebook":"{{{pxp-notebook-icon}}} [Show]({{{variables-and-functions-nb}}})",
+      "Interactive Notebook": "{{{pxp-interactive-notebook-icon}}} [Launch]({{{variables-and-functions-nb-jp}}}){target=\"_blank\"}"
     },
     {
       "Topic": "Iteration and Flow Control",
-      "Page": "{{{pxp-webpage-icon}}} [Interactive Page]({{{iteration-and-flow-control}}})", 
-      "Notebook":"{{{pxp-notebook-icon}}} [Notebook]({{{iteration-and-flow-control-nb}}})",
-      "Interactive Notebook": "{{{pxp-interactive-notebook-icon}}} [Interactive Notebook]({{{iteration-and-flow-control-nb-jp}}}){target=\"_blank\"}",
-      "Download": "<a href=\"https://raw.githubusercontent.com/pixel-process-dev/pixel-process/main/jump-in/python/jl-notebooks/files/iteration-and-flow-control-nb-jp.ipynb\" download>📥 Download </a>"
+      "Page": "{{{pxp-webpage-icon}}} [Open]({{{iteration-and-flow-control}}})", 
+      "Notebook":"{{{pxp-notebook-icon}}} [Show]({{{iteration-and-flow-control-nb}}})",
+      "Interactive Notebook": "{{{pxp-interactive-notebook-icon}}} [Launch]({{{iteration-and-flow-control-nb-jp}}}){target=\"_blank\"}"
     },
     {
       "Topic": "Errors and Experimentation",
-      "Page": "{{{pxp-webpage-icon}}} [Interactive Page]({{{errors-and-experimentation}}})", 
-      "Notebook":"{{{pxp-notebook-icon}}} [Notebook]({{{errors-and-experimentation-nb}}})",
-      "Interactive Notebook": "{{{pxp-interactive-notebook-icon}}} [Interactive Notebook]({{{errors-and-experimentation-nb-jp}}}){target=\"_blank\"}",
-      "Download": "<a href=\"https://raw.githubusercontent.com/pixel-process-dev/pixel-process/main/jump-in/python/jl-notebooks/files/errors-and-experimentation-nb-jp.ipynb\" download>📥 Download </a>"
+      "Page": "{{{pxp-webpage-icon}}} [Open]({{{errors-and-experimentation}}})", 
+      "Notebook":"{{{pxp-notebook-icon}}} [Show]({{{errors-and-experimentation-nb}}})",
+      "Interactive Notebook": "{{{pxp-interactive-notebook-icon}}} [Launch]({{{errors-and-experimentation-nb-jp}}}){target=\"_blank\"}"
     },
     {
       "Topic": "Hello World",
       "Page": "Notebook only challenge!", 
-      "Notebook":"{{{pxp-notebook-icon}}} [Notebook]({{{hello-world-challenge-nb}}})",
-      "Interactive Notebook": "{{{pxp-interactive-notebook-icon}}} [Interactive Notebook]({{{hello-world-challenge-nb-jp}}}){target=\"_blank\"}",
-      "Download": "<a href=\"https://raw.githubusercontent.com/pixel-process-dev/pixel-process/main/jump-in/python/jl-notebooks/files/hello-world-challenge-nb-jp.ipynb\" download>📥 Download </a>"
+      "Notebook":"{{{pxp-notebook-icon}}} [Show]({{{hello-world-challenge-nb}}})",
+      "Interactive Notebook": "{{{pxp-interactive-notebook-icon}}} [Launch]({{{hello-world-challenge-nb-jp}}}){target=\"_blank\"}"
     },
     {
       "Topic": "Expert Debugger",
       "Page":  "Notebook only challenge!", 
-      "Notebook":"{{{pxp-notebook-icon}}} [Notebook]({{{expert-debugger-challenge-nb}}})",
-      "Interactive Notebook": "{{{pxp-interactive-notebook-icon}}} [Interactive Notebook]({{{expert-debugger-challenge-nb-jp}}}){target=\"_blank\"}",
-      "Download": "<a href=\"https://raw.githubusercontent.com/pixel-process-dev/pixel-process/main/jump-in/python/jl-notebooks/files/expert-debugger-challenge-nb-jp.ipynb\" download>📥 Download </a>"
+      "Notebook":"{{{pxp-notebook-icon}}} [Show]({{{expert-debugger-challenge-nb}}})",
+      "Interactive Notebook": "{{{pxp-interactive-notebook-icon}}} [Launch]({{{expert-debugger-challenge-nb-jp}}}){target=\"_blank\"}"
     }
   ]
 }

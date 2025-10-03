@@ -10,7 +10,7 @@
     "link": "/about/index.qmd",
     "label": "About",
     "icon": "window-maximize",
-    "description": "PxP mission, values, and team",
+    "description": "PxP mission, values, and development",
     "generate": true
   },
 
@@ -346,7 +346,7 @@
     "link": "/workflow/shoulders-of-giants.qmd",
     "label": "Troubleshooting Basics",
     "icon": "window-maximize",
-    "description": "A guide to problem-solving and debugging",
+    "description": "Checklist for trouble-shooting and debugging",
     "generate": true
   },
   "jupyter-notebooks": {

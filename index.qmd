@@ -19,15 +19,19 @@ Welcome to PxP!
 </div>
 
 
+<hr class="page-divider">
+
 ## <i class="fa fa-code-fork" aria-hidden="true"></i>Paths, Not Courses
 
-This isn't a course — it's a toolkit.
+This isn't a standard course — it's a playground and toolkit.
 
-Pixel Process is designed for exploration, not checklists. You won't always find step-by-step lessons or a strict progression. Each section of the site offers building blocks: beginner to advanced, theory to implementation. You'll need to spot your own gaps, follow your curiosity, and piece together what matters most to your workflow.
+<span class="pxp"><span>Pixel</span><span>Process</span></span> is designed for exploration, not checklists. You won't always find step-by-step lessons or a strict progression. Each section offers building blocks: beginner to advanced, theory to implementation.
 
-This path isn't about completing a syllabus — it's about creating momentum.
+ As with real-world work, you'll need to spot your own gaps, follow your curiosity, and piece together what matters most to your workflow.
 
-## Jump into Hot Topics
+<span class="pxp"><span>P</span><span>x</span><span>P</span></span> offers guideposts and landmarks to help you chart your own course.
+
+## Hot Topics
 :::{.quick-links}
 
 <ul>
@@ -35,27 +39,31 @@ This path isn't about completing a syllabus — it's about creating momentum.
 <li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/foundations/data-viz/data-viz-basics.qmd">Data Visualization Basics</a></strong> → Turn data into stories with top visualization packages</li>
 <li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/machine-learning/random-forest.ipynb">Random Forest (NB)</a></strong> → Learn how random forests work with a full notebook tutorial</li>
 <li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/workflow/tools-overview.qmd">Tools Overview</a></strong> → Editors, linters, and formatters, oh Py!</li>
-<li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/about/index.qmd">About</a></strong> → PxP mission, values, and team</li>
+<li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/workflow/shoulders-of-giants.qmd">Troubleshooting Basics</a></strong> → Checklist for trouble-shooting and debugging</li>
 </ul>
 
 :::
+
+<hr class="page-divider">
 
 <div class="page-quote">
 Free to Use | Private by Design | Open for All
 </div>
 
 
-Every resource is open source and never requires sign-in or tracking.
+Every resource is open source. totally free, and never requires sign-in or tracking.
 
-[Learn more about our values](/about/index.qmd)
+- [About PxP](/about/index.qmd)
+- [Full public GitHub repo](https://github.com/pixel-process-dev/pixel-process)
 
-[Check out the full repo](https://github.com/pixel-process-dev/pixel-process).
+<hr class="page-divider">
 
 ::: {.callout icon="none" .custom-callout .pxp-ref title="Project Navigation"}
 
 Quickly find all relevant content with a search term using the 🔍 in the top right of every page.
-This will search the contents of the entire project. A quick and easy tool if you are not sure where to look.
-These icons indicate the type of content to:
+This will search the contents of the entire project. A quick and easy tool if you are not sureif content is avilable or where to look.
+
+Three main content types are used: web pages for general content, jupyter notebooks for code based tutorials and examples, and interactive notebooks which allow work online with no downloads. Each has a unique icon to indicate the type of content:
 
 - {{< fa regular window-maximize >}} Web page 
 - {{< fa regular rectangle-list >}} Jupyter Notebook 
@@ -65,7 +73,11 @@ These icons indicate the type of content to:
 
 ## [Jump In](/jump-in/index.qmd)
 
-Interactive quick start code-get started in minutes. Check out [the FAQs](/jump-in/jump-in-faqs.qmd) to see what path might be right for you.
+Code Freely | Fail Safely | Start Quickly 
+
+Interactive quick start code-start reading, editing, and running code in minutes. This section explores basic programming concepts in Python and R including datatypes, operators, variables, and more.
+
+Check out [the FAQs](/jump-in/jump-in-faqs.qmd) to see what path might be right for you.
 
 <div class="category-grid">
 <div class="category-card">
@@ -76,7 +88,11 @@ Interactive quick start code-get started in minutes. Check out [the FAQs](/jump-
 
 ## [Foundations](/foundations/index.qmd)
 
-Core Python, data loading/cleaning, and visualization basics. Work with essential packages and dataframe tools to handle complex data. See the [FAQs](/foundations/foundations-faqs.qmd).
+Learn Patterns | Develop Habits | Grow Confident 
+
+This section focuses on strong data analysis fundamentals to building automated, useful, and reproducible workflows. Learn about key packages and code for data input/output (I/O), cleaning, summarizing, analyzing, and visualizing data.
+
+Check out [the FAQs](/foundations/foundations-faqs.qmd) for information on why strong foundations are essential.
 
 <div class="category-grid">
 <div class="category-card">
@@ -89,7 +105,11 @@ Core Python, data loading/cleaning, and visualization basics. Work with essentia
 
 ## [Machine Learning](/machine-learning/index.qmd)
 
-Example full-workflows and deep dives into machine learning algorithms. Understand Data | Fit Models | Test Performance. See the [FAQs](/machine-learning/machine-learning-faqs.qmd)
+Understand Data | Fit Models | Test Performance 
+
+Figure out how machines `learn` with deep-dive, code based algorithm examples and complete analysis workflows that cover data I/O, splits, training, testing, and evaluation.
+
+Check out [the FAQs](/machine-learning/machine-learning-faqs.qmd) for common ML usage and metrics.
 
 <div class="category-grid">
 <div class="category-card">
@@ -102,12 +122,14 @@ Example full-workflows and deep dives into machine learning algorithms. Understa
 
 ## [Workflow](/workflow/index.qmd)
 
-Environments, linters, automation, and project structure for calm, reproducible workflows. Save Time | Avoid Errors | Create Flow.
+Save Time | Avoid Errors | Create Flow 
+
+Create the right work environment and leverage the right tools for efficient workflow. From command line aliases, to project standards, to pro-tips for debugging, this section is designed to make your life easier.
 
 <div class="category-grid">
 <div class="category-card">
 <h3>Tools</h3>
-<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/workflow/tools-overview.qmd">Tools Overview</a></strong> → Editors, linters, and formatters, oh Py!</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/workflow/shoulders-of-giants.qmd">Troubleshooting Basics</a></strong> → A guide to problem-solving and debugging</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/workflow/scripts-and-notebooks.qmd">Scripts and Notebooks</a></strong> → When and why to use notebooks vs scripts</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/workflow/jupyter-notebooks.qmd">How to: Jupyter Notebooks</a></strong> → Intro to using and navigating notebooks</div></div></div><div class="category-card">
+<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/workflow/tools-overview.qmd">Tools Overview</a></strong> → Editors, linters, and formatters, oh Py!</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/workflow/shoulders-of-giants.qmd">Troubleshooting Basics</a></strong> → Checklist for trouble-shooting and debugging</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/workflow/scripts-and-notebooks.qmd">Scripts and Notebooks</a></strong> → When and why to use notebooks vs scripts</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/workflow/jupyter-notebooks.qmd">How to: Jupyter Notebooks</a></strong> → Intro to using and navigating notebooks</div></div></div><div class="category-card">
 <h3>Customization</h3>
 <div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/workflow/cli-intro.qmd">Command Line Interface</a></strong> → Don't just learn CLI, optimize it</div></div></div></div>
 
@@ -130,4 +152,4 @@ Start where you are. Use what you have. Learn what you need
 </div>
 
 
-Each section of this project is a stepping stone. Start where it makes sense for you — revisit what you need, skip what you don't. The best path is the one that *fits* your needs.
+Programming is more about problem-solving than memorization. Looking up syntax, reading the docs, and debugging are required. Experience and expertise grow with time and effort. Start where it makes sense for you — revisit what you need, skip what you don't. The best path is the one that *fits* your needs.

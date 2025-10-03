@@ -27,7 +27,7 @@
 
     {
       "type": "text",
-      "markdown": "Learning to code, can be frustrating and seem complex. These guides highlight basic programming concepts in Python and R-two very popular datascience languages. Both are **free and open-source**.\n\n**Python:** is a general purpose language with many uses outside of data science including web development, automation, DevOps, and game development. **R:** is a more targeted language that is build around data analysis, statistics, and visualization. Both are useful and learning any language will increase your understanding of others.\n\nNeed a place to start? Check out the [FAQs]({{{jump-in-faqs}}})!\n\n[Jump into Python]({{{jump-in-python}}})\n\n[Jump into R]({{{jump-in-r}}})"
+      "markdown": "Learning to code, can be frustrating and seem complex. These guides highlight basic programming concepts in Python and R-two very popular datascience languages. Both are **free and open-source**.\n\n**Python:** is a general purpose language with many uses outside of data science including web development, automation, DevOps, and game development.\n\n**R:** is a more targeted language that is build around data analysis, statistics, and visualization. Both are useful and learning any language will increase your understanding of others.\n\nNeed a place to start? Check out the [FAQs]({{{jump-in-faqs}}})!\n\n[Jump In: Python]({{{jump-in-python}}})\n\n[Jump In: R]({{{jump-in-r}}})"
     },
     {
       "type": "text",
@@ -40,7 +40,7 @@
       "type": "custom-callout",
       "callout-type": "d-bugz",
       "title": "Experience from Errors",
-      "text": "These bugs don't bite! Writing a complex program without errors is as probable as writing a novel without a typo. The key is test for errors, ensure things work properly, and address the issues. Understanding basic errors will allow you tackle much more complex tasks.\n\n**Code Freely** — programming is interactive, so try things, test things, experiment\n\n**Fail Safely** — mistakes don't hurt here, if something goes wrong simply reset the workspace\n\n**Start Quickly** — examine inputs and outputs, read error messages, iterate and experiment if unsure"
+      "text": "These bugs don't bite! Writing a complex program without errors is as probable as writing a novel without a typo. The key is test for errors, ensure things work properly, and address the issues. Understanding basic errors will allow you tackle much more complex tasks.\n\n**Bugs Included:** These tutorials include many common errors by design. Identifying and understanding errors is an often overlooked aspect of learning to code.\n\n**Code Freely** — programming is interactive, so try things, test things, experiment\n\n**Fail Safely** — mistakes don't hurt here, if something goes wrong simply reset the workspace\n\n**Start Quickly** — examine inputs and outputs, read error messages, iterate and experiment if unsure"
     },
     {
       "type": "page-quote",

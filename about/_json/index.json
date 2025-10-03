@@ -22,7 +22,7 @@
     },
     {
       "type": "text",
-      "markdown": "The pixel process is a powerful method for learning, and just in data and computer science.\n\nTo work effectively with image data, you need to understand what’s in a single pixel: its value range, color representation (grayscale, RGB, RGBA), and image grid. Understanding a pixel is easy, while understanding an image is much more difficult. Even the most advanced computer vision techniques rely on pixel level data.\n\nPixels may seem small and uninteresting, but they are the foundation for creating stunning visuals and impactful analytics."
+      "markdown": "The pixel process is a powerful method for learning, and not just for data and computer science.\n\nTo work effectively with image data, you need to understand what's in a single pixel: its value range, color representation (grayscale, RGB, RGBA), and image grid. Understanding a pixel is easy, while understanding an image is much more difficult. Even the most advanced computer vision techniques rely on pixel level data.\n\nPixels may seem small and basic, but they are the foundation for creating stunning visuals and impactful analytics."
     },
     {
       "type": "header",
@@ -31,7 +31,7 @@
     },
     {
       "type": "text",
-      "markdown": "Complex systems often follow the principle: *understand the fundamentals before combining them into something greater*.\n\n- Pixels → Images → Videos\n\n- Words → Sentences → Books\n\n- Numbers → Geometry → Calculus\n\n- Nucleotides → Genes → DNA → Chromosomes\n\n\nUnderstanding higher level processes often rely on an indepth understanding of lower ones."
+      "markdown": "Complex systems often follow the principle: *You have to understand the basic components before combining them into something greater*.\n\n- Pixels → Images → Videos\n\n- Words → Sentences → Books\n\n- Numbers → Geometry → Calculus\n\n- Nucleotides → Genes → DNA → Chromosomes\n\n\nA true understanding of higher level processes relies on an indepth understanding of lower ones."
     },
     {
       "type": "header",
@@ -40,11 +40,11 @@
     },
     {
       "type": "text",
-      "markdown": "The pixel process is about breaking the complex into the manageable. Create a roadmap with achievable goals and notable milestones to master complex systems.\n\nEqually important, is understanding that mastering everything is untenable. Get better resultss by having a focused objective, so you can efficiently build the skills you need."
+      "markdown": "The pixel process is about breaking the complex into the manageable. Create a roadmap with achievable goals and notable milestones to master complex systems.\n\nEqually important, is understanding that mastering everything is untenable. Get better results by having a focused objective, so you can efficiently build the skills you need."
     },
     {
       "type": "text",
-      "markdown": "*Small steps, big impact—that’s the {{{branded-pixel-process}}}.*"
+      "markdown": "*Small steps, big impact—that's the {{{branded-pixel-process}}}.*"
     },
     {
       "type": "header",
@@ -54,11 +54,11 @@
     {
       "type": "header",
       "level": 3,
-      "text": "Open License, Non-Commercial Use"
+      "text": "Attribution, Non-Commercial, Share Alike License"
     },
     {
       "type": "text",
-      "markdown": "This project is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).\n\n**What does this mean in plain language?**\n\n- ✅ **You may:** Share, copy, and adapt this content for any non-commercial purpose.\n\n- ✅ **You must:** Give appropriate credit, provide a link to the license, and indicate if changes were made.\n\n- 🚫 **You may not:** Use this content for commercial purposes.\n\nIn short: **learn from it, remix it, improve it—but not for profit**.\n\n---"
+      "markdown": "This project is licensed under the [Creative Commons Attribution-NonCommercial-Share Alike 4.0 International License (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).\n\n**What does this mean in plain language?**\n\n- ✅ **You may:** Share, copy, and adapt this content for any non-commercial purpose\n\n- ✅ **You must:** Give appropriate credit, provide a link to the license, and indicate if changes were made\\n\n- ✅ **You must:** Use the same license for work based on this content and material\n\n- 🚫 **You may not:** Use this content for commercial purposes.\n\nIn short: **learn from it, remix it, improve it—but not for profit**\n\n---"
     },
     {
       "type": "header",
@@ -67,7 +67,7 @@
     },
     {
       "type": "text",
-      "markdown": "Your privacy matters here. Tracking and analytics are **disabled as much as possible**.\n\nThis means:\n\n- **No automatic progress tracking** right now.\n\n- No hidden data collection or ad targeting.\n\nIf this changes, it will be clearly documented.\n\n---"
+      "markdown": "Your privacy matters here. Tracking and analytics are **disabled as much as possible**. This site does not record user activity beyond basic traffic collected by GitHub Pages related to page visits. Voluntary feedback can optionally contain user information if a response is desired. This site can not control any browser based or computer based tacking information.\n\nThis means:\n\n- **No automatic progress tracking**\n\n- **No hidden data collection or ad targeting\n\nIf this changes, it will be clearly documented.\n\n---"
     },
     {
       "type": "header",
@@ -76,7 +76,7 @@
     },
     {
       "type": "text",
-      "markdown": "This project exists to **provide value, not generate income**.\n\n- No ads.\n\n- No pop-ups.\n\n- No paywalls.\n\n---"
+      "markdown": "This project exists to **provide value, not generate income**.\n\n- No ads\n\n- No pop-ups\n\n- No paywalls\n\n**Why you might ask?** Because I get annoyed with those things when I am trying to find resources and work through problems. This site is designed to function how I prefer sites I visit to function.\n\n---"
     },
     {
       "type": "header",
@@ -85,7 +85,7 @@
     },
     {
       "type": "text",
-      "markdown": "This is a personal project, designed and maintained by **one human**.\n\nWhat that means:\n\n- Please **be patient** with updates or fixes.\n\n- Minor quirks may exist—thank you for understanding.\n\n- **No direct moderation or code review** is available right now.\n\nIf you want to improve or extend the project:\n\n➡️ **Fork the repository** and build your version!\n\n---"
+      "markdown": "This is a personal project, designed, and maintained by **one human**.\n\nWhat that means:\n\n- Please **be patient** with updates or fixes\n\n- Minor quirks may exist—thank you for understanding\n\n- **No direct moderation or code review** is available right now\n\nIf you want to improve or extend the project:\n\n➡️ **[Send Feedback]({{{feedback}}})**\n\n➡️ **[Fork the repository](https://github.com/pixel-process-dev/pixel-process)** and build your version!\n\n---"
     },
     {
       "type": "text",
@@ -132,6 +132,24 @@
         }
       ]
     },
+
+    {
+      "type": "header",
+      "level": 3,
+      "text": "The Team"
+    },
+    {
+      "type": "header-block",
+      "img": "/assets/images/crash-report.png",
+      "h1": "Crash",
+      "h2": "Chief Security Officer"
+    },
+    {
+      "type": "header-block",
+      "img": "/assets/images/tux-tinker.png",
+      "h1": "Tux, Intern",
+      "h2": "Unpaid Intern"
+    },
     {
       "type": "divider"
     },
@@ -139,7 +157,7 @@
       "type": "custom-callout",
       "callout-type": "d-bugz",
       "title": "My Learning Project, Too",
-      "text": "This site isn’t just for sharing what I know — it’s also where I figure things out. Every post reflects a step in my own process: experiments, revisions, and occasional wrong turns.\n\n**Build in public** — showing the process helps solidify it\n\n**Learn by doing** — every bug, every fix, every refactor teaches something\n\n**Keep growing** — the goal isn’t mastery, it’s momentum"
+      "text": "This site isn't just for sharing what I know — it's also where I figure things out. Every post reflects a step in my own process: experiments, revisions, and occasional wrong turns.\n\n**Share to all** — data and tech savvy shouldn't be paywalled\n\n**Learn by doing** — every bug, every fix, every refactor teaches something\n\n**Keep growing** — the goal isn't mastery, it's momentum"
     },
     {
       "type": "page-quote",

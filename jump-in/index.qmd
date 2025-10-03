@@ -32,13 +32,15 @@ Start with the pages and then test yourself with notebooks. This is a great plac
 
 Learning to code, can be frustrating and seem complex. These guides highlight basic programming concepts in Python and R-two very popular datascience languages. Both are **free and open-source**.
 
-**Python:** is a general purpose language with many uses outside of data science including web development, automation, DevOps, and game development. **R:** is a more targeted language that is build around data analysis, statistics, and visualization. Both are useful and learning any language will increase your understanding of others.
+**Python:** is a general purpose language with many uses outside of data science including web development, automation, DevOps, and game development.
+
+**R:** is a more targeted language that is build around data analysis, statistics, and visualization. Both are useful and learning any language will increase your understanding of others.
 
 Need a place to start? Check out the [FAQs](/jump-in/jump-in-faqs.qmd)!
 
-[Jump into Python](/jump-in/python/index.qmd)
+[Jump In: Python](/jump-in/python/index.qmd)
 
-[Jump into R](/jump-in/r/index.qmd)
+[Jump In: R](/jump-in/r/index.qmd)
 
 Jump In focuses on base language libraries. This means all examples use only the standard library for that languge-no additional pacakges. Packages greatly enhance programming capabilities and used in other sections, but learning the basics comes first.
 
@@ -49,6 +51,8 @@ These guides also mirror each other where possible to facilitate comparison of t
 ::: {.callout icon="none" .custom-callout .d-bugz title="Experience from Errors"}
 
 These bugs don't bite! Writing a complex program without errors is as probable as writing a novel without a typo. The key is test for errors, ensure things work properly, and address the issues. Understanding basic errors will allow you tackle much more complex tasks.
+
+**Bugs Included:** These tutorials include many common errors by design. Identifying and understanding errors is an often overlooked aspect of learning to code.
 
 **Code Freely** — programming is interactive, so try things, test things, experiment
 

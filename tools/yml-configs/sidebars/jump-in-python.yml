@@ -8,20 +8,25 @@ contents:
 - section: "Pages"
   contents:
   - jump-in/python/datatypes-and-operators.qmd
-  - jump-in/python/notebooks/datatypes-and-operators-nb.ipynb
+  - text: "-Notebook"
+    href: jump-in/python/notebooks/datatypes-and-operators-nb.ipynb
   - jump-in/python/variables-and-functions.qmd
-  - jump-in/python/notebooks/variables-and-functions-nb.ipynb
+  - text: "-Notebook"
+    href: jump-in/python/notebooks/variables-and-functions-nb.ipynb
   - jump-in/python/iteration-and-flow-control.qmd
-  - jump-in/python/notebooks/iteration-and-flow-control-nb.ipynb
+  - text: "-Notebook"
+    href: jump-in/python/notebooks/iteration-and-flow-control-nb.ipynb
   - jump-in/python/errors-and-experimentation.qmd
-  - jump-in/python/notebooks/errors-and-experimentation-nb.ipynb
+  - text: "-Notebook"
+    href: jump-in/python/notebooks/errors-and-experimentation-nb.ipynb
   - jump-in/python/notebooks/hello-world-challenge-nb.ipynb
-  - jump-in/python/notebooks/expert-debugger-challenge-nb.ipynb
+  - text: "-Notebook"
+    href: jump-in/python/notebooks/expert-debugger-challenge-nb.ipynb
 - section: "Interactive Notebooks"
   contents:
-  - text: "<a href='/jump-in/python/jl-notebooks/jl-build/tree/index.html?path=datatypes-and-operators-nb-jp.ipynb' target='_blank'>Datatypes and Operators (Interactive)</a>"
-  - text: "<a href='/jump-in/python/jl-notebooks/jl-build/tree/index.html?path=variables-and-functions-nb-jp.ipynb' target='_blank'>Variables and Functions (Interactive)</a>"
-  - text: "<a href='/jump-in/python/jl-notebooks/jl-build/tree/index.html?path=iteration-and-flow-control-nb-jp.ipynb' target='_blank'>Iteration and Flow Control (Interactive)</a>"
-  - text: "<a href='/jump-in/python/jl-notebooks/jl-build/tree/index.html?path=errors-and-experimentation-nb-jp.ipynb' target='_blank'>Errors and Experimentation (Interactive)</a>"
-  - text: "<a href='/jump-in/python/jl-notebooks/jl-build/tree/index.html?path=hello-world-challenge-nb-jp.ipynb' target='_blank'>Hello World (Interactive)</a>"
-  - text: "<a href='/jump-in/python/jl-notebooks/jl-build/tree/index.html?path=expert-debugger-challenge-nb-jp.ipynb' target='_blank'>Expert Debugger (Interactive)</a>"
+  - text: "<a href='/jump-in/python/jl-notebooks/jl-build/tree/index.html?path=datatypes-and-operators-nb-jp.ipynb' target='_blank'>Datatypes and Operators (INB)</a>"
+  - text: "<a href='/jump-in/python/jl-notebooks/jl-build/tree/index.html?path=variables-and-functions-nb-jp.ipynb' target='_blank'>Variables and Functions (INB)</a>"
+  - text: "<a href='/jump-in/python/jl-notebooks/jl-build/tree/index.html?path=iteration-and-flow-control-nb-jp.ipynb' target='_blank'>Iteration and Flow Control (INB)</a>"
+  - text: "<a href='/jump-in/python/jl-notebooks/jl-build/tree/index.html?path=errors-and-experimentation-nb-jp.ipynb' target='_blank'>Errors and Experimentation (INB)</a>"
+  - text: "<a href='/jump-in/python/jl-notebooks/jl-build/tree/index.html?path=hello-world-challenge-nb-jp.ipynb' target='_blank'>Hello World (INB)</a>"
+  - text: "<a href='/jump-in/python/jl-notebooks/jl-build/tree/index.html?path=expert-debugger-challenge-nb-jp.ipynb' target='_blank'>Expert Debugger (INB)</a>"
