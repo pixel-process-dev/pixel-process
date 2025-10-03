@@ -1,28 +1,22 @@
 {
   "hot-topics": [
-    "about",
-    "getting-started-faqs",
     "jump-in",
-    "machine-learning",
+    "data-viz-basics",
     "random-forest",
-    "pixels-and-pictures",
-    "tools-overview"
+    "tools-overview",
+    "about"
   ],
-  "jump-in": [
-    "jump-in",
+  "jump-in-python": [
+    "jump-in-python",
     "datatypes-and-operators", 
     "variables-and-functions", 
     "iteration-and-flow-control",
-    "errors-and-experimentation" 
+    "errors-and-experimentation",
+    "hello-world-challenge-nb",
+    "expert-debugger-challenge-nb"     
   ],
-  "r-intro": [
-    "intro-to-r", 
-    "r-basic-commands", 
-    "r-datasets", 
-    "r-data-manipulation", 
-    "r-import-export", 
-    "r-data-viz", 
-    "r-data-analysis"
+  "jump-in-r": [
+    "jump-in-r"
   ],
   "datasets": [
     "dataset-exploration",

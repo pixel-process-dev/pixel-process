@@ -4,7 +4,7 @@ project:
   resources:
     - images/
     - assets/html
-    - jump-in/jl-notebooks/
+    - jump-in/python/jl-notebooks/
 
 website:
   reader-mode: false
@@ -26,6 +26,8 @@ website:
     right:
       - text: "About"
         href: about/index.qmd
+      - text: "Feedback"
+        href: feedback/index.qmd
     tools:
       - icon: moon-stars
         toggle: true
@@ -60,6 +62,7 @@ format:
       - assets/css/buttons.css
       - assets/css/quick-links.css
       - assets/css/branding.css
+      - assets/css/feedback-form.css
     include-after-body: 
       - assets/html/wip-footer.html
       - assets/html/custom-footer.html

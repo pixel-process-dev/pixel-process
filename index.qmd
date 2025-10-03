@@ -14,10 +14,42 @@ format:
 slug: pixel-process
 ---
 
-Welcome to <span class="pxp"><span>P</span><span>x</span><span>P</span></span>!
+<div class="page-quote">
+Welcome to PxP!
+</div>
 
-Curious about how it all fits together?
- Start anywhere, follow your path, and discover how small pieces become powerful systems.
+
+## <i class="fa fa-code-fork" aria-hidden="true"></i>Paths, Not Courses
+
+This isn't a course — it's a toolkit.
+
+Pixel Process is designed for exploration, not checklists. You won't always find step-by-step lessons or a strict progression. Each section of the site offers building blocks: beginner to advanced, theory to implementation. You'll need to spot your own gaps, follow your curiosity, and piece together what matters most to your workflow.
+
+This path isn't about completing a syllabus — it's about creating momentum.
+
+## Jump into Hot Topics
+:::{.quick-links}
+
+<ul>
+<li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/jump-in/index.qmd">Jump In</a></strong> → No downloads, no setup: Jump into interactive programming</li>
+<li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/foundations/data-viz/data-viz-basics.qmd">Data Visualization Basics</a></strong> → Turn data into stories with top visualization packages</li>
+<li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/machine-learning/random-forest.ipynb">Random Forest (NB)</a></strong> → Learn how random forests work with a full notebook tutorial</li>
+<li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/workflow/tools-overview.qmd">Tools Overview</a></strong> → Editors, linters, and formatters, oh Py!</li>
+<li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/about/index.qmd">About</a></strong> → PxP mission, values, and team</li>
+</ul>
+
+:::
+
+<div class="page-quote">
+Free to Use | Private by Design | Open for All
+</div>
+
+
+Every resource is open source and never requires sign-in or tracking.
+
+[Learn more about our values](/about/index.qmd)
+
+[Check out the full repo](https://github.com/pixel-process-dev/pixel-process).
 
 ::: {.callout icon="none" .custom-callout .pxp-ref title="Project Navigation"}
 
@@ -31,67 +63,38 @@ These icons indicate the type of content to:
 :::
 
 
-## <i class="fa fa-code-fork" aria-hidden="true"></i>Paths, Not Courses
+## [Jump In](/jump-in/index.qmd)
 
-This isn’t a course — it’s a toolkit.
-
-Pixel Process is designed for exploration, not checklists. You won’t find step-by-step lessons or a strict progression. Instead, start by choosing a goal that excites you — maybe you want to:
-
-- Automate a repetitive task with Python
-- Build a portfolio-worthy recommender system
-- Standardize your projects with consistent structure and tools
-
-From there, explore freely. Each section of the site offers building blocks: beginner to advanced, theory to implementation. You’ll need to spot your own gaps, follow your curiosity, and piece together what matters most to your workflow.
-
-This path isn’t about completing a syllabus — it’s about creating momentum.
-
-## Jump into Hot Topics
-:::{.quick-links}
-
-<ul>
-<li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/about/index.qmd">About</a></strong> → PxP mission, values, and team</li>
-<li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/jump-in/index.qmd">Jump In</a></strong> → No downloads, no setup-jump into basic Python</li>
-<li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/machine-learning/index.qmd">Machine Learning</a></strong> → A guide to machine learning</li>
-<li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/machine-learning/random-forest.ipynb">Random Forest (NB)</a></strong> → Deep dive into decision trees and random forest models</li>
-<li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/workflow/tools-overview.qmd">Tools Overview</a></strong> → Editors, linters, and formatters, oh my!</li>
-</ul>
-
-:::
-
-## [Getting Started]({{{getting-started}}})
-
-Install tools, launch notebooks, and get productive in minutes.
+Interactive quick start code-get started in minutes. Check out [the FAQs](/jump-in/jump-in-faqs.qmd) to see what path might be right for you.
 
 <div class="category-grid">
 <div class="category-card">
-<h3>Basic Overview</h3>
-<div class="quick-links"></div></div><div class="category-card">
-<h3>Jump In</h3>
-<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/jump-in/index.qmd">Jump In</a></strong> → No downloads, no setup-jump into basic Python</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/jump-in/python/datatypes-and-operators.qmd">Datatypes and Operators</a></strong> → Jump into Python - Part 1</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/jump-in/python/variables-and-functions.qmd">Variables and Functions</a></strong> → Jump into Python - Part 2</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/jump-in/python/iteration-and-flow-control.qmd">Iteration and Flow Control</a></strong> → Jump into Python - Part 3</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/jump-in/python/errors-and-experimentation.qmd">Errors and Experimentation</a></strong> → Jump into Python - Part 4</div></div></div><div class="category-card">
-<h3>R Introduction</h3>
-<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-file"></i> <strong><a href="/getting-started/r/intro-to-r.pdf">R Intro PDF</a></strong> → PDF companion to the R intro notebook series</div><div class="quick-link-item"><i class="fa-regular fa-rectangle-list"></i> <strong><a href="/getting-started/r/r-basic-commands-nb.ipynb">R: Basic Commands (NB)</a></strong> → Get started with R</div><div class="quick-link-item"><i class="fa-regular fa-rectangle-list"></i> <strong><a href="/getting-started/r/r-datasets-nb.ipynb">R: Datasets (NB)</a></strong> → Vectors and datasets in R</div><div class="quick-link-item"><i class="fa-regular fa-rectangle-list"></i> <strong><a href="/getting-started/r/r-data-manipulation-nb.ipynb">R: Data Basics (NB)</a></strong> → Create, edit, and summarize vectors in R</div><div class="quick-link-item"><i class="fa-regular fa-rectangle-list"></i> <strong><a href="/getting-started/r/r-import-export-nb.ipynb">R: Import/Export (NB)</a></strong> → Loading and saving data with R</div><div class="quick-link-item"><i class="fa-regular fa-rectangle-list"></i> <strong><a href="/getting-started/r/r-data-viz-nb.ipynb">R: Data Vizualization Basics (NB)</a></strong> → Basic plotting functions in R</div><div class="quick-link-item"><i class="fa-regular fa-rectangle-list"></i> <strong><a href="/getting-started/r/r-data-analysis-nb.ipynb">R: Data Analysis (NB)</a></strong> → Begin analyzing with correlations, ttests, and more</div></div></div></div>
+<h3>Jump In: Python</h3>
+<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/jump-in/python/index.qmd">Jump In: Python</a></strong> → No downloads, no setup-jump into basic Python</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/jump-in/python/datatypes-and-operators.qmd">Datatypes and Operators</a></strong> → Jump into Python - Part 1</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/jump-in/python/variables-and-functions.qmd">Variables and Functions</a></strong> → Jump into Python - Part 2</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/jump-in/python/iteration-and-flow-control.qmd">Iteration and Flow Control</a></strong> → Jump into Python - Part 3</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/jump-in/python/errors-and-experimentation.qmd">Errors and Experimentation</a></strong> → Jump into Python - Part 4</div><div class="quick-link-item"><i class="fa-regular fa-rectangle-list"></i> <strong><a href="/jump-in/python/notebooks/hello-world-challenge-nb.ipynb">Hello World Challenge (NB)</a></strong> → Challenge Notebook for string formatting and variable usage</div><div class="quick-link-item"><i class="fa-regular fa-rectangle-list"></i> <strong><a href="/jump-in/python/notebooks/hello-world-challenge-nb.ipynb">Expert Debugger Challenge (NB)</a></strong> → Challenge Notebook for string formatting and variable usage</div></div></div><div class="category-card">
+<h3>Jump In: R</h3>
+<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/jump-in/r/index.qmd">Jump In: R</a></strong> → No downloads, no setup-jump into basic R</div></div></div></div>
 
 ## [Foundations](/foundations/index.qmd)
 
-Core Python, data loading/cleaning, and visualization basics.
+Core Python, data loading/cleaning, and visualization basics. Work with essential packages and dataframe tools to handle complex data. See the [FAQs](/foundations/foundations-faqs.qmd).
 
 <div class="category-grid">
 <div class="category-card">
 <h3>Datasets</h3>
 <div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/foundations/datasets/dataset-exploration.qmd">Dataset Exploration</a></strong> → Guide to evaluating tabluar datasets</div><div class="quick-link-item"><i class="fa-regular fa-rectangle-list"></i> <strong><a href="/foundations/datasets/dataset-exploration-nb.ipynb">Dataset Exploration (NB)</a></strong> → Verify data dimensions, datatypes, and quality</div></div></div><div class="category-card">
 <h3>Data Visualization</h3>
-<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/foundations/data-viz/data-viz-basics.qmd">Data Visualization Basics</a></strong> → Learn about turning data into stories</div><div class="quick-link-item"><i class="fa-regular fa-rectangle-list"></i> <strong><a href="/foundations/data-viz/data-viz-basics-nb.ipynb">Data Visualization Basics (NB)</a></strong> → Start turning data into stories</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/foundations/data-viz/data-viz-building-blocks.qmd">Data Viz Building Blocks</a></strong> → Core features behind data viz</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/foundations/data-viz/data-viz-building-blocks-nb.ipynb">Data Viz Building Blocks (NB)</a></strong> → Code example for core features behind data viz</div></div></div><div class="category-card">
-<h3>Image Analysis</h3>
-<div class="quick-links"></div></div></div>
+<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/foundations/data-viz/data-viz-basics.qmd">Data Visualization Basics</a></strong> → Turn data into stories with top visualization packages</div><div class="quick-link-item"><i class="fa-regular fa-rectangle-list"></i> <strong><a href="/foundations/data-viz/data-viz-basics-nb.ipynb">Data Visualization Basics (NB)</a></strong> → Start turning data into stories</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/foundations/data-viz/data-viz-building-blocks.qmd">Data Viz Building Blocks</a></strong> → Core features behind data viz</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/foundations/data-viz/data-viz-building-blocks-nb.ipynb">Data Viz Building Blocks (NB)</a></strong> → Code example for core features behind data viz</div></div></div><div class="category-card">
+<h3>Advanced Data</h3>
+<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-rectangle-list"></i> <strong><a href="/foundations/advanced-data/image-basics.ipynb">Image Basics (NB)</a></strong> → Notebook on basic image properties</div></div></div></div>
 
 ## [Machine Learning](/machine-learning/index.qmd)
 
-Worked notebooks and concepts—from regression and classification to trees and evaluation.
+Example full-workflows and deep dives into machine learning algorithms. Understand Data | Fit Models | Test Performance. See the [FAQs](/machine-learning/machine-learning-faqs.qmd)
 
 <div class="category-grid">
 <div class="category-card">
 <h3>Models & Metrics</h3>
-<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/machine-learning/data-science-topics.qmd">What can ML do?</a></strong> → Overview of data and algorithms for ML</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/machine-learning/random-forest.ipynb">Random Forest (NB)</a></strong> → Deep dive into decision trees and random forest models</div></div></div><div class="category-card">
+<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/machine-learning/data-science-topics.qmd">What can ML do?</a></strong> → Overview of data and algorithms for ML</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/machine-learning/random-forest.ipynb">Random Forest (NB)</a></strong> → Learn how random forests work with a full notebook tutorial</div></div></div><div class="category-card">
 <h3>Classification</h3>
 <div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/machine-learning/classification-iris.ipynb">Iris Classification (NB)</a></strong> → Complete classification pipeline based on Iris dataset</div></div></div><div class="category-card">
 <h3>Regression</h3>
@@ -99,31 +102,22 @@ Worked notebooks and concepts—from regression and classification to trees and 
 
 ## [Workflow](/workflow/index.qmd)
 
-Environments, linters, automation, and project structure for calm, repeatable work.
+Environments, linters, automation, and project structure for calm, reproducible workflows. Save Time | Avoid Errors | Create Flow.
 
 <div class="category-grid">
 <div class="category-card">
 <h3>Tools</h3>
-<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/workflow/tools-overview.qmd">Tools Overview</a></strong> → Editors, linters, and formatters, oh my!</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/workflow/shoulders-of-giants.qmd">Troubleshooting Basics</a></strong> → A guide to problem-solving and debugging</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/workflow/scripts-and-notebooks.qmd">Scripts and Notebooks</a></strong> → When and why to use notebooks vs scripts</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/workflow/jupyter-notebooks.qmd">How to: Jupyter Notebooks</a></strong> → Intro to using and navigating notebooks</div></div></div><div class="category-card">
+<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/workflow/tools-overview.qmd">Tools Overview</a></strong> → Editors, linters, and formatters, oh Py!</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/workflow/shoulders-of-giants.qmd">Troubleshooting Basics</a></strong> → A guide to problem-solving and debugging</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/workflow/scripts-and-notebooks.qmd">Scripts and Notebooks</a></strong> → When and why to use notebooks vs scripts</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/workflow/jupyter-notebooks.qmd">How to: Jupyter Notebooks</a></strong> → Intro to using and navigating notebooks</div></div></div><div class="category-card">
 <h3>Customization</h3>
 <div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/workflow/cli-intro.qmd">Command Line Interface</a></strong> → Don't just learn CLI, optimize it</div></div></div></div>
-
-## [Perspectives]({{{perspectives}}})
-
-Reflections and insights into tech and trends
-
-<div class="category-grid">
-<div class="category-card">
-<h3>AND</h3>
-<div class="quick-links"></div></div></div>
 
 <hr class="page-divider">
 
 ::: {.callout icon="none" .custom-callout .d-bugz title="Start Your Journey"}
 
-From experience, I can attest learning everything is overwhelming, exhausting, and unnecessary. Focus on what you want to build or understand. Learn what you need as you go. And don’t be afraid to change course — that’s part of the process, too.
+From experience, I can attest learning everything is overwhelming, exhausting, and unnecessary. Focus on what you want to build or understand. Learn what you need as you go. And don't be afraid to change course — that's part of the process, too.
 
-**Start small** — expertise doesn’t happen in a day
+**Start small** — expertise doesn't happen in a day
 
 **Iterate often** — progress comes through refactoring, revisiting, and rethinking
 
@@ -136,4 +130,4 @@ Start where you are. Use what you have. Learn what you need
 </div>
 
 
-Each section of this project is a stepping stone. Start where it makes sense for you — revisit what you need, skip what you don’t. The best path is the one that *fits* your needs.
+Each section of this project is a stepping stone. Start where it makes sense for you — revisit what you need, skip what you don't. The best path is the one that *fits* your needs.

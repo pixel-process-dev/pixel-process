@@ -15,14 +15,8 @@
   },
   "body": [
     {
-      "type": "text",
-      "markdown": "Welcome to {{{branded-pxp}}}!\n\nCurious about how it all fits together?\n Start anywhere, follow your path, and discover how small pieces become powerful systems."
-    },
-    {
-      "type": "custom-callout",
-      "callout-type": "pxp-ref",
-      "title": "Project Navigation",
-      "text": "Quickly find all relevant content with a search term using the 🔍 in the top right of every page.\nThis will search the contents of the entire project. A quick and easy tool if you are not sure where to look.\nThese icons indicate the type of content to:\n\n- {{< fa regular window-maximize >}} Web page \n- {{< fa regular rectangle-list >}} Jupyter Notebook \n- {{< fa regular file-code >}} Interactive Notebook (runs directly in your browser, no downloads needed)"
+      "type": "page-quote",
+      "text": "Welcome to PxP!"
     },
     {
       "type": "header",
@@ -31,7 +25,7 @@
     },
     {
       "type": "text",
-      "markdown": "This isn’t a course — it’s a toolkit.\n\nPixel Process is designed for exploration, not checklists. You won’t find step-by-step lessons or a strict progression. Instead, start by choosing a goal that excites you — maybe you want to:\n\n- Automate a repetitive task with Python\n- Build a portfolio-worthy recommender system\n- Standardize your projects with consistent structure and tools\n\nFrom there, explore freely. Each section of the site offers building blocks: beginner to advanced, theory to implementation. You’ll need to spot your own gaps, follow your curiosity, and piece together what matters most to your workflow.\n\nThis path isn’t about completing a syllabus — it’s about creating momentum."
+      "markdown": "This isn't a course — it's a toolkit.\n\nPixel Process is designed for exploration, not checklists. You won't always find step-by-step lessons or a strict progression. Each section of the site offers building blocks: beginner to advanced, theory to implementation. You'll need to spot your own gaps, follow your curiosity, and piece together what matters most to your workflow.\n\nThis path isn't about completing a syllabus — it's about creating momentum."
     },
     {
       "type": "header",
@@ -43,28 +37,38 @@
       "page-groups": ["hot-topics"]
     },
     {
-      "type": "header",
-      "level": 2,
-      "text": "[Getting Started]({{{getting-started}}})"
+      "type": "page-quote",
+      "text": "Free to Use | Private by Design | Open for All"
     },
     {
       "type": "text",
-      "markdown": "Install tools, launch notebooks, and get productive in minutes."
+      "markdown": "Every resource is open source and never requires sign-in or tracking.\n\n[Learn more about our values]({{{about}}})\n\n[Check out the full repo](https://github.com/pixel-process-dev/pixel-process)."
+    },
+    {
+      "type": "custom-callout",
+      "callout-type": "pxp-ref",
+      "title": "Project Navigation",
+      "text": "Quickly find all relevant content with a search term using the 🔍 in the top right of every page.\nThis will search the contents of the entire project. A quick and easy tool if you are not sure where to look.\nThese icons indicate the type of content to:\n\n- {{< fa regular window-maximize >}} Web page \n- {{< fa regular rectangle-list >}} Jupyter Notebook \n- {{< fa regular file-code >}} Interactive Notebook (runs directly in your browser, no downloads needed)"
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "[Jump In]({{{jump-in}}})"
+    },
+    {
+      "type": "text",
+      "markdown": "Interactive quick start code-get started in minutes. Check out [the FAQs]({{{jump-in-faqs}}}) to see what path might be right for you."
     },
     {
       "type": "category-grid",
       "quick-links": [
         {
-          "title": "Basic Overview",
-          "page-groups": ["basics-overview"]
+          "title": "Jump In: Python",
+          "page-groups": ["jump-in-python"]
         },
         {
-          "title": "Jump In",
-          "page-groups": ["jump-in"]
-        },
-        {
-          "title": "R Introduction",
-          "page-groups": ["r-intro"]
+          "title": "Jump In: R",
+          "page-groups": ["jump-in-r"]
         }
       ]
     },
@@ -75,7 +79,7 @@
     },
     {
       "type": "text",
-      "markdown": "Core Python, data loading/cleaning, and visualization basics."
+      "markdown": "Core Python, data loading/cleaning, and visualization basics. Work with essential packages and dataframe tools to handle complex data. See the [FAQs]({{{foundations-faqs}}})."
     },
     {
       "type": "category-grid",
@@ -89,8 +93,8 @@
           "page-groups": ["data-viz"]
         },
         {
-          "title": "Image Analysis",
-          "page-groups": ["image-analysis"]
+          "title": "Advanced Data",
+          "page-groups": ["advanced-data"]
         }
       ]
     },
@@ -101,7 +105,7 @@
     },
     {
       "type": "text",
-      "markdown": "Worked notebooks and concepts—from regression and classification to trees and evaluation."
+      "markdown": "Example full-workflows and deep dives into machine learning algorithms. Understand Data | Fit Models | Test Performance. See the [FAQs]({{{machine-learning-faqs}}})"
     },
     {
       "type": "category-grid",
@@ -127,7 +131,7 @@
     },
     {
       "type": "text",
-      "markdown": "Environments, linters, automation, and project structure for calm, repeatable work."
+      "markdown": "Environments, linters, automation, and project structure for calm, reproducible workflows. Save Time | Avoid Errors | Create Flow."
     },
     {
       "type": "category-grid",
@@ -143,31 +147,13 @@
       ]
     },
     {
-      "type": "header",
-      "level": 2,
-      "text": "[Perspectives]({{{perspectives}}})"
-    },
-    {
-      "type": "text",
-      "markdown": "Reflections and insights into tech and trends"
-    },
-    {
-      "type": "category-grid",
-      "quick-links": [
-        {
-          "title": "AND",
-          "links-list": ["pixels-and-pictures"]
-        }
-      ]
-    },
-    {
       "type": "divider"
     },
     {
       "type": "custom-callout",
       "callout-type": "d-bugz",
       "title": "Start Your Journey",
-      "text": "From experience, I can attest learning everything is overwhelming, exhausting, and unnecessary. Focus on what you want to build or understand. Learn what you need as you go. And don’t be afraid to change course — that’s part of the process, too.\n\n**Start small** — expertise doesn’t happen in a day\n\n**Iterate often** — progress comes through refactoring, revisiting, and rethinking\n\n**Improve always** — focus on what matters now, and let your skills grow with your goals"
+      "text": "From experience, I can attest learning everything is overwhelming, exhausting, and unnecessary. Focus on what you want to build or understand. Learn what you need as you go. And don't be afraid to change course — that's part of the process, too.\n\n**Start small** — expertise doesn't happen in a day\n\n**Iterate often** — progress comes through refactoring, revisiting, and rethinking\n\n**Improve always** — focus on what matters now, and let your skills grow with your goals"
     },
     {
       "type": "page-quote",
@@ -175,7 +161,7 @@
     },
     {
       "type": "text",
-      "markdown": "Each section of this project is a stepping stone. Start where it makes sense for you — revisit what you need, skip what you don’t. The best path is the one that *fits* your needs."
+      "markdown": "Each section of this project is a stepping stone. Start where it makes sense for you — revisit what you need, skip what you don't. The best path is the one that *fits* your needs."
     }
   ]
 }

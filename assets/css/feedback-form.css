@@ -1,0 +1,6 @@
+form#feedbackForm input,
+form#feedbackForm textarea,
+form#feedbackForm select {
+  background-color: var(--nav-bg);
+  color: var(--fg);
+}

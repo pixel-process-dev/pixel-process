@@ -1,6 +1,6 @@
 ---
 title: PxP Feedback
-subtitle: Like it? Hate it? Want to see more?
+subtitle: Like it? Love it? Want some of it?
 format:
   html:
     page-layout: full

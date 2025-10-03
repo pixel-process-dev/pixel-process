@@ -51,7 +51,7 @@
     "link": "/foundations/data-viz/data-viz-basics.qmd",
     "label": "Data Visualization Basics",
     "icon": "window-maximize",
-    "description": "Learn about turning data into stories",
+    "description": "Turn data into stories with top visualization packages",
     "generate": true
   },
   "data-viz-basics-nb": {
@@ -78,7 +78,7 @@
     "link": "/jump-in/index.qmd",
     "label": "Jump In",
     "icon": "window-maximize",
-    "description": "No downloads, no setup-jump into basic Python",
+    "description": "No downloads, no setup: Jump into interactive programming",
     "generate": true
   },
   "jump-in-faqs": {
@@ -297,7 +297,7 @@
     "link": "/machine-learning/random-forest.ipynb",
     "label": "Random Forest (NB)",
     "icon": "window-maximize",
-    "description": "Deep dive into decision trees and random forest models"
+    "description": "Learn how random forests work with a full notebook tutorial"
   },
 
   "workflow": {
@@ -339,7 +339,7 @@
     "link": "/workflow/tools-overview.qmd",
     "label": "Tools Overview",
     "icon": "window-maximize",
-    "description": "Editors, linters, and formatters, oh my!",
+    "description": "Editors, linters, and formatters, oh Py!",
     "generate": true
   },
   "shoulders-of-giants": {

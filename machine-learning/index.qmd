@@ -37,7 +37,7 @@ Need a place to start? Check out the [FAQs](/machine-learning/machine-learning-f
 <div class="category-grid">
 <div class="category-card">
 <h3>Models & Metrics</h3>
-<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/machine-learning/data-science-topics.qmd">What can ML do?</a></strong> → Overview of data and algorithms for ML</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/machine-learning/random-forest.ipynb">Random Forest (NB)</a></strong> → Deep dive into decision trees and random forest models</div></div></div><div class="category-card">
+<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/machine-learning/data-science-topics.qmd">What can ML do?</a></strong> → Overview of data and algorithms for ML</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/machine-learning/random-forest.ipynb">Random Forest (NB)</a></strong> → Learn how random forests work with a full notebook tutorial</div></div></div><div class="category-card">
 <h3>Classification</h3>
 <div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/machine-learning/classification-iris.ipynb">Iris Classification (NB)</a></strong> → Complete classification pipeline based on Iris dataset</div></div></div><div class="category-card">
 <h3>Regression</h3>
