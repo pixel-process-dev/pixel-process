@@ -2,8 +2,8 @@
 title: 'Jump In: Python'
 subtitle: General Purpose <span class="subtitle-divider">|</span> Whitespace Aware
   <span class="subtitle-divider">|</span> Batteries Included
-description: Guide to Python core concepts like datatypes, string manipulation, and
-  debugging common errors.
+description: Guide to Python core concepts including datatypes, string manipulation,
+  and debugging common errors.
 navdesc: Experiment and see if Python works for you
 format:
   html:
@@ -13,21 +13,21 @@ format:
 slug: jump-in-python
 ---
 
-Jump into Python with hands-on practice, right in your browser. No installations, no setups, no signin. These pages use embedded code blocks to edit and run code. For extra experience, check out the notebooks too!
+Jump into Python with hands-on practice, right in your browser. No installations, no setups, no sign in. These pages use embedded code blocks to edit and run code. For extra experience, check out the notebooks too!
 
 **Try, test, and tinker — it's all part of the process.**
 
-**Python** is a general purpose programming language with many applications includind data science, wed dev, and game design. Whitespace is used in Python for structuring code, which improves readability. **Indentation and spacing matter** in Python. Python boasts of having `batteries included` in reference to an extensive core library with tools for data import/export (I/O), data manipulation, and networking.
+**Python** is a general purpose programming language with many applications including data science, web dev, and game design. Whitespace is used in Python for structuring code, which improves readability. **Indentation and spacing matter** in Python. Python boasts of having `batteries included`- a nod to an extensive core library with tools for data import/export (I/O), data manipulation, and networking.
 
 See [The Zen of Python](https://peps.python.org/pep-0020/) for more on Python philosophy.
 
 ::: {.callout icon="none" .custom-callout .pxp-ref title="Interactive Pages and Notebooks"}
 
-Jump In includes both interative pages and notebooks.
+Because Jump In content is interactive, **a very short delay** may happen as resources are spun up.
 
-**Pages** take a moment to load-an indicator at the top of page monitors the status. Interactive cells can be edited and feature a `Run Code` button that will generate the output below. Use these cells to test your understanding and explore coding concepts. Refreshing or leaving the page will remove all edits.
+**Pages** show an **indicator at the top of page monitors the status**. Interactive cells can be edited and feature a `Run Code` button that will generate the output below. Use these cells to test your understanding and explore coding concepts. Refreshing or leaving the page will remove all edits.
 
-**Notebooks** open in a new tab and run using JupyterLite. See the [Jupyter Notebook](/workflow/jupyter-notebooks.qmd) page, if you're unfamiliar. Exiting the page will remove all edits, so be sure to download work you want to save.
+**Interactive Notebooks** open in a new tab and run using [JupyterLite](https://jupyterlite.readthedocs.io/en/stable/howto/index.html). See the [Jupyter Notebook](/workflow/jupyter-notebooks.qmd) page, for details on using this environment. **Exiting the page will remove all edits**, so be sure to download work you want to save.
 
 Start with the pages and then test yourself with notebooks. This is a great place to learn by doing!
 :::
@@ -35,9 +35,9 @@ Start with the pages and then test yourself with notebooks. This is a great plac
 
 ## Content Guide
 
-Built to explore, notebooks can be used in an interactive, browser environment - no setup required. Content overviews are paired with notebooks to improve learning and encourage testing. Several skill test notebooks are also included to cement what you learn.
+Built to explore, notebooks can be used in an interactive, browser environment - no setup required. Web pages are paired with companion notebooks to improve learning and encourage testing.
 
-Ready to push your skills? Use the **notebook challenges** to reinforce these concepts with more hands-on practice. Be sure to save a copy of any work you want to keep!
+Ready to push your skills? Use the **notebook challenges** to reinforce your understanding with more hands-on practice without a direct web page guide to follow. Be sure to download and save a copy of any work you want to keep!
 
 <hr class="page-divider">
 
@@ -58,7 +58,9 @@ Ready to push your skills? Use the **notebook challenges** to reinforce these co
 
 ::: {.callout icon="none" .custom-callout .d-bugz title="Experience from Errors"}
 
-These bugs don't bite! Writing a complex program without errors is as probable as writing a novel without a typo. The key is test for errors, ensure things work properly, and address the issues. Understanding basic errors will allow you tackle much more complex tasks.
+These bugs don't bite! Writing a complex program without errors is as probable as writing a novel without a typo. Good code relies on testing, debugging, and revision. Understanding basic errors will allow you tackle much more complex tasks later.
+
+**Bugs Included:** These tutorials include many common errors by design. Identifying and understanding errors is an often overlooked aspect of learning to code.
 
 **Code Freely** — programming is interactive, so try things, test things, experiment
 

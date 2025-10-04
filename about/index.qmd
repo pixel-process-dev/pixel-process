@@ -180,7 +180,7 @@ Data scientist with years of experience and a PhD in Psychology. He loves to sha
 </div>
 </div>
 
-### The Team
+### Teammates
 
 ::: {.header-block}
 
@@ -195,7 +195,7 @@ Data scientist with years of experience and a PhD in Psychology. He loves to sha
 
 ![](/assets/images/tux-tinker.png){.img}
 
-## Tux, Intern
+## Tux
 ### Unpaid Intern
 :::
 

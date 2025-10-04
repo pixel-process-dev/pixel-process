@@ -12,7 +12,7 @@ tags:
 
 ## Get Started with Python - Part 2
 
-This is the second part of the `Jump In` guide introducing core Python concepts in a hands-on way, using **Jupyter notebooks** as the primary environment. This page will cover variables and built-in functions. Be sure to check out the accompanying notebook for more hands-on experience.
+This is the second part of the `Jump In` guide introducing core Python concepts in a hands-on way, using **Jupyter notebooks** as the primary environment. This page will cover variables and built-in functions. Be sure to check out the accompanying notebook for more experience.
 
 **NOTE**: By design, Python does not return anything when a variable is assigned. So example cells here, where only variable assignment happens, will run without generating output. The variable is still saved in the runtime and can be accessed in following cells once it is set.
 

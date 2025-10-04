@@ -54,14 +54,14 @@
   ],
 
   "Datatypes": [
-    {"Category": "Numbers", "Type": "int", "Example": "42"},
-    {"Category": "Numbers", "Type": "float", "Example": "3.14"},
-    {"Category": "Text", "Type": "str", "Example": "\"hello\""},
-    {"Category": "Sequences", "Type": "list", "Example": "[1, 2, 3]"},
-    {"Category": "Sequences", "Type": "tuple", "Example": "(1, 2, 3)"},
-    {"Category": "Mappings", "Type": "dict", "Example": "{\"a\": 1, \"b\": 2}"},
-    {"Category": "Boolean", "Type": "bool", "Example": "True, False"},
-    {"Category": "Special", "Type": "NoneType", "Example": "None"}
+    {"Category": "Numbers", "Type": "int", "Definition": "Whole number with no decimal or fraction", "Example": "42"},
+    {"Category": "Numbers", "Type": "float", "Definition": "Real number with decimal or fraction", "Example": "3.14"},
+    {"Category": "Text", "Type": "str", "Definition": "A sequence of characters", "Example": "\"hello\""},
+    {"Category": "Sequences", "Type": "list", "Definition": "Ordered, mutable collection of items", "Example": "[1, 2, 3]"},
+    {"Category": "Sequences", "Type": "tuple", "Definition": "Ordered, immutable collection of items", "Example": "(1, 2, 3)"},
+    {"Category": "Mappings", "Type": "dict", "Definition": "Unordered, mutable collection of key-value pairs", "Example": "{\"a\": 1, \"b\": 2}"},
+    {"Category": "Boolean", "Type": "bool", "Definition": "True or False value","Example": "True, False"},
+    {"Category": "Special", "Type": "NoneType", "Definition": "Represents undefined or null value","Example": "None"}
   ],
 
   "Built-in Functions": [

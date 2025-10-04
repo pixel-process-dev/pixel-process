@@ -21,11 +21,11 @@ Welcome to PxP!
 
 <hr class="page-divider">
 
-## <i class="fa fa-code-fork" aria-hidden="true"></i>Paths, Not Courses
+## <i class="fa fa-code-fork" aria-hidden="true"></i> Paths, Not Courses
 
 This isn't a standard course — it's a playground and toolkit.
 
-<span class="pxp"><span>Pixel</span><span>Process</span></span> is designed for exploration, not checklists. You won't always find step-by-step lessons or a strict progression. Each section offers building blocks: beginner to advanced, theory to implementation.
+<span class="pxp"><span>Pixel</span><span>Process</span></span>   is designed for exploration, not checklists. You won't always find step-by-step lessons or a strict progression. Each section offers building blocks: beginner to advanced, theory to implementation.
 
  As with real-world work, you'll need to spot your own gaps, follow your curiosity, and piece together what matters most to your workflow.
 
@@ -35,9 +35,9 @@ This isn't a standard course — it's a playground and toolkit.
 :::{.quick-links}
 
 <ul>
-<li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/jump-in/index.qmd">Jump In</a></strong> → No downloads, no setup: Jump into interactive programming</li>
+<li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/jump-in/index.qmd">Jump In</a></strong> → No downloads, no setup: Jump In with interactive programming</li>
 <li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/foundations/data-viz/data-viz-basics.qmd">Data Visualization Basics</a></strong> → Turn data into stories with top visualization packages</li>
-<li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/machine-learning/random-forest.ipynb">Random Forest (NB)</a></strong> → Learn how random forests work with a full notebook tutorial</li>
+<li class="quick-link-item">{{< fa regular rectangle-list >}} <strong><a href="/machine-learning/random-forest.ipynb">Random Forest (NB)</a></strong> → Learn how random forests work with a full notebook tutorial</li>
 <li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/workflow/tools-overview.qmd">Tools Overview</a></strong> → Editors, linters, and formatters, oh Py!</li>
 <li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/workflow/shoulders-of-giants.qmd">Troubleshooting Basics</a></strong> → Checklist for trouble-shooting and debugging</li>
 </ul>
@@ -51,7 +51,7 @@ Free to Use | Private by Design | Open for All
 </div>
 
 
-Every resource is open source. totally free, and never requires sign-in or tracking.
+Every resource is open source, totally free, and never requires sign-in or tracking.
 
 - [About PxP](/about/index.qmd)
 - [Full public GitHub repo](https://github.com/pixel-process-dev/pixel-process)
@@ -63,11 +63,11 @@ Every resource is open source. totally free, and never requires sign-in or track
 Quickly find all relevant content with a search term using the 🔍 in the top right of every page.
 This will search the contents of the entire project. A quick and easy tool if you are not sureif content is avilable or where to look.
 
-Three main content types are used: web pages for general content, jupyter notebooks for code based tutorials and examples, and interactive notebooks which allow work online with no downloads. Each has a unique icon to indicate the type of content:
+Three main content types are used each with a unique icon:
 
-- {{< fa regular window-maximize >}} Web page 
-- {{< fa regular rectangle-list >}} Jupyter Notebook 
-- {{< fa regular file-code >}} Interactive Notebook (runs directly in your browser, no downloads needed)
+- {{< fa regular window-maximize >}} Web page for general content 
+- {{< fa regular rectangle-list >}} Jupyter Notebook (NB) for code based tutorials and examples 
+- {{< fa regular file-code >}} Interactive Notebook (INB) runs code directly in your browser, no downloads needed
 :::
 
 
@@ -75,9 +75,9 @@ Three main content types are used: web pages for general content, jupyter notebo
 
 Code Freely | Fail Safely | Start Quickly 
 
-Interactive quick start code-start reading, editing, and running code in minutes. This section explores basic programming concepts in Python and R including datatypes, operators, variables, and more.
+Interactive quick start content to get new users reading, editing, and running code in minutes. Covers basic programming concepts in Python and R including datatypes, operators, variables, and more.
 
-Check out [the FAQs](/jump-in/jump-in-faqs.qmd) to see what path might be right for you.
+Check out [the FAQs](/jump-in/jump-in-faqs.qmd) for career path information and answers to common questions when getting started like "Is Python a good language to learn?" and "How much math is required to program?".
 
 <div class="category-grid">
 <div class="category-card">
@@ -90,7 +90,7 @@ Check out [the FAQs](/jump-in/jump-in-faqs.qmd) to see what path might be right 
 
 Learn Patterns | Develop Habits | Grow Confident 
 
-This section focuses on strong data analysis fundamentals to building automated, useful, and reproducible workflows. Learn about key packages and code for data input/output (I/O), cleaning, summarizing, analyzing, and visualizing data.
+This section focuses on strong data analysis fundamentals for building automated, useful, and reproducible workflows. Learn about key packages and code for data input/output (I/O), cleaning, summarizing, analyzing, and visualizing data.
 
 Check out [the FAQs](/foundations/foundations-faqs.qmd) for information on why strong foundations are essential.
 
@@ -99,7 +99,7 @@ Check out [the FAQs](/foundations/foundations-faqs.qmd) for information on why s
 <h3>Datasets</h3>
 <div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/foundations/datasets/dataset-exploration.qmd">Dataset Exploration</a></strong> → Guide to evaluating tabluar datasets</div><div class="quick-link-item"><i class="fa-regular fa-rectangle-list"></i> <strong><a href="/foundations/datasets/dataset-exploration-nb.ipynb">Dataset Exploration (NB)</a></strong> → Verify data dimensions, datatypes, and quality</div></div></div><div class="category-card">
 <h3>Data Visualization</h3>
-<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/foundations/data-viz/data-viz-basics.qmd">Data Visualization Basics</a></strong> → Turn data into stories with top visualization packages</div><div class="quick-link-item"><i class="fa-regular fa-rectangle-list"></i> <strong><a href="/foundations/data-viz/data-viz-basics-nb.ipynb">Data Visualization Basics (NB)</a></strong> → Start turning data into stories</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/foundations/data-viz/data-viz-building-blocks.qmd">Data Viz Building Blocks</a></strong> → Core features behind data viz</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/foundations/data-viz/data-viz-building-blocks-nb.ipynb">Data Viz Building Blocks (NB)</a></strong> → Code example for core features behind data viz</div></div></div><div class="category-card">
+<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/foundations/data-viz/data-viz-basics.qmd">Data Visualization Basics</a></strong> → Turn data into stories with top visualization packages</div><div class="quick-link-item"><i class="fa-regular fa-rectangle-list"></i> <strong><a href="/foundations/data-viz/data-viz-basics-nb.ipynb">Data Visualization Basics (NB)</a></strong> → Start turning data into stories</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/foundations/data-viz/data-viz-building-blocks.qmd">Data Viz Building Blocks</a></strong> → Core features behind data viz</div><div class="quick-link-item"><i class="fa-regular fa-rectangle-list"></i> <strong><a href="/foundations/data-viz/data-viz-building-blocks-nb.ipynb">Data Viz Building Blocks (NB)</a></strong> → Code examples for core features behind data viz</div></div></div><div class="category-card">
 <h3>Advanced Data</h3>
 <div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-rectangle-list"></i> <strong><a href="/foundations/advanced-data/image-basics.ipynb">Image Basics (NB)</a></strong> → Notebook on basic image properties</div></div></div></div>
 
@@ -107,18 +107,18 @@ Check out [the FAQs](/foundations/foundations-faqs.qmd) for information on why s
 
 Understand Data | Fit Models | Test Performance 
 
-Figure out how machines `learn` with deep-dive, code based algorithm examples and complete analysis workflows that cover data I/O, splits, training, testing, and evaluation.
+Understand how machines learn with deep-dive, code based algorithm examples and complete analysis workflows that cover data I/O, splits, training, testing, and evaluation.
 
-Check out [the FAQs](/machine-learning/machine-learning-faqs.qmd) for common ML usage and metrics.
+Check out [the FAQs](/machine-learning/machine-learning-faqs.qmd) for common ML usage, metrics, and terminology.
 
 <div class="category-grid">
 <div class="category-card">
 <h3>Models & Metrics</h3>
-<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/machine-learning/data-science-topics.qmd">What can ML do?</a></strong> → Overview of data and algorithms for ML</div><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/machine-learning/random-forest.ipynb">Random Forest (NB)</a></strong> → Learn how random forests work with a full notebook tutorial</div></div></div><div class="category-card">
+<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/machine-learning/data-science-topics.qmd">What can ML do?</a></strong> → Overview of data and algorithms for ML</div><div class="quick-link-item"><i class="fa-regular fa-rectangle-list"></i> <strong><a href="/machine-learning/random-forest.ipynb">Random Forest (NB)</a></strong> → Learn how random forests work with a full notebook tutorial</div></div></div><div class="category-card">
 <h3>Classification</h3>
-<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/machine-learning/classification-iris.ipynb">Iris Classification (NB)</a></strong> → Complete classification pipeline based on Iris dataset</div></div></div><div class="category-card">
+<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-rectangle-list"></i> <strong><a href="/machine-learning/classification-iris.ipynb">Iris Classification (NB)</a></strong> → Complete classification pipeline based on Iris dataset</div></div></div><div class="category-card">
 <h3>Regression</h3>
-<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-window-maximize"></i> <strong><a href="/machine-learning/regression-housing.ipynb">Housing Regression (NB)</a></strong> → Complete regression pipeline based on housing dataset</div></div></div></div>
+<div class="quick-links"><div class="quick-link-item"><i class="fa-regular fa-rectangle-list"></i> <strong><a href="/machine-learning/regression-housing.ipynb">Housing Regression (NB)</a></strong> → Complete regression pipeline based on housing dataset</div></div></div></div>
 
 ## [Workflow](/workflow/index.qmd)
 

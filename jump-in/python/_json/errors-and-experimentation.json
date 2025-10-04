@@ -110,7 +110,7 @@
       "type": "custom-callout",
       "callout-type": "experiment",
       "title": "Big Picture Errors",
-      "text": "Sometimes errors come from bigger issues: the Python version you're using, missing packages, or environment setup. Don't worry'you'll see these more in advanced sections. Links to more in-depth content are available when you want to explore."
+      "text": "Sometimes errors come from bigger issues: the Python version you're using, missing packages, or environment setup. This browser based tutorial should avoid any of those for now.\n\nBut be aware, those errors can cause lots of headaches.\n\nDebugging is most effective when structured, check out [On the Shoulders of Giants]({{{shoulders-of-giants}}}) for more general tips."
     },
     {
       "type": "header",
@@ -119,7 +119,7 @@
     },
     {
       "type": "text",
-      "markdown": "Experimentation means testing your ideas step by step.\nDebugging works a lot like science. Instead of guessing randomly, you can treat each step as a test:\n\n- **Form a hypothesis**: “Maybe the list is empty.”\n\n- **Test it**: `print(len(my_list))`\n\n- **Observe**: Check if the result matches your idea.\n\n- **Revise**: If not, try a new explanation.\n\nDebugging is about improvement and making things work."
+      "markdown": "Experimentation means testing your ideas step by step.\nDebugging works a lot like science. Instead of guessing randomly, you can treat each step as a test:\n\n- **Form a hypothesis**: “Maybe the list is empty.”\n\n- **Test it**: `print(len(my_list))`\n\n- **Observe**: Check if the result matches your idea.\n\n- **Revise**: If not, try a new explanation."
     },
     {
       "type": "markdown-table",

@@ -136,7 +136,7 @@
     {
       "type": "header",
       "level": 3,
-      "text": "The Team"
+      "text": "Teammates"
     },
     {
       "type": "header-block",
@@ -147,7 +147,7 @@
     {
       "type": "header-block",
       "img": "/assets/images/tux-tinker.png",
-      "h1": "Tux, Intern",
+      "h1": "Tux",
       "h2": "Unpaid Intern"
     },
     {

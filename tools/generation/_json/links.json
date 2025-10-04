@@ -70,15 +70,15 @@
   "data-viz-building-blocks-nb": {
     "link": "/foundations/data-viz/data-viz-building-blocks-nb.ipynb",
     "label": "Data Viz Building Blocks (NB)",
-    "icon": "window-maximize",
-    "description": "Code example for core features behind data viz"
+    "icon": "rectangle-list",
+    "description": "Code examples for core features behind data viz"
   },
 
   "jump-in": {
     "link": "/jump-in/index.qmd",
     "label": "Jump In",
     "icon": "window-maximize",
-    "description": "No downloads, no setup: Jump into interactive programming",
+    "description": "No downloads, no setup: Jump In with interactive programming",
     "generate": true
   },
   "jump-in-faqs": {
@@ -284,19 +284,19 @@
   "classification-iris": {
     "link": "/machine-learning/classification-iris.ipynb",
     "label": "Iris Classification (NB)",
-    "icon": "window-maximize",
+    "icon": "rectangle-list",
     "description": "Complete classification pipeline based on Iris dataset"
   },
   "regression-housing": {
     "link": "/machine-learning/regression-housing.ipynb",
     "label": "Housing Regression (NB)",
-    "icon": "window-maximize",
+    "icon": "rectangle-list",
     "description": "Complete regression pipeline based on housing dataset"
   },
   "random-forest": {
     "link": "/machine-learning/random-forest.ipynb",
     "label": "Random Forest (NB)",
-    "icon": "window-maximize",
+    "icon": "rectangle-list",
     "description": "Learn how random forests work with a full notebook tutorial"
   },
 

@@ -19,7 +19,7 @@
     },
     {
       "type": "text",
-      "markdown": "This is the third part of the `Jump In` guide introducing core Python concepts in a hands-on way. This page covers iteration and flow controls. Looping and logic determine what code runs and when. Mastering this will help avoid repetitive code and handle multiple use-cases. Be sure to check out the accompanying notebook for more hands-on experience.\n\n**NOTE**: By design, Python does not return anything when a variable is assigned. So example cells here, where only variable assignment happens, will run without generating output. The variable is still saved in the runtime and can be accessed in following cells once it is set."
+      "markdown": "This is the third part of the `Jump In` guide introducing core Python concepts in a hands-on way. This page covers iteration and flow controls. Looping and logic determine what code runs and when. Mastering this will help avoid repetitive code and handle multiple use-cases. Be sure to check out the accompanying notebook for more experience.\n\n**NOTE**: By design, Python does not return anything when a variable is assigned. So example cells here, where only variable assignment happens, will run without generating output. The variable is still saved in the runtime and can be accessed in following cells once it is set."
     },
     {
       "type": "custom-callout",
@@ -100,7 +100,7 @@
     },
     {
       "type": "text",
-      "markdown": "Range can be used to execute code a given number of times. Usage is `range(start, stop, step)`, where stop is required and start and step are optional. Stop is exclusive, meaning that number is not part of the sequence. Examples below help illustrate. Note, Python is a 0 based indexing system."
+      "markdown": "Range can be used to execute code a given number of times. Usage is `range(start, stop, step)`, where stop is required and start and step are optional. Stop is exclusive, meaning that number is not part of the sequence. Examples below help illustrate. **NOTE:** Python is a `0` based indexing system."
     },
     {
       "type": "code",
@@ -195,12 +195,7 @@
     {
       "type": "code",
       "language": "pyodide-python",
-      "content": "x = 28"
-    },
-    {
-      "type": "code",
-      "language": "pyodide-python",
-      "content": "if x == 23:\n\tprint('The magic number!')\nelif x > 23:\n\tprint('This number is too big...')\nelse:\n\tprint('This number is too small')"
+      "content": "x = 28\nif x == 23:\n\tprint('The magic number!')\nelif x > 23:\n\tprint('This number is too big...')\nelse:\n\tprint('This number is too small')"
     },
     {
       "type": "header",

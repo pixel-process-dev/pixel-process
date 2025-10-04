@@ -92,19 +92,19 @@ website:
         - section: "Pages"
           contents:
             - jump-in/python/datatypes-and-operators.qmd
-            - text: "-Notebook"
+            - text: "-| Notebook"
               href: jump-in/python/notebooks/datatypes-and-operators-nb.ipynb
             - jump-in/python/variables-and-functions.qmd
-            - text: "-Notebook"
+            - text: "-| Notebook"
               href: jump-in/python/notebooks/variables-and-functions-nb.ipynb
             - jump-in/python/iteration-and-flow-control.qmd
-            - text: "-Notebook"
+            - text: "-| Notebook"
               href: jump-in/python/notebooks/iteration-and-flow-control-nb.ipynb
             - jump-in/python/errors-and-experimentation.qmd
-            - text: "-Notebook"
+            - text: "-| Notebook"
               href: jump-in/python/notebooks/errors-and-experimentation-nb.ipynb
             - jump-in/python/notebooks/hello-world-challenge-nb.ipynb
-            - text: "-Notebook"
+            - text: "-| Notebook"
               href: jump-in/python/notebooks/expert-debugger-challenge-nb.ipynb
         - section: "Interactive Notebooks"
           contents:

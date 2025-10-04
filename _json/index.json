@@ -28,7 +28,7 @@
     },
     {
       "type": "text",
-      "markdown": "This isn't a standard course — it's a playground and toolkit.\n\n{{{branded-pixel-process}}} is designed for exploration, not checklists. You won't always find step-by-step lessons or a strict progression. Each section offers building blocks: beginner to advanced, theory to implementation.\n\n As with real-world work, you'll need to spot your own gaps, follow your curiosity, and piece together what matters most to your workflow.\n\n{{{branded-pxp}}} offers guideposts and landmarks to help you chart your own course."
+      "markdown": "This isn't a standard course — it's a playground and toolkit.\n\n{{{branded-pixel-process}}}   is designed for exploration, not checklists. You won't always find step-by-step lessons or a strict progression. Each section offers building blocks: beginner to advanced, theory to implementation.\n\n As with real-world work, you'll need to spot your own gaps, follow your curiosity, and piece together what matters most to your workflow.\n\n{{{branded-pxp}}} offers guideposts and landmarks to help you chart your own course."
     },
     {
       "type": "header",
@@ -49,7 +49,7 @@
    
     {
       "type": "text",
-      "markdown": "Every resource is open source. totally free, and never requires sign-in or tracking.\n\n- [About PxP]({{{about}}})\n- [Full public GitHub repo](https://github.com/pixel-process-dev/pixel-process)"
+      "markdown": "Every resource is open source, totally free, and never requires sign-in or tracking.\n\n- [About PxP]({{{about}}})\n- [Full public GitHub repo](https://github.com/pixel-process-dev/pixel-process)"
     },
     {
       "type": "divider"
@@ -58,7 +58,7 @@
       "type": "custom-callout",
       "callout-type": "pxp-ref",
       "title": "Project Navigation",
-      "text": "Quickly find all relevant content with a search term using the 🔍 in the top right of every page.\nThis will search the contents of the entire project. A quick and easy tool if you are not sureif content is avilable or where to look.\n\nThree main content types are used: web pages for general content, jupyter notebooks for code based tutorials and examples, and interactive notebooks which allow work online with no downloads. Each has a unique icon to indicate the type of content:\n\n- {{< fa regular window-maximize >}} Web page \n- {{< fa regular rectangle-list >}} Jupyter Notebook \n- {{< fa regular file-code >}} Interactive Notebook (runs directly in your browser, no downloads needed)"
+      "text": "Quickly find all relevant content with a search term using the 🔍 in the top right of every page.\nThis will search the contents of the entire project. A quick and easy tool if you are not sureif content is avilable or where to look.\n\nThree main content types are used each with a unique icon:\n\n- {{< fa regular window-maximize >}} Web page for general content \n- {{< fa regular rectangle-list >}} Jupyter Notebook (NB) for code based tutorials and examples \n- {{< fa regular file-code >}} Interactive Notebook (INB) runs code directly in your browser, no downloads needed"
     },
     {
       "type": "header",
@@ -67,7 +67,7 @@
     },
     {
       "type": "text",
-      "markdown": "Code Freely | Fail Safely | Start Quickly \n\nInteractive quick start code-start reading, editing, and running code in minutes. This section explores basic programming concepts in Python and R including datatypes, operators, variables, and more.\n\nCheck out [the FAQs]({{{jump-in-faqs}}}) to see what path might be right for you."
+      "markdown": "Code Freely | Fail Safely | Start Quickly \n\nInteractive quick start content to get new users reading, editing, and running code in minutes. Covers basic programming concepts in Python and R including datatypes, operators, variables, and more.\n\nCheck out [the FAQs]({{{jump-in-faqs}}}) for career path information and answers to common questions when getting started like \"Is Python a good language to learn?\" and \"How much math is required to program?\"."
     },
     {
       "type": "category-grid",
@@ -89,7 +89,7 @@
     },
     {
       "type": "text",
-      "markdown": "Learn Patterns | Develop Habits | Grow Confident \n\nThis section focuses on strong data analysis fundamentals to building automated, useful, and reproducible workflows. Learn about key packages and code for data input/output (I/O), cleaning, summarizing, analyzing, and visualizing data.\n\nCheck out [the FAQs]({{{foundations-faqs}}}) for information on why strong foundations are essential."
+      "markdown": "Learn Patterns | Develop Habits | Grow Confident \n\nThis section focuses on strong data analysis fundamentals for building automated, useful, and reproducible workflows. Learn about key packages and code for data input/output (I/O), cleaning, summarizing, analyzing, and visualizing data.\n\nCheck out [the FAQs]({{{foundations-faqs}}}) for information on why strong foundations are essential."
     },
     {
       "type": "category-grid",
@@ -115,7 +115,7 @@
     },
     {
       "type": "text",
-      "markdown": "Understand Data | Fit Models | Test Performance \n\nFigure out how machines `learn` with deep-dive, code based algorithm examples and complete analysis workflows that cover data I/O, splits, training, testing, and evaluation.\n\nCheck out [the FAQs]({{{machine-learning-faqs}}}) for common ML usage and metrics."
+      "markdown": "Understand Data | Fit Models | Test Performance \n\nUnderstand how machines learn with deep-dive, code based algorithm examples and complete analysis workflows that cover data I/O, splits, training, testing, and evaluation.\n\nCheck out [the FAQs]({{{machine-learning-faqs}}}) for common ML usage, metrics, and terminology."
     },
     {
       "type": "category-grid",

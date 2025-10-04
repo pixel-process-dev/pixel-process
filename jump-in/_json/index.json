@@ -22,16 +22,20 @@
       "type": "custom-callout",
       "callout-type": "pxp-ref",
       "title": "Interactive Pages and Notebooks",
-      "text": "Because Jump In content is interactive, **a very short delay** may happen as resources are spun up.\n\n**Pages** show an **indicator at the top of page monitors the status**. Interactive cells can be edited and feature a `Run Code` button that will generate the output below. Use these cells to test your understanding and explore coding concepts. Refreshing or leaving the page will remove all edits.\n\n**Notebooks** open in a new tab and run using [JupyterLite](https://jupyterlite.readthedocs.io/en/stable/howto/index.html). See the [Jupyter Notebook]({{{jupyter-notebooks}}}) page, for details on using this environment. **Exiting the page will remove all edits**, so be sure to download work you want to save.\n\nStart with the pages and then test yourself with notebooks. This is a great place to learn by doing!"
-    },
-
-    {
-      "type": "text",
-      "markdown": "Learning to code, can be frustrating and seem complex. These guides highlight basic programming concepts in Python and R-two very popular datascience languages. Both are **free and open-source**.\n\n**Python:** is a general purpose language with many uses outside of data science including web development, automation, DevOps, and game development.\n\n**R:** is a more targeted language that is build around data analysis, statistics, and visualization. Both are useful and learning any language will increase your understanding of others.\n\nNeed a place to start? Check out the [FAQs]({{{jump-in-faqs}}})!\n\n[Jump In: Python]({{{jump-in-python}}})\n\n[Jump In: R]({{{jump-in-r}}})"
+      "text": "Because Jump In content is interactive, **a very short delay** may happen as resources are spun up.\n\n**Pages** show an **indicator at the top of page monitors the status**. Interactive cells can be edited and feature a `Run Code` button that will generate the output below. Use these cells to test your understanding and explore coding concepts. Refreshing or leaving the page will remove all edits.\n\n**Interactive Notebooks** open in a new tab and run using [JupyterLite](https://jupyterlite.readthedocs.io/en/stable/howto/index.html). See the [Jupyter Notebook]({{{jupyter-notebooks}}}) page, for details on using this environment. **Exiting the page will remove all edits**, so be sure to download work you want to save.\n\nStart with the pages and then test yourself with notebooks. This is a great place to learn by doing!"
     },
     {
       "type": "text",
-      "markdown": "Jump In focuses on base language libraries. This means all examples use only the standard library for that languge-no additional pacakges. Packages greatly enhance programming capabilities and used in other sections, but learning the basics comes first.\n\nThese guides also mirror each other where possible to facilitate comparison of the languages and concepts. Comparison between the two encourages a deeper understand of programming concepts-not just syntax."
+      "markdown": "Learning to code, can be frustrating and seem complex. These guides highlight basic programming concepts in Python and R - two very **popular, free, and open source** programming languages.\n\n**Python:** is a general purpose language with many uses outside of data science including web development, automation, DevOps, and game development.\n\n**R:** is a more targeted language that is built around data analysis, statistics, and visualization. \n\nBoth are useful and learning any language will increase your understanding of others.\n\nNeed a place to start? Check out the [FAQs]({{{jump-in-faqs}}})!\n\n[Jump In: Python]({{{jump-in-python}}})\n\n[Jump In: R]({{{jump-in-r}}})"
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Standard Library Only"
+    },
+    {
+      "type": "text",
+      "markdown": "Jump In uses only the standard library for Python and R. This means all examples use features and functionality built into these languages-no additional pacakges. Packages greatly enhance programming capabilities and are used in other sections, but learning the basics comes first.\n\nThese guides also mirror each other where possible to facilitate comparison of the languages and concepts. Comparison between the two encourages a deeper understand of programming concepts-not just syntax."
     },
     {
       "type": "divider"
@@ -40,7 +44,7 @@
       "type": "custom-callout",
       "callout-type": "d-bugz",
       "title": "Experience from Errors",
-      "text": "These bugs don't bite! Writing a complex program without errors is as probable as writing a novel without a typo. The key is test for errors, ensure things work properly, and address the issues. Understanding basic errors will allow you tackle much more complex tasks.\n\n**Bugs Included:** These tutorials include many common errors by design. Identifying and understanding errors is an often overlooked aspect of learning to code.\n\n**Code Freely** — programming is interactive, so try things, test things, experiment\n\n**Fail Safely** — mistakes don't hurt here, if something goes wrong simply reset the workspace\n\n**Start Quickly** — examine inputs and outputs, read error messages, iterate and experiment if unsure"
+      "text": "These bugs don't bite! Writing a complex program without errors is as probable as writing a novel without a typo. Good code relies on testing, debugging, and revision. Understanding basic errors will allow you tackle much more complex tasks later.\n\n**Bugs Included:** These tutorials include many common errors by design. Identifying and understanding errors is an often overlooked aspect of learning to code.\n\n**Code Freely** — programming is interactive, so try things, test things, experiment\n\n**Fail Safely** — mistakes don't hurt here, if something goes wrong simply reset the workspace\n\n**Start Quickly** — examine inputs and outputs, read error messages, iterate and experiment if unsure"
     },
     {
       "type": "page-quote",

@@ -60,7 +60,11 @@ open('missing_file.txt')
 
 ::: {.callout icon="none" .custom-callout .experiment title="Big Picture Errors"}
 
-Sometimes errors come from bigger issues: the Python version you're using, missing packages, or environment setup. Don't worry'you'll see these more in advanced sections. Links to more in-depth content are available when you want to explore.
+Sometimes errors come from bigger issues: the Python version you're using, missing packages, or environment setup. This browser based tutorial should avoid any of those for now.
+
+But be aware, those errors can cause lots of headaches.
+
+Debugging is most effective when structured, check out [On the Shoulders of Giants](/workflow/shoulders-of-giants.qmd) for more general tips.
 :::
 
 
@@ -76,8 +80,6 @@ Debugging works a lot like science. Instead of guessing randomly, you can treat 
 - **Observe**: Check if the result matches your idea.
 
 - **Revise**: If not, try a new explanation.
-
-Debugging is about improvement and making things work.
 
 <div class="table-cheatsheet">
 | Issue | Wild Guess | Testable Hypothesis | Test Syntax/Process |
