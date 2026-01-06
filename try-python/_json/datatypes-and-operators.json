@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "title": "Datatypes and Operators",
+    "subtitle": "Part 1: Essential Concepts for New Python Users",
+    "description": "Overview of datatypes and operators in Python.",
+    "slug": "datatypes-and-operators",
+    "tags": [
+      "python",
+      "beginners",
+      "jupyter",
+      "syntax"
+    ]
+  },
+  "body": [    
+    {
+      "type": "header",
+      "level": 2,
+      "text": "The First Cell"
+    },
+    {
+      "type": "custom-callout",
+      "callout-type": "experiment",
+      "title": "Run, Edit, Run Again",
+      "text": "Use the `Run Code` button to execute code live. Make edits and compare the output to figure out how Python works. If anything goes wrong, just reload the page to reset all code. And remember cell edits are **not** saved. Check out the notebook options, where you can download and save edits if you want to keep a record of your work."
+    },
+    {
+      "type": "text",
+      "markdown": "Time to get started! The cell below will output the text when run. Be sure to pay attention to the `syntax` that determines how the cell is evaluated.\n\nUpdate the string with a custom response like 'Hello, World!' or 'Let's dive in!'. Be sure to `Run` the cell after each update."
+    },
+    {
+      "type": "code",
+      "language": "pyodide-python",
+      "content": "print('I speak Python!')"
+    },
+    {
+      "type": "text",
+      "markdown": "The above cell uses the Python `print` function (more on functions in the next lesson) to output a `string` that is passed to it. A `string` is a datatype in Python that represents text. Basic Python datatypes are presented next."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Datatypes"
+    },
+    {
+      "type": "text",
+      "markdown": "Python uses datatypes to organize and process information. The datatype can determine how information is stored, used, and displayed. Picking the right datatype makes coding much smoother. Key categories include numeric, strings, and sequences."
+    },
+    {
+      "type": "text",
+      "markdown": "Key concepts of datatypes include:\n\n-**Item or Sequence/Collection**: Datatypes like the numeric `int` and `float` represent an item while sequences and colletions can include multiple elements\n\n-**Ordered**: Datatypes like lists and tuples keep items in order whereas dictionaries are unordered\n\n-**Mutable**: Mutable datatypes including lists can changed after being defined whereas immutable datatypes like tuples can not\n\n-**Mappings**: Dicionaries store data as key-value pairs\n\nSee [Iteration and Flow Control]({{{iteration-and-flow-control}}}) for more on working with sequences and Boolean types often used for flow control."
+    },
+    {
+      "type": "markdown-table",
+      "table-name": "Datatypes"
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Datatypes in Code"
+    },
+    {
+      "type": "text",
+      "markdown": "The `type` function is used to verify types. Experiment by copying any of the examples into the below to replace the list. **Note:** Quotes are used to indicated text, so `\"hello\"` is valid but `hello` is not."
+    },
+    {
+      "type": "code",
+      "language": "pyodide-python",
+      "content": "type([1,2,3])"
+    },
+    {
+      "type": "text",
+      "markdown": "Python determines type based on syntax if not explicitly stated. This cell shows how set a number can be set as an integer or a string."
+    },
+    {
+      "type": "code",
+      "language": "pyodide-python",
+      "content": "print(type(42))\nprint(type('42'))"
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Operators"
+    },
+    {
+      "type": "text",
+      "markdown": "Operations in programming are used to manipulate and evaluate values. These allow programs to perform calculations, make decisions, and control the flow of execution. \n\nTypes include:\n\n- **Mathematical**\n- **Logical**\n- **Comparison**\n- **Assignment**\n"
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Mathematical"
+    },
+    {
+      "type": "text",
+      "markdown": "Mathematical operators perform arithmetic calculations. In Python, these include `+` (addition), `-` (subtraction), `*` (multiplication), and `/` (division). Python uses `//` for integer division. Regular division will return a float value, while integer division will discard the remainder and return an integer.\n\nNot shown here, but available are also `**` or `^` (exponentiation), and `%` or `%%` (modulus)."
+    },
+    {
+      "type": "markdown-table",
+      "table-name": "Operators - Arithmetic"
+    },
+    {
+      "type": "text",
+      "markdown": "Use the cell below to run a addition example. Experiment with other operators and values."
+    },
+    {
+      "type": "code",
+      "language": "pyodide-python",
+      "content": "4+2"
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Comparison"
+    },
+    {
+      "type": "text",
+      "markdown": "Comparison operators evaluate relationships between values. Common operators in Python include `==` (equal), `!=` (not equal), `<` (less than), `<=` (less than or equal to), `>` (greater than), and `>=` (greater than or equal to).\n\nThese return boolean values of `True`/`False`."
+    },
+    {
+      "type": "markdown-table",
+      "table-name": "Operators - Comparison"
+    },
+    {
+      "type": "code",
+      "language": "pyodide-python",
+      "content": "3 == 3"
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Logical"
+    },
+    {
+      "type": "text",
+      "markdown": "Logical operators allow for boolean logic. In Python: `and`, `or`, `not`. These are used in conditionals and loops to combine multiple logical expressions."
+    },
+    {
+      "type": "markdown-table",
+      "table-name": "Operators - Logical"
+    },
+    {
+      "type": "code",
+      "language": "pyodide-python",
+      "content": "(3 > 1) and (2 < 5)"
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Assignment"
+    },
+    {
+      "type": "custom-callout",
+      "callout-type": "best-practice",
+      "title": "Assignment and Equality",
+      "text": "Assignment uses `=` to assign a value to a variable. `x = 10` creates or updates the variable x to be 10.\n\nEquality checking uses `==` and returns a Boolean (True, or False) depending on if the values are equal. `x == 10` will return True if x is set as above. "
+    },
+    {
+      "type": "code",
+      "language": "pyodide-python",
+      "content": "x = 10\ny = 10\nx == y"
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Next Steps"
+    },
+    {
+      "type": "text",
+      "markdown": "Dig in deeper with this [interactive notebook]({{{datatypes-and-operators-nb}}}){target=\"_blank\"} or move on to [variables and functions]({{{variables-and-functions}}}) next."
+    }
+  ]
+}

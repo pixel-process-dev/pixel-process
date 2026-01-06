@@ -1,0 +1,91 @@
+{
+  "Variable Naming Rules": [
+    {"Example": "age", "Valid?": "✅ Yes", "Reason": "Starts with a letter, letters only"},
+    {"Example": "user_name", "Valid?": "✅ Yes", "Reason": "Letters + underscore are allowed"},
+    {"Example": "temperature2", "Valid?": "✅ Yes", "Reason": "Digits allowed, but not at start"},
+    {"Example": "_hidden", "Valid?": "✅ Yes", "Reason": "Leading underscore allowed (often used for “private” values)"},
+    {"Example": "MAX_VALUE", "Valid?": "✅ Yes", "Reason": "Uppercase is allowed, often used for constants"},
+    {"Example": "2nd_value", "Valid?": "❌ No", "Reason": "Cannot start with a digit"},
+    {"Example": "user-name", "Valid?": "❌ No", "Reason": "Dash (-) not allowed"},
+    {"Example": "file.path", "Valid?": "❌ No", "Reason": "Dot (.) means “attribute,” not part of a name"},
+    {"Example": "my var", "Valid?": "❌ No", "Reason": "Spaces not allowed"},
+    {"Example": "return", "Valid?": "❌ No", "Reason": "return is a reserved Python keyword"}
+  ],
+
+  "Operators - Arithmetic": [
+    {"Operator": "+", "Example": "3 + 2", "Meaning": "Addition", "Result": "5"},
+    {"Operator": "-", "Example": "7 - 4", "Meaning": "Subtraction", "Result": "3"},
+    {"Operator": "*", "Example": "6 * 2", "Meaning": "Multiplication", "Result": "12"},
+    {"Operator": "/", "Example": "7 / 2", "Meaning": "Division (always float)", "Result": "3.5"},
+    {"Operator": "//", "Example": "7 // 2", "Meaning": "Floor (integer) division", "Result": "3"}
+  ],
+
+  "Operators - Comparison": [
+    {"Operator": "==", "Example": "3 == 3", "Meaning": "Equal to", "Result": "True"},
+    {"Operator": "!=", "Example": "3 != 4", "Meaning": "Not equal to", "Result": "True"},
+    {"Operator": ">", "Example": "5 > 2", "Meaning": "Greater than", "Result": "True"},
+    {"Operator": "<", "Example": "2 < 5", "Meaning": "Less than", "Result": "True"},
+    {"Operator": ">=", "Example": "5 >= 5", "Meaning": "Greater than or equal to", "Result": "True"},
+    {"Operator": "<=", "Example": "4 <= 5", "Meaning": "Less than or equal to", "Result": "True"}
+  ],
+
+  "Operators - Logical": [
+    {"Operator": "and", "Example": "(3 > 1) and (2 < 5)", "Meaning": "True if both are true", "Result": "True"},
+    {"Operator": "or", "Example": "(3 > 1) or (2 > 5)", "Meaning": "True if at least one is true", "Result": "True"},
+    {"Operator": "not", "Example": "not (3 > 1)", "Meaning": "Negates (True → False)", "Result": "False"}
+  ],
+
+  "Operators - Membership & Identity": [
+    {"Operator": "in", "Example": "'a' in 'cat'", "Meaning": "True if value is inside container", "Result": "True"},
+    {"Operator": "not in", "Example": "'x' not in 'cat'", "Meaning": "True if value is not inside container", "Result": "True"},
+    {"Operator": "is", "Example": "a is b", "Meaning": "True if two variables are the same object", "Result": "Depends"},
+    {"Operator": "is not", "Example": "a is not b", "Meaning": "True if two variables are different", "Result": "Depends"}
+  ],
+
+  "Operators - Assignment": [
+    {"Operator": "=", "Example": "x = 5", "Meaning": "Assign value", "Result": "x becomes 5"},
+    {"Operator": "+=", "Example": "x += 3", "Meaning": "Add and assign", "Result": "x = x + 3"},
+    {"Operator": "-=", "Example": "x -= 2", "Meaning": "Subtract and assign", "Result": "x = x - 2"},
+    {"Operator": "*=", "Example": "x *= 4", "Meaning": "Multiply and assign", "Result": "x = x * 4"},
+    {"Operator": "/=", "Example": "x /= 2", "Meaning": "Divide and assign (float)", "Result": "x = x / 2"},
+    {"Operator": "//=", "Example": "x //= 2", "Meaning": "Floor-divide and assign", "Result": "x = x // 2"},
+    {"Operator": "%=", "Example": "x %= 2", "Meaning": "Modulus and assign", "Result": "x = x % 2"},
+    {"Operator": "**=", "Example": "x **= 3", "Meaning": "Exponentiate and assign", "Result": "x = x ** 3"}
+  ],
+
+  "Datatypes": [
+    {"Category": "Numbers", "Type": "int", "Definition": "Whole number with no decimal or fraction", "Example": "42"},
+    {"Category": "Numbers", "Type": "float", "Definition": "Real number with decimal or fraction", "Example": "3.14"},
+    {"Category": "Text", "Type": "str", "Definition": "A sequence of characters", "Example": "\"hello\""},
+    {"Category": "Sequences", "Type": "list", "Definition": "Ordered, mutable collection of items", "Example": "[1, 2, 3]"},
+    {"Category": "Sequences", "Type": "tuple", "Definition": "Ordered, immutable collection of items", "Example": "(1, 2, 3)"},
+    {"Category": "Mappings", "Type": "dict", "Definition": "Unordered, mutable collection of key-value pairs", "Example": "{\"a\": 1, \"b\": 2}"},
+    {"Category": "Boolean", "Type": "bool", "Definition": "True or False value","Example": "True, False"},
+    {"Category": "Special", "Type": "NoneType", "Definition": "Represents undefined or null value","Example": "None"}
+  ],
+
+  "Built-in Functions": [
+    {"Function": "help", "Example": "help(len)", "Meaning": "Displays documentation about an object or function", "Result": "Shows usage info in console"},
+    {"Function": "len", "Example": "len([1, 2, 3])", "Meaning": "Returns the number of items in an object", "Result": "3"},
+    {"Function": "print", "Example": "print('Hello')", "Meaning": "Outputs text or variables to the console", "Result": "Hello"},
+    {"Function": "type", "Example": "type(3.14)", "Meaning": "Returns the data type of an object", "Result": "<class 'float'>"},
+    {"Function": "min", "Example": "min(4, 7, 2)", "Meaning": "Returns the smallest of the given values", "Result": "2"},
+    {"Function": "max", "Example": "max(4, 7, 2)", "Meaning": "Returns the largest of the given values", "Result": "7"},
+    {"Function": "str", "Example": "str(123)", "Meaning": "Converts a value to a string", "Result": "'123'"},
+    {"Function": "int", "Example": "int(3.9)", "Meaning": "Converts a value to an integer (truncates decimals)", "Result": "3"},
+    {"Function": "float", "Example": "float('3.14')", "Meaning": "Converts a value to a floating-point number", "Result": "3.14"}
+  ],
+
+  "R Datatypes": [
+    {"Category": "Numbers", "Type": "numeric", "Definition": "A real number that can include decimals (default numeric type)", "Example": "3.14"},
+    {"Category": "Numbers", "Type": "integer", "Definition": "A whole number with no decimal point", "Example": "42"},
+    {"Category": "Text", "Type": "character", "Definition": "A sequence of letters, numbers, or symbols enclosed in quotes", "Example": "\"hello\""},
+    {"Category": "Logical", "Type": "logical", "Definition": "Represents a TRUE or FALSE value", "Example": "TRUE, FALSE"},
+    {"Category": "Collections", "Type": "vector", "Definition": "An ordered collection of elements of the same type", "Example": "c(1, 2, 3)"},
+    {"Category": "Collections", "Type": "list", "Definition": "An ordered collection that can hold mixed types", "Example": "list(1, \"two\", TRUE)"},
+    {"Category": "Mappings", "Type": "named vector / list", "Definition": "Stores name–value pairs for labeled data", "Example": "c(Alice=10, Bob=12)"},
+    {"Category": "Special", "Type": "NULL", "Definition": "Represents an empty or undefined object", "Example": "NULL"},
+    {"Category": "Special", "Type": "NA", "Definition": "Represents missing or unavailable data", "Example": "NA"}
+  ]
+}
+

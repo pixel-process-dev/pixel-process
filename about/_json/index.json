@@ -11,8 +11,7 @@
             "title-block-banner": true
         }
     },
-    "slug": "about",
-    "tags": ["about"]
+    "slug": "about"
   },
   "body": [
     {
@@ -22,7 +21,7 @@
     },
     {
       "type": "text",
-      "markdown": "The pixel process is a powerful method for learning, and not just for data and computer science.\n\nTo work effectively with image data, you need to understand what's in a single pixel: its value range, color representation (grayscale, RGB, RGBA), and image grid. Understanding a pixel is easy, while understanding an image is much more difficult. Even the most advanced computer vision techniques rely on pixel level data.\n\nPixels may seem small and basic, but they are the foundation for creating stunning visuals and impactful analytics."
+      "markdown": "The pixel process is a powerful method for learning, and not just for data and computer science.\n\nWorking effectively with image data requires understanding the components of a single pixel including value range, color representation (grayscale, RGB, RGBA), and grid position. Understanding a pixel is easy, but an image is more complex. Even the most advanced computer vision techniques rely on pixel level data.\n\nPixels may seem small and basic, but they are the foundation for creating stunning visuals and impactful analytics.\n\nCheck out [this image basics]({{{image-basics}}}) tutorial to see this concept in action!"
     },
     {
       "type": "header",
@@ -34,17 +33,8 @@
       "markdown": "Complex systems often follow the principle: *You have to understand the basic components before combining them into something greater*.\n\n- Pixels → Images → Videos\n\n- Words → Sentences → Books\n\n- Numbers → Geometry → Calculus\n\n- Nucleotides → Genes → DNA → Chromosomes\n\n\nA true understanding of higher level processes relies on an indepth understanding of lower ones."
     },
     {
-      "type": "header",
-      "level": 3,
-      "text": "Set Goals, Focus Effort"
-    },
-    {
       "type": "text",
-      "markdown": "The pixel process is about breaking the complex into the manageable. Create a roadmap with achievable goals and notable milestones to master complex systems.\n\nEqually important, is understanding that mastering everything is untenable. Get better results by having a focused objective, so you can efficiently build the skills you need."
-    },
-    {
-      "type": "text",
-      "markdown": "*Small steps, big impact—that's the {{{branded-pixel-process}}}.*"
+      "markdown": "*Understanding pieces to see the picture is the {{{branded-pixel-process}}}.*"
     },
     {
       "type": "header",
@@ -63,33 +53,15 @@
     {
       "type": "header",
       "level": 3,
-      "text": "Privacy First"
+      "text": "Ad Free | Hassle Free | Privacy Forward"
     },
     {
       "type": "text",
-      "markdown": "Your privacy matters here. Tracking and analytics are **disabled as much as possible**. This site does not record user activity beyond basic traffic collected by GitHub Pages related to page visits. Voluntary feedback can optionally contain user information if a response is desired. This site can not control any browser based or computer based tacking information.\n\nThis means:\n\n- **No automatic progress tracking**\n\n- **No hidden data collection or ad targeting\n\nIf this changes, it will be clearly documented.\n\n---"
-    },
-    {
-      "type": "header",
-      "level": 3,
-      "text": "Ad-Free and Hassle-Free"
+      "markdown": "This project is designed to be **conceptually helpful**, **distraction free**, and **low friction**.\n\n- No ads\n\n- No pop-ups\n\n- No paywalls\n\n- No sign ins "
     },
     {
       "type": "text",
-      "markdown": "This project exists to **provide value, not generate income**.\n\n- No ads\n\n- No pop-ups\n\n- No paywalls\n\n**Why you might ask?** Because I get annoyed with those things when I am trying to find resources and work through problems. This site is designed to function how I prefer sites I visit to function.\n\n---"
-    },
-    {
-      "type": "header",
-      "level": 3,
-      "text": "Maintained by One Person"
-    },
-    {
-      "type": "text",
-      "markdown": "This is a personal project, designed, and maintained by **one human**.\n\nWhat that means:\n\n- Please **be patient** with updates or fixes\n\n- Minor quirks may exist—thank you for understanding\n\n- **No direct moderation or code review** is available right now\n\nIf you want to improve or extend the project:\n\n➡️ **[Send Feedback]({{{feedback}}})**\n\n➡️ **[Fork the repository](https://github.com/pixel-process-dev/pixel-process)** and build your version!\n\n---"
-    },
-    {
-      "type": "text",
-      "markdown": "*Thank you for being here and supporting the vision of accessible, thoughtful content without unnecessary friction.*"
+      "markdown": "Your privacy matters here. Site tracking and analytics are **disabled**.\n\n- **No automatic progress tracking**\n\n- **No hidden data collection or ad targeting**"
     },
     {
       "type": "header",
@@ -104,14 +76,14 @@
     },
     {
       "type": "text",
-      "markdown": "Data scientist with years of experience and a PhD in Psychology. He loves to share knowledge and specializes in automation, reproducibility, and troubleshooting. More than a decade of scientific research and programming with Python, R, and SQL, applied across diverse data types including neuroimaging, biological samples, surveys, and financial data. Skilled in methodologies including computer vision, natural language processing, classification/regression, time-series analysis, and both supervised and unsupervised learning. Proficient with cloud services (AWS, Azure), Git, GitHub, and Jupyter, and dedicated to optimizing workflows for research and industry applications."
+      "markdown": "I'm an experimental researcher and data scientist focused on how complex problems are framed, decomposed, and explored in practice. I design, prototype, and evaluate data driven projects and love to share knowledge and thoughts on learning, analysis, and troubleshooting. I have over a decade of experience using open source technology in psychology research, financial analysis, and instruction."
     },
     {
       "type": "category-grid",
       "categories": [
         {
           "title": "🛠 Tech Stack",
-          "items": ["Python", "R", "SQL", "Git", "SPSS", "MATLAB", "Jupyter"]
+          "items": ["Python", "R", "SQL", "Git", "MATLAB", "Jupyter"]
         },
         {
           "title": "🧪 Methods",
@@ -123,49 +95,35 @@
           "items": ["Production", "Stardard Operating Procedures (SOPs)", "Packaging", "Documentation", "Version Control"]
         },        
         {
-          "title": "🗂 Data Types",
-          "items": ["Tabular", "Time Series", "Images", "Text"]
-        },
-        {
           "title": "👯 Extracurricular",
-          "items": ["Reading Fantasy and Sci-Fi", "Walking my Teammates", "Cooking", "Video Games"]
+          "items": ["Theater", "Reading Fantasy and Sci-Fi", "Cooking", "Video Games"]
         }
       ]
-    },
-
-    {
-      "type": "header",
-      "level": 3,
-      "text": "Teammates"
-    },
-    {
-      "type": "header-block",
-      "img": "/assets/images/crash-report.png",
-      "h1": "Crash",
-      "h2": "Chief Security Officer"
-    },
-    {
-      "type": "header-block",
-      "img": "/assets/images/tux-tinker.png",
-      "h1": "Tux",
-      "h2": "Unpaid Intern"
     },
     {
       "type": "divider"
     },
+
+{
+      "type": "header",
+      "level": 3,
+      "text": "Maintained by One Person"
+    },
+    {
+      "type": "text",
+      "markdown": "This is a personal project, designed, and maintained by **one human**.\n\nWhat that means:\n\n- Please **be patient** with updates or fixes\n\n- Minor quirks may exist—thank you for understanding\n\n- **No direct moderation or code review** is available right now\n\nIf you want to improve or extend the project:\n\n➡️ **[Send Feedback]({{{feedback}}})**\n\n➡️ **[Check out or fork the full repository](https://github.com/pixel-process-dev/pixel-process)** and build your version!\n\n---"
+    },
+
+
     {
       "type": "custom-callout",
       "callout-type": "d-bugz",
-      "title": "My Learning Project, Too",
-      "text": "This site isn't just for sharing what I know — it's also where I figure things out. Every post reflects a step in my own process: experiments, revisions, and occasional wrong turns.\n\n**Share to all** — data and tech savvy shouldn't be paywalled\n\n**Learn by doing** — every bug, every fix, every refactor teaches something\n\n**Keep growing** — the goal isn't mastery, it's momentum"
+      "title": "My Learning Project",
+      "text": "This site isn't just for sharing knowledge, it's for testing things out.\n\nIf you're interested in the codebase, be sure to check out [the repo](https://github.com/pixel-process-dev/pixel-process)."
     },
     {
       "type": "page-quote",
       "text": "Welcome to {{{branded-pixel-process}}}  "
-    },
-    {
-      "type": "text",
-      "markdown": "Hope you find something useful here — or learn from my mistakes and improve from that!"
     }
   ]
 }

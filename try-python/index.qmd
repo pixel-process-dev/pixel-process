@@ -1,0 +1,86 @@
+---
+title: Try Python
+subtitle: Code Freely <span class="subtitle-divider">|</span> Fail Safely <span class="subtitle-divider">|</span>
+  Start Quickly
+description: Learn programming basics without setup or headaches. Interactive tools
+  let you explore programming basics all in your browser.
+navdesc: Interative learning environments to get started with Python
+sidebar: try-python
+format:
+  html:
+    page-layout: full
+    title-block-banner: true
+slug: try-python
+---
+
+Jump into Python programming with hands-on practice, right in your browser. No installations, no setups, no sign-in. These pages use embedded code blocks to edit and run code with notebooks to anchor learning and dig deeper. Notebooks are presented as both **static** and **interactive** formats. Static versions are ideal for quick finds and reference. Interative versions allow editing and running your own code.
+
+**Try, test, and tinker — it's all part of the process.**
+
+## Interativity Guide
+
+Built to explore, notebooks can be used in an interactive, browser environment - no setup required. Web pages are paired with companion notebooks to improve learning and encourage testing.
+
+::: {.callout icon="none" .custom-callout .pxp-ref title="Loading Interactive Pages and Notebooks"}
+
+Interactive content requires loading additional resources which my cause a delay when spun up.
+
+**Pages** show an **indicator at the top of page monitors the status**. Interactive cells can be edited and feature a `Run Code` button that will generate the output below. Use these cells to test your understanding and explore coding concepts. Refreshing or leaving the page will remove all edits.
+
+**Interactive Notebooks** open in a new tab and run using [JupyterLite](https://jupyterlite.readthedocs.io/en/stable/howto/index.html). See the [Jupyter Notebook](/create-code/jupyter-notebooks.qmd) page, for details on using this environment. **Exiting the page will remove all edits**, so be sure to download work you want to save.
+
+Start with the pages and then test yourself with notebooks.
+:::
+
+
+## About Python
+
+**Python** is a general purpose programming language with many applications including data science, web dev, and game design. Whitespace is used in Python for structuring code, which improves readability. **Indentation and spacing matter** in Python. Python boasts of having `batteries included`- a nod to an extensive core library with tools for data import/export (I/O), data manipulation, and networking.
+
+See [The Zen of Python](https://peps.python.org/pep-0020/) for more on Python philosophy.
+
+## Content Guide
+
+<div class="table-cheatsheet">
+| Topic | Page | Notebook | Interactive Notebook |
+| --- | --- | --- | --- |
+| Datatypes and Operators | {{< fa regular window-maximize >}} [Open](/try-python/datatypes-and-operators.qmd) | {{< fa regular rectangle-list >}} [Show](/try-python/notebooks/datatypes-and-operators-nb.ipynb) | {{< fa regular file-code >}} [Launch](/try-python/jl-notebooks/jl-build/tree/index.html?path=datatypes-and-operators-nb-jp.ipynb){target="_blank"} |
+| Variables and Functions | {{< fa regular window-maximize >}} [Open](/try-python/variables-and-functions.qmd) | {{< fa regular rectangle-list >}} [Show](/try-python/notebooks/variables-and-functions-nb.ipynb) | {{< fa regular file-code >}} [Launch](/try-python/jl-notebooks/jl-build/tree/index.html?path=variables-and-functions-nb-jp.ipynb){target="_blank"} |
+| Iteration and Flow Control | {{< fa regular window-maximize >}} [Open](/try-python/iteration-and-flow-control.qmd) | {{< fa regular rectangle-list >}} [Show](/try-python/notebooks/iteration-and-flow-control-nb.ipynb) | {{< fa regular file-code >}} [Launch](/try-python/jl-notebooks/jl-build/tree/index.html?path=iteration-and-flow-control-nb-jp.ipynb){target="_blank"} |
+| Errors and Experimentation | {{< fa regular window-maximize >}} [Open](/try-python/errors-and-experimentation.qmd) | {{< fa regular rectangle-list >}} [Show](/try-python/notebooks/errors-and-experimentation-nb.ipynb) | {{< fa regular file-code >}} [Launch](/try-python/jl-notebooks/jl-build/tree/index.html?path=errors-and-experimentation-nb-jp.ipynb){target="_blank"} |
+| Hello World | Notebook only challenge! | {{< fa regular rectangle-list >}} [Show](/try-python/notebooks/hello-world-challenge-nb.ipynb) | {{< fa regular file-code >}} [Launch](/try-python/jl-notebooks/jl-build/tree/index.html?path=hello-world-challenge-nb-jp.ipynb){target="_blank"} |
+| Expert Debugger | Notebook only challenge! | {{< fa regular rectangle-list >}} [Show](/try-python/notebooks/hello-world-challenge-nb.ipynb) | {{< fa regular file-code >}} [Launch](/try-python/jl-notebooks/jl-build/tree/index.html?path=expert-debugger-challenge-nb-jp.ipynb){target="_blank"} |
+
+</div>
+
+
+<hr class="page-divider">
+
+Ready to push your skills? Use the **notebook challenges** to reinforce your understanding with more hands-on practice without a direct web page guide to follow. Be sure to download and save a copy of any work you want to keep!
+
+<hr class="page-divider">
+
+## Standard Library Only
+
+This section uses only the standard library for Python. This means all features and functionality are built into it-no additional pacakges. Packages greatly enhance programming capabilities and are used in other sections, but learning the basics comes first.
+
+<hr class="page-divider">
+
+## Why Python?
+
+::: {.callout icon="none" .custom-callout .d-bugz title="Which language should I learn?"}
+
+Python is a great starting point due to its readability, versatility, and large ecosystem. But, the right tool depends on the job. Remember, many programming concepts apply in many languages, so getting started in any can help get you started in all.
+
+Check out the [TIOBE Index](https://www.tiobe.com/tiobe-index/) for more information on popular languages and trends.
+:::
+
+
+<div class="page-quote">
+Hands on is the only true way to learn programming
+</div>
+
+
+Nothing to break here, no risks, consider this a playground for learning. 
+
+**Try, test, and tinker — it's all part of the process.**

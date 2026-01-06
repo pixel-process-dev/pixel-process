@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "title": "Iteration and Flow Control",
+    "subtitle": "Part 3: Essential Concepts for New Python Users",
+    "description": "Overview of iteration and flow control in Python.",
+    "slug": "iteration-and-flow-control",
+    "tags": [
+      "python",
+      "beginners",
+      "jupyter",
+      "syntax"
+    ]
+  },
+  "body": [ 
+    {
+      "type": "text",
+      "markdown": "Welcome to iteration and flow controls! Looping and logic determine what code runs and when. These concepts are the core to creating maintainable and versatile code. Be sure to check out the accompanying notebook for more experience.\n\n**NOTE**: By design, Python does not return anything when a variable is assigned. So example cells here, where only variable assignment happens, will run without generating output. The variable is still saved in the runtime and can be accessed in following cells once it is set."
+    },
+    {
+      "type": "custom-callout",
+      "callout-type": "best-practice",
+      "title": "DRY - Don't Repeat Yourself",
+      "text": "DRY, a principle of software engineering, reminds developers to avoid duplicative or repetitive code. Having multiple code sections that are nearly identical is a pain to maintain. If you ever find yourself having to edit code in multiple places for a single change, consider if there is a better approach. Iteration and flow control are core ways to ensure DRY code."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Iteration"
+    },
+    {
+      "type": "text",
+      "markdown": "Many datatypes allow for iteration. This section will focus on lists, strings, ranges, and dictionaries as examples. Iteration repeatedly executes a block of code."
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Lists"
+    },
+    {
+      "type": "text",
+      "markdown": "List iteration is incredibly powerful. The cells below first create a list, then iterates over it."
+    },
+    {
+      "type": "code",
+      "language": "pyodide-python",
+      "content": "names_list = ['Amanda', 'John', 'Paul', 'Junior', 'Emily']"
+    },
+    {
+      "type": "code",
+      "language": "pyodide-python",
+      "content": "for name in names_list:\n\tprint(name)"
+    },
+    {
+      "type": "code",
+      "language": "pyodide-python",
+      "content": "for name in names_list:\n\tprint(name + ' is jumping into Python!')"
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Strings"
+    },
+    {
+      "type": "text",
+      "markdown": "Stings in Python are iterable. See the below to iterate over characters."
+    },
+    {
+      "type": "code",
+      "language": "pyodide-python",
+      "content": "python_string = 'Python'"
+    },
+    {
+      "type": "code",
+      "language": "pyodide-python",
+      "content": "for letter in python_string:\n\tprint(letter)"
+    },
+    {
+      "type": "header",
+      "level": 4,
+      "text": "Nested Loops"
+    },
+    {
+      "type": "text",
+      "markdown": "Loops can be nested."
+    },
+    {
+      "type": "code",
+      "language": "pyodide-python",
+      "content": "for name in names_list:\n\tfor letter in name:\n\t\tprint(letter)"
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Ranges"
+    },
+    {
+      "type": "text",
+      "markdown": "Range can be used to execute code a given number of times. Usage is `range(start, stop, step)`, where stop is required and start and step are optional. Stop is exclusive, meaning that number is not part of the sequence. Examples below help illustrate. **NOTE:** Python is a `0` based indexing system."
+    },
+    {
+      "type": "code",
+      "language": "pyodide-python",
+      "content": "for i in range(5):\n\tprint(i)"
+    },
+    {
+      "type": "code",
+      "language": "pyodide-python",
+      "content": "for i in range(1, 5):\n\tprint(i)"
+    },
+    {
+      "type": "code",
+      "language": "pyodide-python",
+      "content": "for i in range(1, 10, 3):\n\tprint(i)"
+    },
+    {
+      "type": "header",
+      "level": 4,
+      "text": "Enumerate"
+    },
+    {
+      "type": "text",
+      "markdown": "Enumerate is a built-in function to add a counter to iteratable objects like lists."
+    },
+    {
+      "type": "code",
+      "language": "pyodide-python",
+      "content": "for i, name in enumerate(names_list):\n\tprint(str(i) + ' - ' + name)"
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Dictionaries"
+    },
+    {
+      "type": "text",
+      "markdown": "Dictionaries hold mapped key-value pairs. They are iterable, but must be handled differently than lists. `keys` will iterate over the keys, while `values` iterates over the values, and `items` iterates over both."
+    },
+    {
+      "type": "code",
+      "language": "pyodide-python",
+      "content": "my_dict = {'a': 0, 'b': 1, 'c': 2}"
+    },
+    {
+      "type": "code",
+      "language": "pyodide-python",
+      "content": "for k in my_dict.keys():\n\tprint(k)"
+    },
+    {
+      "type": "code",
+      "language": "pyodide-python",
+      "content": "for v in my_dict.values():\n\tprint(v)"
+    },
+    {
+      "type": "code",
+      "language": "pyodide-python",
+      "content": "for k, v in my_dict.items():\n\tprint(k + ' - ' + str(v))"
+    },
+    {
+      "type": "header",
+      "level": 4,
+      "text": "Dictionary Lookup"
+    },
+    {
+      "type": "text",
+      "markdown": "Dictionary mapping is usefulf in many contexts. The key of a dictionary can be used to lookup the corresponding value. \n\nSyntax: `dict[key]`."
+    },
+    {
+      "type": "code",
+      "language": "pyodide-python",
+      "content": "for k in my_dict.keys():\n\tprint(my_dict[k])"
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Flow Control"
+    },
+    {
+      "type": "text",
+      "markdown": "By default, code is executed from the top to bottom of a script. Flow control is used for more advanced execution that may include repeating blocks, skipping conditions, early exits, and error handling. The 'if-elif-else' conditional statement is the most commonly used method of flow control in Python.\n\nWhen combined with iteration and DRY, very little code can have very impactful results."
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "If-Elif-Else"
+    },
+    {
+      "type": "text",
+      "markdown": "The most commonly used flow control in Python. Run the cells below and edit to make x the magic number."
+    },
+    {
+      "type": "code",
+      "language": "pyodide-python",
+      "content": "x = 28\nif x == 23:\n\tprint('The magic number!')\nelif x > 23:\n\tprint('This number is too big...')\nelse:\n\tprint('This number is too small')"
+    },
+    {
+      "type": "header",
+      "level": 4,
+      "text": "Iteration and Flow"
+    },
+    {
+      "type": "code",
+      "language": "pyodide-python",
+      "content": "for name in names_list:\n\tif 'a' in name:\n\t\tprint(name)"
+    },
+    {
+      "type": "code",
+      "language": "pyodide-python",
+      "content": "for i, name in enumerate(names_list):\n\tif i > 2:\n\t\tprint(name)"
+    }
+  ]
+}

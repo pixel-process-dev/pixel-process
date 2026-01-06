@@ -2,9 +2,8 @@ project:
   type: website
   output-dir: _site
   resources:
-    - images/
     - assets/html
-    - jump-in/python/jl-notebooks/
+    - try-python/jl-notebooks/
 
 website:
   reader-mode: false
@@ -15,123 +14,99 @@ website:
     left:
       - text: "Pixel Process"
         href: index.qmd
-      - text: "Jump In"
-        href: jump-in/index.qmd
-      - text: "Foundations"
-        href: foundations/index.qmd
-      - text: "Machine Learning"
-        href: machine-learning/index.qmd
-      - text: "Workflow"
-        href: workflow/index.qmd
+      - text: "Try Python"
+        href: try-python/index.qmd
+      - text: "Explore Data"
+        href: explore-data/index.qmd
+      - text: "Build Models"
+        href: build-models/index.qmd
+      - text: "Create Code"
+        href: create-code/index.qmd
     right:
       - text: "About"
         href: about/index.qmd
-      - text: "Feedback"
-        href: feedback/index.qmd
     tools:
       - icon: moon-stars
         toggle: true
 
-
   sidebar:
-    - id: foundations
-      title: "Foundations"
-      style: docked
-      collapse-level: 2
-      pinned: false
-      contents:
-        - foundations/index.qmd
-        - text: "FAQs"
-          href: foundations/foundations-faqs.qmd
-        - section: "Datasets"
-          contents:
-            - foundations/datasets/dataset-exploration.qmd
-            - foundations/datasets/dataset-exploration-nb.ipynb
-        - section: "Data Visualization"
-          contents:
-            - foundations/data-viz/data-viz-basics.qmd
-            - foundations/data-viz/data-viz-basics-nb.ipynb
-        - section: "Advanced Data"
-          contents:
-            - foundations/advanced-data/image-basics.ipynb
 
-    - id: workflow
-      title: "Workflow"
+    - id: home
+      title: "Content Overview"
       style: docked
       collapse-level: 2
       pinned: false
-      contents:
-        - workflow/index.qmd
-        - section: "Tools"
-          contents:
-            - workflow/tools-overview.qmd
-            - workflow/shoulders-of-giants.qmd
-            - workflow/scripts-and-notebooks.qmd
-            - workflow/jupyter-notebooks.qmd
-        - section: "Customization"
-          contents:
-            - workflow/cli-intro.qmd
+      contents: []
 
-    - id: jump-in
-      title: "Jump In"
+    - id: try-python
+      title: "Try Python"
       style: docked
-      collapse-level: 2
+      collapse-level: 1
       pinned: false
       contents:
-        - jump-in/index.qmd
-        - jump-in/jump-in-faqs.qmd
-        - jump-in/python/index.qmd
-        - jump-in/r/index.qmd
-    - id: jump-in-python
-      title: "Jump In: Python"
-      style: docked
-      collapse-level: 2
-      pinned: false
-      contents:
-        - jump-in/python/index.qmd
-        - section: "Pages"
+        - section: "Guides"
           contents:
-            - jump-in/python/datatypes-and-operators.qmd
-            - text: "-| Notebook"
-              href: jump-in/python/notebooks/datatypes-and-operators-nb.ipynb
-            - jump-in/python/variables-and-functions.qmd
-            - text: "-| Notebook"
-              href: jump-in/python/notebooks/variables-and-functions-nb.ipynb
-            - jump-in/python/iteration-and-flow-control.qmd
-            - text: "-| Notebook"
-              href: jump-in/python/notebooks/iteration-and-flow-control-nb.ipynb
-            - jump-in/python/errors-and-experimentation.qmd
-            - text: "-| Notebook"
-              href: jump-in/python/notebooks/errors-and-experimentation-nb.ipynb
-            - jump-in/python/notebooks/hello-world-challenge-nb.ipynb
-            - text: "-| Notebook"
-              href: jump-in/python/notebooks/expert-debugger-challenge-nb.ipynb
+            - try-python/datatypes-and-operators.qmd
+            - try-python/variables-and-functions.qmd
+            - try-python/iteration-and-flow-control.qmd
+            - try-python/errors-and-experimentation.qmd
+        - section: "Notebooks"
+          contents:
+            - try-python/notebooks/datatypes-and-operators-nb.ipynb
+            - try-python/notebooks/variables-and-functions-nb.ipynb
+            - try-python/notebooks/iteration-and-flow-control-nb.ipynb
+            - try-python/notebooks/errors-and-experimentation-nb.ipynb
+            - try-python/notebooks/hello-world-challenge-nb.ipynb
+            - try-python/notebooks/expert-debugger-challenge-nb.ipynb
         - section: "Interactive Notebooks"
           contents:
-            - text: "<a href='/jump-in/python/jl-notebooks/jl-build/tree/index.html?path=datatypes-and-operators-nb-jp.ipynb' target='_blank'>Datatypes and Operators (INB)</a>"
-            - text: "<a href='/jump-in/python/jl-notebooks/jl-build/tree/index.html?path=variables-and-functions-nb-jp.ipynb' target='_blank'>Variables and Functions (INB)</a>"
-            - text: "<a href='/jump-in/python/jl-notebooks/jl-build/tree/index.html?path=iteration-and-flow-control-nb-jp.ipynb' target='_blank'>Iteration and Flow Control (INB)</a>"
-            - text: "<a href='/jump-in/python/jl-notebooks/jl-build/tree/index.html?path=errors-and-experimentation-nb-jp.ipynb' target='_blank'>Errors and Experimentation (INB)</a>"
-            - text: "<a href='/jump-in/python/jl-notebooks/jl-build/tree/index.html?path=hello-world-challenge-nb-jp.ipynb' target='_blank'>Hello World (INB)</a>"
-            - text: "<a href='/jump-in/python/jl-notebooks/jl-build/tree/index.html?path=expert-debugger-challenge-nb-jp.ipynb' target='_blank'>Expert Debugger (INB)</a>"
-    - id: machine-learning
-      title: "Machine Learning"
+            - text: "<a href='/try-python/jl-notebooks/jl-build/tree/index.html?path=datatypes-and-operators-nb-jp.ipynb' target='_blank'>Datatypes and Operators (INB)</a>"
+            - text: "<a href='/try-python/jl-notebooks/jl-build/tree/index.html?path=variables-and-functions-nb-jp.ipynb' target='_blank'>Variables and Functions (INB)</a>"
+            - text: "<a href='/try-python/jl-notebooks/jl-build/tree/index.html?path=iteration-and-flow-control-nb-jp.ipynb' target='_blank'>Iteration and Flow Control (INB)</a>"
+            - text: "<a href='/try-python/jl-notebooks/jl-build/tree/index.html?path=errors-and-experimentation-nb-jp.ipynb' target='_blank'>Errors and Experimentation (INB)</a>"
+            - text: "<a href='/try-python/jl-notebooks/jl-build/tree/index.html?path=hello-world-challenge-nb-jp.ipynb' target='_blank'>Hello World (INB)</a>"
+            - text: "<a href='/try-python/jl-notebooks/jl-build/tree/index.html?path=expert-debugger-challenge-nb-jp.ipynb' target='_blank'>Expert Debugger (INB)</a>"
+
+
+    - id: build-models
+      title: "Build Models"
       style: docked
       collapse-level: 2
       pinned: false
       contents:
-        - machine-learning/index.qmd
-        - machine-learning/machine-learning-faqs.qmd
-        - section: "Models & Metrics"
-          contents:
-            - machine-learning/data-science-topics.qmd
-            - machine-learning/random-forest.ipynb
-        - section: "Classification"
-          contents:
-            - machine-learning/classification-iris.ipynb
-        - section: "Regression"
-          contents:
-            - machine-learning/regression-housing.ipynb
+        - build-and-evaluate-models/index.qmd
+        - build-and-evaluate-models/machine-learning-faqs.qmd
+        - build-and-evaluate-models/data-science-topics.qmd
+        - build-and-evaluate-models/random-forest.ipynb
+        - build-and-evaluate-models/classification-iris.ipynb
+
+
+    - id: explore-data
+      title: "Explore Data"
+      style: docked
+      collapse-level: 2
+      pinned: false
+      contents:
+        - explore-data/index.qmd
+        - explore-data/datasets/dataset-exploration.qmd
+        - explore-data/datasets/dataset-exploration-nb.ipynb
+        - explore-data/data-viz/data-viz-basics.qmd
+        - explore-data/data-viz/data-viz-basics-nb.ipynb
+        - explore-data/advanced-data/image-basics.ipynb
+
+
+    - id: create-code
+      title: "Create Code"
+      style: docked
+      collapse-level: 2
+      pinned: false
+      contents:
+        - create-code/index.qmd
+        - create-code/tools-overview.qmd
+        - create-code/shoulders-of-giants.qmd
+        - create-code/scripts-and-notebooks.qmd
+        - create-code/jupyter-notebooks.qmd
+        - create-code/cli-intro.qmd
 
 format:
   html:
@@ -162,9 +137,7 @@ format:
       - assets/css/buttons.css
       - assets/css/quick-links.css
       - assets/css/branding.css
-      - assets/css/feedback-form.css
     include-after-body:
-      - assets/html/wip-footer.html
       - assets/html/custom-footer.html
     link-external-newwindow: true
     page-layout: full

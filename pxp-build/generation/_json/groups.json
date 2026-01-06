@@ -1,0 +1,47 @@
+{
+  "sections": [
+    "try-python",
+    "data-exploration",
+    "build-models",
+    "create-code",
+    "about"
+  ],
+  "hot-topics": [
+    "try-python",
+    "data-exploration",
+    "build-models",
+    "create-code"
+  ],
+  "try-python": [
+    "try-python",
+    "datatypes-and-operators", 
+    "variables-and-functions", 
+    "iteration-and-flow-control",
+    "errors-and-experimentation",
+    "hello-world-challenge-nb",
+    "expert-debugger-challenge-nb"     
+  ],
+  "explore-data": [
+    "dataset-exploration",
+    "dataset-exploration-nb",
+    "data-viz-basics", 
+    "data-viz-basics-nb",
+    "data-viz-building-blocks",
+    "data-viz-building-blocks-nb"
+  ],
+  "advanced-data": [
+    "image-basics"
+  ],
+  "build-models": [
+    "data-science-topics", 
+    "random-forest",
+    "classification-iris"
+  ],
+  "create-code": [
+    "tools-overview", 
+    "shoulders-of-giants", 
+    "scripts-and-notebooks",
+    "jupyter-notebooks",
+    "cli-intro"
+  ]
+}
