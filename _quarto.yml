@@ -88,10 +88,11 @@ website:
       pinned: false
       contents:
         - explore-data/index.qmd
-        - explore-data/datasets/dataset-exploration.qmd
         - explore-data/datasets/dataset-exploration-nb.ipynb
-        - explore-data/data-viz/data-viz-basics.qmd
-        - explore-data/data-viz/data-viz-basics-nb.ipynb
+        - section: "Data Visualization"
+          contents:
+            - explore-data/data-viz/data-viz-basics.qmd
+            - explore-data/data-viz/data-viz-basics-nb.ipynb
         - explore-data/advanced-data/image-basics.ipynb
 
 

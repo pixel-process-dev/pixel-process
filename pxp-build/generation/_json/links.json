@@ -21,13 +21,6 @@
     "description": "Introduction to EDA with datasets",
     "generate": true
   },
-  "dataset-exploration": {
-    "link": "/explore-data/datasets/dataset-exploration.qmd",
-    "label": "Dataset Exploration",
-    "icon": "window-maximize",
-    "description": "Guide to evaluating tabluar datasets",
-    "generate": true
-  },
   "dataset-exploration-nb": {
     "link": "/explore-data/datasets/dataset-exploration-nb.ipynb",
     "label": "Dataset Exploration (NB)",
