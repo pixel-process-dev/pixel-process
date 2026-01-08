@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "Tools & Troubleshooting",
+    "title": "Create Code",
     "subtitle": "Save Time <span class=\"subtitle-divider\">|</span> Avoid Errors <span class=\"subtitle-divider\">|</span> Create Flow",
-    "description": "Streamline your coding process with smart tooling, clear project structure, and small habits that make a big difference — from the command line to color schemes.",
+    "description": "Streamline your coding process with smart tooling, clear project structure, and small habits that make a big difference.",
     "navdesc": "Tools, tips, and ways to make your life easier",
     "format": {
       "html": {
@@ -11,12 +11,12 @@
         "title-block-banner": true
       }
     },
-    "slug": "code-adeptly"
+    "slug": "create-code"
   },
   "body": [
     {
       "type": "text",
-      "markdown": "Great workflows don't happen by accident — they're built through intention, iteration, and small choices that add up. This section is about taking control of your coding experience: streamlining your setup, automating what slows you down, and shaping tools to fit the way you work. From the command line to color schemes, you'll explore ways to reduce friction, stay organized, and build a development environment that's not just efficient, but genuinely satisfying to use.\n\n**Code happy!**"
+      "markdown": "Great workflows don't happen by accident — they're built through intention, iteration, and small choices that add up. This section is about taking control of your coding experience: streamlining your setup, automating what slows you down, and shaping tools to fit the way you work. From the command line to color schemes, you'll explore ways to reduce friction, stay organized, and build a development environment that's not just efficient, but genuinely satisfying to use.\n\n**Code happy!**\n(And debug with less hair pulling 😉)"
     },
     {
       "type": "custom-callout",
@@ -27,11 +27,11 @@
     {
       "type": "header",
       "level": 2,
-      "text": "Content Overview"
+      "text": "Content Guide"
     },
     {
       "type": "quick-links",
-      "page-groups": ["build-and-evaluate-models"]
+      "page-groups": ["create-code"]
     },
     {
       "type": "divider"
@@ -48,7 +48,7 @@
     },
     {
       "type": "text",
-      "markdown": "Workflow isn't about perfection — it's about making your day-to-day smoother, more consistent, and less frustrating. A few smart decisions now can prevent hours of future pain. Standardize your structure. Automate the annoying stuff. Document enough to help your future self (and your teammates). \nWhether you're a team of one or part of a larger group, good workflow habits make everything else easier."
+      "markdown": "Improving has no end. Smart decisions now can prevent hours of future pain. Standardize your structure. Automate the annoying stuff. Document to help your team, collaborators, and self."
     }
   ]
 }

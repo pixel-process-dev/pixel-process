@@ -36,11 +36,11 @@
     {
       "type": "header",
       "level": 2,
-      "text": "Content Overview"
+      "text": "Content Guide"
     },
     {
       "type": "quick-links",
-      "page-groups": ["data-exploration"]
+      "page-groups": ["explore-data"]
     },
     {
       "type": "divider"

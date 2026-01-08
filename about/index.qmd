@@ -4,6 +4,7 @@ subtitle: Origin <span class="subtitle-divider">|</span> Values <span class="sub
   Source
 description: What's with the pixels? And who decided that anyway?
 navdesc: Mission, values, and developer information
+sidebar: '[]'
 format:
   html:
     page-layout: full
@@ -22,7 +23,7 @@ Pixels may seem small and basic, but they are the foundation for creating stunni
 
 Check out [this image basics](/explore-data/advanced-data/image-basics.ipynb) tutorial to see this concept in action!
 
-### Beyond Images
+#### Beyond Images
 
 Complex systems often follow the principle: *You have to understand the basic components before combining them into something greater*.
 
@@ -40,6 +41,10 @@ A true understanding of higher level processes relies on an indepth understandin
 *Understanding pieces to see the picture is the <span class="pxp"><span>Pixel</span><span>Process</span></span>.*
 
 ## Values
+
+### Full GitHub Repo
+
+➡️ **[Check out or fork the full repository](https://github.com/pixel-process-dev/pixel-process)**
 
 ### Attribution, Non-Commercial, Share Alike License
 
@@ -133,26 +138,6 @@ I'm an experimental researcher and data scientist focused on how complex problem
 </div>
 
 <hr class="page-divider">
-
-### Maintained by One Person
-
-This is a personal project, designed, and maintained by **one human**.
-
-What that means:
-
-- Please **be patient** with updates or fixes
-
-- Minor quirks may exist—thank you for understanding
-
-- **No direct moderation or code review** is available right now
-
-If you want to improve or extend the project:
-
-➡️ **[Send Feedback]({{{feedback}}})**
-
-➡️ **[Check out or fork the full repository](https://github.com/pixel-process-dev/pixel-process)** and build your version!
-
----
 
 ::: {.callout icon="none" .custom-callout .d-bugz title="My Learning Project"}
 

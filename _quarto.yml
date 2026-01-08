@@ -74,20 +74,17 @@ website:
       collapse-level: 2
       pinned: false
       contents:
-        - build-and-evaluate-models/index.qmd
-        - build-and-evaluate-models/machine-learning-faqs.qmd
-        - build-and-evaluate-models/data-science-topics.qmd
-        - build-and-evaluate-models/random-forest.ipynb
-        - build-and-evaluate-models/classification-iris.ipynb
+        - build-models/data-science-topics.qmd
+        - build-models/random-forest.ipynb
+        - build-models/classification-iris.ipynb
 
 
     - id: explore-data
       title: "Explore Data"
       style: docked
-      collapse-level: 2
+      collapse-level: 1
       pinned: false
       contents:
-        - explore-data/index.qmd
         - explore-data/datasets/dataset-exploration-nb.ipynb
         - section: "Data Visualization"
           contents:
@@ -102,7 +99,6 @@ website:
       collapse-level: 2
       pinned: false
       contents:
-        - create-code/index.qmd
         - create-code/tools-overview.qmd
         - create-code/shoulders-of-giants.qmd
         - create-code/scripts-and-notebooks.qmd

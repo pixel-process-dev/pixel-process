@@ -1,5 +1,5 @@
 ---
-title: Data Exploration
+title: Explore Data
 subtitle: Learn Patterns <span class="subtitle-divider">|</span> Develop Habits <span
   class="subtitle-divider">|</span>  Grow Confident
 description: Strengthen your core skills with practical tools for working with data,
@@ -32,10 +32,15 @@ Reusable code saves time and prevents errors, but it starts with small habits: c
 
 Need a place to start? Check out the [FAQs]({{{foundations-faqs}}})!
 
-## Content Overview
+## Content Guide
 :::{.quick-links}
 
 <ul>
+<li class="quick-link-item">{{< fa regular rectangle-list >}} <strong><a href="/explore-data/datasets/dataset-exploration-nb.ipynb">Dataset Exploration (NB)</a></strong> → Verify data dimensions, datatypes, and quality</li>
+<li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/explore-data/data-viz/data-viz-basics.qmd">Data Visualization Basics</a></strong> → Turn data into stories with top visualization packages</li>
+<li class="quick-link-item">{{< fa regular rectangle-list >}} <strong><a href="/explore-data/data-viz/data-viz-basics-nb.ipynb">Data Visualization Basics (NB)</a></strong> → Start turning data into stories</li>
+<li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/explore-data/data-viz/data-viz-building-blocks.qmd">Data Viz Building Blocks</a></strong> → Core features behind data viz</li>
+<li class="quick-link-item">{{< fa regular rectangle-list >}} <strong><a href="/explore-data/data-viz/data-viz-building-blocks-nb.ipynb">Data Viz Building Blocks (NB)</a></strong> → Code examples for core features behind data viz</li>
 </ul>
 
 :::

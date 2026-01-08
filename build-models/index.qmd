@@ -34,7 +34,7 @@ Don't get stuck in a loop of adjusting sliders and chasing score decimals. Build
 
 Need a place to start? Check out the [FAQs]({{{machine-learning-faqs}}})!
 
-## Content Overview
+## Content Guide
 :::{.quick-links}
 
 <ul>

@@ -13,7 +13,6 @@
     "description": "PxP mission, values, and development",
     "generate": true
   },
-
   "explore-data": {
     "link": "/explore-data/index.qmd",
     "label": "data-exploration",

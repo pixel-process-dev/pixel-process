@@ -4,6 +4,7 @@
     "subtitle": "Origin <span class=\"subtitle-divider\">|</span> Values <span class=\"subtitle-divider\">|</span> Source",
     "description": "What's with the pixels? And who decided that anyway?",
     "navdesc": "Mission, values, and developer information",
+    "sidebar": "[]",
     "format": {
         "html": {
             "page-layout": "full",
@@ -25,7 +26,7 @@
     },
     {
       "type": "header",
-      "level": 3,
+      "level": 4,
       "text": "Beyond Images"
     },
     {
@@ -40,6 +41,15 @@
       "type": "header",
       "level": 2,
       "text": "Values"
+    },
+    {
+      "type": "header",
+      "level": 3,
+      "text": "Full GitHub Repo"
+    },
+    {
+      "type": "text",
+      "markdown": "➡️ **[Check out or fork the full repository](https://github.com/pixel-process-dev/pixel-process)**"
     },
     {
       "type": "header",
@@ -103,18 +113,6 @@
     {
       "type": "divider"
     },
-
-{
-      "type": "header",
-      "level": 3,
-      "text": "Maintained by One Person"
-    },
-    {
-      "type": "text",
-      "markdown": "This is a personal project, designed, and maintained by **one human**.\n\nWhat that means:\n\n- Please **be patient** with updates or fixes\n\n- Minor quirks may exist—thank you for understanding\n\n- **No direct moderation or code review** is available right now\n\nIf you want to improve or extend the project:\n\n➡️ **[Send Feedback]({{{feedback}}})**\n\n➡️ **[Check out or fork the full repository](https://github.com/pixel-process-dev/pixel-process)** and build your version!\n\n---"
-    },
-
-
     {
       "type": "custom-callout",
       "callout-type": "d-bugz",
