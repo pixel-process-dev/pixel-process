@@ -45,6 +45,8 @@ Need a place to start? Check out the [FAQs]({{{foundations-faqs}}})!
 
 :::
 
+[Run these notebooks live in Binder!](https://mybinder.org/v2/gh/pixel-process-dev/pixel-process/HEAD?filepath=explore-data)
+
 <hr class="page-divider">
 
 ::: {.callout icon="none" .custom-callout .d-bugz title="Start Your Journey"}

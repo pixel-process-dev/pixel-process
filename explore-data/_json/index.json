@@ -44,7 +44,7 @@
     },
     {
       "type": "text",
-      "markdown": "[Run these notebooks live in Binder!(https://mybinder.org/v2/gh/pixel-process-dev/pixel-process/HEAD?filepath=explore-data"
+      "markdown": "[Run these notebooks live in Binder!](https://mybinder.org/v2/gh/pixel-process-dev/pixel-process/HEAD?filepath=explore-data)"
     },
     {
       "type": "divider"
