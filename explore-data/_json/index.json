@@ -31,7 +31,10 @@
     },
     {
       "type": "text",
-      "markdown": "- **Datasets**: Read, write, and manage data in common tabluar with tools like pandas.\n- **Data Visualization**: Communicate results through charts, plots, and custom visuals.\n- **Advanced Data**: Learn the basics of working with complex data such as images.\n\nNeed a place to start? Check out the [FAQs]({{{foundations-faqs}}})!"
+      "markdown": "- **Datasets**: Read, write, and manage data in common tabluar with tools like pandas.\n- **Data Visualization**: Communicate results through charts, plots, and custom visuals.\n- **Advanced Data**: Learn the basics of working with complex data such as images."
+    },
+    {
+      "type": "divider"
     },
     {
       "type": "header",
@@ -39,12 +42,9 @@
       "text": "Content Guide"
     },
     {
-      "type": "quick-links",
-      "page-groups": ["explore-data"]
-    },
-    {
-      "type": "text",
-      "markdown": "[Run these notebooks live in Binder!](https://mybinder.org/v2/gh/pixel-process-dev/pixel-process/HEAD?filepath=explore-data)"
+      "type": "markdown-table",
+      "table-name": "Content Guide",
+      "table-path": "explore-data/_json/content-guide.json"
     },
     {
       "type": "divider"

@@ -43,6 +43,10 @@
       "page-groups": ["build-models"]
     },
     {
+      "type": "text",
+      "markdown": "<i class=\"fa-regular fa-circle-play\" aria-hidden=\"true\"></i> [Run these notebooks live in Binder!]({{{binder-quickstart}}})"
+    },
+    {
       "type": "divider"
     },
     {

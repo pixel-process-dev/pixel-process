@@ -83,7 +83,8 @@ website:
         - build-models/data-science-topics.qmd
         - build-models/random-forest.ipynb
         - build-models/classification-iris.ipynb
-
+        - text: "Run Notebooks with Binder"
+          href: create-code/binder-quickstart.qmd
 
     - id: explore-data
       title: "Explore Data"
@@ -91,13 +92,22 @@ website:
       collapse-level: 1
       pinned: false
       contents:
-        - explore-data/datasets/dataset-exploration-nb.ipynb
-        - section: "Data Visualization"
+        - section: "Guides"
           contents:
             - explore-data/data-viz/data-viz-basics.qmd
-            - explore-data/data-viz/data-viz-basics-nb.ipynb
-        - explore-data/advanced-data/image-basics.ipynb
-
+            - explore-data/data-viz/data-viz-building-blocks.qmd
+        - section: "Notebooks"
+          contents:
+            - text: "Dataset Exploration"
+              href: explore-data/datasets/dataset-exploration-nb.ipynb
+            - text: "Data Viz Basics"
+              href: explore-data/data-viz/data-viz-basics-nb.ipynb              
+            - text: "Data Viz Building Blocks"
+              href: explore-data/data-viz/data-viz-building-blocks-nb.ipynb
+            - text: "Image Basics"
+              href: explore-data/advanced-data/image-basics.ipynb
+        - text: "Run Notebooks with Binder"
+          href: create-code/binder-quickstart.qmd
 
     - id: create-code
       title: "Create Code"
@@ -109,6 +119,7 @@ website:
         - create-code/shoulders-of-giants.qmd
         - create-code/scripts-and-notebooks.qmd
         - create-code/jupyter-notebooks.qmd
+        - create-code/binder-quickstart.qmd
         - create-code/cli-intro.qmd
 
 format:

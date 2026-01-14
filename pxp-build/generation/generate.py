@@ -44,7 +44,7 @@ def jl_notebook_conversion(page_details):
     nb = nbf.read(in_path, as_version=4)
     cells = nb.cells
 
-    if cells and cells[0].cell_type == "raw" and cells[0].source.strip().startswith("---"):
+    if cells and cells[0].source.strip().startswith("---"):
         yaml_text = cells[0].source.strip()
         try:
             frontmatter = yaml.safe_load(yaml_text.strip("--- \n"))

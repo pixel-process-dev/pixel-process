@@ -53,7 +53,7 @@ Code Freely | Fail Safely | Start Quickly
 
 [Interactive quick start content](/try-python/index.qmd) to get new users reading, editing, and running code in minutes. Explore basic programming concepts in Python including datatypes, operators, variables, and more.
 
-Check out [the FAQs](/try-python/try-python-faqs.qmd) for career path information and answers to common questions when getting started like "Is Python a good language to learn?" and "How much math is required to program?".
+Check out [the FAQs]({{{try-python-faqs}}}) for career path information and answers to common questions when getting started like "Is Python a good language to learn?" and "How much math is required to program?".
 
 ## Explore Data
 

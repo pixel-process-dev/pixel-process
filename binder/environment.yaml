@@ -1,4 +1,4 @@
-name: explore-data
+name: pxp-binder
 channels:
   - conda-forge
 dependencies:

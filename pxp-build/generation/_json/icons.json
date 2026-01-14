@@ -13,5 +13,8 @@
   },
   "pxp-interactive-notebook-icon": {
     "link": "{{< fa regular file-code >}}"
+  },
+  "pxp-binder-icon": {
+    "link": "{{< fa regular rocket >}}"
   }
 }

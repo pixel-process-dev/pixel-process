@@ -41,6 +41,7 @@
     "shoulders-of-giants", 
     "scripts-and-notebooks",
     "jupyter-notebooks",
+    "binder-quickstart",
     "cli-intro"
   ]
 }

@@ -1,0 +1,44 @@
+{
+  "Content Guide": [
+    {
+      "Topic": "README.md",
+      "Location": "root", 
+      "Description":"Brief text overview of Binder and Content"
+    },
+    {
+      "Topic": "environment.yml",
+      "Location": "root", 
+      "Description":"Python and package specifications"
+    },
+    {
+      "Topic": "dataset-exploration-binder.ipynb",
+      "Location": "explore-data", 
+      "Description":"Quickly assess dataset quality and summarize key metrics"
+    },
+    {
+      "Topic": "data-viz-basics-binder.ipynb",
+      "Location": "explore-data", 
+      "Description":"Overview and code for basic data visuals with matplotlib, seaborn, and plotly"
+    },
+    {
+      "Topic": "data-viz-building-blocks-binder.ipynb",
+      "Location": "explore-data", 
+      "Description":"Overview and code for basic graph elements that create data visuals with matplotlib, seaborn, and plotly"
+    },
+    {
+      "Topic": "image-basics-binder.ipynb",
+      "Location": "explore-data", 
+      "Description":"Introduction to working with image based data"
+    },
+    {
+      "Topic": "random-forest-binder.ipynb",
+      "Location": "build-models", 
+      "Description": "Learn how random forests work in this complete notebook tutorial"
+    },
+    {
+      "Topic": "classificaiton-iris-binder.ipynb",
+      "Location": "build-models", 
+      "Description": "Complete classification pipeline based on Iris dataset"
+    }
+  ]
+}

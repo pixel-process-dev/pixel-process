@@ -45,6 +45,8 @@ Need a place to start? Check out the [FAQs]({{{machine-learning-faqs}}})!
 
 :::
 
+<i class="fa-regular fa-circle-play" aria-hidden="true"></i> [Run these notebooks live in Binder!](/create-code/binder-quickstart.qmd)
+
 <hr class="page-divider">
 
 ::: {.callout icon="none" .custom-callout .d-bugz title="Chasing Scores, Missing Stories"}

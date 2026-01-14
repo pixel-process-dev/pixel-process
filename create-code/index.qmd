@@ -32,6 +32,7 @@ The best way to debug is to avoid bugs in the first place. Clear structure, smar
 <li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/create-code/shoulders-of-giants.qmd">Troubleshooting Basics</a></strong> → Checklist for trouble-shooting and debugging</li>
 <li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/create-code/scripts-and-notebooks.qmd">Scripts and Notebooks</a></strong> → When and why to use notebooks vs scripts</li>
 <li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/create-code/jupyter-notebooks.qmd">How to: Jupyter Notebooks</a></strong> → Intro to using and navigating notebooks</li>
+<li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/create-code/binder-quickstart.qmd">Binder Quickstart</a></strong> → Intro to using Binder hosted notebooks</li>
 <li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/create-code/cli-intro.qmd">Command Line Interface</a></strong> → Don't just learn CLI, optimize it</li>
 </ul>
 

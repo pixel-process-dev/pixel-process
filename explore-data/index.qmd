@@ -30,22 +30,20 @@ Reusable code saves time and prevents errors, but it starts with small habits: c
 - **Data Visualization**: Communicate results through charts, plots, and custom visuals.
 - **Advanced Data**: Learn the basics of working with complex data such as images.
 
-Need a place to start? Check out the [FAQs]({{{foundations-faqs}}})!
+<hr class="page-divider">
 
 ## Content Guide
-:::{.quick-links}
 
-<ul>
-<li class="quick-link-item">{{< fa regular rectangle-list >}} <strong><a href="/explore-data/datasets/dataset-exploration-nb.ipynb">Dataset Exploration (NB)</a></strong> → Verify data dimensions, datatypes, and quality</li>
-<li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/explore-data/data-viz/data-viz-basics.qmd">Data Visualization Basics</a></strong> → Turn data into stories with top visualization packages</li>
-<li class="quick-link-item">{{< fa regular rectangle-list >}} <strong><a href="/explore-data/data-viz/data-viz-basics-nb.ipynb">Data Visualization Basics (NB)</a></strong> → Start turning data into stories</li>
-<li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/explore-data/data-viz/data-viz-building-blocks.qmd">Data Viz Building Blocks</a></strong> → Core features behind data viz</li>
-<li class="quick-link-item">{{< fa regular rectangle-list >}} <strong><a href="/explore-data/data-viz/data-viz-building-blocks-nb.ipynb">Data Viz Building Blocks (NB)</a></strong> → Code examples for core features behind data viz</li>
-</ul>
+<div class="table-cheatsheet">
+| Topic | Page | Notebook | Interactive Notebook |
+| --- | --- | --- | --- |
+| Dataset Exploration |  | {{< fa regular rectangle-list >}} [Show](/explore-data/datasets/dataset-exploration-nb.ipynb) | {{< fa regular file-code >}} [Binder](/create-code/binder-quickstart.qmd) |
+| Data Viz Basics | {{< fa regular window-maximize >}} [Open](/explore-data/data-viz/data-viz-basics.qmd) | {{< fa regular rectangle-list >}} [Show](/explore-data/data-viz/data-viz-basics-nb.ipynb) | {{< fa regular file-code >}} [Binder](/create-code/binder-quickstart.qmd) |
+| Data Viz Building Blocks | {{< fa regular window-maximize >}} [Open]({{{data-viz-building-blcoks}}}) | {{< fa regular rectangle-list >}} [Show](/explore-data/data-viz/data-viz-building-blocks-nb.ipynb) | {{< fa regular file-code >}} [Binder](/create-code/binder-quickstart.qmd) |
+| Image Basics |  | {{< fa regular rectangle-list >}} [Show](/explore-data/advanced-data/image-basics.ipynb) | {{< fa regular file-code >}} [Binder](/create-code/binder-quickstart.qmd) |
 
-:::
+</div>
 
-[Run these notebooks live in Binder!](https://mybinder.org/v2/gh/pixel-process-dev/pixel-process/HEAD?filepath=explore-data)
 
 <hr class="page-divider">
 

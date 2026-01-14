@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "title": "Binder Quickstart",
+    "subtitle": "A Free Tool for Running Interactive Jupyter Notebooks",
+    "description": "Binder provides a temporary, cloud-based Jupyter environment so you can run and explore the notebooks without installing anything locally.",
+    "navdesc": "Binder: A free tool for running notebooks with no local setup required",
+    "format": {
+      "html": {
+        "page-layout": "full",
+        "toc": false,
+        "title-block-banner": true
+      }
+    },
+    "slug": "binder-quickstart"
+  },
+  "body": [
+    {
+      "type": "text",
+      "markdown": "This section provides access to **interactive Jupyter notebooks** powered by Binder.\n\nBinder creates a temporary, cloud-based Jupyter environment so you can run and explore notebooks without installing anything locally. This is intended for deeper, more involved content where full Python packages are required."
+    },
+    {
+      "type": "custom-callout",
+      "callout-type": "experiment",
+      "title": "Binder is a Powerful Learning Tool",
+      "text": "Environment setup can cause friction when learning from or sharing your own notebooks. Binder offers a free way to streamline the process by providing a minimial, temporary, hassle-free approach to running notebooks. By using preset environments and package details, rapid exploration, testing, and sharing is possible with minimal complications."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Binder Basics"
+    },
+
+    {
+      "type": "category-grid",
+      "categories": [
+        {
+          "title": "Startup Time",
+          "items": ["Initial startup may take **1-3 minutes**", "Subsequent launches are often faster due to caching", "Please be patient while the environment is prepared"]
+        },
+        {
+          "title": "Sessions are Temporary",
+          "items": ["Sessions are **ephemeral**", "Files or changes you make **will be lost** when the session ends", "Download or copy code elsewhere to save work"]
+        },
+
+        {
+          "title": "Multiple Notebooks Allowed",
+          "items": ["You can open and run **any notebook in this directory**", "You can explore multiple notebooks in the **same session**", "Outputs, variables, and files persist **within the active session**"]
+        },        
+        {
+          "title": "Minimal Environment",
+          "items": ["Binder provides a clean, minimal Jupyter environment", "No custom UI extensions or settings stored", "Appearance and features may differ from a local Jupyter Lab setup"]
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Binder Quickstart"
+    },
+    {
+      "type": "text",
+      "markdown": "1. Wait for Binder to finish starting\n2. Open a notebook from the file browser\n3. Run cells as instructed in the notebook\n4. Explore freely, knowing the session is temporary"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "Content Guide"
+    },
+    {
+      "type": "markdown-table",
+      "table-name": "Content Guide",
+      "table-path": "create-code/_json/binder-content-guide.json"
+    },
+    {
+      "type": "custom-callout",
+      "callout-type": "best-practice",
+      "title": "Explore and Share",
+      "text": "Given the nature of Binder, it is ideal for sharing and exploration. It is not a long-term building tool and is not ideal for heavy computations.\n\n**Enjoy Exploring!**"
+    },
+    {
+      "type": "page-quote",
+      "text": "Use the right tool for the right job."
+    },
+    {
+      "type": "text",
+      "markdown": "Leverage tools that simplify setup when trying new packages and methods to ensure that you find the right resources before doing heavy setup.\n\nDon't get bogged down in the weeds before you ever start the real learning process."
+    }
+  ]
+}

@@ -26,12 +26,30 @@
     "icon": "rectangle-list",
     "description": "Verify data dimensions, datatypes, and quality"
   },
+  "dataset-exploration-binder": {
+    "link": "/create-code/binder-quickstart.qmd",
+    "label": "Interactive Binder Notebook",
+    "icon": "rectangle-list",
+    "description": "Verify data dimensions, datatypes, and quality",
+    "base_ntbk": "/explore-data/datasets/dataset-exploration-nb.ipynb",
+    "save_path": "/binder/explore-data/dataset-exploration-binder.ipynb"
+  },
+
   "image-basics": {
     "link": "/explore-data/advanced-data/image-basics.ipynb",
     "label": "Image Basics (NB)",
     "icon": "rectangle-list",
     "description": "Notebook on basic image properties"
   },
+  "image-basics-binder": {
+    "link": "/create-code/binder-quickstart.qmd",
+    "label": "Interactive Binder Notebook",
+    "icon": "rectangle-list",
+    "description": "Binder hosted notebook on basic image properties",
+    "base_ntbk": "/explore-data/advanced-data/image-basics.ipynb",
+    "save_path": "/binder/explore-data/image-basics-binder.ipynb"
+  },
+
   "data-viz-basics": {
     "link": "/explore-data/data-viz/data-viz-basics.qmd",
     "label": "Data Visualization Basics",
@@ -45,6 +63,15 @@
     "icon": "rectangle-list",
     "description": "Start turning data into stories"
   },
+  "data-viz-basics-binder": {
+    "link": "/create-code/binder-quickstart.qmd",
+    "label": "Interactive Binder Notebook",
+    "icon": "rectangle-list",
+    "description": "Binder hosted notebook on data viz basics",
+    "base_ntbk": "/explore-data/data-viz/data-viz-basics-nb.ipynb",
+    "save_path": "/binder/explore-data/data-viz-basics-binder.ipynb"
+  },
+
   "data-viz-building-blocks": {
     "link": "/explore-data/data-viz/data-viz-building-blocks.qmd",
     "label": "Data Viz Building Blocks",
@@ -58,19 +85,20 @@
     "icon": "rectangle-list",
     "description": "Code examples for core features behind data viz"
   },
+  "data-viz-building-blocks-binder": {
+    "link": "/create-code/binder-quickstart.qmd",
+    "label": "Interactive Binder Notebook",
+    "icon": "rectangle-list",
+    "description": "Binder hosted notebook on data viz building blocks",
+    "base_ntbk": "/explore-data/data-viz/data-viz-building-blocks-nb.ipynb",
+    "save_path": "/binder/explore-data/data-viz-building-blocks-binder.ipynb"
+  },
 
   "try-python": {
     "link": "/try-python/index.qmd",
     "label": "Try Python",
     "icon": "window-maximize",
     "description": "Experience the power of Python in your browser - no downloads, no setup",
-    "generate": true
-  },
-  "try-python-faqs": {
-    "link": "/try-python/try-python-faqs.qmd",
-    "label": "Try Python FAQs",
-    "icon": "window-maximize",
-    "description": "Common questions and considerations for learning programming",
     "generate": true
   },
   "datatypes-and-operators": {
@@ -213,11 +241,28 @@
     "icon": "rectangle-list",
     "description": "Complete classification pipeline based on Iris dataset"
   },
+  "classification-iris-binder": {
+    "link": "/create-code/binder-quickstart.qmd",
+    "label": "Interactive Binder Notebook",
+    "icon": "rectangle-list",
+    "description": "Binder hosted notebook classification tutorial",
+    "base_ntbk": "/build-models/classification-iris.ipynb",
+    "save_path": "/binder/build-models/classification-iris-binder.ipynb"
+  },
+
   "random-forest": {
     "link": "/build-models/random-forest.ipynb",
     "label": "Random Forest (NB)",
     "icon": "rectangle-list",
     "description": "Learn how random forests work in this complete notebook tutorial"
+  },
+  "random-forest-binder": {
+    "link": "/create-code/binder-quickstart.qmd",
+    "label": "Interactive Binder Notebook",
+    "icon": "rectangle-list",
+    "description": "Binder hosted notebook random forest tutorial",
+    "base_ntbk": "/build-models/random-forest.ipynb",
+    "save_path": "/binder/build-models/random-forest-binder.ipynb"
   },
 
   "create-code": {
@@ -274,6 +319,13 @@
     "label": "How to: Jupyter Notebooks",
     "icon": "window-maximize",
     "description": "Intro to using and navigating notebooks",
+    "generate": true
+  },
+  "binder-quickstart": {
+    "link": "/create-code/binder-quickstart.qmd",
+    "label": "Binder Quickstart",
+    "icon": "window-maximize",
+    "description": "Intro to using Binder hosted notebooks",
     "generate": true
   }
 }
