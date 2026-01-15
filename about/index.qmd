@@ -4,7 +4,7 @@ subtitle: Origin <span class="subtitle-divider">|</span> Values <span class="sub
   Source
 description: What's with the pixels? And who decided that anyway?
 navdesc: Mission, values, and developer information
-sidebar: '[]'
+sidebar: home
 format:
   html:
     page-layout: full

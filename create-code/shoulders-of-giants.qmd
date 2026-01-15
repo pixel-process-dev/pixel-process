@@ -2,35 +2,35 @@
 title: On the Shoulders of Giants
 subtitle: Solve Problems <span class="subtitle-divider">|</span> Debug Faster <span
   class="subtitle-divider">|</span> Avoid Headaches
-description: "Coding is a team sport, even when you\u2019re working solo. In this\
-  \ section, you\u2019ll explore the wealth of resources, communities, and strategies\
-  \ available to you. Learn how to ask better questions, find helpful answers, and\
-  \ grow faster by standing on the shoulders of giants."
+description: Coding is a team sport, even when you're working solo. In this section,
+  you'll explore the wealth of resources, communities, and strategies available to
+  you. Learn how to ask better questions, find helpful answers, and grow faster by
+  standing on the shoulders of giants.
 navdesc: Troubleshoot, debug, and solve problems like a pro
 format:
   html:
     page-layout: full
-    toc: false
+    toc: true
     title-block-banner: true
 slug: shoulders-of-giants
 ---
 
 ## Troubleshooting Required
 
-Learning to program (or any new skill) is guaranteed to come with roadblocks. Code won’t run, an error message pops up, or things just don’t make sense. This isn’t a failure—it’s normal! The key difference between frustrated beginners and successful learners isn’t intelligence, it's approach.
+Learning to program (or any new skill) is guaranteed to come with roadblocks. Code won't run, an error message pops up, or things just don't make sense. This isn't a failure—it's normal! The key difference between frustrated beginners and successful learners isn't intelligence, it's approach.
 
-In this section, you’ll learn practical tools and mindsets for getting unstuck: reading documentation, focused searches, even reading the actual source code.
+In this section, you'll learn practical tools and mindsets for getting unstuck: reading documentation, focused searches, even reading the actual source code.
 
 
-- It’s about **solving, not knowing**
-- It’s about **solutions, not syntax**
-- It’s about **process, not memorization**
+- It's about **solving, not knowing**
+- It's about **solutions, not syntax**
+- It's about **process, not memorization**
 
 ## Troubleshooting Checklist
 
 ### Pause & Get Oriented
 
-- **Don’t rush**: Take a moment to read the message, consider what is happening
+- **Don't rush**: Take a moment to read the message, consider what is happening
 - **Focus on what changed**: Did you add something new, update a package, change an environment, or move files?
 
 ### Read the Error Message
@@ -62,7 +62,7 @@ Temporarily remove sections or run cell-by-cell to see where the error appears.
 ### Search the Web
 
 - **Copy-paste the error message**: Remove file-specific info if needed
-- **Add keywords**: “python”, “R”, or the library you’re using
+- **Add keywords**: “python”, “R”, or the library you're using
 - **Search for common forums**:
 Stack Overflow, GitHub Issues, official forums
 

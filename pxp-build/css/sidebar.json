@@ -47,6 +47,14 @@
       "variables": [
         { "name": "background-color", "value": "var(--nav-bg)" }
       ]
+    },
+    {
+      "selector": ".sidebar .sidebar-item.sidebar-item-section:first-of-type .menu-text",
+      "variables": [
+        { "name": "font-weight", "value": "bold"},
+        { "name": "font-size", "value": "1.05rem"},
+        { "name": "text-transform", "value": "uppercase"}
+      ]
     }
   ]
 }

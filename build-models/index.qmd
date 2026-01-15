@@ -10,7 +10,7 @@ navdesc: Learn the modeling process from data prep to model fitting and performa
 format:
   html:
     page-layout: full
-    toc: false
+    toc: true
     title-block-banner: true
 slug: build-models
 ---

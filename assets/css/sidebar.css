@@ -29,3 +29,9 @@ div.sidebar.sidebar-navigation.rollup.quarto-sidebar-toggle-contents,
 nav.sidebar.sidebar-navigation:not(.rollup)  {
   background-color: var(--nav-bg);
 }
+
+.sidebar .sidebar-item.sidebar-item-section:first-of-type .menu-text {
+  font-weight: bold;
+  font-size: 1.05rem;
+  text-transform: uppercase;
+}

@@ -4,7 +4,7 @@
     "subtitle": "Learn Intentionally <span class=\"subtitle-divider\">|</span> Build Iteratively <span class=\"subtitle-divider\">|</span> Improve Always",
     "description": "A free, open source resource for programming, machine learning, and automation.",
     "navdesc": "Welcome to Pixel Process!",
-    "sidebar": "[]",
+    "sidebar": "home",
     "format": {
       "html": {
         "page-layout": "full",
@@ -25,22 +25,16 @@
       "markdown": "This isn't a course — it's a playground for learning by doing to master programming concepts and best practices.\n\n{{{branded-pixel-process}}} is designed for exploration with working, interactive code examples. Content is organized for progressive learning, but modular code snippets and notebooks allow for quick testing and reference.\n\n"
     },
     {
-      "type": "header",
-      "level": 2,
-      "text": "Content Overview"
-    },
-    {
-      "type": "quick-links",
-      "page-groups": ["sections"]
-    },
-    {
       "type": "divider"
     }, 
     {
       "type": "custom-callout",
       "callout-type": "pxp-ref",
-      "title": "Content Types",
-      "text": "The three types of pages are:\n\n- {{< fa regular window-maximize >}} Web page for general content \n- {{< fa regular rectangle-list >}} Jupyter Notebook (NB) for code based tutorials and examples \n- {{< fa regular file-code >}} Interactive Notebook (INB) runs code directly in your browser, no downloads needed\n\nNot sure where to find content? Quickly find all relevant project content using the 🔍 in the top right of every page."
+      "title": "Practice at Your Pace",
+      "text": "PxP is designed to get fingers on keyboards-from learning the basics of Python to full ML workflows. The design is aimed at removing friction, getting started fast, and understanding core concepts. Code has bugs built in often to address real-world issues that come up and tips for resolving them.\n\n-New to programming? <i class=\"bi bi-arrow-right\"></i> [Try Python]({{{try-python}}})\n\n-Wrangling data? <i class=\"bi bi-arrow-right\"></i> [Explore Data]({{{explore-data}}})\n\n-Deriving insight from data? <i class=\"bi bi-arrow-right\"></i> [Build Models]({{{build-models}}})\n\n-Updating tools and workflow? <i class=\"bi bi-arrow-right\"></i> [Create Code]({{{create-code}}})\n\n-Ready to run notebooks? <i class=\"bi bi-arrow-right\"></i> [Binder Quickstart]({{{binder-quickstart}}})"
+    },
+    {
+      "type": "divider"
     },
     {
       "type": "header",
@@ -49,7 +43,7 @@
     },
     {
       "type": "text",
-      "markdown": "Code Freely | Fail Safely | Start Quickly \n\n[Interactive quick start content]({{{try-python}}}) to get new users reading, editing, and running code in minutes. Explore basic programming concepts in Python including datatypes, operators, variables, and more.\n\nCheck out [the FAQs]({{{try-python-faqs}}}) for career path information and answers to common questions when getting started like \"Is Python a good language to learn?\" and \"How much math is required to program?\"."
+      "markdown": "Code Freely | Fail Safely | Start Quickly \n\n[Interactive quick start content]({{{try-python}}}) to get new users reading, editing, and running code in seconds. Explore basic programming concepts in Python including datatypes, operators, variables, and more."
     },
     {
       "type": "header",
@@ -58,7 +52,7 @@
     },
     {
       "type": "text",
-      "markdown": "Summarize Data | Develop Habits | Grow Confident \n\n[Explore data analysis fundamentals]({{{explore-data}}}) for working with and summarizing datasets. Learn about key packages and code for data input/output (I/O), cleaning, summarizing, analyzing, and visualizing data.\n\nCheck out [the FAQs]({{{explore-data-faqs}}}) for quick insights."
+      "markdown": "Summarize Data | Develop Habits | Grow Confident \n\n[Explore data analysis fundamentals]({{{explore-data}}}) for working with and summarizing datasets. Learn about key packages and code for data input/output (I/O), cleaning, summarizing, analyzing, and visualizing data."
     },
     {
       "type": "header",
@@ -67,7 +61,7 @@
     },
     {
       "type": "text",
-      "markdown": "Clean Data | Fit Models | Test Performance \n\n[Understand how machines learn]({{{build-models}}}) with deep-dive, code based algorithm examples and complete analysis workflows that cover data I/O, splits, training, testing, and evaluation.\n\nCheck out [the FAQs]({{{build-and-evaluate-models-faqs}}}) for common ML usage, metrics, and terminology."
+      "markdown": "Clean Data | Fit Models | Test Performance \n\n[Understand how machines learn]({{{build-models}}}) with deep-dive, code based algorithm examples and complete analysis workflows that cover data I/O, splits, training, testing, and evaluation.\n\nCheck out [Data Science Topics]({{{data-science-topics}}}) for common ML usage, metrics, and terminology."
     },
     {
       "type": "header",

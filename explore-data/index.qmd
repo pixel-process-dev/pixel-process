@@ -9,7 +9,7 @@ navdesc: Core programming skills for working with data
 format:
   html:
     page-layout: full
-    toc: false
+    toc: true
     title-block-banner: true
 slug: data-exploration
 ---

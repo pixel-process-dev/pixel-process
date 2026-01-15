@@ -25,6 +25,9 @@ website:
     right:
       - text: "About"
         href: about/index.qmd
+      - icon: github
+        href: https://github.com/pixel-process-dev/pixel-process
+        aria-label: GitHub
     tools:
       - icon: moon-stars
         toggle: true
@@ -32,11 +35,20 @@ website:
   sidebar:
 
     - id: home
-      title: "Content Overview"
+      title: "Quick Links"
       style: docked
-      collapse-level: 2
+      collapse-level: 1
       pinned: false
-      contents: []
+      contents: 
+        - section: "Quick Links"
+        - text: "Getting Started with Python"
+          href: try-python/index.qmd
+        - text: "Debugging and Troubleshooting Tips"
+          href: create-code/shoulders-of-giants.qmd
+        - text: "Run Notebooks with Binder"
+          href: create-code/binder-quickstart.qmd
+        - text: "About PxP"
+          href: about/index.qmd
 
     - id: try-python
       title: "Try Python"
@@ -44,6 +56,7 @@ website:
       collapse-level: 1
       pinned: false
       contents:
+        - section: "Content"
         - section: "Guides"
           contents:
             - try-python/datatypes-and-operators.qmd
@@ -80,6 +93,7 @@ website:
       collapse-level: 2
       pinned: false
       contents:
+        - section: "Content"
         - build-models/data-science-topics.qmd
         - build-models/random-forest.ipynb
         - build-models/classification-iris.ipynb
@@ -92,6 +106,7 @@ website:
       collapse-level: 1
       pinned: false
       contents:
+        - section: "Content"
         - section: "Guides"
           contents:
             - explore-data/data-viz/data-viz-basics.qmd
@@ -115,6 +130,7 @@ website:
       collapse-level: 2
       pinned: false
       contents:
+        - section: "Content"
         - create-code/tools-overview.qmd
         - create-code/shoulders-of-giants.qmd
         - create-code/scripts-and-notebooks.qmd

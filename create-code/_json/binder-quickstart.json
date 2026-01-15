@@ -7,7 +7,7 @@
     "format": {
       "html": {
         "page-layout": "full",
-        "toc": false,
+        "toc": true,
         "title-block-banner": true
       }
     },
@@ -17,6 +17,14 @@
     {
       "type": "text",
       "markdown": "This section provides access to **interactive Jupyter notebooks** powered by Binder.\n\nBinder creates a temporary, cloud-based Jupyter environment so you can run and explore notebooks without installing anything locally. This is intended for deeper, more involved content where full Python packages are required."
+    },
+    {
+      "type": "header",
+      "level": 2,
+      "text": "<i class=\"fa-regular fa-circle-play\" aria-hidden=\"true\"></i> [Launch Binder session to start running notebooks in minutes!](https://mybinder.org/v2/gh/pixel-process-dev/pixel-process/binder)"
+    },
+    {
+      "type": "divider"
     },
     {
       "type": "custom-callout",
@@ -29,7 +37,6 @@
       "level": 2,
       "text": "Binder Basics"
     },
-
     {
       "type": "category-grid",
       "categories": [

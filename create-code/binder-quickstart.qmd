@@ -7,7 +7,7 @@ navdesc: 'Binder: A free tool for running notebooks with no local setup required
 format:
   html:
     page-layout: full
-    toc: false
+    toc: true
     title-block-banner: true
 slug: binder-quickstart
 ---
@@ -15,6 +15,10 @@ slug: binder-quickstart
 This section provides access to **interactive Jupyter notebooks** powered by Binder.
 
 Binder creates a temporary, cloud-based Jupyter environment so you can run and explore notebooks without installing anything locally. This is intended for deeper, more involved content where full Python packages are required.
+
+## <i class="fa-regular fa-circle-play" aria-hidden="true"></i> [Launch Binder session to start running notebooks in minutes!](https://mybinder.org/v2/gh/pixel-process-dev/pixel-process/binder)
+
+<hr class="page-divider">
 
 ::: {.callout icon="none" .custom-callout .experiment title="Binder is a Powerful Learning Tool"}
 

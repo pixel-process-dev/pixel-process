@@ -6,6 +6,22 @@ Binder provides a temporary, cloud-based Jupyter environment so you can run and 
 
 ---
 
+## Content Guide
+
+<div class="table-cheatsheet">
+| Topic | Location | Description |
+| --- | --- | --- |
+| README.md | root | Brief text overview of Binder and Content |
+| environment.yml | root | Python and package specifications |
+| dataset-exploration-binder.ipynb | explore-data | Quickly assess dataset quality and summarize key metrics |
+| data-viz-basics-binder.ipynb | explore-data | Overview and code for basic data visuals with matplotlib, seaborn, and plotly |
+| data-viz-building-blocks-binder.ipynb | explore-data | Overview and code for basic graph elements that create data visuals with matplotlib, seaborn, and plotly |
+| image-basics-binder.ipynb | explore-data | Introduction to working with image based data |
+| random-forest-binder.ipynb | build-models | Learn how random forests work in this complete notebook tutorial |
+| classificaiton-iris-binder.ipynb | build-models | Complete classification pipeline based on Iris dataset |
+
+</div>
+
 ## What to Expect When Using Binder
 
 ### ⏳ Startup Time

@@ -8,7 +8,7 @@ navdesc: Tools, tips, and ways to make your life easier
 format:
   html:
     page-layout: full
-    toc: false
+    toc: true
     title-block-banner: true
 slug: create-code
 ---

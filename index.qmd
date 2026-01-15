@@ -4,7 +4,7 @@ subtitle: Learn Intentionally <span class="subtitle-divider">|</span> Build Iter
   <span class="subtitle-divider">|</span> Improve Always
 description: A free, open source resource for programming, machine learning, and automation.
 navdesc: Welcome to Pixel Process!
-sidebar: '[]'
+sidebar: home
 format:
   html:
     page-layout: full
@@ -21,39 +21,31 @@ This isn't a course — it's a playground for learning by doing to master progra
 
 
 
-## Content Overview
-:::{.quick-links}
-
-<ul>
-<li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/try-python/index.qmd">Try Python</a></strong> → Experience the power of Python in your browser - no downloads, no setup</li>
-<li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/build-models/index.qmd">Build Models</a></strong> → A guide to machine learning</li>
-<li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/create-code/index.qmd">Create Code</a></strong> → Create flow, increase productivity, code happy</li>
-<li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/about/index.qmd">About</a></strong> → PxP mission, values, and development</li>
-</ul>
-
-:::
-
 <hr class="page-divider">
 
-::: {.callout icon="none" .custom-callout .pxp-ref title="Content Types"}
+::: {.callout icon="none" .custom-callout .pxp-ref title="Practice at Your Pace"}
 
-The three types of pages are:
+PxP is designed to get fingers on keyboards-from learning the basics of Python to full ML workflows. The design is aimed at removing friction, getting started fast, and understanding core concepts. Code has bugs built in often to address real-world issues that come up and tips for resolving them.
 
-- {{< fa regular window-maximize >}} Web page for general content 
-- {{< fa regular rectangle-list >}} Jupyter Notebook (NB) for code based tutorials and examples 
-- {{< fa regular file-code >}} Interactive Notebook (INB) runs code directly in your browser, no downloads needed
+-New to programming? <i class="bi bi-arrow-right"></i> [Try Python](/try-python/index.qmd)
 
-Not sure where to find content? Quickly find all relevant project content using the 🔍 in the top right of every page.
+-Wrangling data? <i class="bi bi-arrow-right"></i> [Explore Data](/explore-data/index.qmd)
+
+-Deriving insight from data? <i class="bi bi-arrow-right"></i> [Build Models](/build-models/index.qmd)
+
+-Updating tools and workflow? <i class="bi bi-arrow-right"></i> [Create Code](/create-code/index.qmd)
+
+-Ready to run notebooks? <i class="bi bi-arrow-right"></i> [Binder Quickstart](/create-code/binder-quickstart.qmd)
 :::
 
+
+<hr class="page-divider">
 
 ## Try Python
 
 Code Freely | Fail Safely | Start Quickly 
 
-[Interactive quick start content](/try-python/index.qmd) to get new users reading, editing, and running code in minutes. Explore basic programming concepts in Python including datatypes, operators, variables, and more.
-
-Check out [the FAQs]({{{try-python-faqs}}}) for career path information and answers to common questions when getting started like "Is Python a good language to learn?" and "How much math is required to program?".
+[Interactive quick start content](/try-python/index.qmd) to get new users reading, editing, and running code in seconds. Explore basic programming concepts in Python including datatypes, operators, variables, and more.
 
 ## Explore Data
 
@@ -61,15 +53,13 @@ Summarize Data | Develop Habits | Grow Confident
 
 [Explore data analysis fundamentals](/explore-data/index.qmd) for working with and summarizing datasets. Learn about key packages and code for data input/output (I/O), cleaning, summarizing, analyzing, and visualizing data.
 
-Check out [the FAQs]({{{explore-data-faqs}}}) for quick insights.
-
 ## Build Models
 
 Clean Data | Fit Models | Test Performance 
 
 [Understand how machines learn](/build-models/index.qmd) with deep-dive, code based algorithm examples and complete analysis workflows that cover data I/O, splits, training, testing, and evaluation.
 
-Check out [the FAQs]({{{build-and-evaluate-models-faqs}}}) for common ML usage, metrics, and terminology.
+Check out [Data Science Topics](/build-models/data-science-topics.qmd) for common ML usage, metrics, and terminology.
 
 ## Create Code
 
