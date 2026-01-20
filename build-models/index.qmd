@@ -39,6 +39,8 @@ Need a place to start? Check out the [FAQs]({{{machine-learning-faqs}}})!
 
 <ul>
 <li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/build-models/data-science-topics.qmd">What can ML do?</a></strong> → Overview of data and algorithms for ML</li>
+<li class="quick-link-item">{{< fa regular window-maximize >}} <strong><a href="/build-models/combining-colors.qmd">Combining Colors</a></strong> → How different sampling methods shape outcomes</li>
+<li class="quick-link-item">{{< fa regular rectangle-list >}} <strong><a href="/build-models/combining-colors-nb.ipynb">Combining Colors (NB)</a></strong> → Notebook workflow on how different sampling methods shape outcomes</li>
 <li class="quick-link-item">{{< fa regular rectangle-list >}} <strong><a href="/build-models/random-forest.ipynb">Random Forest (NB)</a></strong> → Learn how random forests work in this complete notebook tutorial</li>
 <li class="quick-link-item">{{< fa regular rectangle-list >}} <strong><a href="/build-models/classification-iris.ipynb">Iris Classification (NB)</a></strong> → Complete classification pipeline based on Iris dataset</li>
 </ul>

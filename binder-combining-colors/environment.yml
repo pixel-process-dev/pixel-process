@@ -1,0 +1,14 @@
+name: pxp-combining-colors
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.12.7
+  - numpy==1.26.4
+  - pandas==2.3.1
+  - matplotlib==3.10.0
+  - jupyterlab==4.4.4
+  - pip==25.2
+  - pip:
+    - plotly==6.2.0
+    - kaleido==0.2.1

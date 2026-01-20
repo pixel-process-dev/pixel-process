@@ -3,6 +3,7 @@ project:
   output-dir: _site
   resources:
     - assets/html
+    - assets/images
     - try-python/jl-notebooks/
 
 website:
@@ -95,6 +96,8 @@ website:
       contents:
         - section: "Content"
         - build-models/data-science-topics.qmd
+        - build-models/combining-colors.qmd
+        - build-models/combining-colors-nb.ipynb
         - build-models/random-forest.ipynb
         - build-models/classification-iris.ipynb
         - text: "Run Notebooks with Binder"

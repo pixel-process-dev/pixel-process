@@ -33,6 +33,8 @@
   ],
   "build-models": [
     "data-science-topics", 
+    "combining-colors",
+    "combining-colors-nb",
     "random-forest",
     "classification-iris"
   ],

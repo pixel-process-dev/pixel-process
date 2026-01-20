@@ -235,6 +235,27 @@
     "description": "Overview of data and algorithms for ML",
     "generate": true
   },
+  "combining-colors": {
+    "link": "/build-models/combining-colors.qmd",
+    "label": "Combining Colors",
+    "icon": "window-maximize",
+    "description": "How different sampling methods shape outcomes",
+    "generate": true
+  },
+  "combining-colors-nb": {
+    "link": "/build-models/combining-colors-nb.ipynb",
+    "label": "Combining Colors (NB)",
+    "icon": "rectangle-list",
+    "description": "Notebook workflow on how different sampling methods shape outcomes"
+  },
+  "combining-colors-binder": {
+    "link": "/build-models/combining-colors.qmd",
+    "label": "Interactive Binder Notebook",
+    "icon": "rectangle-list",
+    "description": "Binder hosted notebook sampling RGB tutorial",
+    "base_ntbk": "/build-models/combining-colors-nb.ipynb",
+    "save_path": "/binder-combining-colors/combining-colors.ipynb"
+  },
   "classification-iris": {
     "link": "/build-models/classification-iris.ipynb",
     "label": "Iris Classification (NB)",
