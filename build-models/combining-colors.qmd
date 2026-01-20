@@ -19,6 +19,12 @@ Each grid shows the same set of data points, colored red, green, and blue.
 Rows compare different sampling approaches, while columns show how results change as fewer points are sampled.
 Grey points indicate data that was not selected.
 
+Looking for the data?
+
+- [Notebook for data generation and visualization](/build-models/combining-colors-nb.ipynb)
+
+- [Interavtive Binder setup for testing and exploration](https://mybinder.org/v2/gh/pixel-process-dev/pixel-process/binder-combining-colors?urlpath=lab/tree/combining-colors.ipynb)
+
 <hr class="page-divider">
 
 ## Why Red, Green, and Blue?
@@ -74,6 +80,6 @@ This visualization uses a simulated dataset created for demonstration purposes. 
 
 - [Full Static Notebook](/build-models/combining-colors-nb.ipynb)
 
-- <i class="fa-regular fa-circle-play" aria-hidden="true"></i> [Launch Binder session to start running the notebook in minutes!](https://mybinder.org/v2/gh/pixel-process-dev/pixel-process/binder-combining-colors). No installs or setup, learn more [about Binder](/create-code/binder-quickstart.qmd).
+- [Launch Binder session to start running the notebook in minutes!](https://mybinder.org/v2/gh/pixel-process-dev/pixel-process/binder-combining-colors?urlpath=lab/tree/combining-colors.ipynb) No installs or setup, learn more [about Binder](/create-code/binder-quickstart.qmd).
 
 
