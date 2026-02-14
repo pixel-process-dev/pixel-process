@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - CNAME
 
 website:
   title: "Pixel Process"
@@ -83,7 +85,6 @@ format:
     google-fonts:
       - Inter
     include-after-body:
-      - assets/html/custom-footer.html
       - assets/html/umami.html
     link-external-newwindow: true
     toc: true
