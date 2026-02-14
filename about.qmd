@@ -1,0 +1,62 @@
+---
+title: "About"
+subtitle: "What Pixel Process Is and Why It Exists"
+page-layout: article
+toc: false
+title-block-banner: false
+format:
+  html:
+    include-in-header:
+      text: |
+        <style>#title-block-header { display: none; }</style>
+---
+
+::: {.pxp-section-header}
+# About
+[What Pixel Process Is and Why It Exists]{.section-subtitle}
+:::
+
+## The Platform
+
+Pixel Process (PxP) is an open-source site for applied data science — project case studies, workflow patterns, and interactive learning materials. Everything here is free, and the [full source code](https://github.com/pixel-process-dev/pixel-process) is public.
+
+The site is organized around three ideas:
+
+**[Projects](/projects/)** — Complete project case studies documenting methods, decisions, and tradeoffs. Not curated success stories. Real projects with honest discussion of what didn't work and why.
+
+**[Workflow](/workflow/)** — Practical patterns for writing code that scales: automation, project structure, reproducibility, and the small habits that build into reliable work.
+
+**[Foundations](/foundations/)** — Interactive learning materials for data science fundamentals. Browser-based execution environments matched to content complexity — Pyodide for syntax, JupyterLite for data work, Binder for ML workflows.
+
+## The Approach
+
+Most data science content falls into one of two buckets: portfolio pieces that show polished results, or tutorials that walk through solved problems. Neither shows the actual process — the false starts, the tool selection tradeoffs, the moments where you realize your validation strategy doesn't test what you think it tests.
+
+PxP tries to fill that gap. Projects here document methodology as much as results. Workflow posts share opinions about how to work, not just what to build. Learning materials prioritize doing over reading.
+
+The tagline — *Think Clearly, Build Carefully, Apply Rigorously* — is aspirational, not decorative. It describes the standard the content is held to.
+
+## The Person
+
+I'm Daniel Lumian. I have a PhD in psychology and 15+ years of experience in neuroimaging and fMRI research. I now work in applied data science and ML, with a focus on computer vision, validation methodology, and building things that work outside of benchmarks.
+
+Pixel Process is the open side of my work. For consulting — custom research solutions, ML prototyping, experimental design — that's [Dexterous Data](https://dexterousdata.com).
+
+::: {.pxp-avatar-inline}
+![](/assets/images/dbugz.png){.avatar-img}
+
+## The Persona
+
+I use this avatar across technical forums and professional platforms — 
+it's a deliberate choice over a personal photo.
+:::
+
+## Built With
+
+PxP runs on [Quarto](https://quarto.org) with custom theming, [Pyodide](https://pyodide.org/) for in-browser Python execution, [JupyterLite](https://jupyterlite.readthedocs.io/) for client-side notebooks, and [Binder](https://mybinder.org/) for full cloud environments. Analytics via [Umami](https://umami.is/) — privacy-first, no cookies, no tracking.
+
+## Get In Touch
+
+Questions, feedback, or consulting inquiries: [dexterous.data.llc@gmail.com](mailto:dexterous.data.llc@gmail.com)
+
+Find me on [GitHub](https://github.com/pixel-process-dev).

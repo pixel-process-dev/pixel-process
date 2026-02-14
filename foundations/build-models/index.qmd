@@ -1,0 +1,39 @@
+---
+title: "Build Models"
+subtitle: "ML Workflows in Full Python Environments"
+page-layout: full
+toc: false
+---
+
+End-to-end machine learning notebooks running in complete cloud environments via [Binder](https://mybinder.org/). Full package access — scikit-learn, numpy, pandas, matplotlib — in the same kind of environment you'd use for real work.
+
+::: {.callout-warning}
+## Before You Start
+
+- **Launch time:** Binder environments take 30 seconds to 2 minutes to spin up. This is normal.
+- **Session timeout:** Environments shut down after ~10 minutes of inactivity. If it times out, relaunch from here.
+- **Saving work:** Your work is **not saved** on the server. Download any notebooks you want to keep before closing the tab (File → Download as → Notebook).
+
+The friction is intentional — these are real compute environments, and working with them is part of the skill.
+:::
+
+---
+
+### Notebooks
+
+**Combining Colors: Sampling Methods**
+How different sampling strategies affect outcomes. An interactive demonstration using colored samples that builds intuition for why sampling decisions matter before you ever touch a model.
+
+<a href="https://mybinder.org/v2/gh/pixel-process-dev/binder-combining-colors/main?labpath=combining-colors.ipynb" target="_blank" rel="noopener noreferrer">Launch in Binder →</a>
+
+
+**Random Forest**
+Ensemble methods from the ground up. How random forests work, when they're the right choice, and how to diagnose their behavior through feature importance and error analysis.
+
+<a href="https://mybinder.org/v2/gh/pixel-process-dev/binder-random-forest/main?labpath=random-forest.ipynb" target="_blank" rel="noopener noreferrer">Launch in Binder →</a>
+
+---
+
+### What You'll Need
+
+Comfort with pandas and basic data manipulation. If you haven't worked with dataframes yet, start with [Explore Data](/foundations/explore-data/) first.

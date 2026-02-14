@@ -1,0 +1,43 @@
+---
+title: "Try Python"
+subtitle: "Learn Syntax by Running Code in Your Browser"
+page-layout: full
+toc: false
+---
+
+Interactive pages for learning Python fundamentals. Every code block on these pages is live — edit it, run it, see what happens. Powered by [Pyodide](https://pyodide.org/), so everything executes directly in your browser with nothing to install.
+
+::: {.callout-tip}
+## How This Works
+Code cells on these pages are editable and runnable. Change the code, hit run, see the output. There's no server, no account, no setup. If you break something, refresh the page and start fresh.
+:::
+
+---
+
+### Pages
+
+**Data Types & Operators**
+Numbers, strings, booleans, and the operations that connect them. The building blocks everything else depends on.
+
+[Start →](/foundations/try-python/datatypes-operators.qmd)
+
+**Variables & Functions**
+Storing values, naming things, and writing reusable code. Where Python stops being a calculator and starts being a language.
+
+[Continue →](/foundations/try-python/variables-functions.qmd)
+
+**Iteration & Flow Control**
+Loops, conditionals, and the logic that lets code make decisions. The difference between doing something once and doing it a thousand times.
+
+[Continue →](/foundations/try-python/iteration-flow-control.qmd)
+
+**Errors & Experimentation**
+Reading tracebacks, diagnosing common mistakes, and building the habit of breaking things on purpose. Arguably the most useful skill here.
+
+[Continue →](/foundations/try-python/errors-experimentation.qmd)
+
+---
+
+### What You'll Need
+
+Nothing. This is the starting point.

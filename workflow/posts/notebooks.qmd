@@ -1,0 +1,76 @@
+---
+title: "Notebooks Are Not Beginner Tools"
+subtitle: "The right environment depends on what you're doing, not how senior you are"
+author: "Daniel Lumian, PhD"
+date: "2026-02-11"
+categories: [project-structure, reproducibility, tooling]
+---
+
+There's a persistent strain of opinion in ML engineering circles that notebooks are for beginners and "real" code lives in `.py` files with proper logging and CI/CD pipelines. This take is lazy, and it confuses the tool with the job.
+
+Yes, production code should be scripted, tested, and automated. Nobody is arguing that your deployed inference pipeline should be a Jupyter notebook. But production deployment is one stage in a much longer process, and pretending it's the only stage that counts ignores how actual research and development work.
+
+## What Notebooks Are Good At
+
+Notebooks excel at tasks where the primary value is **seeing what's happening as you go**:
+
+**Exploration.** When you're working with a new dataset, you need to inspect shapes, distributions, missing values, and edge cases interactively. Running a script, checking the output, editing the script, and re-running it is a slower feedback loop than executing cells and seeing results inline. The speed difference compounds over an investigation that might involve dozens of small decisions.
+
+**Communication.** A notebook that interleaves code, output, and explanation is a better artifact for sharing findings with collaborators than a script with comments. The reader can see what you did, what it produced, and why you made each decision — in sequence, in context. This is why notebooks are the default format for tutorials, workshop materials, and research supplements. The format *is* the value.
+
+**Rapid prototyping.** When you're testing whether an approach works at all — before you've committed to building it properly — the overhead of setting up a module structure, writing tests, and configuring logging is premature. A notebook lets you iterate on an idea in minutes. If it works, you formalize it. If it doesn't, you've lost less time.
+
+**Teaching.** Every interactive learning platform I've built on Pixel Process uses notebooks for anything beyond basic syntax. The reason is simple: learners need to see cause and effect together. Modify a parameter, re-run the cell, observe the change. That tight feedback loop is how intuition develops.
+
+## What Notebooks Are Bad At
+
+The legitimate criticisms of notebooks are about specific failure modes, not the format itself:
+
+**Execution order ambiguity.** Cells can be run out of order, creating hidden state that breaks reproducibility. This is a real problem and it requires discipline — restart and run-all before considering a notebook "done."
+
+**Version control.** Notebook diffs are ugly. The JSON format mixes code, output, and metadata in ways that make meaningful code review difficult. This matters for collaborative work on shared repositories.
+
+**Testing and automation.** You can't easily unit test a notebook. You can't plug it into a CI pipeline without conversion. Production workflows need the structure that scripts and modules provide.
+
+These are real limitations. They're also limitations of a specific *stage of work*, not arguments against using notebooks at other stages.
+
+## The Right Tool for the Stage
+
+The question isn't "notebooks or scripts" — it's "what am I doing right now?"
+
+| Stage | Best format | Why |
+|---|---|---|
+| Initial exploration | Notebook | Fast iteration, inline output, visual inspection |
+| Prototyping an approach | Notebook | Low overhead, easy to abandon if it fails |
+| Sharing findings | Notebook | Narrative structure, code + output + explanation |
+| Teaching/workshops | Notebook | Interactive, modifiable, visible cause-and-effect |
+| Production pipeline | Scripts/modules | Testable, automatable, version-controllable |
+| Deployed inference | Scripts/modules | Logging, error handling, CI/CD integration |
+
+Senior practitioners move fluidly between these. The notebook where you figured out the approach becomes the reference for the script you write later. The script you deploy gets debugged by dropping back into a notebook to inspect intermediate outputs. These tools complement each other.
+
+## Shared Environments Change the Equation
+
+One of the strongest arguments against notebooks used to be environment management — "it works on my machine" is a real problem when notebooks depend on specific package versions. Modern platforms have largely solved this.
+
+**Binder** launches a complete, reproducible environment from a GitHub repository. Anyone with the link gets the same Python version, the same packages, the same data. The notebook runs identically for everyone. I use this for ML workflow content on Pixel Process — the environment is defined once in the repo and every learner gets an identical setup.
+
+**Google Colab** provides free GPU-backed notebooks with a standard scientific Python environment pre-installed. For collaboration or sharing work that needs compute, the barrier to entry is a Google account.
+
+**JupyterLite** runs entirely client-side in the browser. No server, no launch time, no authentication. Limited package support, but for pandas/numpy/plotly workflows it's sufficient and the friction is essentially zero.
+
+These platforms don't just make notebooks easier to share — they eliminate the most common class of "it doesn't work" problems by removing environment variation entirely. That's a genuine advance for reproducibility, not a crutch.
+
+## The Piece That's Still Critical: Environments and Versioning
+
+Shared platforms help, but they don't replace understanding how environments work. Whether you're using notebooks or scripts, collaborative and reproducible work requires:
+
+**Virtual environments.** Every project gets its own isolated environment — conda, venv, or similar. Installing packages globally is how you get version conflicts that waste hours of debugging. This applies regardless of whether you're working in notebooks or scripts.
+
+**Pinned dependencies.** An `environment.yml` or `requirements.txt` with specific version numbers means your collaborator (or future you) can recreate your setup exactly. "It works with pandas" is not a specification. "It works with pandas 2.1.4" is.
+
+**Version awareness.** When a package updates and your code breaks, the first diagnostic step is checking whether your environment matches what the code was written against. This is a topic that deserves its own deeper treatment — and it will get one — but the core principle is: if you're not managing your environments explicitly, you're accumulating technical debt that will surface at the worst possible time.
+
+## The Bottom Line
+
+Dismissing notebooks as beginner tools is a status signal, not a technical argument. The format has real limitations that matter in specific contexts. It also has real strengths that matter in different contexts. Knowing when to use which is a sign of maturity, not the other way around.

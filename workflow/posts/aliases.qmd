@@ -1,0 +1,99 @@
+---
+title: "Aliases: Stop Retyping, Start Working"
+subtitle: "A minute of setup saves hours of repetition"
+author: "Daniel Lumian, PhD"
+date: "2026-02-11"
+categories: [automation, tooling]
+---
+
+If you're typing `cd ~/Documents/projects/pixel-process` more than once a day, you're doing unnecessary work. Shell aliases let you replace any command — or chain of commands — with a short keyword. They take about 60 seconds to set up and they compound over time.
+
+This isn't advanced shell scripting. It's the programming equivalent of putting your keys on a hook by the door.
+
+## Know Your Shell
+
+Before adding aliases, figure out which shell you're running:
+
+```bash
+echo $SHELL
+```
+
+This matters because your aliases live in different config files depending on the shell:
+
+- **zsh** (default on macOS): `~/.zshrc`
+- **bash** (default on most Linux): `~/.bashrc`
+
+Open the relevant file in any text editor, add your aliases at the bottom, save, and run `source ~/.zshrc` (or `~/.bashrc`) to apply changes immediately. Without sourcing, your new aliases won't be available until you open a new terminal session.
+
+## Navigation
+
+The simplest and most immediately useful category. I set up shortcuts for directories I visit constantly:
+
+```bash
+# Common locations
+alias Desktop='cd ~/Desktop'
+alias Documents='cd ~/Documents'
+
+# Active projects
+alias cdpp='cd ~/Documents/projects/pixel-process'
+alias cdfv='cd ~/Documents/projects/face-value'
+```
+
+This is especially useful if you — like me — occasionally forget `cd` and type a bare path wondering why it doesn't work. Remove the opportunity for the mistake entirely.
+
+Add a new alias for any project you're actively working on. Remove it when you're done. The overhead is trivial.
+
+## Environments
+
+If you use conda (or any environment manager), activation commands are verbose and easy to mistype:
+
+```bash
+# Environment shortcuts
+alias faces='conda activate faces'
+alias pxp='conda activate pxp'
+alias base='conda activate base'
+```
+
+Switching environments is now a single word. This matters more than it sounds — context switching between projects already has cognitive overhead. Reducing the mechanical friction helps you stay in flow.
+
+## Chained Commands
+
+The real payoff. Combine navigation and environment activation into a single alias that drops you into a project ready to work:
+
+```bash
+# Full project startup
+alias start_pxp='cd ~/Documents/projects/pixel-process && conda activate pxp'
+alias start_fv='cd ~/Documents/projects/face-value && conda activate faces'
+```
+
+The `&&` operator means the second command only runs if the first succeeds. If the directory doesn't exist, you won't accidentally activate the wrong environment in the wrong place.
+
+I don't have a great naming convention for these yet. `start_` works for now. The important thing is that the alias exists, not that the name is perfect.
+
+## General Utility
+
+Some aliases aren't about navigation — they're about things you do often enough to want a shorthand:
+
+```bash
+# Keep machine awake during long training runs
+alias kaf='echo "Staying awake!" && caffeinate -d'
+
+# Actually go to sleep (useful when a sensitive mouse wakes it right back up)
+alias bedtime='pmset sleepnow'
+```
+
+These are macOS-specific, but the principle is universal. Any command you run regularly — clearing caches, starting a local server, tailing a log file — is a candidate.
+
+## The Point
+
+Programming exists to automate repetitive tasks. If that principle applies to the code you write for other people, it should apply to the commands you type for yourself.
+
+The pattern is always the same: notice you're repeating something, spend one minute creating an alias, never think about it again. The barrier to entry is trivially low. The cost of not doing it is small on any given day and significant over months.
+
+After adding or editing aliases, remember:
+
+```bash
+source ~/.zshrc  # or ~/.bashrc
+```
+
+Or just open a new terminal. Either way, your shortcuts are live.

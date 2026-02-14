@@ -1,0 +1,72 @@
+---
+title: "Foundations"
+subtitle: "Data Fundamentals | Visual Thinking | Model Evaluation"
+page-layout: full
+toc: false
+title-block-banner: false
+format:
+  html:
+    include-in-header:
+      text: |
+        <style>#title-block-header { display: none; }</style>
+---
+
+::: {.pxp-section-header}
+# Foundations
+[Data Fundamentals | Visual Thinking | Model Evaluation]{.section-subtitle}
+:::
+
+Free, open-source materials for learning data science by doing. Every exercise runs in the browser — no installation, no setup, no excuses.
+
+These aren't lectures. Each module is built around working code, real output, and problems designed to break in useful ways.
+
+---
+
+:::: {.columns}
+::: {.column width="30%"}
+### Try Python
+**Browser-based fundamentals via Pyodide**
+
+Data types, variables, functions, iteration, and flow control. Click run, see output, change something, run again. Zero setup.
+
+Best for: complete beginners or anyone who wants to verify their Python intuition before moving on.
+
+[Start here →](/foundations/try-python/)
+:::
+
+::: {.column width="30%"}
+### Explore Data
+**Working with real datasets**
+
+Loading, inspecting, filtering, and visualizing data with pandas and plotly. JupyterLite-backed notebooks that run client-side with persistent state across cells.
+
+Best for: people who know basic Python and want to work with actual data.
+
+[Explore →](/foundations/explore-data/)
+:::
+
+::: {.column width="30%"}
+### Build Models
+**ML workflows with full environments**
+
+Classification pipelines, model evaluation, and sampling methods. Binder-backed notebooks with scikit-learn and full package access — real environments for real workflows.
+
+Best for: people comfortable with data manipulation who want hands-on ML practice.
+
+[Build →](/foundations/build-models/)
+:::
+::::
+
+---
+
+### Why Three Tracks?
+
+Each track uses a different execution environment matched to its content. Try Python uses Pyodide because zero friction matters when you're learning syntax. Explore Data uses JupyterLite because multi-step analysis needs persistent state. Build Models uses Binder because ML workflows need real packages and real compute.
+
+This is intentional. [Read more about the design decisions behind these choices →](/insights/pixel-process-retrospective.qmd)
+
+---
+
+### Open Source
+
+All content, code, and platform configuration for Pixel Process is available on [GitHub](https://github.com/pixel-process-dev/pixel-process). Use it, fork it, improve it.

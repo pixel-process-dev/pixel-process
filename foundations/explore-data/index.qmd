@@ -1,0 +1,53 @@
+---
+title: "Explore Data"
+subtitle: "Working with Real Datasets in the Browser"
+page-layout: full
+toc: false
+---
+
+Hands-on notebooks for loading, inspecting, filtering, and visualizing data. Everything runs in your browser via [JupyterLite](https://jupyterlite.readthedocs.io/) — no installation required.
+
+::: {.callout-note}
+## How This Works
+These notebooks run client-side using JupyterLite. They launch instantly, support pandas, plotly, and other core libraries, and maintain state across cells within a session. Your work is **not saved** when you close the tab — download any notebooks you want to keep.
+:::
+
+---
+
+### Notebooks
+
+**Hello, World!**
+Get introduced to strings, printing, and the JupyterLite setup. Create and manipulte variables. 
+
+<a href="https://pixel-process-dev.github.io/explore-data-lite/lab/index.html?path=hello-world.ipynb" target="_blank" rel="noopener noreferrer">Launch notebook →</a>
+
+**Expert Debugger**
+Start handling the most common bugs and syntax issues in Python. 
+
+<a href="https://pixel-process-dev.github.io/explore-data-lite/lab/index.html?path=hello-world.ipynb" target="_blank" rel="noopener noreferrer">Launch notebook →</a>
+
+**Dataset Basics**
+Loading data, inspecting structure, filtering rows, selecting columns. The foundational operations you'll use in every analysis.
+
+<a href="https://pixel-process-dev.github.io/explore-data-lite/lab/index.html?path=dataset-basics.ipynb" target="_blank" rel="noopener noreferrer">Launch notebook →</a>
+
+**Visualization Basics**
+Building plots that actually communicate. Choosing the right chart type for your data and question.
+
+<a href="https://pixel-process-dev.github.io/explore-data-lite/lab/index.html?path=visualization-basics.ipynb" target="_blank" rel="noopener noreferrer">Launch notebook →</a>
+
+**Visualization Building Blocks**
+Customizing plots beyond defaults. Layouts, annotations, color, and templates for consistent project visuals.
+
+<a href="https://pixel-process-dev.github.io/explore-data-lite/lab/index.html?path=visualization-building-blocks.ipynb" target="_blank" rel="noopener noreferrer">Launch notebook →</a>
+
+**Image Basics**
+Datapoints -> Pixels -> Images. See how 4 million+ values create a single picture.
+
+<a href="https://pixel-process-dev.github.io/explore-data-lite/lab/index.html?path=image-basics.ipynb" target="_blank" rel="noopener noreferrer">Launch notebook →</a>
+
+---
+
+### What You'll Need
+
+Comfort with Python basics — variables, functions, loops. If that feels shaky, start with [Try Python](/foundations/try-python/) first.

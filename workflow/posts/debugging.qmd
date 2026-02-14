@@ -1,0 +1,106 @@
+---
+title: "How to Debug: A Process, Not a Talent"
+subtitle: "Read the error, isolate the problem, search effectively, ask well"
+author: "Daniel Lumian, PhD"
+date: "2026-02-11"
+categories: [python-patterns, troubleshooting]
+---
+
+Debugging feels like a talent some people have and others don't. It isn't. It's a process — a set of steps that work reliably when applied consistently. The people who seem good at debugging are mostly just disciplined about following these steps instead of staring at their code hoping the problem reveals itself.
+
+## Read the Error
+
+Python tracebacks read bottom-to-top. The last line tells you *what* went wrong. The lines above tell you *where*. Start at the bottom:
+
+```
+TypeError: can only concatenate str (not "int") to str
+```
+
+That's a complete diagnosis. You tried to add a string and an integer. The traceback above it points to the exact line. Before you Google, before you ask someone, before you rearrange code — read what Python is already telling you.
+
+Common errors have consistent meanings:
+
+- **NameError** — you used a variable that doesn't exist yet (typo, wrong scope, or you haven't run the cell that defines it)
+- **TypeError** — you applied an operation to the wrong type
+- **IndexError** — you asked for a position that doesn't exist in a sequence
+- **KeyError** — you asked for a dictionary key that isn't there
+- **AttributeError** — you called a method that doesn't exist on that object
+- **ModuleNotFoundError** — the package isn't installed, or you're in the wrong environment
+
+Each of these narrows your search space dramatically before you do anything else.
+
+## Check the Basics
+
+Before you go deep, rule out the shallow stuff. These account for a surprising percentage of bugs:
+
+- **Typos and punctuation.** A missing colon, a mismatched parenthesis, a variable named `daat` instead of `data`.
+- **File paths.** Did something get moved? Is the path relative when it should be absolute?
+- **Copy-paste errors.** Did you grab an invisible character, or break a line in the wrong place?
+- **Stale state.** In notebooks especially, cells can get out of sync. Restart the kernel and run from the top before assuming the code is wrong.
+
+## Isolate the Problem
+
+When something breaks in a 50-line function, don't debug the whole function. Narrow it down:
+
+**Print statements are fine.** Adding `print(type(x))` or `print(df.shape)` before the failing line is not amateur work — it's fast and effective. Remove them when you're done.
+
+**Comment out code.** Reduce to the minimum that reproduces the error. If the error disappears when you comment out a block, the problem is in that block.
+
+**Test with simple inputs.** Replace your real data with something tiny you can inspect manually. If the function works on simple input but fails on your actual data, the issue is data-specific, not logic-specific.
+
+The goal is to go from "something is broken" to "this specific operation on this specific input produces this specific error." That's a solvable problem.
+
+## Check Your Environment
+
+A surprising number of "bugs" are actually environment problems:
+
+- **Wrong environment active.** You installed the package in `base` but you're running in `faces`. Check with `conda info --envs` or `which python`.
+- **Version mismatch.** The tutorial you're following uses pandas 1.x syntax but you have 2.x installed. Or vice versa.
+- **Notebook kernel mismatch.** The notebook is connected to a different Python installation than you think. This is especially common in Jupyter.
+
+When code that "should work" doesn't, environment is the first place to look.
+
+## Search Effectively
+
+When you need external help, how you search matters more than where.
+
+**Copy the error message, not your code.** Search engines match error messages far better than they parse your implementation. Strip out file paths and variable names unique to your project — the generic error is what other people have encountered too.
+
+Good search: `TypeError can only concatenate str not int to str python`
+
+Bad search: `my function doesn't work when I try to add variables`
+
+**On Stack Overflow, copy from answers, not questions.** This sounds obvious but it's a real trap when you're scanning quickly. The question block contains the broken code that prompted the question. The accepted answer (or the highest-voted one) contains the fix. Read carefully.
+
+**Check the date.** A Stack Overflow answer from 2015 may use deprecated syntax or patterns with better modern alternatives. Look for recent answers or verify that older ones still apply to your Python version.
+
+## Ask Well
+
+When you need to ask a human — on Stack Overflow, Reddit, a Slack channel, or to a colleague — the quality of your question determines the quality of help you get.
+
+**Format your code.** This is non-negotiable and dramatically underinvested in. Unformatted code in a help request is like asking someone to read your handwriting from across the room. Every major platform supports markdown code blocks:
+
+````
+```python
+for item in my_list:
+    print(item)
+```
+````
+
+The five seconds it takes to wrap code in triple backticks dramatically increases the chances someone will actually read your question. On Stack Overflow and Reddit, well-formatted questions get faster and better answers. Poorly formatted questions get downvoted or ignored.
+
+If you're going to participate in technical communities — and you should — invest an hour learning basic markdown formatting. It pays for itself immediately and permanently. Backtick code blocks, inline code with single backticks, headers, and bullet points cover 95% of what you'll need.
+
+**Include the full traceback.** Not "I got a TypeError" — the actual traceback, formatted as a code block. It contains information the person helping you needs that you may not realize is relevant.
+
+**State what you expected and what happened instead.** "I expected this function to return a list of integers but it returns None" is actionable. "It doesn't work" is not.
+
+**Show what you already tried.** This prevents people from suggesting things you've already ruled out, and it signals that you've put in effort before asking.
+
+## Learn the Pattern, Not Just the Fix
+
+When you solve a bug, take 30 seconds to understand *why* the fix works. If you got a `KeyError` because you assumed a dictionary had a key that wasn't there, the fix might be adding a `.get()` call with a default. But the lesson is: dictionaries can be missing keys, and you should handle that case.
+
+The specific fix solves today's problem. The pattern prevents tomorrow's.
+
+Debugging is not a talent. It's a habit. The process is always the same: read the error, check the basics, isolate the problem, verify your environment, search well, ask well. People who debug effectively aren't smarter — they just run through this list faster because they've done it enough times.

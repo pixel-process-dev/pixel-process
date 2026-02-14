@@ -1,0 +1,99 @@
+---
+title: "Projects"
+subtitle: "Applied Work | Open Projects | Structured Methods"
+page-layout: full
+title-block-banner: false
+format:
+  html:
+    include-in-header:
+      text: |
+        <style>#title-block-header { display: none; }</style>
+---
+
+::: {.pxp-section-header}
+# Projects
+[Applied Work | Open Projects | Structured Methods]{.section-subtitle}
+:::
+
+## Applied Research Portfolio
+
+Complete case studies demonstrating end-to-end research methodologies. Each project shows the full process: from problem definition through validation, with transparent documentation of decisions and tradeoffs.
+
+**What you'll find here:** Real research with real challenges, not curated success stories.
+
+---
+
+## Featured Projects
+
+:::: {.columns}
+::: {.column width="47%"}
+### Face Value
+**Weak Supervision Emotion Classification**
+
+Testing whether academic benchmark datasets (FER2013, RAF-DB) actually predict real-world performance.
+
+**The problem:** Emotion recognition models trained on benchmark datasets often fail in real applications. Is this a modeling issue or a data issue?
+
+**The approach:**
+
+- Built emotion classifier using weak supervision with stock photos
+- Compared three data sources (Pexels, Pixabay, Unsplash)
+- Validated against movie timelines for ecological validity
+- Face Value outperformed benchmarks as evidenced by less collapse and time series analysis
+
+**Key finding:** Benchmark accuracy doesn't predict real-world utility when domain mismatch exists.
+
+**Methods highlighted:**
+- Weak supervision for dataset creation
+- Multi-source data quality comparison
+- Ecological validation strategies
+- PyTorch model fine-tuning
+
+[Read the full case study →](/projects/face-value.qmd)
+
+<a href="https://github.com/pixel-process-dev/face-value" target="_blank" rel="noopener noreferrer">Full Repo →</a>
+
+<a href="https://face-value.streamlit.app/" target="_blank" rel="noopener noreferrer">Interactive Results Dashboard →</a>
+:::
+
+::: {.column width="47%"}
+### Pixel Process
+**Open-Source Platform Design & Content Engineering**
+
+Building an interactive data science learning platform and the tradeoffs involved in choosing the right delivery tool for each type of content.
+
+**The problem:** Most data science education optimizes for completion rather than understanding. How do you build interactivity that actually helps people learn?
+
+**The approach:**
+
+- Designed three-tier interactivity system matching tool to content complexity
+- Pyodide for zero-friction concept demos, JupyterLite for multi-step analysis, Binder for full ML workflows
+- Built "Paths, Not Courses" navigation for non-linear learning
+- Implemented intentional bugs as debugging practice
+
+**Key finding:** No single interactive tool fits all content. Matching execution environment to learning objective matters more than maximizing interactivity everywhere.
+
+**Methods highlighted:**
+
+- Platform architecture decisions and tradeoffs
+- Content strategy for technical audiences
+- Quarto site development with custom CSS/JS
+- Pyodide, JupyterLite, and Binder integration
+
+[Read the full case study →](/projects/pxp_retro.qmd)
+
+You're already on the site!
+
+<a href="https://github.com/pixel-process-dev/pixel-process" target="_blank" rel="noopener noreferrer">Full Source Code →</a>
+
+The entire site — Quarto config, custom styling, Pyodide cells, Binder integration, and all content — is open source. Fork it, learn from it, or build on it.
+:::
+::::
+
+---
+
+## Looking for Custom Solutions?
+
+These projects showcase open research and methodology. For custom research solutions, experimental design, and ML engineering consulting, visit [Dexterous Data](https://dexterousdata.com).
+
+[Get in touch →](/contact.qmd)

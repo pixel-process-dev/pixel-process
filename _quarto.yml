@@ -1,182 +1,95 @@
 project:
   type: website
   output-dir: _site
-  resources:
-    - assets/html
-    - assets/images
-    - try-python/jl-notebooks/
 
 website:
-  reader-mode: false
-  bread-crumbs: false
-  page-navigation: true
+  title: "Pixel Process"
+  description: "Think Clearly | Build Carefully | Apply Rigorously"
+  favicon: favicon.ico
+  
   navbar:
-    pinned: true
+    background: primary
+    logo: assets/logo.png
     left:
-      - text: "Pixel Process"
-        href: index.qmd
-      - text: "Try Python"
-        href: try-python/index.qmd
-      - text: "Explore Data"
-        href: explore-data/index.qmd
-      - text: "Build Models"
-        href: build-models/index.qmd
-      - text: "Create Code"
-        href: create-code/index.qmd
-    right:
+      - text: "Projects"
+        href: projects/index.qmd
+      - text: "Workflow"
+        href: workflow/index.qmd
+      - text: "Foundations"
+        href: foundations/index.qmd
       - text: "About"
-        href: about/index.qmd
+        href: about.qmd
+    right:
       - icon: github
-        href: https://github.com/pixel-process-dev/pixel-process
+        href: https://github.com/pixel-process-dev
         aria-label: GitHub
-    tools:
-      - icon: moon-stars
-        toggle: true
-
+      - text: "Contact"
+        href: contact.qmd
+  
+  page-footer:
+    left: |
+      Built with [Quarto](https://quarto.org)
+    center: |
+      Pixel Process (PxP) | Think Clearly | Build Carefully | Apply Rigorously
+    right:
+      - text: "Dexterous Data Consulting"
+        href: https://dexterousdata.com
+        
   sidebar:
-
-    - id: home
-      title: "Quick Links"
-      style: docked
-      collapse-level: 1
-      pinned: false
-      contents: 
-        - section: "Quick Links"
-        - text: "Getting Started with Python"
-          href: try-python/index.qmd
-        - text: "Debugging and Troubleshooting Tips"
-          href: create-code/shoulders-of-giants.qmd
-        - text: "Run Notebooks with Binder"
-          href: create-code/binder-quickstart.qmd
-        - text: "About PxP"
-          href: about/index.qmd
-
-    - id: try-python
-      title: "Try Python"
-      style: docked
-      collapse-level: 1
-      pinned: false
+    - id: foundations-nav
+      title: "Foundations"
+      style: "floating"
+      collapse-level: 2
       contents:
-        - section: "Content"
-        - section: "Guides"
+        - foundations/index.qmd
+        - section: "Try Python"
+          href: foundations/try-python/index.qmd
           contents:
-            - try-python/datatypes-and-operators.qmd
-            - try-python/variables-and-functions.qmd
-            - try-python/iteration-and-flow-control.qmd
-            - try-python/errors-and-experimentation.qmd
-        - section: "Notebooks"
+            - foundations/try-python/datatypes-operators.qmd
+            - foundations/try-python/variables-functions.qmd
+            - foundations/try-python/iteration-flow-control.qmd
+            - foundations/try-python/errors-experimentation.qmd
+        - section: "Explore Data"
+          href: foundations/explore-data/index.qmd
           contents:
-            - text: "Datatypes and Operators"
-              href: try-python/notebooks/datatypes-and-operators-nb.ipynb
-            - text: "Variables and Functions"
-              href: try-python/notebooks/variables-and-functions-nb.ipynb
-            - text: "Iteration and Flow Control"
-              href: try-python/notebooks/iteration-and-flow-control-nb.ipynb
-            - text: "Errors and Experimentation"
-              href: try-python/notebooks/errors-and-experimentation-nb.ipynb
             - text: "Hello World"
-              href: try-python/notebooks/hello-world-challenge-nb.ipynb
+              href: https://pixel-process-dev.github.io/explore-data-lite/lab/index.html?path=hello-world.ipynb
             - text: "Expert Debugger"
-              href: try-python/notebooks/expert-debugger-challenge-nb.ipynb
-        - section: "Interactive Notebooks"
-          contents:
-            - text: "<a href='/try-python/jl-notebooks/jl-build/tree/index.html?path=datatypes-and-operators-nb-jp.ipynb' target='_blank'>Datatypes and Operators</a>"
-            - text: "<a href='/try-python/jl-notebooks/jl-build/tree/index.html?path=variables-and-functions-nb-jp.ipynb' target='_blank'>Variables and Functions</a>"
-            - text: "<a href='/try-python/jl-notebooks/jl-build/tree/index.html?path=iteration-and-flow-control-nb-jp.ipynb' target='_blank'>Iteration and Flow Control</a>"
-            - text: "<a href='/try-python/jl-notebooks/jl-build/tree/index.html?path=errors-and-experimentation-nb-jp.ipynb' target='_blank'>Errors and Experimentation</a>"
-            - text: "<a href='/try-python/jl-notebooks/jl-build/tree/index.html?path=hello-world-challenge-nb-jp.ipynb' target='_blank'>Hello World</a>"
-            - text: "<a href='/try-python/jl-notebooks/jl-build/tree/index.html?path=expert-debugger-challenge-nb-jp.ipynb' target='_blank'>Expert Debugger</a>"
-
-
-    - id: build-models
-      title: "Build Models"
-      style: docked
-      collapse-level: 2
-      pinned: false
-      contents:
-        - section: "Content"
-        - build-models/data-science-topics.qmd
-        - build-models/combining-colors.qmd
-        - build-models/combining-colors-nb.ipynb
-        - build-models/random-forest.ipynb
-        - build-models/classification-iris.ipynb
-        - text: "Run Notebooks with Binder"
-          href: create-code/binder-quickstart.qmd
-
-    - id: explore-data
-      title: "Explore Data"
-      style: docked
-      collapse-level: 1
-      pinned: false
-      contents:
-        - section: "Content"
-        - section: "Guides"
-          contents:
-            - explore-data/data-viz/data-viz-basics.qmd
-            - explore-data/data-viz/data-viz-building-blocks.qmd
-        - section: "Notebooks"
-          contents:
-            - text: "Dataset Exploration"
-              href: explore-data/datasets/dataset-exploration-nb.ipynb
-            - text: "Data Viz Basics"
-              href: explore-data/data-viz/data-viz-basics-nb.ipynb              
-            - text: "Data Viz Building Blocks"
-              href: explore-data/data-viz/data-viz-building-blocks-nb.ipynb
+              href: https://pixel-process-dev.github.io/explore-data-lite/lab/index.html?path=expert-debugger.ipynb
+            - text: "Dataset Basics"
+              href: https://pixel-process-dev.github.io/explore-data-lite/lab/index.html?path=dataset-basics.ipynb
+            - text: "Visualization Basics"
+              href: https://pixel-process-dev.github.io/explore-data-lite/lab/index.html?path=visualization-basics.ipynb
+            - text: "Visualization Building Blocks"
+              href: https://pixel-process-dev.github.io/explore-data-lite/lab/index.html?path=visualization-building-blocks.ipynb
             - text: "Image Basics"
-              href: explore-data/advanced-data/image-basics.ipynb
-        - text: "Run Notebooks with Binder"
-          href: create-code/binder-quickstart.qmd
+              href: https://pixel-process-dev.github.io/explore-data-lite/lab/index.html?path=image-basics.ipynb
+        - text: "Build Models"
+          href: foundations/build-models/index.qmd
+          contents:
+            - text: "Combining Colors: Sampling Analysis"
+              href: https://mybinder.org/v2/gh/pixel-process-dev/binder-combining-colors/main?labpath=combining-colors.ipynb
+              target: "_blank"
+            - text: "Random Forest: Deep Dive"
+              href: https://mybinder.org/v2/gh/pixel-process-dev/binder-random-forest/main?labpath=random-forest.ipynb
+              target: "_blank"
 
-    - id: create-code
-      title: "Create Code"
-      style: docked
-      collapse-level: 2
-      pinned: false
-      contents:
-        - section: "Content"
-        - create-code/tools-overview.qmd
-        - create-code/shoulders-of-giants.qmd
-        - create-code/scripts-and-notebooks.qmd
-        - create-code/jupyter-notebooks.qmd
-        - create-code/binder-quickstart.qmd
-        - create-code/cli-intro.qmd
 
 format:
   html:
     theme:
-      light: flatly
-      dark: darkly
+      light: [flatly, custom.scss]
+      dark: [darkly, custom.css]
     google-fonts:
       - Inter
-    css:
-      - assets/css/tokens.css
-      - assets/css/themes.css
-      - assets/css/body-bg.css
-      - assets/css/navbar.css
-      - assets/css/sidebar.css
-      - assets/css/toc.css
-      - assets/css/links.css
-      - assets/css/headers.css
-      - assets/css/footer.css
-      - assets/css/title-block.css
-      - assets/css/code-blocks.css
-      - assets/css/pyodide.css
-      - assets/css/custom-callouts.css
-      - assets/css/category-grid.css
-      - assets/css/tab-cards.css
-      - assets/css/flipbook.css
-      - assets/css/tables.css
-      - assets/css/faqs.css
-      - assets/css/buttons.css
-      - assets/css/quick-links.css
-      - assets/css/branding.css
     include-after-body:
       - assets/html/custom-footer.html
+      - assets/html/umami.html
     link-external-newwindow: true
-    page-layout: full
-    code-copy: true
     toc: true
-    title-block-banner: true
-    plotly: true
-    execute:
-      enabled: false
+    toc-depth: 3
+    code-copy: true
+    code-fold: false
+
+execute:
+  freeze: auto

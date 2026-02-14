@@ -1,0 +1,13 @@
+sidebar: foundations-nav
+
+execute:
+  enabled: false
+
+format:
+  html:
+    filters:
+      - pyodide
+    jupyter:
+      code-cell-processor: pyodide-python
+
+engine: pyodide
