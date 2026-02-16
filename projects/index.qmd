@@ -25,8 +25,9 @@ Complete case studies demonstrating end-to-end research methodologies. Each proj
 
 ## Featured Projects
 
-:::: {.columns}
-::: {.column width="47%"}
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
 ### Face Value
 **Weak Supervision Emotion Classification**
 
@@ -56,7 +57,7 @@ Testing whether academic benchmark datasets (FER2013, RAF-DB) actually predict r
 <a href="https://face-value.streamlit.app/" target="_blank" rel="noopener noreferrer">Interactive Results Dashboard →</a>
 :::
 
-::: {.column width="47%"}
+::: {.g-col-12 .g-col-md-6}
 ### Pixel Process
 **Open-Source Platform Design & Content Engineering**
 
@@ -88,7 +89,7 @@ You're already on the site!
 
 The entire site — Quarto config, custom styling, Pyodide cells, Binder integration, and all content — is open source. Fork it, learn from it, or build on it.
 :::
-::::
+:::
 
 ---
 

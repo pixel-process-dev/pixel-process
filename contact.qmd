@@ -1,0 +1,23 @@
+---
+title: "Contact"
+toc: false
+---
+
+::: {.pxp-section-header}
+# Get in Touch
+[Questions · Collaboration · Consulting]{.section-subtitle}
+:::
+
+Whether you're a grad student stuck on a methods problem, a developer hitting a technical wall, or a startup looking for custom data science solutions — I'd like to hear from you.
+
+**Email** — [pixelprocess.dev@gmail.com](mailto:pixelprocess.dev@gmail.com)
+
+**GitHub** — [pixel-process-dev](https://github.com/pixel-process-dev){target="_blank"}
+
+**LinkedIn** — [Danny Lumian](https://www.linkedin.com/in/lumian/){target="_blank"}
+
+---
+
+### Consulting
+
+For contract work, custom training, or research partnerships, reach out through [Dexterous Data LLC](https://dexterousdata.com){target="_blank"}.

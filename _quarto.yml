@@ -11,7 +11,7 @@ website:
   
   navbar:
     background: primary
-    logo: assets/logo.png
+    logo: assets/images/logo.png
     left:
       - text: "Projects"
         href: projects/index.qmd

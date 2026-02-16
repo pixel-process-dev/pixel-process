@@ -30,3 +30,6 @@ jl-build/
 .vscode/
 .idea/
 /.quarto/
+
+# dev
+/archive/

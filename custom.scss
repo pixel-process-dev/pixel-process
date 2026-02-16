@@ -187,6 +187,22 @@ a {
 }
 
 // =============================================================
+// Sidebar Navigation — rose active indicator
+// Must override darkly's teal active color
+// =============================================================
+div.sidebar-item-container {
+  .active,
+  .show > .nav-link,
+  .sidebar-link > code {
+    color: var(--pxp-rose) !important;
+  }
+  
+  .sidebar-link:hover {
+    color: var(--pxp-rose) !important;
+  }
+}
+
+// =============================================================
 // Table of Contents — rose active indicator
 // Must match Quarto's exact selectors + !important to override
 // darkly's #00bc8c !important declarations
@@ -365,6 +381,46 @@ body.quarto-dark {
     }
   }
   
+  // Sidebar nav — must override darkly's teal active/show colors
+  div.sidebar-item-container {
+    .active,
+    .show > .nav-link,
+    .sidebar-link > code {
+      color: var(--pxp-rose) !important;
+    }
+    
+    .sidebar-link:hover {
+      color: var(--pxp-rose) !important;
+    }
+  }
+
+  // TOC links — must override darkly's #00bc8c !important
+  .sidebar nav[role="doc-toc"] {
+    ul > li > a:hover,
+    ul > li > ul > li > a:hover {
+      color: var(--pxp-rose) !important;
+    }
+    
+    ul > li > a.active,
+    ul > li > ul > li > a.active {
+      border-left: 1px solid var(--pxp-rose) !important;
+      color: var(--pxp-rose) !important;
+    }
+  }
+
+  // Sidebar nav links — override darkly's rgb(25.5, 194.7, 151.5)
+  div.sidebar-item-container {
+    .active,
+    .show > .nav-link,
+    .sidebar-link > code {
+      color: var(--pxp-rose) !important;
+    }
+    
+    .sidebar-link:hover {
+      color: var(--pxp-rose) !important;
+    }
+  }
+
   pre {
     border-left-color: var(--pxp-steel);
   }

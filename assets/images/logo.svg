@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  MONOGRAM LOGO TEMPLATE
+  Brand Colors:
+    Navy Blue: #1B3A6B (capital letters)
+    Rose:      #D6336C (lowercase x)
+    Steel Gray: #7B8FA2 (alt accent)
+    Light BG:  #E8ECF0 (background)
+  
+  Usage: Replace {L} with your letter (e.g., F for FxF, E for ExE)
+  Adjust x positions if letter widths differ significantly:
+    - Narrow letters (I, J, L): shift right ~40px
+    - Wide letters (M, W): shift left ~40px
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <rect width="1024" height="1024" rx="80" fill="#E8ECF0"/>
+  <!-- First capital letter -->
+  <text x="160" y="640" font-family="'Georgia', 'Times New Roman', serif" font-weight="bold" font-size="520" fill="#1B3A6B">P</text>
+  <!-- Lowercase x (center-aligned variant) -->
+  <text x="430" y="640" font-family="'Georgia', 'Times New Roman', serif" font-weight="normal" font-size="380" fill="#D6336C">x</text>
+  <!-- Second capital letter -->
+  <text x="600" y="640" font-family="'Georgia', 'Times New Roman', serif" font-weight="bold" font-size="520" fill="#1B3A6B">P</text>
+</svg>

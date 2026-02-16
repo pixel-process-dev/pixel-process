@@ -22,8 +22,9 @@ These aren't lectures. Each module is built around working code, real output, an
 
 ---
 
-:::: {.columns}
-::: {.column width="30%"}
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
 ### Try Python
 **Browser-based fundamentals via Pyodide**
 
@@ -34,7 +35,7 @@ Best for: complete beginners or anyone who wants to verify their Python intuitio
 [Start here →](/foundations/try-python/)
 :::
 
-::: {.column width="30%"}
+::: {.g-col-12 .g-col-md-6}
 ### Explore Data
 **Working with real datasets**
 
@@ -45,7 +46,7 @@ Best for: people who know basic Python and want to work with actual data.
 [Explore →](/foundations/explore-data/)
 :::
 
-::: {.column width="30%"}
+::: {.g-col-12 .g-col-md-6}
 ### Build Models
 **ML workflows with full environments**
 
@@ -55,7 +56,7 @@ Best for: people comfortable with data manipulation who want hands-on ML practic
 
 [Build →](/foundations/build-models/)
 :::
-::::
+:::
 
 ---
 

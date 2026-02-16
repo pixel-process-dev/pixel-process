@@ -17,8 +17,9 @@ format:
 
 ## Featured Projects
 
-:::: {.columns}
-::: {.column width="48%"}
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
 ::: {.pxp-project-card}
 [Weak Supervision · Computer Vision]{.project-type}
 
@@ -38,10 +39,7 @@ alignment than benchmark datasets.
 :::
 :::
 
-::: {.column width="4%"}
-:::
-
-::: {.column width="48%"}
+::: {.g-col-12 .g-col-md-6}
 ::: {.pxp-project-card}
 [Open-Source · Platform Design]{.project-type}
 
@@ -58,7 +56,8 @@ what you're trying to teach. There is no perfect solution.
 [Full Repo →](https://github.com/pixel-process-dev/pixelprocess.org){target="_blank"}
 :::
 :::
-::::
+
+:::
 
 ## Explore
 
