@@ -1,9 +1,9 @@
 ---
-title: "Face Value: When Benchmark Accuracy Doesn't Mean What You Think"
+title: "Exaggerated Expressions: When Benchmark Accuracy Doesn't Mean What You Think"
 subtitle: "How weak supervision with stock photos outperformed curated datasets on real-world emotion recognition"
 date: "2026-02-11"
 categories: [computer-vision, weak-supervision, validation, applied-research]
-image: "face-value-hero.png"
+image: "exe-hero.png"
 toc: true
 toc-depth: 2
 ---
@@ -42,7 +42,17 @@ I tested single-keyword versus multi-keyword collection systematically. Multi-ke
 
 The initial pull included seven emotion categories. I dropped `disgust` and `neutral` early. Disgust had too few quality results across both platforms. Neutral was a conceptual problem — "neutral face" in stock photography returns posed blankness that doesn't match how neutral actually presents in video (people talking, listening, thinking). Trying to force a category that doesn't have a clean visual prototype creates noise that propagates through training.
 
-Final dataset: roughly 4,000 images across five classes (angry, fear, happy, sad, surprise), with real class imbalance — happy had 1,387 images while surprise had only 185. I chose not to aggressively balance this. In real video content, emotions are not uniformly distributed. A model that's seen more examples of common expressions isn't necessarily worse for it.
+Final dataset was roughly 2,000 images across five classes (angry, fear, happy, sad, surprise), with real class imbalance — happy had 988 images while anger had only 166. I chose not to aggressively balance this. In real video content, emotions are not uniformly distributed. A model that's seen more examples of common expressions isn't necessarily worse for it.
+
+| Class | Count | % of Total |
+|-------|-------|------------|
+| Happy | 988 | 46.3% |
+| Sad | 542 | 25.4% |
+| Fear | 233 | 10.9% |
+| Surprise | 203 | 9.5% |
+| Angry | 166 | 7.8% |
+| **Total** | **2,132** | |
+
 
 ## Training: Nothing Exotic
 
@@ -54,9 +64,11 @@ This is the whole point. When people reach for architectural complexity to solve
 
 ## Validation: Where It Gets Interesting
 
-Test accuracy on held-out data told the predictable story. RAF-DB's curated labels produced 90% accuracy. Face Value's weakly supervised data managed 82%. FER2013 came in at 71%. If you stopped here, RAF-DB wins.
+Test accuracy on held-out data told the predictable story. RAF-DB's curated labels produced 90% accuracy. ExE and FER managed just over 70%. 
 
-I didn't stop here.
+If you stopped here, RAF-DB wins.
+
+**I didn't stop here.**
 
 ### Movie Timeline Analysis
 
@@ -66,7 +78,7 @@ This is what I mean by **ecological validation**: testing whether model outputs 
 
 ### What the Models Actually Produced
 
-**Face Value** generated emotion timelines with visible narrative structure. Across comedies, dramas, and action films, the model's predictions varied by genre and tracked recognizable plot points — reunions, conflicts, resolutions.
+**ExE** generated emotion timelines with visible narrative structure. Across comedies, dramas, and action films, the model's predictions varied by genre and tracked recognizable plot points — reunions, conflicts, resolutions.
 
 **RAF-DB** collapsed. Despite 90% test accuracy, it predicted "surprise" as the dominant emotion in roughly half of all movies. Timelines were flat — linear accumulation of surprise with minimal variation across genres or narrative beats.
 
@@ -76,68 +88,69 @@ This is what I mean by **ecological validation**: testing whether model outputs 
 
 The failure mode is domain mismatch. RAF-DB's training data is dominated by selfie-style close-ups with exaggerated expressions. When the model encounters movie frames — medium shots, varied lighting, subtle expressions, faces in profile — it maps most of them to "surprise," likely because the open-mouth, wide-eye features of surprise are the closest match to its training distribution. FER2013's tiny grayscale crops are even further from movie frames, producing near-total collapse to a single class.
 
-Face Value's stock photo training data includes more varied compositions, lighting conditions, and expression intensities. The domain gap to movie content is smaller, so the model's predictions retain meaningful variation.
+ExE's stock photo training data includes more varied compositions, lighting conditions, and expression intensities. The domain gap to movie content is smaller, so the model's predictions retain meaningful variation.
 
 ## See It For Yourself
 
-I can describe these differences, but the comparison is more convincing when you look at it directly. The [interactive results dashboard](https://face-value.streamlit.app/) lets you explore predictions across all ~60 films, compare models side-by-side, and draw your own conclusions. What follows are two examples that illustrate the pattern.
+I can describe these differences, but the comparison is more convincing when you look at it directly. The [interactive results dashboard](https://exaggerated-expressions.streamlit.app/) lets you explore predictions across all ~60 films, compare models side-by-side, and draw your own conclusions. What follows are two examples that illustrate the pattern.
 
 ### Comedy Films: Does Genre Show Up in Predictions?
 
-If an emotion model works, comedies should look different from dramas. Here's the emotion distribution across eight comedies — from *Airplane!* to *Seven Psychopaths* — for both models:
+If an emotion model works, comedies should look different from dramas. Here's the emotion distribution across eight comedies — from *Airplane!* to *Scott Pilgram* — for both models:
 
-:::: {.columns}
-::: {.column width="49%"}
-![Face Value: Comedy emotion distributions](/assets/images/fv_comedies.png)
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+![ExE: Comedy emotion distributions](/assets/images/ExE Comedies.png)
 :::
-::: {.column width="49%"}
-![RAF-DB: Comedy emotion distributions](/assets/images/raf_comedies.png)
+::: {.g-col-12 .g-col-md-6}
+![RAF-DB: Comedy emotion distributions](/assets/images/RAF-DB Comedies.png)
 :::
-::::
-
-Face Value shows comedies dominated by happy (yellow) and sad (blue), with meaningful variation between films. *Boondock Saints* and *Dodgeball* have different emotional profiles, which tracks — they're very different movies. RAF-DB shows the same purple-dominated (surprise) distribution for every film regardless of content. The model is insensitive to genre.
-
-### Finding Nemo: Can the Model Detect a Reunion?
-
-*Finding Nemo* has a clean narrative test: Nemo is lost at ~14 minutes and reunited with Marlin at ~84 minutes. A model that captures emotional content should show a detectable shift at the reunion.
-
-:::: {.columns}
-::: {.column width="49%"}
-![Face Value: Finding Nemo timeline](/assets/images/fv_timeplot_finding_nemo.png)
 :::
-::: {.column width="49%"}
-![RAF-DB: Finding Nemo timeline](/assets/images/raf_timeplot_finding_nemo.png)
+
+ExE shows comedies dominated by happy (yellow) and sad (blue), with meaningful variation between films. *Dark Shadows* and *Dodgeball* have different emotional profiles, which tracks — they're very different movies. RAF-DB shows the same purple-dominated (surprise) distribution for every film regardless of content. The model is insensitive to genre.
+
+A **paired t-test across these movies** confirms this isn't cherry-picked: ExE predicts significantly more happy expressions than RAF-DB (*p* < .05), while RAF-DB predicts significantly more surprise (*p* < .05). The models diverge systematically, not randomly.
+
+
+### Inside Out: Which Emotions Stand Out?
+
+*Inside Out*, an animated movie about emotion, features 5 core emotions: Joy, Sadness, Fear, Anger & Disgust. ExE shows predominately happy, sad, and fear in its analysis. By comparison, the other model mostly finds surprise. 
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+![ExE: Inside Out timeline](/assets/images/ExE_timeplot_inside_out.png)
 :::
-::::
+::: {.g-col-12 .g-col-md-6}
+![RAF-DB: Inside Out timeline](/assets/images/RAF-DB_timeplot_inside_out.png)
+:::
+:::
 
-Face Value shows a visible happy surge in the final act. RAF-DB shows flat surprise accumulation — the reunion doesn't register.
+ExE shows a clear advantage in qualifying emotion distributi, in this animated film. RAF-DB shows flat surprise accumulation.
 
-These aren't cherry-picked gotchas. The pattern is consistent. Explore the full set on the [dashboard](https://face-value.streamlit.app/) and decide for yourself whether benchmark accuracy tells the whole story.
+These aren't cherry-picked gotchas. The pattern is consistent. Explore the full set on the [dashboard](https://exaggerated-expressions.streamlit.app/) and decide for yourself whether benchmark accuracy tells the whole story.
 
 ## What I Got Wrong
 
 This project has real limitations and I want to be upfront about them.
 
-**Sad bias.** Face Value predicts "sad" as the dominant emotion in roughly 60% of films. The likely cause: stock photo searches for sadness return many contemplative, neutral-adjacent expressions. The model learned a broader definition of "sad" than intended. This is a genuine weakness that needs addressing through better keyword curation or post-hoc calibration.
+**Fear/Sad bias.** ExE predicts fear and sad as the dominant emotion in the majority of films. My guess here is that open mouth/talking/neutral faces get lumped into these categories, but more testing is needed including better keyword curation or post-hoc calibration.
 
-**Qualitative validation.** The movie timeline analysis is compelling but subjective. I identified plot points and checked whether the model's predictions aligned. That's useful for building intuition but it's not rigorous quantitative validation. Systematic evaluation with inter-rater reliability would strengthen these claims substantially.
-
-**Cherry-picked examples.** The examples I highlighted — *Finding Nemo*, *Real Steel*, *300* — are cases where Face Value performs well. Comprehensive analysis across all 60 films would paint a more nuanced picture.
-
-**No ground truth.** There is no standardized "emotional arc" annotation for movies. My validation relies on common-sense plot knowledge. Reasonable people could disagree about when emotional shifts should occur.
+**No ground truth.** My validation relies on common-sense plot knowledge. Reasonable people could disagree about when emotional shifts should occur.
 
 ## What This Actually Demonstrates
 
-Face Value is not a production emotion recognition system. It's a proof of concept for a methodology:
+ExE is not a production emotion recognition system. It's a proof of concept for a methodology:
 
-**Automated dataset curation via keyword-based weak supervision can produce models that outperform benchmark-trained alternatives on ecologically valid tasks.** The approach is reproducible (the full pipeline runs in 2-3 hours), transferable (same method could apply to gesture recognition, activity classification, or any domain where stock photos exist), and resource-efficient (under 5,000 images, single GPU, no manual labeling).
+**Automated dataset curation via keyword-based weak supervision can produce models that outperform benchmark-trained alternatives on ecologically valid tasks.** The approach is reproducible (the full pipeline runs in 2-3 hours), transferable (same method could apply to gesture recognition, activity classification, or any domain where stock photos exist), and resource-efficient (under 3,000 images, single GPU, no manual labeling).
 
 For practitioners, the actionable takeaway is this: before investing in larger datasets or more complex architectures, examine the domain alignment between your training data and your actual application. A smaller dataset from the right distribution will often beat a massive dataset from the wrong one.
 
 ## Technical Details
 
-The full codebase, training configs, and data collection scripts are available on [GitHub](https://github.com/pixel-process-dev/face-value). The repository includes everything needed to reproduce the pipeline end-to-end.
+The full codebase, training configs, and data collection scripts are available on [GitHub](https://github.com/pixel-process-dev/exaggerated-expressions). The repository includes everything needed to reproduce the pipeline end-to-end.
 
-An [interactive results dashboard](https://face-value.streamlit.app/) lets you explore the movie-level predictions and model comparisons directly.
+An [interactive results dashboard](https://exaggerated-expressions.streamlit.app/) lets you explore the movie-level predictions and model comparisons directly.
 
 For questions about the methodology or potential applications of this approach, reach out via [Dexterous Data](https://dexterousdata.com).
