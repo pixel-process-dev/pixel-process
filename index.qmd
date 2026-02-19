@@ -23,7 +23,7 @@ format:
 ::: {.pxp-project-card}
 [Weak Supervision · Computer Vision]{.project-type}
 
-### Exaggerated Expressions
+### Expressions Ensemble
 
 Testing whether academic emotion recognition datasets actually predict 
 real-world performance. A complete weak supervision pipeline comparing 
@@ -33,9 +33,9 @@ Pexels and Pixabay data against FER2013 and RAF-DB.
 demonstrate how my weak supervision approach provides superior domain 
 alignment than benchmark datasets.
 
-[Read the full case study →](projects/exaggerated-expressions.qmd)  
-[Full Repo →](https://github.com/pixel-process-dev/exaggerated-expressions){target="_blank"}  
-[Interactive Results Dashboard →](https://exaggerated-expressions.streamlit.app){target="_blank"}
+[Read the full case study →](projects/expressions-ensemble.qmd)  
+[Full Repo →](https://github.com/pixel-process-dev/expressions-ensemble){target="_blank"}  
+[Interactive Results Dashboard →](https://expressions-ensemble.streamlit.app){target="_blank"}
 :::
 :::
 

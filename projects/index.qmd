@@ -28,7 +28,7 @@ Complete case studies demonstrating end-to-end research methodologies. Each proj
 ::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6}
-### Face Value
+### Expressions Ensemble
 **Weak Supervision Emotion Classification**
 
 Testing whether academic benchmark datasets (FER2013, RAF-DB) actually predict real-world performance.
@@ -38,9 +38,9 @@ Testing whether academic benchmark datasets (FER2013, RAF-DB) actually predict r
 **The approach:**
 
 - Built emotion classifier using weak supervision with stock photos
-- Compared three data sources (Pexels, Pixabay, Unsplash)
+- Compared two data sources (Pexels, Pixabay) and two query approaches
 - Validated against movie timelines for ecological validity
-- Face Value outperformed benchmarks as evidenced by less collapse and time series analysis
+- Expressions Ensemble outperformed benchmarks as evidenced by less collapse and time series analysis
 
 **Key finding:** Benchmark accuracy doesn't predict real-world utility when domain mismatch exists.
 
@@ -50,11 +50,11 @@ Testing whether academic benchmark datasets (FER2013, RAF-DB) actually predict r
 - Ecological validation strategies
 - PyTorch model fine-tuning
 
-[Read the full case study →](/projects/face-value.qmd)
+[Read the full case study →](/projects/expressions-ensemble.qmd)
 
-<a href="https://github.com/pixel-process-dev/face-value" target="_blank" rel="noopener noreferrer">Full Repo →</a>
+<a href="https://github.com/pixel-process-dev/expressions-ensemble" target="_blank" rel="noopener noreferrer">Full Repo →</a>
 
-<a href="https://face-value.streamlit.app/" target="_blank" rel="noopener noreferrer">Interactive Results Dashboard →</a>
+<a href="https://expressions-ensemble.streamlit.app/" target="_blank" rel="noopener noreferrer">Interactive Results Dashboard →</a>
 :::
 
 ::: {.g-col-12 .g-col-md-6}
