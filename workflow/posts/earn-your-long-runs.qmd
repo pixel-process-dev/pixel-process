@@ -1,0 +1,67 @@
+---
+title: "Earn Your Long Runs"
+subtitle: "An iterative ensemble approach for single-GPU practitioners"
+author: "Daniel Lumian, PhD"
+date: "2026-02-27"
+categories: [methodology, deep-learning, ensemble, model-selection]
+---
+
+Not everyone is working with a GPU cluster or a generous cloud compute budget — and that's fine. The question worth asking isn't how to approximate a resource-rich workflow on limited hardware, but what methodology actually makes sense given what you have. Working from a single consumer card, the answer I keep coming back to is the same: validate cheap before you invest expensive, build an ensemble from what works, and let the ensemble surface where to go next.
+
+## The Core Idea: Weak Learners, Collective Strength
+
+The ensemble framing shifts the question from "how do I build the best model?" to "how do I build a collection of models whose individual weaknesses don't overlap?" A model that struggles on one subset of classes but performs reliably on another is genuinely valuable if you pair it with a model whose strengths cover that gap. Individually imperfect, collectively better than any single member.
+
+Random forests are the canonical demonstration of this principle. No individual decision tree in the forest is particularly impressive — each is trained on a bootstrap sample, considering only a random subset of features at each split. The power comes from aggregation across many trees that fail in different ways. The ensemble capitalizes on diversity rather than demanding perfection from each component. The same logic applies here: a set of fine-tuned models, each trained in a modest run on a single GPU, can produce collective performance that exceeds what any one of them achieves alone — as long as they're diverse enough to cover each other's gaps.
+
+## The Sequence: Earn Your Long Runs
+
+The workflow starts cheap and earns its way toward expensive.
+
+**Start with lightweight backbones.** A MobileNet or EfficientNet-B0 run isn't going to win anything outright, but it tells you whether your pipeline is sound — whether data loading, augmentation, and class handling are behaving as expected. These runs take an hour or less. Failing here costs an hour, not a day.
+
+**Ramp up incrementally.** Once the pipeline is validated, move to heavier architectures. A ResNet-50 or EfficientNet-B3 run on the same data and configuration gives you a meaningful baseline. The comparison is informative: did the additional capacity help, and where?
+
+**Reserve the expensive runs for late-stage work.** K-fold cross-validation is the right tool for getting a reliable performance estimate, but it multiplies your compute cost by the number of folds. Running it on an untested approach wastes that investment. Run it when you have a configuration you already believe in, when the question is "how reliably does this work" rather than "does this work at all."
+
+The practical rhythm: queue overnight runs via a batch runner, review results in the morning, and update the approach before submitting or iterating again. What feels like a limitation — not being able to watch and intervene in real time — turns into a forcing function for disciplined experimental design. You think through what you're testing before you launch it, because you won't be able to course-correct at 2am.
+
+## Where the Variation Comes From
+
+One underappreciated advantage of this approach is that it naturally generates diverse models without requiring radically different strategies. Variation can come from several sources simultaneously:
+
+**Architecture.** A ResNet and an EfficientNet trained on the same data will produce different error patterns. They've learned different feature representations and will fail in different places. That's valuable for ensembling.
+
+**Preprocessing thresholds.** In wildlife classification, a detector like MegaDetector can be used to crop subjects before training. The confidence threshold for accepting a detection is a meaningful lever. In practice, lowering the threshold improved recall on small or partially occluded animals — rodents and birds that a stricter threshold would have discarded entirely. But the same lower threshold introduced noisier crops for larger, more distinctive animals like leopards, where borderline detections sometimes captured poor angles or cluttered backgrounds that hurt rather than helped. Two models trained at different thresholds have seen meaningfully different training data, which means they've developed different blind spots — and that difference is exactly what the ensemble is designed to exploit.
+
+**Augmentation strategy.** Mixup, CutMix, standard geometric augmentations — each induces different inductive biases. A model trained with aggressive spatial augmentation will generalize differently than one trained without it.
+
+The result is a small collection of models, each trained in a modest run, that disagree with each other in structured ways. That disagreement is the whole point.
+
+## The Ensemble as a Diagnostic
+
+Combining models via weighted averaging or soft voting is straightforward. But the ensemble also functions as a diagnostic tool, and that's where the iterative loop becomes interesting.
+
+When you examine per-class performance across ensemble members, you get a map of where the gaps are. A class that every model gets wrong is a data problem or a representation problem — more training examples, better augmentation, or a preprocessing change. A class that one model gets right and others get wrong suggests that a specific architectural choice or training configuration is capturing something useful. Add more weight to that model for those classes, or use its predictions selectively.
+
+Confusion patterns tell a similar story. If two visually similar classes are consistently conflated — say, two species at similar scale in similar lighting conditions — that's a specific, addressable problem: hard negative mining, targeted augmentation, or additional examples of those specific pairs. A single model's confusion matrix is a list of failures. The ensemble's confusion matrix, compared across members, is a roadmap.
+
+## The Failure Cost Advantage
+
+One more structural benefit worth naming directly: when things go wrong, they go wrong cheaply.
+
+A single three-hour training run that produces a poor result costs three hours. A batch of exploratory runs queued overnight might yield two useful models and two that get dropped from the ensemble — but the total cost is an overnight queue, not a week of iteration. Compare that to a regime where you've committed most of your compute budget to one large training run, discovered a problem, and now have to start over with limited time and resources remaining.
+
+The iterative approach doesn't eliminate failure. It makes failure affordable enough to learn from.
+
+## What This Actually Requires
+
+The method only works if the infrastructure supports it. Experiment tracking is non-negotiable — if you can't compare runs by configuration, architecture, threshold, and per-class metric in a consistent format, you can't make informed ensemble decisions. MLflow, Weights & Biases, or even a well-maintained CSV works; undocumented runs don't.
+
+Config-driven pipelines matter for the same reason. When every training run is parameterized rather than hand-coded, varying one element at a time is straightforward. When runs are assembled ad hoc, you can't be sure what you're actually comparing.
+
+More data and bigger models don't always win out. A structured, intelligent approach — even on a budget — can produce genuinely competitive results and, more importantly, genuine insight into what's actually driving performance.
+
+---
+
+*This methodology emerged from applied competition work and consulting projects where compute constraints were real rather than hypothetical. A worked example with leaderboard results will be linked here when the project writeup is complete.*
