@@ -1,0 +1,51 @@
+---
+title: "Show Some Spine"
+subtitle: "Choosing and combining backbones without overcomplicating the decision"
+author: "Daniel Lumian, PhD"
+date: "2026-02-27"
+categories: [methodology, deep-learning, backbones, model-selection]
+---
+
+Backbone selection gets treated as either a trivial default ("just use ResNet") or an exhaustive search problem ("benchmark everything"). Neither is particularly useful as a working approach. The more productive question is: what do you actually need from a backbone, and what does the choice cost you in time, compute, and flexibility?
+
+## What a Backbone Is
+
+In image classification, the backbone is the pretrained convolutional or transformer network responsible for extracting features from raw pixels — the learned representations that a classification head then maps to output categories. Rather than training from scratch, fine-tuning a pretrained backbone transfers knowledge from large-scale training (typically ImageNet) to a new domain. The backbone choice determines what those initial representations look like, how much compute you'll spend updating them, and how much capacity the model brings to your specific problem.
+
+That choice is worth being deliberate about.
+
+## The Principle: Match the Backbone to the Question Being Asked
+
+Different backbones are suited to different stages of a project, and treating them as interchangeable misses the point. A more useful frame is to ask what question you're currently trying to answer — and pick the backbone that answers it at the lowest cost.
+
+**Early on, the question is usually "does this work at all?"** Pipeline validation, class balance checks, augmentation sanity checks — none of these require a high-capacity model. MobileNet or EfficientNet-B0 runs in an hour or less on modest hardware, fails fast when something is wrong, and gives you a real signal without a significant time investment. If your data loading is broken, your labels are misaligned, or your augmentation is collapsing class structure, you want to know that in hour one, not hour eight.
+
+**Once the pipeline is sound, the question shifts to "how much does capacity help?"** ResNet-50 and ResNet-101 are reliable mid-tier choices here — well-understood, widely benchmarked, and meaningfully more expressive than lightweight models without the training overhead of the heaviest architectures. A ResNet run on a validated pipeline gives you a real performance baseline and a point of comparison for anything that follows. EfficientNet-B3 or B4 fits a similar role with a better accuracy-to-parameter tradeoff, particularly on problems where input resolution matters.
+
+**Later, the question becomes "where is the ceiling?"** This is when heavier backbones earn their cost. Vision Transformers (ViT) and their variants bring global attention mechanisms that can outperform convolution-based architectures on sufficiently large and diverse datasets — but they're more expensive to fine-tune, more sensitive to learning rate scheduling, and less forgiving of small datasets. Reaching for a ViT as a first move wastes resources. Reaching for one after you've established that the simpler models have plateaued is a different calculation.
+
+## Making Switching Costless
+
+The most practical thing you can do to support principled backbone selection is make swapping trivially easy. In a config-driven training pipeline, changing the backbone means editing one line — the model name or identifier — and rerunning. The data loading, augmentation, loss function, logging, and output handling stay constant. You're isolating the variable you care about.
+
+When backbone changes require rewriting training scripts, practitioners understandably resist experimenting. When they're a one-line edit, the lightweight-to-midtier-to-heavyweight progression becomes a natural workflow rather than a reluctant decision. You also get clean comparisons: same data split, same augmentation, same hyperparameter starting point, different backbone. That isolation is what makes the results meaningful.
+
+This is where investing in pipeline structure early pays compounding returns. A well-parameterized config that handles backbone selection, input resolution, freeze/unfreeze depth, and learning rate schedule means that running a MobileNet baseline and a ResNet-50 follow-up and an EfficientNet-B3 comparison isn't three separate projects — it's three config files and a batch queue.
+
+## Complementary Backbones for Ensembling
+
+Backbone diversity is one of the most reliable sources of ensemble gain. Architectures from different design families tend to fail differently, because they've learned different kinds of feature representations. A ResNet and an EfficientNet trained on the same dataset will disagree in structured, predictable ways — and that disagreement is what makes combining their predictions useful.
+
+A few principles that hold in practice. Architectures within the same family (EfficientNet-B0 through B4, ResNet-50 and ResNet-101) vary in depth and capacity but share the same basic representational strategy. Ensembling within a family can improve calibration and reduce variance, but the gains are modest compared to ensembling across families. Pairing a convolution-based model with a transformer-based one can produce more meaningful disagreement, though the cost difference needs to justify it.
+
+Input resolution is also worth treating as a backbone-level decision. EfficientNet variants are explicitly designed around compound scaling of resolution, depth, and width together. Running the same backbone at different resolutions can expose different feature granularity — a model trained at 224×224 will respond to different spatial patterns than one trained at 384×384. In domains where fine-grained detail matters (species identification, medical imaging, defect detection), resolution diversity in an ensemble can contribute real gains without requiring additional architectural variety.
+
+## The Decision Isn't Permanent
+
+One thing worth internalizing: backbone selection is not a commitment. The iterative approach — start light, validate, step up, compare — treats it as an ongoing decision rather than an upfront choice. A backbone that underperforms gets dropped from the ensemble. One that generalizes well in an unexpected direction gets investigated further. The config-driven pipeline makes this possible, and consistent experiment tracking makes the comparisons honest.
+
+The goal isn't to find the single right backbone. It's to understand what each backbone contributes, build a collection that covers the relevant ground, and make adding or dropping a member straightforward enough that you'll actually do it when the evidence calls for it.
+
+---
+
+*The backbones discussed here are referenced in context with a full ensemble workflow in ["Earn Your Long Runs"](/posts/earn-your-long-runs.html). A worked example with per-backbone performance breakdowns will be linked here when the project writeup is complete.*
