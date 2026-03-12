@@ -1,0 +1,110 @@
+---
+title: "Conservision: Animal dectection and classification on wildlife trap images"
+subtitle: "Multiple ensemble approach to optimize results from multiple training runs with variation"
+date: "2026-02-11"
+categories: [computer-vision, competition, validation, applied-research]
+image: "exe-hero.png"
+toc: true
+toc-depth: 2
+---
+
+# ConserVision
+
+**Competition:** DrivenData ConserVision — Protecting Wildlife with AI  
+**Final Rank:** 11 / Top 2%  
+**Training Hardware:** NVIDIA RTX 2060 (single GPU)  
+**Framework:** PyTorch + timm, tracked via MLflow
+
+---
+
+## The Problem
+
+ConserVision is a multi-label species classification task on wildlife camera trap imagery. The evaluation metric (log-loss) penalizes both false positives and missed detections, so calibration matters as much as raw accuracy.
+
+---
+
+## Pipeline Architecture
+
+### Preprocessing: MegaDetector Cropping
+
+Rather than training only on raw full-resolution frames, I ran MegaDetector to detect animals and crop to bounding boxes. The key decision was using **three confidence thresholds** — .05, .1, and full image (no crop) — for every image. This produced meaningfully different views:
+
+- **Tight crops (.1)** focus the model on high-confidence animal regions, reducing background noise
+- **Loose crops (.05)** capture borderline detections, including partial animals and ambiguous frames
+- **Full images** preserve environmental context and handle blanks more naturally
+
+This became the primary source of ensemble diversity. With .1 threshold often providing best overall results, the full-image analysis often showed better performance on blank images.
+
+### Backbone Selection
+
+Five architectural families, chosen to be complementarity in place of a single much larger model:
+
+| Backbone | Family | Rationale |
+|---|---|---|
+| SwinV2 | Hierarchical ViT | Strong local + global attention |
+| DINOv2 | Self-supervised ViT | Rich pretraining, good generalization |
+| ConvNeXt | Pure ConvNet | Different inductive biases from ViTs |
+| EVA-02 | Scaled ViT | High-capacity representation |
+| EfficientNetV2 | Efficient ConvNet | Speed/accuracy tradeoff, diverse errors |
+
+The goal was architectures that fail differently. A model that's slightly weaker but decorrelated from the ensemble is more valuable than a marginally stronger model that makes the same mistakes.
+
+### Augmentation
+
+Two augmentations were tested primarily:
+
+- **Standard**: Resizing, flipping, color jitter, random crop
+- **Standard + MixUp**: Blends image pairs during training, encouraging smoother decision boundaries
+
+MixUp provided another axis of differentiation independent of architecture or crop threshold.
+
+### Cross-Validation
+
+Used **site-aware GroupKFold** with 5 folds, grouping by camera trap location. Standard random splits leak site-specific visual features into validation, inflating scores and masking generalization failures. The stricter CV gave realistic OOF estimates and prevented chasing leaderboard noise.
+
+### Ensemble Strategy
+
+With 16 base models generating out-of-fold predictions, I evaluated two stacking approaches:
+
+**Equal weighted averaging** averaged all model outputs directly. Simple, robust, no risk of overfitting the meta-layer.
+
+**Logistic regression meta-learner (C=0.01)** learned per-class weights from OOF predictions. Strong regularization was essential — with only 5 folds, the meta-learner has limited data to work with and readily overfits without it.
+
+In practice, the meta-learner edged out equal averaging, but only marginally. The heavy regularization was doing most of the work — it was effectively learning a weighted average with soft constraints. This was the right call; aggressive meta-learning overfits badly in low-fold settings.
+
+---
+
+## What Worked
+
+**Threshold diversity over architecture diversity.** The biggest ensemble gains came from mixing crop thresholds, not adding more backbone families. Full-image models in particular were strongly decorrelated from crop-based models. Although full images often had lowest overall metric performance, they showed drastic changes from different cropping thresholds. Low manual weights kept them from dragging down the ensemble while still contributing signal.
+
+**Iterative validation before expensive runs.** Before committing to full training runs, quick proxy experiments (smaller models, fewer epochs) screened architectures and hyperparameters. This compressed the feedback loop on a single GPU. See [Earn Your Long Runs →]((workflow/posts/earn-your-long-runs.qmd)).
+
+**MLflow tracking.** With 16+ models and multiple experiment axes, tracking was essential. Without it, reconstructing which configuration produced which result would have been a serious bottleneck.
+
+---
+
+## Where Progress Stalled
+
+The pipeline moved me into the top 20 relatively quickly. The systematic approach — diverse architectures, diverse crops, solid CV — did what it was supposed to do. The wall appeared at rank 11.
+
+From there, I tested a range of additional ideas: alternative image sizes, batch size variations, additional augmentation strategies, further backbone variants. None produced meaningful leaderboard movement. In hindsight, this pattern was informative: the ensemble had captured most of the achievable signal available given the training data and single-GPU constraints. Additional complexity wasn't finding new signal — it was adding noise.
+
+The lesson isn't that the final experiments were mistakes. It's that at some point, marginal improvements require either more data, a fundamentally different modeling approach, or insights about the specific failure modes that only careful error analysis can surface. When tuning decisions start feeling like guesses, that's the signal to stop tuning and start diagnosing.
+
+---
+
+## Key Numbers
+
+- **Models:** 16 base models across 5 backbone families
+- **Crop views:** 3 per image (.05, .1, full)
+- **CV:** 5-fold site-aware GroupKFold
+- **Meta-learner:** Logistic regression, C=0.01
+- **Hardware:** Single NVIDIA RTX 2060
+- **Final rank:** 11 / Top 2%
+
+---
+
+## Code and Reproducibility
+
+Full pipeline available at [GitHub](https://github.com/pixel-process-dev/conservision). Configuration managed via JSON; experiments tracked in MLflow.

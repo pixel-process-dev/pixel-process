@@ -21,6 +21,27 @@ format:
 
 ::: {.g-col-12 .g-col-md-6}
 ::: {.pxp-project-card}
+[Ensemble Methods · Computer Vision]{.project-type}
+
+### ConserVision: Wildlife Camera Trap Classification
+
+**Rank 11 / Top 2% — DrivenData ConserVision Competition**
+
+Image classification competition on 8 categories (including blanks) with log-loss metric. Solution used 16-model ensemble pipeline trained entirely on a single RTX 2060. No exotic hardware, no proprietary data — just a well-designed pipeline and disciplined ensemble strategy.
+
+**Core Process:**
+- Detection threshold with variation for more decorrelated predictions
+- Multiple fine tuned models with varying architecture and backbones
+- Ensemble testing with multiple models for optimized performance
+
+[Read the full case study →](/projects/conservision.qmd)  
+[Full Repo →](https://github.com/pixel-process-dev/conservision){target="_blank"}  
+[Competition Page →](https://www.drivendata.org/competitions/87/competition-image-classification-wildlife-conservation/){target="_blank"}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.pxp-project-card}
 [Weak Supervision · Computer Vision]{.project-type}
 
 ### Expressions Ensemble
@@ -57,9 +78,19 @@ what you're trying to teach. There is no perfect solution.
 :::
 :::
 
-:::
+::: {.g-col-12 .g-col-md-6}
+::: {.pxp-project-card}
+[Workflow · Foundations]{.project-type}
 
-## Explore
+### Explore More
 
 - **[Workflow](workflow/index.qmd)** — Practical patterns for data science work that scales
+
 - **[Foundations](foundations/index.qmd)** — Interactive Python environments from zero-setup to full notebooks
+:::
+:::
+
+:::
+
+
+

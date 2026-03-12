@@ -1,0 +1,60 @@
+---
+title: "Past Principled"
+subtitle: "Recognizing the shift from systematic progress to diminishing returns"
+author: "Daniel Lumian, PhD"
+date: "2026-03-12"
+categories: [methodology, deep-learning, ensemble, competition]
+---
+
+Every serious modeling project has two phases, and they require different things from you. The first runs on discipline. The second runs on judgment. Conflating them is one of the more expensive mistakes you can make, and it's easy to do because the feedback loop that would correct you is slow and noisy by design.
+
+## Phase One: Systematic Gains
+
+In the early and middle stages of a project, progress is largely mechanical. Not easy, but mechanical — which means you can plan it. You have a pipeline to validate, a set of architectural choices to evaluate, and a collection of preprocessing decisions that need to be tested against each other. Each experiment has a clear rationale. You're not guessing what to try; you're working through a set of questions in a sensible order, and the results are informative whether they go your direction or not.
+
+This is also when ensemble thinking pays off most directly. The question isn't which single configuration is best but can you leverage disagreement in productive ways. A model trained on tight crops sees a different version of the data than one trained on loose crops or full frames. A convolution-based backbone fails in different places than a transformer-based one. Augmentation choices induce different biases. Each of these methods of variation has a principled basis, and working through them systematically produces a collection of models whose individual weaknesses don't fully overlap. That's the point.
+
+Every decision in this phase has a reason behind it that you can articulate before you run the experiment. You know what you're testing and what outcome would tell you what.
+
+## Phase Two: Where the Map Ends
+
+At some point the principled decisions run out. The architectures that make sense have been tried. The preprocessing space has been reasonably explored. The ensemble is well-diversified and the meta-learner is calibrated. You've done what the systematic approach can do.
+
+What often happens next is that progress continues to feel possible. Afterall, there's always (at least) one more thing to try. Image size variations. Different batch sizes. A backbone variant you haven't tested yet. These might be worth running, but if you're honest about why you're running them, the answer is usually "because I haven't tried it yet" or even "because I need to rank up" rather than "because I have a specific reason to think this addresses a specific gap."
+
+That's the tell. When your experiment design shifts from answering a question to exploring a space you haven't fully covered, you've moved from phase one into something else. The experiments aren't wrong to run. But they're operating in a different regime, and expecting them to produce the same kind of clear, directional signal is a category error.
+
+## What the Noise Looks Like
+
+In phase one, an experiment that doesn't improve performance is still informative. It rules something out, or it confirms that a simpler approach is competitive, or it tells you the variation you were testing doesn't matter much. You learn something.
+
+In the guessing regime, a failed experiment is just a failed experiment. You tried something, it didn't help, and you don't have a strong prior about why. The next candidate is no more motivated than the last one was. You can keep running things but the expected information per run has dropped substantially.
+
+The feedback loop is slow enough that this can go on for a while before the pattern becomes obvious. Competition leaderboards update on submissions, not on runs, which means you can queue a dozen experiments, submit the best few, and not immediately register that nothing is moving. The costs accumulate quietly.
+
+## The Alternative
+
+When systematic tuning stops working, the productive move is not more tuning — it's diagnosis. Specifically, the kind of error analysis that requires looking at what the ensemble is actually getting wrong, on which examples, and why.
+
+A confusion matrix tells you which classes are being conflated. Per-example review tells you whether those confusions share a visual pattern, a lighting condition, a shooting angle, or something about how the detector cropped the image. That kind of targeted investigation can surface hypotheses that tuning blindly never would.
+
+This requires slowing down and accepting that the next experiment will be slower to design. It's the less appealing option when you're close to a target and trying to close a small gap. It's also the option more likely to actually close it.
+
+## Recognizing the Transition
+
+The harder part is that the shift from phase one to phase two isn't announced. There's no clear signal that you've exhausted the principled space.
+
+The practical check is simple: before launching an experiment, write down what you expect to learn and why. In phase one, this is easy. In the guessing regime, it takes effort, and the answers tend to be vague. That difficulty is diagnostic. It's not a reason to abandon the experiment, but it's worth noticing.
+
+Systematic progress is repeatable and teachable. Knowing when you've run out of it is something else. Getting that call right is part of the job.
+
+**Please note this insight comes from a week of phase 2 experimentating on a project, all of which added essentially no value. I should have paid better attention!**
+
+---
+
+*This post reflects on methodology developed during the [ConserVision competition](/projects/conservision.qmd), where an ensemble of 16 models trained on a single RTX 2060 reached rank 11 / top 2%. The next 7 models did not improve the performance or ranking.*
+
+Related reading: 
+
+- ["Earn Your Long Runs"](/workflow/posts/earn-your-long-runs.qmd) on iterative ensemble Validation
+- ["Show Some Spine"](/workflow/posts/show-some-spine.qmd) on backbone selection for diverse ensembles.
